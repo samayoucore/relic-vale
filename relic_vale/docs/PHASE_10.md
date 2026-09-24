@@ -6,7 +6,7 @@ Feature freeze is in effect. Relic Vale 0.10.0 is packaged for Windows x64 using
 
 | ID | Priority | Finding | Result |
 | --- | --- | --- | --- |
-| R01 | BLOCKER | No Windows export or installer | Closed: Release export, installer, uninstaller and portable ZIP built twice; installed/reinstalled on Windows 10. |
+| R01 | BLOCKER | No Windows export or installer | Closed: Release export, installer, uninstaller and portable ZIP built three times; installed/reinstalled on Windows 10. |
 | R02 | BLOCKER | Developer shortcuts and test arguments accessible to players | Closed: Release runtime ignores test arguments and disables F3/F4/F7/F8/F10 and god mode. Release QA exercised these. |
 | R03 | HIGH | Primary save could be replaced before the new snapshot and all referenced chunks were validated | Closed: temporary snapshot/chunks are fully checked, then replaced; valid backup is retained during corrupt-primary recovery. |
 | R04 | HIGH | Invalid save/settings numbers and chunk corruption | Closed: finite/range checks, content hashes, atomic chunk write, backup recovery and 94 passing save cases. |
@@ -19,7 +19,7 @@ Feature freeze is in effect. Relic Vale 0.10.0 is packaged for Windows x64 using
 
 ## Validation scope
 
-The user selected this Windows 10 PC for acceptance. The final installer and portable ZIP were launched here, from outside the source directory, with their own game data directory. QA-instrumented Release exports exercised actual gameplay input and a new-process save reload; their extra test scripts are not in the distributable PCK. The final PCK contains 1118 entries; each digest was verified and development tests/docs were excluded. Two builds produced byte-identical PCKs. Installer and ZIP hashes can vary because their containers carry timestamps.
+The user selected this Windows 10 PC for acceptance. The final installer and portable ZIP were launched here, from outside the source directory, with their own game data directory. QA-instrumented Release exports exercised actual gameplay input and a new-process save reload; their extra test scripts are not in the distributable PCK. The final PCK contains 1118 entries; each digest was verified and development tests/docs were excluded. Three builds produced byte-identical PCKs. Installer and ZIP hashes can vary because their containers carry timestamps.
 
 The visual and gameplay checks cover the starting area, forest, camp, procedural settlement, interior, combat, fishing, mounts, UI sizes, four graphics presets and Pixelated Render. The project contains additional biome, weather, dungeon and story combinations; automated checks do not replace a human playthrough of every combination. A 15-minute unattended game session checks stability but is not a claimed first-time human playtest. Clean Windows 11 and other hardware remain untested because the user chose this PC.
 
