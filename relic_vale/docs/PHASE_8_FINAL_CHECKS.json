@@ -1,0 +1,66 @@
+{
+	"checks": [
+		{
+			"check": "Load final gameplay fixture",
+			"pass": true
+		},
+		{
+			"check": "Common has a lower base weight than the preceding grade",
+			"pass": true
+		},
+		{
+			"check": "Uncommon has a lower base weight than the preceding grade",
+			"pass": true
+		},
+		{
+			"check": "Rare has a lower base weight than the preceding grade",
+			"pass": true
+		},
+		{
+			"check": "Epic has a lower base weight than the preceding grade",
+			"pass": true
+		},
+		{
+			"check": "Legendary has a lower base weight than the preceding grade",
+			"pass": true
+		},
+		{
+			"check": "Insect bait targets river fish as a distinct group",
+			"pass": true
+		},
+		{
+			"check": "River preference does not boost lake fish",
+			"pass": true
+		},
+		{
+			"check": "Moon bait improves rare odds",
+			"pass": true
+		},
+		{
+			"check": "Legendary river fish is available at clear dawn",
+			"pass": true
+		},
+		{
+			"check": "Weather restriction remains active independently of bait",
+			"pass": true
+		},
+		{
+			"check": "Camp has a reachable cooking station",
+			"pass": true
+		},
+		{
+			"check": "Grill a non-minnow species at the actual station",
+			"pass": true
+		},
+		{
+			"check": "Generic fish recipe consumes the displayed fish and creates one meal",
+			"pass": true
+		},
+		{
+			"check": "Final interior/activity snapshot is valid",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 15
+}

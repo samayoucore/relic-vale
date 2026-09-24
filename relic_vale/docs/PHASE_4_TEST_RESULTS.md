@@ -1,0 +1,66 @@
+# Phase 4 integration test
+
+62 passed; 0 failed.
+
+- PASS: Village spawn remains on collision surface
+- PASS: Twenty recipes and three lore factions loaded
+- PASS: Original four quests plus three three-part chains
+- PASS: Six smoothly mixed environmental sound zones
+- PASS: Rowan starts only eligible chain stage
+- PASS: World geography and settlements remain deterministic
+- PASS: Forest village, mining settlement and trading outpost reserved
+- PASS: At least ten distinct contextual POI types occur in the default world
+- PASS: Fernwatch has physical terrain
+- PASS: Fernwatch access lane is walkable
+- PASS: Ironvein has physical terrain
+- PASS: Ironvein access lane is walkable
+- PASS: Crossroads has physical terrain
+- PASS: Crossroads access lane is walkable
+- PASS: Fernwatch residents stream with their settlement
+- PASS: A* schedule walks resident to evening square
+- PASS: Resident returns to doorway and enters inside state at night
+- PASS: Alchemist sells a specialized offer
+- PASS: Purchase exchanges exact copper and one item
+- PASS: Individual inventory item can be sold
+- PASS: Friendly reputation reduces prices ten percent
+- PASS: Hostile reputation refuses trade without charge
+- PASS: Rain herb bonus applies once; repeated harvest is rejected
+- PASS: All four crafting stations exist in the original village
+- PASS: Craft tonic at its physical station
+- PASS: Craft planks at its physical station
+- PASS: Craft iron at its physical station
+- PASS: Craft stew at its physical station
+- PASS: Crafting refuses wrong station without consuming input
+- PASS: Crafting refuses a remote station
+- PASS: Chain reward advances prerequisites and reputation
+- PASS: Second chain stage unlocks the mine objective
+- PASS: Weather state renders Clear
+- PASS: Weather state renders Cloudy
+- PASS: Weather state renders Rain
+- PASS: Weather state renders Fog
+- PASS: Weather state renders Storm
+- PASS: mine room graph repeats from seed and ID
+- PASS: Dungeon has main route, branch and connected loop
+- PASS: mine main path reaches room 2020
+- PASS: mine main path reaches room 2040
+- PASS: mine main path reaches room 2060
+- PASS: mine main path reaches room 2080
+- PASS: Procedural guardian engages inside its own arena
+- PASS: Procedural guardian retains second phase
+- PASS: Dungeon completion is persisted and emits quest objective
+- PASS: crypt room graph repeats from seed and ID
+- PASS: Dungeon has main route, branch and connected loop
+- PASS: crypt main path reaches room 2020
+- PASS: crypt main path reaches room 2040
+- PASS: crypt main path reaches room 2060
+- PASS: crypt main path reaches room 2080
+- PASS: Procedural guardian engages inside its own arena
+- PASS: Procedural guardian retains second phase
+- PASS: Dungeon completion is persisted and emits quest objective
+- PASS: Version 4 save writes clock, weather, economy, quests and dungeon state
+- PASS: Version 4 save reloads inside generated dungeon
+- PASS: Generated dungeon is rebuilt before play resumes
+- PASS: World clock and earned reputation survive reload
+- PASS: Gathered resource delta survives chunk unload and save
+- PASS: Version 3 save remains supported
+- PASS: Legacy save gains safe living-world defaults

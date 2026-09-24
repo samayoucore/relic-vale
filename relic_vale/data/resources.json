@@ -1,0 +1,65 @@
+{
+  "wood": {
+    "hits": 3,
+    "yield_min": 3,
+    "yield_max": 6,
+    "respawn_days": 3,
+    "tool": "axe",
+    "color": "ba8c59",
+    "category": "Wood"
+  },
+  "stone": {
+    "hits": 3,
+    "yield_min": 2,
+    "yield_max": 4,
+    "respawn_days": 5,
+    "tool": "pickaxe",
+    "color": "aeb6b9",
+    "category": "Stone"
+  },
+  "iron_ore": {
+    "hits": 5,
+    "yield_min": 2,
+    "yield_max": 5,
+    "respawn_days": 7,
+    "tool": "pickaxe",
+    "color": "a1b2c3",
+    "category": "Ore"
+  },
+  "wild_herb": {
+    "hits": 1,
+    "yield_min": 2,
+    "yield_max": 4,
+    "respawn_days": 2,
+    "tool": "",
+    "color": "83b586",
+    "category": "Plants"
+  },
+  "fiber": {
+    "hits": 1,
+    "yield_min": 2,
+    "yield_max": 5,
+    "respawn_days": 2,
+    "tool": "",
+    "color": "b2c17e",
+    "category": "Plants"
+  },
+  "mushroom": {
+    "hits": 1,
+    "yield_min": 1,
+    "yield_max": 3,
+    "respawn_days": 2,
+    "tool": "",
+    "color": "bc8275",
+    "category": "Plants"
+  },
+  "crystal": {
+    "hits": 5,
+    "yield_min": 1,
+    "yield_max": 2,
+    "respawn_days": 0,
+    "tool": "pickaxe",
+    "color": "87cede",
+    "category": "Rare materials"
+  }
+}

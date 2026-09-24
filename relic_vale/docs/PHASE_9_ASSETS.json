@@ -1,0 +1,152 @@
+{
+  "portraits": 4,
+  "companions": 4,
+  "license": "CC0 for KayKit/Kenney selections; existing LPC terms for ordinary residents",
+  "files": [
+    {
+      "file": "assets/3d/phase4/adventurers/Knight.glb",
+      "bytes": 341688,
+      "sha256": "e484370733824a0740683e7f6040aae0d20e5efd4107dde1175d6a2ad7e2f199"
+    },
+    {
+      "file": "assets/3d/phase4/adventurers/Mage.glb",
+      "bytes": 352472,
+      "sha256": "1f7d891bde50b879c70965f155b7b765b166dc3f8518e5abb86c0002f191a26e"
+    },
+    {
+      "file": "assets/3d/phase4/adventurers/Ranger.glb",
+      "bytes": 484712,
+      "sha256": "3a0b0166b9d61d58dcaaa739c3cc0538be46e00d2928dd5cb513d9a41770d2e9"
+    },
+    {
+      "file": "assets/3d/phase4/adventurers/Rogue.glb",
+      "bytes": 409188,
+      "sha256": "cae5d9b2f08d53f7b4ab2617d9f42f021c546eb10920455fdcd82a110867fae4"
+    },
+    {
+      "file": "assets/3d/phase4/adventurers/rogue_texture.png",
+      "bytes": 15026,
+      "sha256": "2e2fc741e20e7e2c85b176c8143b49b769bca0d2ed1a1cfc1807a758a0e4d3e1"
+    },
+    {
+      "file": "assets/3d/phase9/animations/License.txt",
+      "bytes": 1548,
+      "sha256": "373b159044d1a886ed15f57ca5a7673ba14e2623c460283452705f2056912ed9"
+    },
+    {
+      "file": "assets/3d/phase9/animations/Rig_Medium_CombatMelee.glb",
+      "bytes": 999416,
+      "sha256": "c55e6ec1c79e83ae21d46fe1cd921c1b64be8b9a524a24517e51c6ba99231459"
+    },
+    {
+      "file": "assets/3d/phase9/animations/Rig_Medium_CombatRanged.glb",
+      "bytes": 1014852,
+      "sha256": "7fef1fc0e7b0feafd34b8e12d23f514c8c1f9d068047a691b854b56f1774dff5"
+    },
+    {
+      "file": "assets/3d/phase9/animations/Rig_Medium_Simulation.glb",
+      "bytes": 855904,
+      "sha256": "ab6ffeed40c8281dd0ce0506534eadf7385151f1c266643a10fa2a0f0a7ba3b1"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/License.txt",
+      "bytes": 1554,
+      "sha256": "d4adc31660d1db22eb60eba648e01db41577548f6fa1a3576cb4a6283dae0a58"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/barbarian_texture.png",
+      "bytes": 14424,
+      "sha256": "f11434d3e5e4df929dacd2c69d15734effb82babf8176a80bb040d2007f5f882"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/bow.bin",
+      "bytes": 18344,
+      "sha256": "12fb8170469444907c00c16149fc9f1679074795a2e0f29cffa7391ac8202c36"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/bow.gltf",
+      "bytes": 3048,
+      "sha256": "de978d50afcc66ba30edb42e8d040bf932ae7308942b1b4e1400d252ccb8e1fb"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/dagger.bin",
+      "bytes": 7656,
+      "sha256": "da7857e41d902cdd39e894563a544719901a9af55053f2b96b21019ed6717677"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/dagger.gltf",
+      "bytes": 3051,
+      "sha256": "db324dd13443d48b736fe4dba5e24090f4b476dd8d9ee53cf7c6718f00c47e1a"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/knight_texture.png",
+      "bytes": 12914,
+      "sha256": "028db4d1cd8b3471e6ba21686515abd4e36ae582f8b314b71ad2ab1fb5453b12"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/mage_texture.png",
+      "bytes": 14740,
+      "sha256": "9ef9672e93b231fc4e0e19238edfae3be22513aaf634df1898f45842ce6e4b5f"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/ranger_texture.png",
+      "bytes": 13248,
+      "sha256": "639cd0ba5106fbdf65370b52b9290091d3bd92fe267693abc8dc474471bb800f"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/rogue_texture.png",
+      "bytes": 15026,
+      "sha256": "2e2fc741e20e7e2c85b176c8143b49b769bca0d2ed1a1cfc1807a758a0e4d3e1"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/shield_badge.bin",
+      "bytes": 10628,
+      "sha256": "3c0f04767c839868df1f852cb335848c3ba7d94da3078e4c7f8a422f2369560c"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/shield_badge.gltf",
+      "bytes": 3072,
+      "sha256": "0c506e4a76c5ef50f7908f5d8c1242315fb3d2f8b6281ff10909cf11785a5ae5"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/staff.bin",
+      "bytes": 18576,
+      "sha256": "578911e8317bfceb428f801ea2701c8ab4e06cce70beeeaaf965ee9a7186ca62"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/staff.gltf",
+      "bytes": 3046,
+      "sha256": "25646537632555f2a4e5ae90320bce251bbc5af541e8897960ad4514122110b9"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/sword_1handed.bin",
+      "bytes": 13256,
+      "sha256": "c8acdc21adf19257e66b78e86d37855474a0a9fda796c39b39d6d08a5ca34bd5"
+    },
+    {
+      "file": "assets/3d/phase9/equipment/sword_1handed.gltf",
+      "bytes": 3075,
+      "sha256": "2a6074d46c3e337f84f0295d0ea862b116fec7d816db8d027d75a464311228b6"
+    },
+    {
+      "file": "assets/ui/phase9/portraits/bren.png",
+      "bytes": 64503,
+      "sha256": "b02f93c67977d7a099807bebf5af6f47afe8688b5a7f8c4d9d5d4dff638a8f3a"
+    },
+    {
+      "file": "assets/ui/phase9/portraits/ilyra.png",
+      "bytes": 66972,
+      "sha256": "745a43f58b239387a818a284ee523accde7e4d2c9656593f0364b164473e5145"
+    },
+    {
+      "file": "assets/ui/phase9/portraits/sera.png",
+      "bytes": 75115,
+      "sha256": "52d6260a093177122b533210ac2010679746c2df8a465c7e051b4fb3589e14f0"
+    },
+    {
+      "file": "assets/ui/phase9/portraits/tarin.png",
+      "bytes": 67365,
+      "sha256": "46ac7ac03c68b4114ae5b5a65136ab0e5df102972c2a8d156b493707d76226d6"
+    }
+  ]
+}

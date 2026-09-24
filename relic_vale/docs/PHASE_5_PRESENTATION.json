@@ -1,0 +1,78 @@
+{
+	"failed": 0,
+	"passed": 38,
+	"samples": [
+		{
+			"draw_calls": 1176.0,
+			"foliage": 7608,
+			"fps": 25.0,
+			"frame_ms": 41.285,
+			"pixels": false,
+			"preset": "Minimal",
+			"resolution": "(896, 504)"
+		},
+		{
+			"draw_calls": 1196.0,
+			"foliage": 7608,
+			"fps": 26.0,
+			"frame_ms": 42.842,
+			"pixels": true,
+			"preset": "Minimal",
+			"resolution": "(576, 324)"
+		},
+		{
+			"draw_calls": 1166.0,
+			"foliage": 13324,
+			"fps": 26.0,
+			"frame_ms": 41.935,
+			"pixels": false,
+			"preset": "Medium",
+			"resolution": "(1088, 612)"
+		},
+		{
+			"draw_calls": 1099.0,
+			"foliage": 13324,
+			"fps": 26.0,
+			"frame_ms": 40.529,
+			"pixels": true,
+			"preset": "Medium",
+			"resolution": "(576, 324)"
+		},
+		{
+			"draw_calls": 1169.0,
+			"foliage": 38846,
+			"fps": 25.0,
+			"frame_ms": 45.635,
+			"pixels": false,
+			"preset": "High",
+			"resolution": "(1280, 720)"
+		},
+		{
+			"draw_calls": 1072.0,
+			"foliage": 38846,
+			"fps": 24.0,
+			"frame_ms": 42.467,
+			"pixels": true,
+			"preset": "High",
+			"resolution": "(576, 324)"
+		},
+		{
+			"draw_calls": 1080.0,
+			"foliage": 43139,
+			"fps": 25.0,
+			"frame_ms": 44.299,
+			"pixels": false,
+			"preset": "Ultra",
+			"resolution": "(1280, 720)"
+		},
+		{
+			"draw_calls": 1055.0,
+			"foliage": 43139,
+			"fps": 25.0,
+			"frame_ms": 44.089,
+			"pixels": true,
+			"preset": "Ultra",
+			"resolution": "(576, 324)"
+		}
+	]
+}

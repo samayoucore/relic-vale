@@ -1,0 +1,8 @@
+{
+ "whirlwind":{"name":"Whirlwind","description":"Sweep every enemy around you. A broad physical strike.","cooldown":6,"radius":3.3,"multiplier":1.4,"icon":"ring","color":"e8d19b","element":"physical","sfx":"heavy"},
+ "dash_strike":{"name":"Dash Strike","description":"Rush forward with brief protection, then deliver a heavy strike.","cooldown":8,"radius":2.7,"multiplier":1.65,"icon":"sword","color":"b4d9cd","element":"physical","sfx":"dodge"},
+ "fireball":{"name":"Fireball","description":"Launch an ember that explodes and burns nearby foes.","cooldown":5,"radius":2.2,"multiplier":1.35,"icon":"bolt","color":"eaaa72","element":"fire","status":"burn","sfx":"spell"},
+ "frost_nova":{"name":"Frost Nova","description":"A ring of frost damages and slows nearby enemies for four seconds.","cooldown":9,"radius":3.6,"multiplier":0.8,"icon":"gem","color":"a1d7e5","element":"frost","status":"slow","sfx":"spell"},
+ "arcane_missiles":{"name":"Arcane Missiles","description":"Three quick bolts fan toward enemies ahead of you.","cooldown":7,"radius":0,"multiplier":0.6,"icon":"gem","color":"c3abe3","element":"arcane","sfx":"spell"},
+ "heal":{"name":"Mending Light","description":"Restore 25% maximum HP, then regenerate another 12% over three seconds.","cooldown":12,"radius":0,"multiplier":0,"icon":"heart","color":"a9d5aa","element":"healing","sfx":"heal"}
+}

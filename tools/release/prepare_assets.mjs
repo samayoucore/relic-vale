@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const project=path.join(root,'relic_vale');
+const sizes=[16,24,32,48,64,128,256];
+const images=sizes.map(n=>fs.readFileSync(path.join(root,`tools/release/icon-${n}.png`)));
+const header=Buffer.alloc(6+16*sizes.length); header.writeUInt16LE(1,2); header.writeUInt16LE(sizes.length,4);
+let offset=header.length;
+sizes.forEach((size,i)=>{const o=6+i*16;header[o]=size===256?0:size;header[o+1]=header[o];header.writeUInt16LE(1,o+4);header.writeUInt16LE(32,o+6);header.writeUInt32LE(images[i].length,o+8);header.writeUInt32LE(offset,o+12);offset+=images[i].length;});
+fs.writeFileSync(path.join(project,'assets/ui/relic_vale.ico'),Buffer.concat([header,...images]));
+const files=['docs/ASSET_CREDITS.md','docs/licenses/GODOT-LICENSE.txt','docs/licenses/CC-BY-SA-3.0.txt','assets/ui/phase5/Rubik-OFL.txt','assets/ui/phase5/PressStart2P-OFL.txt','docs/licenses/GODOT-THIRD-PARTY.txt'];
+const text=files.map(p=>`${p}\n${'='.repeat(64)}\n${fs.readFileSync(path.join(project,p),'utf8')}`).join('\n\n');
+fs.writeFileSync(path.join(project,'THIRD_PARTY_LICENSES.txt'),text);
+console.log('Application icon and complete acknowledgements prepared.');

@@ -1,0 +1,462 @@
+[
+  {
+    "file": "assets/3d/phase4/nature/Bush_Common.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 91800,
+    "sha256": "a5e1a773c8ba78fd9c05a8b342131eba4879302a8fddd2c5186cab9ee1ef4966"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Bush_Common.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 2101,
+    "sha256": "77811fca92610cb254713d3d49d5029ab6cf13050c3afb61aa942786a7b2ca90"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Clover_1.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 12956,
+    "sha256": "788fabaffc3f8f2825ad88399bd4725d8bc397225d93d00926c3223fdee9516b"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Clover_1.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 2074,
+    "sha256": "05fe48cdf1f3db879371a6ba0d843fcd407667b7680def5716c9f286efe0306b"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Fern_1.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 11448,
+    "sha256": "5e92b87a27f81a69fe15347a533df3c77d567b48298dceeef43168ccb7c22853"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Fern_1.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 2058,
+    "sha256": "d41915cffe9dbbde1ae88be381eb9c60f7caa2274511436cc78fe4de627468ab"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Flowers.png",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 444609,
+    "sha256": "5c531f2329c241c625aafd6cb769de29f33b480ef2a16491c2489f3c68e62a6a"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Flower_3_Group.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 27772,
+    "sha256": "5ab387dd3d6fe181df3af4eeac4df85533e4c27e77545ae39a61e0c2aaaab248"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Flower_3_Group.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 3629,
+    "sha256": "4df1612371982c543f930d6b213967372e0d459622d7eff7fc2ed1ddbfaa3b6c"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Grass.png",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 33605,
+    "sha256": "5d69048193b246a73c996b892607fb36c75d0c60afcb2dab8aa12de3c0b2d9bd"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Grass_Common_Short.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 7052,
+    "sha256": "7a0f0f7a9ac39cfa4b303bac03a6594f43e48d873b73553fa06a79e4df1271e9"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Grass_Common_Short.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 2023,
+    "sha256": "6957b50622c9e26e7296c1b47ea8653bc0d957e0a547de444e2ed96f0075a21a"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Grass_Wispy_Short.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 25324,
+    "sha256": "c38f46e5a66ed3917fd45104effb914228d43d3724f4659416e1533dcd71776d"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Grass_Wispy_Short.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 2025,
+    "sha256": "3c1d3bdd332420e070abde72d73611d1f13acfbe027e26b2fb943f9bcbd6b1c5"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Leaves.png",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 2586432,
+    "sha256": "23248cebe28a24e78add32db3c2ee2f4d7b9219e9d2467279722f0197a7b6bd5"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Leaves_TwistedTree_C.png",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 70353,
+    "sha256": "0e459b56b14c0e81b1b7cf3d1e8c6f0bb71790eb6c46bb02a76a922d8df646ea"
+  },
+  {
+    "file": "assets/3d/phase4/nature/License_Standard.txt",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 852,
+    "sha256": "120710e542c3ebaf83856c4eb55b4a1e680593b39302eba7fdc5d942dfe78c58"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Mushrooms.png",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 1208660,
+    "sha256": "e29eed2db831e44a29634fe25c62e9e31edf201e978a52912b9e5221ffd4a1f3"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Mushroom_Common.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 23040,
+    "sha256": "e4cee9f2570505a172990a2754d52ed5775a4d75857a832fffa1b573e38a4051"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Mushroom_Common.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 1822,
+    "sha256": "2088b39d92f2f6331f45e59a048d02814dcd8b22767b024f4d220143bc8339f4"
+  },
+  {
+    "file": "assets/3d/phase4/nature/PathRocks_Diffuse.png",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 811732,
+    "sha256": "85a04abb2c136fee53b376daf3b7d7f96fdf3966de0258dff6fe2b24da792b23"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Pebble_Round_1.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 10160,
+    "sha256": "f3dacef3243ccaaad7df2beb5c72574a38fb3eae45357e1b5e2b40200d51c375"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Pebble_Round_1.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 1850,
+    "sha256": "9f6261c81134915e73cf35eb4e37076238fd1e79434515ac686d15cbd1f779ab"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Plant_7.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 2016,
+    "sha256": "7b2b78dade4459c7c8c683b6e8b860ed87e6e4f799e58c296c57d47964cedd61"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Plant_7.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 1844,
+    "sha256": "04d5562bdfc4b0709f0030a65d1ddce90373c8e9a4dd3b15eb7acc28cd96b7a2"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Rocks_Diffuse.png",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 2517398,
+    "sha256": "b813696df6081f469a127092eb0ce45cc39d56f3ccc0699152bfcd3804810b48"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Rock_Medium_1.bin",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 13284,
+    "sha256": "ea79527d4c2b3bdb7a28bf589bf0c1fd96d192a4d0738636753911dd58681e99"
+  },
+  {
+    "file": "assets/3d/phase4/nature/Rock_Medium_1.gltf",
+    "creator": "Quaternius",
+    "name": "Stylized Nature MegaKit — Standard",
+    "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+    "purpose": "Geometric grass, ferns, clover, flowers, mushrooms, pebbles and compatible undergrowth",
+    "license": "CC0 1.0",
+    "bytes": 1831,
+    "sha256": "5d1ab1fa03218f4a908728ed0eabe6486344a7e4f510b0d3d6f837fd1d011bd8"
+  },
+  {
+    "file": "assets/3d/phase4/monsters/Bat.fbx",
+    "creator": "Quaternius",
+    "name": "LowPoly Animated Monsters",
+    "source": "https://quaternius.itch.io/lowpoly-animated-monsters",
+    "purpose": "Rigged and animated slime, skeleton and bat enemy presentation",
+    "license": "CC0 1.0",
+    "bytes": 752556,
+    "sha256": "b31b1f94800c4fbd9204c42bd8853d91c0df16e27612ae6c0d6168c6bc64be51"
+  },
+  {
+    "file": "assets/3d/phase4/monsters/Skeleton.fbx",
+    "creator": "Quaternius",
+    "name": "LowPoly Animated Monsters",
+    "source": "https://quaternius.itch.io/lowpoly-animated-monsters",
+    "purpose": "Rigged and animated slime, skeleton and bat enemy presentation",
+    "license": "CC0 1.0",
+    "bytes": 433820,
+    "sha256": "be0a5992b677e563c6c9601e76fdcb9d50e91c195aebb1eb70604fbfe8fb26d5"
+  },
+  {
+    "file": "assets/3d/phase4/monsters/Slime.fbx",
+    "creator": "Quaternius",
+    "name": "LowPoly Animated Monsters",
+    "source": "https://quaternius.itch.io/lowpoly-animated-monsters",
+    "purpose": "Rigged and animated slime, skeleton and bat enemy presentation",
+    "license": "CC0 1.0",
+    "bytes": 338940,
+    "sha256": "7f5e9dd33fd800344984ada5a0db855f2eabd6f2ee1e501bdb35d81aa3791df8"
+  },
+  {
+    "file": "assets/3d/phase4/animals/Deer.gltf",
+    "creator": "Quaternius",
+    "name": "Ultimate Animated Animals",
+    "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+    "purpose": "Animated wolf enemies, deer and stag wildlife",
+    "license": "CC0 1.0",
+    "bytes": 3288813,
+    "sha256": "b8afd0647e7a74332ce802c8326dfefe1a2b76da67ab925a631aaddb5ae9bdd4"
+  },
+  {
+    "file": "assets/3d/phase4/animals/Stag.gltf",
+    "creator": "Quaternius",
+    "name": "Ultimate Animated Animals",
+    "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+    "purpose": "Animated wolf enemies, deer and stag wildlife",
+    "license": "CC0 1.0",
+    "bytes": 3224724,
+    "sha256": "170b964909d16d1ab4d428b1d714f25016913d32481acd9c3d62923192583be6"
+  },
+  {
+    "file": "assets/3d/phase4/animals/Wolf.gltf",
+    "creator": "Quaternius",
+    "name": "Ultimate Animated Animals",
+    "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+    "purpose": "Animated wolf enemies, deer and stag wildlife",
+    "license": "CC0 1.0",
+    "bytes": 3175890,
+    "sha256": "cc02e9d128b5715f352ee8bea086f97a35f1d875d240de99b0f9f2775c37d415"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/Knight.glb",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 341688,
+    "sha256": "e484370733824a0740683e7f6040aae0d20e5efd4107dde1175d6a2ad7e2f199"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/Knight_knight_texture.png",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 12914,
+    "sha256": "028db4d1cd8b3471e6ba21686515abd4e36ae582f8b314b71ad2ab1fb5453b12"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/knight_texture.png",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 12914,
+    "sha256": "028db4d1cd8b3471e6ba21686515abd4e36ae582f8b314b71ad2ab1fb5453b12"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/License.txt",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 1554,
+    "sha256": "d4adc31660d1db22eb60eba648e01db41577548f6fa1a3576cb4a6283dae0a58"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/Mage.glb",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 352472,
+    "sha256": "1f7d891bde50b879c70965f155b7b765b166dc3f8518e5abb86c0002f191a26e"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/Mage_mage_texture.png",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 14740,
+    "sha256": "9ef9672e93b231fc4e0e19238edfae3be22513aaf634df1898f45842ce6e4b5f"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/mage_texture.png",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 14740,
+    "sha256": "9ef9672e93b231fc4e0e19238edfae3be22513aaf634df1898f45842ce6e4b5f"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/Ranger.glb",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 484712,
+    "sha256": "3a0b0166b9d61d58dcaaa739c3cc0538be46e00d2928dd5cb513d9a41770d2e9"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/Ranger_ranger_texture.png",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 13248,
+    "sha256": "639cd0ba5106fbdf65370b52b9290091d3bd92fe267693abc8dc474471bb800f"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/ranger_texture.png",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 13248,
+    "sha256": "639cd0ba5106fbdf65370b52b9290091d3bd92fe267693abc8dc474471bb800f"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/Rig_Medium_General.glb",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 828240,
+    "sha256": "5f725c0f745f36078c7238968cd5c04843cbc6260689eb6e7f5e2bbd7ffdd7ad"
+  },
+  {
+    "file": "assets/3d/phase4/adventurers/Rig_Medium_MovementBasic.glb",
+    "creator": "Kay Lousberg",
+    "name": "KayKit Adventurers 2.0 Free",
+    "source": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "purpose": "Mage and knight skins with General and MovementBasic animation libraries",
+    "license": "CC0 1.0",
+    "bytes": 689624,
+    "sha256": "11422afd50abf7e8c92ea107e2e0bc94abd38023d6d15f55ad580347efbfa29e"
+  }
+]

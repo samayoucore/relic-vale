@@ -1,0 +1,58 @@
+{
+	"checks": [
+		{
+			"check": "Load isolated event fixture",
+			"pass": true
+		},
+		{
+			"check": "Event ledger validates in a fresh process",
+			"pass": true
+		},
+		{
+			"check": "Event consequence survives: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Event consequence survives: lost_traveler",
+			"pass": true
+		},
+		{
+			"check": "Event consequence survives: road_ambush",
+			"pass": true
+		},
+		{
+			"check": "Event consequence survives: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Event consequence survives: warden_patrol",
+			"pass": true
+		},
+		{
+			"check": "Event consequence survives: veil_echo",
+			"pass": true
+		},
+		{
+			"check": "Event consequence survives: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Event consequence survives: lantern_vigil",
+			"pass": true
+		},
+		{
+			"check": "Unresolved encounter survives process exit",
+			"pass": true
+		},
+		{
+			"check": "Unresolved event reconstructs from logical address",
+			"pass": true
+		},
+		{
+			"check": "Only unresolved encounter enemy respawns",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 13
+}

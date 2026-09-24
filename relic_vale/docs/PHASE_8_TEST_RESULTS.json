@@ -1,0 +1,302 @@
+{
+	"checks": [
+		{
+			"check": "Find physical wood node",
+			"pass": true
+		},
+		{
+			"check": "Start wood tool swing",
+			"pass": true
+		},
+		{
+			"check": "Start wood tool swing",
+			"pass": true
+		},
+		{
+			"check": "Start wood tool swing",
+			"pass": true
+		},
+		{
+			"check": "Start wood tool swing",
+			"pass": true
+		},
+		{
+			"check": "Start wood tool swing",
+			"pass": true
+		},
+		{
+			"check": "Finish gathering wood",
+			"pass": true
+		},
+		{
+			"check": "woodcutting gains personal profession XP",
+			"pass": true
+		},
+		{
+			"check": "Find physical iron_ore node",
+			"pass": true
+		},
+		{
+			"check": "Start iron_ore tool swing",
+			"pass": true
+		},
+		{
+			"check": "Start iron_ore tool swing",
+			"pass": true
+		},
+		{
+			"check": "Start iron_ore tool swing",
+			"pass": true
+		},
+		{
+			"check": "Start iron_ore tool swing",
+			"pass": true
+		},
+		{
+			"check": "Start iron_ore tool swing",
+			"pass": true
+		},
+		{
+			"check": "Finish gathering iron_ore",
+			"pass": true
+		},
+		{
+			"check": "mining gains personal profession XP",
+			"pass": true
+		},
+		{
+			"check": "Find physical wild_herb node",
+			"pass": true
+		},
+		{
+			"check": "Start wild_herb tool swing",
+			"pass": true
+		},
+		{
+			"check": "Finish gathering wild_herb",
+			"pass": true
+		},
+		{
+			"check": "herbalism gains personal profession XP",
+			"pass": true
+		},
+		{
+			"check": "Professions do not increase combat level",
+			"pass": true
+		},
+		{
+			"check": "Reach an accessible river or lake bank",
+			"pass": true
+		},
+		{
+			"check": "Cast rod toward actual fresh water",
+			"pass": true
+		},
+		{
+			"check": "Visible bite follows the short wait",
+			"pass": true
+		},
+		{
+			"check": "Respond to bite with the normal attack binding",
+			"pass": true
+		},
+		{
+			"check": "Skill minigame lands a catch",
+			"pass": true
+		},
+		{
+			"check": "Cast rod toward actual fresh water",
+			"pass": true
+		},
+		{
+			"check": "Visible bite follows the short wait",
+			"pass": true
+		},
+		{
+			"check": "Respond to bite with the normal attack binding",
+			"pass": true
+		},
+		{
+			"check": "Skill minigame lands a catch",
+			"pass": true
+		},
+		{
+			"check": "Two caught fish recorded in field journal",
+			"pass": true
+		},
+		{
+			"check": "Daylight changes rare eligibility; common fish remain available",
+			"pass": true
+		},
+		{
+			"check": "Night and fog unlock their rare species",
+			"pass": true
+		},
+		{
+			"check": "Find a safe camp master plan location",
+			"pass": true
+		},
+		{
+			"check": "Establish camp at the checked clearing",
+			"pass": true
+		},
+		{
+			"check": "Tier 3 opens eight reserved farm plots",
+			"pass": true
+		},
+		{
+			"check": "Start physical farm action: prepare",
+			"pass": true
+		},
+		{
+			"check": "Complete farm animation: prepare",
+			"pass": true
+		},
+		{
+			"check": "Start physical farm action: plant",
+			"pass": true
+		},
+		{
+			"check": "Complete farm animation: plant",
+			"pass": true
+		},
+		{
+			"check": "Start physical farm action: water",
+			"pass": true
+		},
+		{
+			"check": "Complete farm animation: water",
+			"pass": true
+		},
+		{
+			"check": "Watered crop advances to growing stage with game time",
+			"pass": true
+		},
+		{
+			"check": "Rain automatically waters the planted bed",
+			"pass": true
+		},
+		{
+			"check": "Crop becomes harvestable",
+			"pass": true
+		},
+		{
+			"check": "Start physical farm action: harvest",
+			"pass": true
+		},
+		{
+			"check": "Complete farm animation: harvest",
+			"pass": true
+		},
+		{
+			"check": "Harvest grants produce and farming XP",
+			"pass": true
+		},
+		{
+			"check": "Camp has a physical cooking station",
+			"pass": true
+		},
+		{
+			"check": "Cook cook_grilled_fish",
+			"pass": true
+		},
+		{
+			"check": "Cook cook_roast_meat",
+			"pass": true
+		},
+		{
+			"check": "Cook cook_forest_bites",
+			"pass": true
+		},
+		{
+			"check": "Eating cooked fish applies its gathering buff",
+			"pass": true
+		},
+		{
+			"check": "A new meal replaces the previous food buff",
+			"pass": true
+		},
+		{
+			"check": "Recruit a resident for ongoing work",
+			"pass": true
+		},
+		{
+			"check": "Assign Farmer independently of mission board",
+			"pass": true
+		},
+		{
+			"check": "Leaving camp unloads its physical farm",
+			"pass": true
+		},
+		{
+			"check": "Farmer harvests and replants while camp is unloaded",
+			"pass": true
+		},
+		{
+			"check": "Resident production grants no personal profession XP",
+			"pass": true
+		},
+		{
+			"check": "Occupation and mission state remain distinct",
+			"pass": true
+		},
+		{
+			"check": "Purchase a persistent horse at tier 3",
+			"pass": true
+		},
+		{
+			"check": "Call horse onto safe nearby ground",
+			"pass": true
+		},
+		{
+			"check": "Mount the animated horse",
+			"pass": true
+		},
+		{
+			"check": "Horse has authored idle, walk and gallop animation",
+			"pass": true
+		},
+		{
+			"check": "Physically gallop through at least three streamed chunks",
+			"pass": true
+		},
+		{
+			"check": "Horse remains available after logical teleport",
+			"pass": true
+		},
+		{
+			"check": "Treasure chart chooses safe discovered ground",
+			"pass": true
+		},
+		{
+			"check": "Find and recover the physical treasure",
+			"pass": true
+		},
+		{
+			"check": "Treasure reward cannot be claimed twice",
+			"pass": true
+		},
+		{
+			"check": "Phase 8 snapshot passes strict validation",
+			"pass": true
+		},
+		{
+			"check": "Save the complete profession / farm / mount journey",
+			"pass": true
+		},
+		{
+			"check": "Read the current versioned profession save successfully",
+			"pass": true
+		},
+		{
+			"check": "Reload the complete journey",
+			"pass": true
+		},
+		{
+			"check": "Farm and mount ownership survive load",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 74
+}

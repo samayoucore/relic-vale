@@ -1,0 +1,382 @@
+{
+	"checks": [
+		{
+			"check": "Fresh snapshot validates",
+			"pass": true
+		},
+		{
+			"check": "Reject level = nan",
+			"pass": true
+		},
+		{
+			"check": "Reject level = inf",
+			"pass": true
+		},
+		{
+			"check": "Reject level = -inf",
+			"pass": true
+		},
+		{
+			"check": "Reject level = -1",
+			"pass": true
+		},
+		{
+			"check": "Reject level = wrong",
+			"pass": true
+		},
+		{
+			"check": "Reject level = {  }",
+			"pass": true
+		},
+		{
+			"check": "Reject level = <null>",
+			"pass": true
+		},
+		{
+			"check": "Reject level = 1.5",
+			"pass": true
+		},
+		{
+			"check": "Reject xp = nan",
+			"pass": true
+		},
+		{
+			"check": "Reject xp = inf",
+			"pass": true
+		},
+		{
+			"check": "Reject xp = -inf",
+			"pass": true
+		},
+		{
+			"check": "Reject xp = -1",
+			"pass": true
+		},
+		{
+			"check": "Reject xp = wrong",
+			"pass": true
+		},
+		{
+			"check": "Reject xp = {  }",
+			"pass": true
+		},
+		{
+			"check": "Reject xp = <null>",
+			"pass": true
+		},
+		{
+			"check": "Reject xp = 1.5",
+			"pass": true
+		},
+		{
+			"check": "Reject hp = nan",
+			"pass": true
+		},
+		{
+			"check": "Reject hp = inf",
+			"pass": true
+		},
+		{
+			"check": "Reject hp = -inf",
+			"pass": true
+		},
+		{
+			"check": "Reject hp = -1",
+			"pass": true
+		},
+		{
+			"check": "Reject hp = wrong",
+			"pass": true
+		},
+		{
+			"check": "Reject hp = {  }",
+			"pass": true
+		},
+		{
+			"check": "Reject hp = <null>",
+			"pass": true
+		},
+		{
+			"check": "Reject hp = 1.5",
+			"pass": true
+		},
+		{
+			"check": "Reject coins = nan",
+			"pass": true
+		},
+		{
+			"check": "Reject coins = inf",
+			"pass": true
+		},
+		{
+			"check": "Reject coins = -inf",
+			"pass": true
+		},
+		{
+			"check": "Reject coins = -1",
+			"pass": true
+		},
+		{
+			"check": "Reject coins = wrong",
+			"pass": true
+		},
+		{
+			"check": "Reject coins = {  }",
+			"pass": true
+		},
+		{
+			"check": "Reject coins = <null>",
+			"pass": true
+		},
+		{
+			"check": "Reject coins = 1.5",
+			"pass": true
+		},
+		{
+			"check": "Reject astral_shards = nan",
+			"pass": true
+		},
+		{
+			"check": "Reject astral_shards = inf",
+			"pass": true
+		},
+		{
+			"check": "Reject astral_shards = -inf",
+			"pass": true
+		},
+		{
+			"check": "Reject astral_shards = -1",
+			"pass": true
+		},
+		{
+			"check": "Reject astral_shards = wrong",
+			"pass": true
+		},
+		{
+			"check": "Reject astral_shards = {  }",
+			"pass": true
+		},
+		{
+			"check": "Reject astral_shards = <null>",
+			"pass": true
+		},
+		{
+			"check": "Reject astral_shards = 1.5",
+			"pass": true
+		},
+		{
+			"check": "Reject world_seed = nan",
+			"pass": true
+		},
+		{
+			"check": "Reject world_seed = inf",
+			"pass": true
+		},
+		{
+			"check": "Reject world_seed = -inf",
+			"pass": true
+		},
+		{
+			"check": "Reject world_seed = -1",
+			"pass": true
+		},
+		{
+			"check": "Reject world_seed = wrong",
+			"pass": true
+		},
+		{
+			"check": "Reject world_seed = {  }",
+			"pass": true
+		},
+		{
+			"check": "Reject world_seed = <null>",
+			"pass": true
+		},
+		{
+			"check": "Reject world_seed = 1.5",
+			"pass": true
+		},
+		{
+			"check": "Reject kills = nan",
+			"pass": true
+		},
+		{
+			"check": "Reject kills = inf",
+			"pass": true
+		},
+		{
+			"check": "Reject kills = -inf",
+			"pass": true
+		},
+		{
+			"check": "Reject kills = -1",
+			"pass": true
+		},
+		{
+			"check": "Reject kills = wrong",
+			"pass": true
+		},
+		{
+			"check": "Reject kills = {  }",
+			"pass": true
+		},
+		{
+			"check": "Reject kills = <null>",
+			"pass": true
+		},
+		{
+			"check": "Reject kills = 1.5",
+			"pass": true
+		},
+		{
+			"check": "Reject attack_count = nan",
+			"pass": true
+		},
+		{
+			"check": "Reject attack_count = inf",
+			"pass": true
+		},
+		{
+			"check": "Reject attack_count = -inf",
+			"pass": true
+		},
+		{
+			"check": "Reject attack_count = -1",
+			"pass": true
+		},
+		{
+			"check": "Reject attack_count = wrong",
+			"pass": true
+		},
+		{
+			"check": "Reject attack_count = {  }",
+			"pass": true
+		},
+		{
+			"check": "Reject attack_count = <null>",
+			"pass": true
+		},
+		{
+			"check": "Reject attack_count = 1.5",
+			"pass": true
+		},
+		{
+			"check": "Reject invalid save version wrong",
+			"pass": true
+		},
+		{
+			"check": "Reject invalid save version {  }",
+			"pass": true
+		},
+		{
+			"check": "Reject invalid save version <null>",
+			"pass": true
+		},
+		{
+			"check": "Reject invalid save version 9.5",
+			"pass": true
+		},
+		{
+			"check": "Reject invalid save version 100",
+			"pass": true
+		},
+		{
+			"check": "Reject overflowing logical origin_x",
+			"pass": true
+		},
+		{
+			"check": "Reject overflowing logical origin_z",
+			"pass": true
+		},
+		{
+			"check": "Reject nonfinite inventory",
+			"pass": true
+		},
+		{
+			"check": "Create atomic first save",
+			"pass": true
+		},
+		{
+			"check": "Replace with backup",
+			"pass": true
+		},
+		{
+			"check": "Read new snapshot",
+			"pass": true
+		},
+		{
+			"check": "Invalid live state refuses save",
+			"pass": true
+		},
+		{
+			"check": "Failed validation preserves primary bytes",
+			"pass": true
+		},
+		{
+			"check": "Interrupted temporary write ignored",
+			"pass": true
+		},
+		{
+			"check": "Corrupt primary recovers backup",
+			"pass": true
+		},
+		{
+			"check": "Repair damaged primary",
+			"pass": true
+		},
+		{
+			"check": "Repair preserves good backup",
+			"pass": true
+		},
+		{
+			"check": "Write chunk delta",
+			"pass": true
+		},
+		{
+			"check": "Corrupt chunk recovers intact backup",
+			"pass": true
+		},
+		{
+			"check": "Rewriting heals corrupt content-addressed chunk",
+			"pass": true
+		},
+		{
+			"check": "Healed chunk passes digest and schema",
+			"pass": true
+		},
+		{
+			"check": "Manifest path traversal rejected",
+			"pass": true
+		},
+		{
+			"check": "Two invalid copies leave live journey untouched",
+			"pass": true
+		},
+		{
+			"check": "Unwritable slot reports failure",
+			"pass": true
+		},
+		{
+			"check": "Version upgrade preserves original user-data directory",
+			"pass": true
+		},
+		{
+			"check": "Nonfinite settings ignored",
+			"pass": true
+		},
+		{
+			"check": "Mount binding remains valid",
+			"pass": true
+		},
+		{
+			"check": "Large earned stacks remain representable",
+			"pass": true
+		},
+		{
+			"check": "Loading does not silently truncate validated stacks or currency",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 94
+}

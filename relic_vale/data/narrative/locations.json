@@ -1,0 +1,718 @@
+{
+  "bren_watch": {
+    "name": "East Road Watch",
+    "address": {
+      "x": "0",
+      "z": "0",
+      "local": [
+        17,
+        0,
+        8
+      ]
+    },
+    "fixed": true,
+    "companion": "bren"
+  },
+  "dispatch": {
+    "name": "Fallen dispatch",
+    "address": {
+      "x": "1",
+      "z": "0",
+      "local": [
+        13,
+        0,
+        12
+      ]
+    },
+    "objects": [
+      {
+        "id": "dispatch",
+        "name": "Mud-stained dispatch case",
+        "model": "res://assets/3d/phase7/box.glb",
+        "height": 0.45,
+        "text": "The runner signed the last page: “Reached the ford. All six children accounted for.”"
+      }
+    ]
+  },
+  "cinder_watch": {
+    "name": "Cinder Watch",
+    "address": {
+      "x": "4",
+      "z": "3",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "watch_letters",
+        "name": "Unsent letters",
+        "model": "res://assets/3d/phase6/props/Book_Stack_1.gltf",
+        "height": 0.35,
+        "text": "The captain wrote to every family. He never asked the quartermaster to send the letters."
+      },
+      {
+        "id": "watch_brazier",
+        "name": "Cold watch brazier",
+        "model": "res://assets/3d/phase7/campfire-pit.glb",
+        "height": 0.6,
+        "requires": [
+          {
+            "type": "defeated",
+            "id": "cinder_guard"
+          }
+        ],
+        "text": "The new fire burns low and steady. It is a signal to travelers, not an order to hold the wall."
+      }
+    ],
+    "enemies": [
+      {
+        "id": "cinder_guard",
+        "archetype": "skeleton",
+        "offset": [
+          4,
+          0,
+          -4
+        ]
+      }
+    ],
+    "variant": "cinder_outcome"
+  },
+  "tarin_meeting": {
+    "name": "Split Fern Camp",
+    "address": {
+      "x": "-2",
+      "z": "2",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [],
+    "companion": "tarin"
+  },
+  "snare_hollow": {
+    "name": "Snare Hollow",
+    "address": {
+      "x": "-3",
+      "z": "3",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "cut_snare",
+        "name": "Abandoned snare",
+        "text": "The cord is cut. A limping doe slips into the ferns.",
+        "model": "res://assets/3d/phase7/resource-wood.glb",
+        "height": 0.55,
+        "requires": [
+          {
+            "type": "defeated",
+            "id": "snare_wolf"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "id": "snare_wolf",
+        "archetype": "wolf",
+        "offset": [
+          4,
+          0,
+          -4
+        ]
+      }
+    ]
+  },
+  "lysa_trail": {
+    "name": "Lysa’s old crossing",
+    "address": {
+      "x": "-4",
+      "z": "4",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "lysa_knot",
+        "name": "A blue trail knot",
+        "text": "A recent knot, tied left-handed. “Still taking the long way. L.”",
+        "model": "res://assets/3d/phase7/signpost.glb",
+        "height": 0.55
+      }
+    ]
+  },
+  "reed_pass": {
+    "name": "Reed Pass",
+    "address": {
+      "x": "-5",
+      "z": "4",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "reed_beacon",
+        "name": "Trail beacon",
+        "text": "A low lamp now marks the safe passage.",
+        "model": "res://assets/3d/phase7/campfire-pit.glb",
+        "height": 0.55,
+        "requires": [
+          {
+            "type": "defeated",
+            "id": "reed_poacher"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "id": "reed_poacher",
+        "archetype": "archer",
+        "offset": [
+          4,
+          0,
+          -4
+        ]
+      }
+    ],
+    "variant": "reed_outcome"
+  },
+  "ilyra_meeting": {
+    "name": "Quiet Scriptorium",
+    "address": {
+      "x": "2",
+      "z": "-2",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [],
+    "companion": "ilyra"
+  },
+  "broken_annotation": {
+    "name": "Broken Inscription",
+    "address": {
+      "x": "3",
+      "z": "-3",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "rubbing",
+        "name": "Erased inscription",
+        "text": "Under the warning is a second hand: “The binding answers consent. It cannot create it.”",
+        "model": "res://assets/3d/phase7/signpost.glb",
+        "height": 0.55
+      }
+    ]
+  },
+  "glass_archive": {
+    "name": "Glass Archive",
+    "address": {
+      "x": "4",
+      "z": "-4",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "archive_margin",
+        "name": "Margin notes",
+        "text": "Orsa’s first draft calls the binding a bargain, never a command.",
+        "model": "res://assets/3d/phase6/props/Book_Stack_1.gltf",
+        "height": 0.45
+      },
+      {
+        "id": "archive_record",
+        "name": "Unsealed register",
+        "text": "The Keeper who guarded this register had forgotten what was being protected.",
+        "model": "res://assets/3d/phase6/props/Book_Stack_1.gltf",
+        "height": 0.45,
+        "requires": [
+          {
+            "type": "defeated",
+            "id": "archive_keeper"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "id": "archive_keeper",
+        "archetype": "witch",
+        "offset": [
+          4,
+          0,
+          -4
+        ]
+      }
+    ],
+    "variant": "archive_outcome"
+  },
+  "sera_meeting": {
+    "name": "Wayfarer’s Rest",
+    "address": {
+      "x": "-1",
+      "z": "-2",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [],
+    "companion": "sera"
+  },
+  "field_patient": {
+    "name": "The fallen courier",
+    "address": {
+      "x": "-2",
+      "z": "-3",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "patient",
+        "name": "Injured courier",
+        "text": "The courier drinks slowly. His breathing settles; he can make the shelter before dark.",
+        "model": "res://assets/3d/phase7/bedroll.glb",
+        "height": 0.55,
+        "requires": [
+          {
+            "type": "item",
+            "id": "trail_tonic",
+            "value": 1
+          }
+        ],
+        "effects": [
+          {
+            "type": "consume",
+            "id": "trail_tonic",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  "reed_well": {
+    "name": "Reedside Well",
+    "address": {
+      "x": "-3",
+      "z": "-4",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "well_sample",
+        "name": "Clouded water",
+        "text": "The well is fouled by a broken drain. The sickness began here, not in the travelers’ camp.",
+        "model": "res://assets/3d/phase7/barrel.glb",
+        "height": 0.55
+      },
+      {
+        "id": "well_repaired",
+        "name": "New filter bed",
+        "text": "Stone and fresh charcoal draw the cloud from the water.",
+        "model": "res://assets/3d/phase7/box.glb",
+        "height": 0.55,
+        "requires": [
+          {
+            "type": "item",
+            "id": "stone",
+            "value": 3
+          }
+        ],
+        "effects": [
+          {
+            "type": "consume",
+            "id": "stone",
+            "amount": 3
+          }
+        ]
+      }
+    ],
+    "variant": "well_outcome"
+  },
+  "field_hospital": {
+    "name": "The old field station",
+    "address": {
+      "x": "-4",
+      "z": "-3",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "field_ledger",
+        "name": "Sera’s field ledger",
+        "text": "Names fill both columns. The dividing line was drawn by the quartermaster, after the treatment.",
+        "model": "res://assets/3d/phase6/props/Book_Stack_1.gltf",
+        "height": 0.45
+      }
+    ],
+    "enemies": [
+      {
+        "id": "field_raider",
+        "archetype": "skeleton",
+        "offset": [
+          4,
+          0,
+          -4
+        ]
+      }
+    ]
+  },
+  "cold_milestone": {
+    "name": "The Cold Milestone",
+    "address": {
+      "x": "1",
+      "z": "1",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "cold_lantern",
+        "name": "A cold road lantern",
+        "text": "The oil is full. The wick is dry. A thin silver root has curled around the stone below it.",
+        "model": "res://assets/3d/phase7/campfire-stand.glb",
+        "height": 0.55
+      }
+    ]
+  },
+  "root_testimony": {
+    "name": "Roots of the First Road",
+    "address": {
+      "x": "2",
+      "z": "2",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "root_name",
+        "name": "Moss-covered name",
+        "text": "“Ena, first witness. A light freely given may be freely returned.”",
+        "model": "res://assets/3d/phase7/signpost.glb",
+        "height": 0.55
+      }
+    ]
+  },
+  "three_promises": {
+    "name": "The Three Roads Meeting",
+    "address": {
+      "x": "3",
+      "z": "1",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [],
+    "npcs": [
+      {
+        "id": "hester",
+        "offset": [
+          -4,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "yew",
+        "offset": [
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "id": "orsa",
+        "offset": [
+          4,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "oath_vault": {
+    "name": "The First Witness Vault",
+    "address": {
+      "x": "6",
+      "z": "2",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "vault_door",
+        "name": "Enter the Witness Vault",
+        "text": "The stair follows the oldest roots.",
+        "model": "res://assets/3d/phase7/signpost.glb",
+        "height": 0.55,
+        "action": "dungeon",
+        "dungeon": "story_oath_vault"
+      },
+      {
+        "id": "oath_cradle",
+        "name": "The returned light",
+        "text": "The guardian’s seal is broken. A patient silver glow fills the cradle.",
+        "model": "res://assets/3d/phase7/chest.glb",
+        "height": 0.55,
+        "requires": [
+          {
+            "type": "defeated",
+            "id": "story_oath_vault/guardian"
+          }
+        ]
+      }
+    ]
+  },
+  "lantern_crossing": {
+    "name": "Lantern Crossing",
+    "address": {
+      "x": "4",
+      "z": "0",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "crossing_beacon",
+        "name": "Crossing beacon",
+        "text": "The road has a steady light again.",
+        "model": "res://assets/3d/phase7/campfire-stand.glb",
+        "height": 0.55,
+        "requires": [
+          {
+            "type": "defeated",
+            "id": "crossing_0"
+          },
+          {
+            "type": "defeated",
+            "id": "crossing_1"
+          },
+          {
+            "type": "defeated",
+            "id": "crossing_2"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "id": "crossing_0",
+        "archetype": "skeleton",
+        "offset": [
+          -4,
+          0,
+          3
+        ]
+      },
+      {
+        "id": "crossing_1",
+        "archetype": "archer",
+        "offset": [
+          4,
+          0,
+          3
+        ]
+      },
+      {
+        "id": "crossing_2",
+        "archetype": "skeleton",
+        "offset": [
+          0,
+          0,
+          -5
+        ]
+      }
+    ],
+    "enemy_conditions": [
+      {
+        "type": "completed",
+        "id": "act1_08"
+      }
+    ],
+    "variant": "lantern_covenant"
+  },
+  "willowmere_well": {
+    "name": "Willowmere Well",
+    "address": {
+      "x": "0",
+      "z": "0",
+      "local": [
+        0,
+        0,
+        4
+      ]
+    },
+    "objects": [],
+    "fixed": true
+  },
+  "shrine_contact": {
+    "name": "Willowmere Shrine",
+    "address": {
+      "x": "0",
+      "z": "0",
+      "local": [
+        -9,
+        0,
+        -2
+      ]
+    },
+    "objects": [],
+    "fixed": true
+  },
+  "bridge_stores": {
+    "name": "Winter Bridge Stores",
+    "address": {
+      "x": "5",
+      "z": "1",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "bridge_plank",
+        "name": "Bridge stores",
+        "text": "Dry boards will keep the bridge passable through the first frost.",
+        "model": "res://assets/3d/phase7/resource-wood.glb",
+        "height": 0.55,
+        "requires": [
+          {
+            "type": "item",
+            "id": "wood",
+            "value": 5
+          }
+        ],
+        "effects": [
+          {
+            "type": "consume",
+            "id": "wood",
+            "amount": 5
+          }
+        ]
+      }
+    ]
+  },
+  "poisoned_sluice": {
+    "name": "The Blocked Sluice",
+    "address": {
+      "x": "-1",
+      "z": "5",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "sluice",
+        "name": "Clogged woodland sluice",
+        "text": "The old channel opens. Clear water slips under the stone.",
+        "model": "res://assets/3d/phase7/barrel.glb",
+        "height": 0.55,
+        "requires": [
+          {
+            "type": "item",
+            "id": "stone",
+            "value": 3
+          }
+        ],
+        "effects": [
+          {
+            "type": "consume",
+            "id": "stone",
+            "amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  "witness_stone": {
+    "name": "The Third Witness",
+    "address": {
+      "x": "5",
+      "z": "-2",
+      "local": [
+        16,
+        0,
+        16
+      ]
+    },
+    "objects": [
+      {
+        "id": "third_witness",
+        "name": "The third witness’s tablet",
+        "text": "“If the road ceases to shelter strangers, its guardians shall lay down their arms.”",
+        "model": "res://assets/3d/phase6/props/Book_Stack_1.gltf",
+        "height": 0.45
+      }
+    ],
+    "enemies": [
+      {
+        "id": "tablet_guard",
+        "archetype": "skeleton",
+        "offset": [
+          4,
+          0,
+          -4
+        ]
+      }
+    ]
+  }
+}

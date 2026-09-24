@@ -1,0 +1,13 @@
+{
+  "release": "0.9",
+  "static_checks": 1592,
+  "assertion_executions": 570,
+  "failed": 0,
+  "companions": 4,
+  "quests": 35,
+  "events": 8,
+  "portraits": 4,
+  "clean_import": true,
+  "clean_startup": true,
+  "previous_archive_preserved": true
+}

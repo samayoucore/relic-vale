@@ -1,0 +1,11 @@
+# Relic Vale 0.10.0 release process
+
+The player build is made on Windows with Godot 4.7.2 stable export templates, Node.js for validation/assets, PowerShell, and Inno Setup 7.1.0. These tools are needed only by the builder. The installer and portable game contain the Windows x64 Release executable, a separate PCK, player documents, and licenses.
+
+From the repository root, run `powershell -ExecutionPolicy Bypass -File .\build_release.ps1`. Do not use `-SkipValidation` for a distributable build. The script verifies pinned toolchain SHA-256 values in `tools/release/toolchain.json`, imports Godot resources, runs static checks and save corruption/recovery tests, exports Release, checks the PE imports and every PCK entry/digest, compiles the installer, creates the ZIP, and writes SHA256SUMS.txt. Build logs and package audits stay in `downloads/phase10/build`; the build receipt is `docs/PHASE_10_BUILD.json`. Inno and ZIP artifacts are copied to `dist` only after all build steps pass.
+
+Use `Get-FileHash -Algorithm SHA256 dist\RelicVale-0.10.0-Setup.exe` and compare with `dist\SHA256SUMS.txt` before distribution. The release is unsigned unless the owner supplies `VALE_SIGN_SCRIPT` with a real signing certificate. Do not represent unsigned executables as signed. Keep `RelicVale.exe` and `RelicVale.pck` together. Do not place development test scripts or source docs in the player package; the PCK audit enforces this.
+
+Acceptance uses isolated `%APPDATA%` directories under `downloads` so the player's actual save is not modified. Test a fresh start, real input, manual save, a new-process reload, Safe Mode, all four presets, Pixelated Render on/off, installer shortcuts, uninstall/reinstall preservation, and the portable ZIP. QA-instrumented Release exports under `downloads/phase10` include test scripts; they are distinct from the final `dist` PCK. The installed executable must also launch unmodified from a path with spaces and Cyrillic characters.
+
+The user selected this Windows 10 PC for release testing. Document its hardware and the exact tests completed in `QA_CHECKLIST.md`. A second clean PC, Windows 11, and other GPUs are outside the measured acceptance scope. The Phase 9 baseline archive `downloads/RelicVale-v0.9-baseline.zip` and its receipt remain untouched as the recovery source.

@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+const url='https://kaylousberg.itch.io/kaykit-character-animations';
+const html=await(await fetch(url)).text();
+const token=html.match(/name="csrf_token" value="([^"]+)"/)[1];
+const reply=await(await fetch(url+'/download_url',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({csrf_token:token})})).json();
+const page=await(await fetch(reply.url)).text();
+const uploads=[...page.matchAll(/data-upload_id="(\d+)"/g)].map(x=>x[1]);
+if(!uploads.length) throw Error('No free uploads found');
+const csrf=page.match(/name="csrf_token" value="([^"]+)"/)[1];
+const link=await(await fetch(url+'/file/'+uploads[0],{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({csrf_token:csrf})})).json();
+const bytes=Buffer.from(await(await fetch(link.url)).arrayBuffer());
+if(bytes.readUInt16LE(0)!==0x4b50) throw Error('Not a ZIP archive');
+fs.writeFileSync('downloads/phase9-animations.zip',bytes);
+const record={source:url,upload:uploads[0],bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex'),license:'CC0 1.0',retrieved:new Date().toISOString()};
+fs.writeFileSync('downloads/phase9-animations-receipt.json',JSON.stringify(record,null,2)); console.log(record);

@@ -1,0 +1,79 @@
+{
+  "note": "Snapshots during automated scene/preset transitions on Radeon Vega 8 with fixed simulation FPS. These are not a controlled steady-state benchmark.",
+  "failed": 0,
+  "passed": 38,
+  "samples": [
+    {
+      "draw_calls": 1408,
+      "foliage": 7608,
+      "fps": 32,
+      "frame_ms": 33.041,
+      "pixels": false,
+      "preset": "Minimal",
+      "resolution": "(896, 504)"
+    },
+    {
+      "draw_calls": 1474,
+      "foliage": 7608,
+      "fps": 32,
+      "frame_ms": 41.823,
+      "pixels": true,
+      "preset": "Minimal",
+      "resolution": "(384, 216)"
+    },
+    {
+      "draw_calls": 1411,
+      "foliage": 13324,
+      "fps": 32,
+      "frame_ms": 31.049,
+      "pixels": false,
+      "preset": "Medium",
+      "resolution": "(1088, 612)"
+    },
+    {
+      "draw_calls": 1336,
+      "foliage": 13324,
+      "fps": 32,
+      "frame_ms": 34.119,
+      "pixels": true,
+      "preset": "Medium",
+      "resolution": "(384, 216)"
+    },
+    {
+      "draw_calls": 1396,
+      "foliage": 38846,
+      "fps": 32,
+      "frame_ms": 35.98,
+      "pixels": false,
+      "preset": "High",
+      "resolution": "(1280, 720)"
+    },
+    {
+      "draw_calls": 1325,
+      "foliage": 38846,
+      "fps": 32,
+      "frame_ms": 30.929,
+      "pixels": true,
+      "preset": "High",
+      "resolution": "(384, 216)"
+    },
+    {
+      "draw_calls": 1313,
+      "foliage": 43139,
+      "fps": 31,
+      "frame_ms": 45.27,
+      "pixels": false,
+      "preset": "Ultra",
+      "resolution": "(1280, 720)"
+    },
+    {
+      "draw_calls": 1302,
+      "foliage": 43139,
+      "fps": 32,
+      "frame_ms": 45.766,
+      "pixels": true,
+      "preset": "Ultra",
+      "resolution": "(384, 216)"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+	"checks": [
+		{
+			"check": "Graphical polish uses isolated completed story",
+			"pass": true
+		},
+		{
+			"check": "An unset string-valued story flag is safely false",
+			"pass": true
+		},
+		{
+			"check": "Interned Godot dictionary keys validate before JSON serialization",
+			"pass": true
+		},
+		{
+			"check": "Fractional narrative quest stages are rejected",
+			"pass": true
+		},
+		{
+			"check": "O opens the company roster through real input",
+			"pass": true
+		},
+		{
+			"check": "Z opens companion orders through real input",
+			"pass": true
+		},
+		{
+			"check": "Vertical camera drag clamps to the upper limit",
+			"pass": true
+		},
+		{
+			"check": "Vertical camera drag reaches the horizon angle",
+			"pass": true
+		},
+		{
+			"check": "Camera reset keeps the requested default tilt and zoom",
+			"pass": true
+		},
+		{
+			"check": "Scenery between camera and player stays visible and solid",
+			"pass": true
+		},
+		{
+			"check": "Camera obstruction restores after the view clears",
+			"pass": true
+		},
+		{
+			"check": "Object enclosing the camera is hidden",
+			"pass": true
+		},
+		{
+			"check": "Archive reconstructs the chosen public variant with reading props",
+			"pass": true
+		},
+		{
+			"check": "Returning preserves the authored logical address",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 14
+}

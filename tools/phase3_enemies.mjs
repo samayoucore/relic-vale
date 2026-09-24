@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+const p='relic_vale/data/enemies.json',e=JSON.parse(fs.readFileSync(p));
+e.slime.behavior='melee';e.wolf.behavior='leap';e.skeleton.behavior='melee';e.elite.behavior='elite';
+e.archer={name:'Hollow archer',hp:55,damage:15,speed:1.8,detect:10,range:8.5,windup:.85,cooldown:2.1,xp:48,loot:'skeleton',respawn:65,behavior:'ranged',element:'physical',projectile_speed:10,color:'d9c997'};
+e.witch={name:'Briar hexweaver',hp:68,damage:16,speed:1.6,detect:10,range:9,windup:1.0,cooldown:2.6,xp:58,loot:'skeleton',respawn:70,behavior:'caster',element:'poison',projectile_speed:7,color:'b6a0dc',status:'poison'};
+e.bat={name:'Duskwings',hp:32,damage:10,speed:3.6,detect:8,range:1.4,windup:.3,cooldown:1.8,xp:27,loot:'wolf',respawn:45,behavior:'circle'};
+e.mimic={name:'Hungry coffer',hp:105,damage:23,speed:2.6,detect:5,range:1.8,windup:.7,cooldown:1.6,xp:95,loot:'elite',respawn:0,behavior:'dormant'};
+Object.assign(e.guardian,{name:'The Hollow Knight',hp:1400,damage:28,speed:2.1,detect:16,range:2.8,windup:.8,cooldown:1.7,xp:550,behavior:'boss'});
+fs.writeFileSync(p,JSON.stringify(e,null,2));
+const lpath='relic_vale/data/loot_tables.json',loot=JSON.parse(fs.readFileSync(lpath));
+loot.guardian.drops.push({id:'hollow_heart',chance:1});
+for(const [table,id] of [['slime','twin_daggers'],['wolf','oak_bow'],['skeleton','apprentice_staff'],['elite','iron_greatsword']])loot[table].drops.push({id,chance:table==='elite'?.65:.14});
+fs.writeFileSync(lpath,JSON.stringify(loot,null,2));

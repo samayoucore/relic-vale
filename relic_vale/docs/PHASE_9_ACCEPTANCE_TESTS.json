@@ -1,0 +1,322 @@
+{
+	"checks": [
+		{
+			"check": "Load completed Act I in the actual game",
+			"pass": true
+		},
+		{
+			"check": "Full narrative fixture includes the ending",
+			"pass": true
+		},
+		{
+			"check": "All four companions appear together at camp",
+			"pass": true
+		},
+		{
+			"check": "Retargeted combat animation is available: bren",
+			"pass": true
+		},
+		{
+			"check": "Actual-model portrait imports: bren",
+			"pass": true
+		},
+		{
+			"check": "Retargeted combat animation is available: tarin",
+			"pass": true
+		},
+		{
+			"check": "Actual-model portrait imports: tarin",
+			"pass": true
+		},
+		{
+			"check": "Retargeted combat animation is available: ilyra",
+			"pass": true
+		},
+		{
+			"check": "Actual-model portrait imports: ilyra",
+			"pass": true
+		},
+		{
+			"check": "Retargeted combat animation is available: sera",
+			"pass": true
+		},
+		{
+			"check": "Actual-model portrait imports: sera",
+			"pass": true
+		},
+		{
+			"check": "Select frontline companion from completed roster",
+			"pass": true
+		},
+		{
+			"check": "Switch active role: tarin",
+			"pass": true
+		},
+		{
+			"check": "Only player and one companion are combat allies",
+			"pass": true
+		},
+		{
+			"check": "Real ranged/support primary attack hits: tarin",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: pinning_shot",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: split_fletching",
+			"pass": true
+		},
+		{
+			"check": "Switch active role: ilyra",
+			"pass": true
+		},
+		{
+			"check": "Only player and one companion are combat allies",
+			"pass": true
+		},
+		{
+			"check": "Real ranged/support primary attack hits: ilyra",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: frost_bind",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: ember_mark",
+			"pass": true
+		},
+		{
+			"check": "Switch active role: sera",
+			"pass": true
+		},
+		{
+			"check": "Only player and one companion are combat allies",
+			"pass": true
+		},
+		{
+			"check": "Real ranged/support primary attack hits: sera",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: field_dressing",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: steady_hands",
+			"pass": true
+		},
+		{
+			"check": "Sera heals and cleanses the player",
+			"pass": true
+		},
+		{
+			"check": "Restore Bren after combat-role checks",
+			"pass": true
+		},
+		{
+			"check": "Shared inventory cannot give away the player’s last worn sword",
+			"pass": true
+		},
+		{
+			"check": "A second sword can be transferred without stripping the player",
+			"pass": true
+		},
+		{
+			"check": "Melee companion refuses incompatible ranged equipment",
+			"pass": true
+		},
+		{
+			"check": "Active companion stats update on player level growth",
+			"pass": true
+		},
+		{
+			"check": "Faction has an existing merchant: hearth",
+			"pass": true
+		},
+		{
+			"check": "Completed charter unlocks real merchant equipment: hearth",
+			"pass": true
+		},
+		{
+			"check": "Hostile reputation closes faction stock: hearth",
+			"pass": true
+		},
+		{
+			"check": "Faction has an existing merchant: bough",
+			"pass": true
+		},
+		{
+			"check": "Completed charter unlocks real merchant equipment: bough",
+			"pass": true
+		},
+		{
+			"check": "Hostile reputation closes faction stock: bough",
+			"pass": true
+		},
+		{
+			"check": "Faction has an existing merchant: veil",
+			"pass": true
+		},
+		{
+			"check": "Completed charter unlocks real merchant equipment: veil",
+			"pass": true
+		},
+		{
+			"check": "Hostile reputation closes faction stock: veil",
+			"pass": true
+		},
+		{
+			"check": "Player and companion traverse terrain using movement input and obstacle routes",
+			"pass": true
+		},
+		{
+			"check": "Follower catches formation after a terrain route",
+			"pass": true
+		},
+		{
+			"check": "Eight floating-origin shifts preserve the live companion and logical position",
+			"pass": true
+		},
+		{
+			"check": "Wait order holds even when the player moves off camera",
+			"pass": true
+		},
+		{
+			"check": "Catch-up fixture is genuinely outside the perspective camera view",
+			"pass": true
+		},
+		{
+			"check": "Off-camera catch-up recovers a distant follower",
+			"pass": true
+		},
+		{
+			"check": "Billion-chunk travel keeps one active companion and unloads the camp roster",
+			"pass": true
+		},
+		{
+			"check": "Call an owned horse while accompanied",
+			"pass": true
+		},
+		{
+			"check": "Mount with an active companion",
+			"pass": true
+		},
+		{
+			"check": "Mounted input travel shares the companion follow system",
+			"pass": true
+		},
+		{
+			"check": "Companion follows mounted travel",
+			"pass": true
+		},
+		{
+			"check": "Active companion enters the player’s home",
+			"pass": true
+		},
+		{
+			"check": "Active companion exits home without blocking the doorway",
+			"pass": true
+		},
+		{
+			"check": "Companion can be downed without permanent loss",
+			"pass": true
+		},
+		{
+			"check": "Manual nearby recovery succeeds after combat",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: dispatch",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: cinder_watch",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: tarin_meeting",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: snare_hollow",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: lysa_trail",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: reed_pass",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: ilyra_meeting",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: broken_annotation",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: glass_archive",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: sera_meeting",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: field_patient",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: reed_well",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: field_hospital",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: cold_milestone",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: root_testimony",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: three_promises",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: oath_vault",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: lantern_crossing",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: bridge_stores",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: poisoned_sluice",
+			"pass": true
+		},
+		{
+			"check": "New authored site selects dry ground: witness_stone",
+			"pass": true
+		},
+		{
+			"check": "Authored placement preserves the procedural world seed",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 79
+}

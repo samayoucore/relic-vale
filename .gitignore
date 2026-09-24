@@ -1,0 +1,16 @@
+/downloads/
+/dist/
+/tools/godot/
+/tools/release/inno/
+/tools/release/templates/
+/Процесс игры/
+/relic_vale/tests/phase10_active.gd
+**/.godot/
+**/*.tmp
+**/*.log
+*.bak
+*.zip
+*.tpz
+*.exe
+*.pck
+

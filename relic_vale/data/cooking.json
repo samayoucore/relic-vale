@@ -1,0 +1,364 @@
+[
+  {
+    "id": "cook_grilled_fish",
+    "name": "Grilled fish",
+    "station": "campfire",
+    "input": {
+      "fish_minnow": 1
+    },
+    "output": "meal_grilled_fish",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 1,
+    "xp": 14
+  },
+  {
+    "id": "cook_perch_skewer",
+    "name": "Perch skewer",
+    "station": "campfire",
+    "input": {
+      "fish_sun_perch": 1,
+      "wood": 1
+    },
+    "output": "meal_perch_skewer",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 1,
+    "xp": 14
+  },
+  {
+    "id": "cook_roast_meat",
+    "name": "Roast meat",
+    "station": "campfire",
+    "input": {
+      "raw_meat": 1
+    },
+    "output": "meal_roast_meat",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 1,
+    "xp": 14
+  },
+  {
+    "id": "cook_roast_carrot",
+    "name": "Roast carrot",
+    "station": "campfire",
+    "input": {
+      "crop_carrot": 2
+    },
+    "output": "meal_roast_carrot",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 1,
+    "xp": 14
+  },
+  {
+    "id": "cook_forest_bites",
+    "name": "Forest bites",
+    "station": "campfire",
+    "input": {
+      "mushroom": 2
+    },
+    "output": "meal_forest_bites",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 1,
+    "xp": 14
+  },
+  {
+    "id": "cook_beet_broth",
+    "name": "Beet broth",
+    "station": "campfire",
+    "input": {
+      "crop_beet": 2,
+      "wild_herb": 1
+    },
+    "output": "meal_beet_broth",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 3,
+    "xp": 18
+  },
+  {
+    "id": "cook_herb_carp",
+    "name": "Herb carp",
+    "station": "cooking_pot",
+    "input": {
+      "fish_pond_carp": 1,
+      "wild_herb": 1
+    },
+    "output": "meal_herb_carp",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 5,
+    "xp": 22
+  },
+  {
+    "id": "cook_river_stew",
+    "name": "River stew",
+    "station": "cooking_pot",
+    "input": {
+      "fish_golden_dace": 1,
+      "crop_carrot": 1
+    },
+    "output": "meal_river_stew",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 5,
+    "xp": 22
+  },
+  {
+    "id": "cook_hunters_soup",
+    "name": "Hunter soup",
+    "station": "cooking_pot",
+    "input": {
+      "raw_meat": 1,
+      "mushroom": 2
+    },
+    "output": "meal_hunters_soup",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 5,
+    "xp": 22
+  },
+  {
+    "id": "cook_corn_chowder",
+    "name": "Corn chowder",
+    "station": "cooking_pot",
+    "input": {
+      "crop_corn": 2,
+      "crop_beet": 1
+    },
+    "output": "meal_corn_chowder",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 6,
+    "xp": 24
+  },
+  {
+    "id": "cook_berry_bread",
+    "name": "Berry bread",
+    "station": "cooking_pot",
+    "input": {
+      "crop_berries": 2,
+      "crop_corn": 1
+    },
+    "output": "meal_berry_bread",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 7,
+    "xp": 26
+  },
+  {
+    "id": "cook_peppered_loach",
+    "name": "Peppered loach",
+    "station": "cooking_pot",
+    "input": {
+      "fish_mud_loach": 1,
+      "crop_flower": 1
+    },
+    "output": "meal_peppered_loach",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 8,
+    "xp": 28
+  },
+  {
+    "id": "cook_garden_pot",
+    "name": "Garden pot",
+    "station": "cooking_pot",
+    "input": {
+      "crop_carrot": 1,
+      "crop_beet": 1,
+      "mushroom": 1
+    },
+    "output": "meal_garden_pot",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 8,
+    "xp": 28
+  },
+  {
+    "id": "cook_bamboo_broth",
+    "name": "Bamboo broth",
+    "station": "cooking_pot",
+    "input": {
+      "crop_bamboo": 2,
+      "wild_herb": 1
+    },
+    "output": "meal_bamboo_broth",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 10,
+    "xp": 32
+  },
+  {
+    "id": "cook_apple_glaze",
+    "name": "Apple glazed roast",
+    "station": "cooking_pot",
+    "input": {
+      "crop_apple": 2,
+      "raw_meat": 1
+    },
+    "output": "meal_apple_glaze",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 10,
+    "xp": 32
+  },
+  {
+    "id": "cook_ruby_fillet",
+    "name": "Ruby fillet",
+    "station": "cooking_pot",
+    "input": {
+      "fish_ruby_fin": 1,
+      "healing_herb": 1
+    },
+    "output": "meal_ruby_fillet",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 11,
+    "xp": 34
+  },
+  {
+    "id": "cook_cactus_tea",
+    "name": "Prickly pear tea",
+    "station": "cooking_pot",
+    "input": {
+      "crop_cactus": 2,
+      "river_herb": 1
+    },
+    "output": "meal_cactus_tea",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 12,
+    "xp": 36
+  },
+  {
+    "id": "cook_moon_soup",
+    "name": "Moon koi soup",
+    "station": "kitchen",
+    "input": {
+      "fish_moon_koi": 1,
+      "night_bloom": 1
+    },
+    "output": "meal_moon_soup",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 15,
+    "xp": 42
+  },
+  {
+    "id": "cook_mist_supper",
+    "name": "Mist supper",
+    "station": "kitchen",
+    "input": {
+      "fish_mist_darter": 1,
+      "crop_bamboo": 1
+    },
+    "output": "meal_mist_supper",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 15,
+    "xp": 42
+  },
+  {
+    "id": "cook_harvest_pie",
+    "name": "Harvest pie",
+    "station": "kitchen",
+    "input": {
+      "crop_apple": 1,
+      "crop_berries": 1,
+      "crop_corn": 2
+    },
+    "output": "meal_harvest_pie",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 16,
+    "xp": 44,
+    "unlock": "cook_harvest_pie"
+  },
+  {
+    "id": "cook_giant_feast",
+    "name": "River giant feast",
+    "station": "kitchen",
+    "input": {
+      "fish_river_giant": 1,
+      "crop_carrot": 2
+    },
+    "output": "meal_giant_feast",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 18,
+    "xp": 48
+  },
+  {
+    "id": "cook_elder_roast",
+    "name": "Elderwood roast",
+    "station": "kitchen",
+    "input": {
+      "raw_meat": 2,
+      "dawn_flower": 1,
+      "crop_beet": 1
+    },
+    "output": "meal_elder_roast",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 20,
+    "xp": 52,
+    "unlock": "cook_elder_roast"
+  },
+  {
+    "id": "cook_lantern_bisque",
+    "name": "Lantern bisque",
+    "station": "kitchen",
+    "input": {
+      "fish_lantern_fish": 1,
+      "crop_flower": 1
+    },
+    "output": "meal_lantern_bisque",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 22,
+    "xp": 56
+  },
+  {
+    "id": "cook_dawn_banquet",
+    "name": "Dawn banquet",
+    "station": "kitchen",
+    "input": {
+      "fish_dawn_mandarin": 1,
+      "dawn_flower": 1,
+      "crop_apple": 2
+    },
+    "output": "meal_dawn_banquet",
+    "count": 1,
+    "cost": 0,
+    "profession": "cooking",
+    "min_level": 25,
+    "xp": 62
+  }
+]

@@ -1,0 +1,214 @@
+{
+	"checks": [
+		{
+			"check": "First companion remains available for end-to-end regression",
+			"pass": true
+		},
+		{
+			"check": "Bren exists physically by the east road",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: help",
+			"pass": true
+		},
+		{
+			"check": "Recruitment uses the existing quest ledger",
+			"pass": true
+		},
+		{
+			"check": "Distant story object cannot be claimed remotely",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: dispatch",
+			"pass": true
+		},
+		{
+			"check": "Dispatch advances recruitment",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: welcome",
+			"pass": true
+		},
+		{
+			"check": "Bren joins and becomes the sole active companion",
+			"pass": true
+		},
+		{
+			"check": "Companion follows across terrain",
+			"pass": true
+		},
+		{
+			"check": "Wait holds position",
+			"pass": true
+		},
+		{
+			"check": "Companion damages a real elite enemy",
+			"pass": true
+		},
+		{
+			"check": "Both distinctive combat abilities activate",
+			"pass": true
+		},
+		{
+			"check": "Hold the Line draws enemy attacks",
+			"pass": true
+		},
+		{
+			"check": "Enemy attacks can damage companion",
+			"pass": true
+		},
+		{
+			"check": "Friendly companion attacks do not damage player",
+			"pass": true
+		},
+		{
+			"check": "Companion enters downed state instead of permanent death",
+			"pass": true
+		},
+		{
+			"check": "Nearby player can revive after combat",
+			"pass": true
+		},
+		{
+			"check": "Revival restores a living companion",
+			"pass": true
+		},
+		{
+			"check": "Find legal camp site for personal conversations",
+			"pass": true
+		},
+		{
+			"check": "Establish actual camp",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: letters",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: listen",
+			"pass": true
+		},
+		{
+			"check": "Camp conversation begins the first personal quest",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: watch_letters",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: return_letters",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: kind",
+			"pass": true
+		},
+		{
+			"check": "Letters quest resolves through camp return",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: watchfire",
+			"pass": true
+		},
+		{
+			"check": "Cinder Watch contains a persistent guard encounter",
+			"pass": true
+		},
+		{
+			"check": "Companion wins the quest encounter through normal combat",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: watch_brazier",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: return_fire",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: consider",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: oath",
+			"pass": true
+		},
+		{
+			"check": "Choose dialogue: shelter",
+			"pass": true
+		},
+		{
+			"check": "All three personal quests complete through authored dialogue",
+			"pass": true
+		},
+		{
+			"check": "Choice records persistent faction consequence",
+			"pass": true
+		},
+		{
+			"check": "Opposite choice cannot replay consequence from stale dialogue",
+			"pass": true
+		},
+		{
+			"check": "Equip the personal story reward",
+			"pass": true
+		},
+		{
+			"check": "Equipped companion item leaves shared inventory",
+			"pass": true
+		},
+		{
+			"check": "Companion catches up with player level",
+			"pass": true
+		},
+		{
+			"check": "Companion survives distant logical teleport",
+			"pass": true
+		},
+		{
+			"check": "Authored site visibly becomes a shelter after branch",
+			"pass": true
+		},
+		{
+			"check": "Defeated story enemy stays absent after unload",
+			"pass": true
+		},
+		{
+			"check": "Companion follows into a camp interior",
+			"pass": true
+		},
+		{
+			"check": "Companion returns outside with player",
+			"pass": true
+		},
+		{
+			"check": "Version 9 snapshot validates",
+			"pass": true
+		},
+		{
+			"check": "Malformed approval is rejected",
+			"pass": true
+		},
+		{
+			"check": "Unknown active companion is rejected",
+			"pass": true
+		},
+		{
+			"check": "Version 8 save remains accepted",
+			"pass": true
+		},
+		{
+			"check": "Write isolated companion fixture",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 52
+}

@@ -1,0 +1,124 @@
+{
+  "release": "0.9",
+  "date": "2026-09-14",
+  "passed": 570,
+  "failed": 0,
+  "runs": [
+    {
+      "name": "First companion slice",
+      "passed": 52,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_SLICE_TESTS.json",
+      "log": "phase9-slice-final.log",
+      "log_sha256": "8545fef80dc92790d8d116ca4ef03291223cbabe97d43933d6c1e10420ff6320",
+      "completed_at": "2026-09-14T06:50:47.729Z"
+    },
+    {
+      "name": "First companion fresh reload",
+      "passed": 7,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_RELOAD_TESTS.json",
+      "log": "phase9-reload-final.log",
+      "log_sha256": "066b7008f4299b7cc66c66137e900a9a444865c4e73dd4d631dc827d8932de03",
+      "completed_at": "2026-09-14T06:52:02.319Z"
+    },
+    {
+      "name": "Complete expanded story",
+      "passed": 215,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_STORIES_TESTS.json",
+      "log": "phase9-stories-final.log",
+      "log_sha256": "3c1f94e02bfe6b29c0db54263bba55c390f228ca8d75fcf6368951713850ed1b",
+      "completed_at": "2026-09-14T06:59:43.967Z"
+    },
+    {
+      "name": "Expanded story fresh reload",
+      "passed": 40,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_STORIES_RELOAD_TESTS.json",
+      "log": "phase9-stories-reload-final.log",
+      "log_sha256": "57c85d236be9f4d888c72ef59b828479e92310210b3013b16062ae3816f42b33",
+      "completed_at": "2026-09-14T11:54:05.026Z"
+    },
+    {
+      "name": "Contextual world events",
+      "passed": 95,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_EVENTS_TESTS.json",
+      "log": "phase9-events-camera.log",
+      "log_sha256": "6325886578dee7b3a4e1bb88472e7719ec9bcdd1bd384961b16b18311608c496",
+      "completed_at": "2026-09-14T11:59:03.026Z"
+    },
+    {
+      "name": "Events fresh reload",
+      "passed": 13,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_EVENTS_RELOAD_TESTS.json",
+      "log": "phase9-events-reload-camera.log",
+      "log_sha256": "457cbe63bf2b44028f883d8ccc378bdb99503800e2e1245c68357b06400f9a0b",
+      "completed_at": "2026-09-14T11:59:47.804Z"
+    },
+    {
+      "name": "Companion gameplay and transitions",
+      "passed": 79,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_ACCEPTANCE_TESTS.json",
+      "log": "phase9-acceptance-camera.log",
+      "log_sha256": "5ece3468d3ddb301704a6e7cc22add0c886a6aa4e3a56eea390f406bdf84b3b8",
+      "completed_at": "2026-09-14T11:59:41.515Z"
+    },
+    {
+      "name": "720p interface and input",
+      "passed": 14,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_POLISH_TESTS.json",
+      "log": "phase9-polish-final.log",
+      "log_sha256": "c986047870e734d65d0cc097743ec719da6f8aae3566633fc7b0dc1071311592",
+      "completed_at": "2026-09-14T11:52:25.791Z"
+    },
+    {
+      "name": "Horizon, foreground, containment and camp clearance",
+      "passed": 35,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_CAMERA_TESTS.json",
+      "log": "phase9-camera-final.log",
+      "log_sha256": "c53383f4494618b3cd3e864ddb8f81fb921d6534d4f1a2d81eec9a42f87c9648",
+      "completed_at": "2026-09-14T11:54:06.981Z"
+    },
+    {
+      "name": "Camp clearance fresh reload",
+      "passed": 5,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": "PHASE_9_CAMERA_RELOAD_TESTS.json",
+      "log": "phase9-camera-reload.log",
+      "log_sha256": "fd404d5c9c3df034d8637084f392fdfdb0a06b353601a00810677a3135e00b5c",
+      "completed_at": "2026-09-14T11:54:57.552Z"
+    },
+    {
+      "name": "Phase 8 profession/interior regression",
+      "passed": 15,
+      "failed": 0,
+      "engine_errors": 0,
+      "receipt": null,
+      "log": "phase9-phase8-regression.log",
+      "log_sha256": "c32bbdfd4e7788ca9dff8a3f3eede4c863d4fee0525fccc63c192b8ad0db3619",
+      "completed_at": "2026-09-14T06:51:10.788Z"
+    }
+  ],
+  "notes": [
+    "The first-companion slice preceded roster expansion; the expanded run completes all 35 added quests.",
+    "After the camera/camp changes, the event, acceptance, polish, camera, camera-reload and expanded-story-reload suites were run again.",
+    "Tests use isolated fixtures, controlled teleportation/materials and player invulnerability; these are integration checks, not human balance playtesting.",
+    "Graphical runs use the bundled OpenGL Compatibility renderer and Dummy audio; audible output is unverified."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "25f30b975ca01d477a142217baa86c7a8b9114e396145829330d18cdaccbd1d4  RelicVale-0.10.0-Setup.exe",
+    "2ada095cfa10de1c564e3b5099a94ac71941d6099fb7e4dabce3c38cfb664b04  RelicVale-0.10.0-Portable.zip",
+    "6393d196ce70505b1bd5a241292a8b896bb72257c68fabf12572bd08d1d57897  README.txt",
+    "6a2e755e057a908191d5d98e8ff3b74b66c6f1b288dae535e5f2b2f8de20e7bd  RELEASE_NOTES.txt",
+    "f77c684e9be691c8db6a90e7cc3cf327fa98547651b08be6b6a718a707dca6f5  THIRD_PARTY_LICENSES.txt",
+    "3421fe69f33add3ad4bfdd839e2fbfd1630a40e354c86b2ce16a985ce11681c7  LICENSE.txt"
+  ],
+  "debug": false,
+  "pck_audit": {
+    "file_count": 1118,
+    "bytes": 31427052,
+    "sha256": "06ba2133839570460b41ff61b85c8cd617efe341bea505f531fd0333c30e1006"
+  },
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "architecture": "x86_64",
+  "signed": false,
+  "timestamp": "2026-09-24T07:14:36.0354705Z",
+  "version": "0.10.0"
+}

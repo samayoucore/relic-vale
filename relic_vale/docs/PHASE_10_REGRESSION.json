@@ -1,0 +1,50 @@
+[
+  {
+    "log_errors": false,
+    "name": "phase9-stories-reload",
+    "exit_code": 0,
+    "result": [
+      "PHASE9_STORIES_RESULT 40 passed / 0 failed"
+    ]
+  },
+  {
+    "log_errors": false,
+    "name": "phase9-events-reload",
+    "exit_code": 0,
+    "result": [
+      "PHASE9_EVENTS_RESULT 13 passed / 0 failed"
+    ]
+  },
+  {
+    "log_errors": false,
+    "name": "phase8-test",
+    "exit_code": 0,
+    "result": [
+      "PHASE8_RESULT 74 passed / 0 failed"
+    ]
+  },
+  {
+    "log_errors": false,
+    "name": "phase8-reload",
+    "exit_code": 0,
+    "result": [
+      "PHASE8_RESULT 6 passed / 0 failed"
+    ]
+  },
+  {
+    "log_errors": false,
+    "name": "phase8-final",
+    "exit_code": 0,
+    "result": [
+      "PHASE8_FINAL_RESULT 15 passed / 0 failed"
+    ]
+  },
+  {
+    "log_errors": false,
+    "name": "phase9-polish",
+    "exit_code": 0,
+    "result": [
+      "PHASE9_POLISH_RESULT 14 passed / 0 failed"
+    ]
+  }
+]

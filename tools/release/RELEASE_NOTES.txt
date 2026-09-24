@@ -1,0 +1,13 @@
+RELIC VALE 0.10.0 — RELEASE PREPARATION
+
+Windows x86_64 release export, per-user installer, uninstaller, Start Menu shortcuts and portable ZIP.
+Safe Mode launch, version/support information, save/log folder access and player guide.
+Save validation before replacement, full chunk integrity checks, atomic chunk writes and recovery.
+Invalid numeric save/settings values are rejected. Existing version 2–9 saves retain migration support.
+Developer shortcuts and test arguments are disabled in release builds.
+First-steps guide and clearer mount controls. Save previews for manual saves.
+Music transitions crossfade; master output is limited to prevent clipping.
+Camera horizon haze, camera-volume object hiding, foreground blur and camp clearing are preserved.
+
+Acceptance platform: the user's Windows 10 PC, as requested. See development QA records for measured scope.
+There are no new major gameplay systems in this version.

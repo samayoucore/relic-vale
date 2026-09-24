@@ -1,0 +1,146 @@
+{
+  "carrot": {
+    "id": "carrot",
+    "name": "Carrot",
+    "min_level": 1,
+    "minutes": 180,
+    "yield": 3,
+    "seed": "seed_carrot",
+    "item": "crop_carrot",
+    "model": "Carrot",
+    "height": 0.5,
+    "stages": [
+      0,
+      0.12,
+      0.38,
+      0.7,
+      1
+    ]
+  },
+  "beet": {
+    "id": "beet",
+    "name": "Beet",
+    "min_level": 1,
+    "minutes": 240,
+    "yield": 3,
+    "seed": "seed_beet",
+    "item": "crop_beet",
+    "model": "Beet",
+    "height": 0.55,
+    "stages": [
+      0,
+      0.12,
+      0.38,
+      0.7,
+      1
+    ]
+  },
+  "corn": {
+    "id": "corn",
+    "name": "Corn",
+    "min_level": 5,
+    "minutes": 420,
+    "yield": 4,
+    "seed": "seed_corn",
+    "item": "crop_corn",
+    "model": "Corn",
+    "height": 1.3,
+    "stages": [
+      0,
+      0.12,
+      0.38,
+      0.7,
+      1
+    ]
+  },
+  "berries": {
+    "id": "berries",
+    "name": "Berries",
+    "min_level": 5,
+    "minutes": 480,
+    "yield": 4,
+    "seed": "seed_berries",
+    "item": "crop_berries",
+    "model": "BushBerries",
+    "height": 0.8,
+    "stages": [
+      0,
+      0.12,
+      0.38,
+      0.7,
+      1
+    ]
+  },
+  "bamboo": {
+    "id": "bamboo",
+    "name": "Bamboo shoots",
+    "min_level": 10,
+    "minutes": 540,
+    "yield": 3,
+    "seed": "seed_bamboo",
+    "item": "crop_bamboo",
+    "model": "Bamboo",
+    "height": 1.4,
+    "stages": [
+      0,
+      0.12,
+      0.38,
+      0.7,
+      1
+    ]
+  },
+  "apple": {
+    "id": "apple",
+    "name": "Apple",
+    "min_level": 10,
+    "minutes": 720,
+    "yield": 4,
+    "seed": "seed_apple",
+    "item": "crop_apple",
+    "model": "Apple",
+    "height": 1.55,
+    "stages": [
+      0,
+      0.12,
+      0.38,
+      0.7,
+      1
+    ]
+  },
+  "cactus": {
+    "id": "cactus",
+    "name": "Prickly pear",
+    "min_level": 12,
+    "minutes": 600,
+    "yield": 3,
+    "seed": "seed_cactus",
+    "item": "crop_cactus",
+    "model": "Cactus",
+    "height": 0.9,
+    "stages": [
+      0,
+      0.12,
+      0.38,
+      0.7,
+      1
+    ]
+  },
+  "flower": {
+    "id": "flower",
+    "name": "Sunpetal",
+    "min_level": 15,
+    "minutes": 660,
+    "yield": 3,
+    "seed": "seed_flower",
+    "item": "crop_flower",
+    "model": "Flower",
+    "height": 0.75,
+    "stages": [
+      0,
+      0.12,
+      0.38,
+      0.7,
+      1
+    ]
+  }
+}

@@ -1,0 +1,1029 @@
+{
+  "fish_minnow": {
+    "id": "fish_minnow",
+    "name": "Silver minnow",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Common fish. Fresh water · any · any. Cooking ingredient. Fishing 1.",
+    "icon": "leaf",
+    "base_price": 5,
+    "model": "res://assets/3d/phase8/cutefish/Tetra.glb",
+    "material_category": "Fish"
+  },
+  "fish_golden_dace": {
+    "id": "fish_golden_dace",
+    "name": "Golden dace",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Common fish. river · any · any. Cooking ingredient. Fishing 1.",
+    "icon": "leaf",
+    "base_price": 6,
+    "model": "res://assets/3d/phase8/cutefish/Goldfish.glb",
+    "material_category": "Fish"
+  },
+  "fish_pond_carp": {
+    "id": "fish_pond_carp",
+    "name": "Pond carp",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Common fish. lake · any · any. Cooking ingredient. Fishing 1.",
+    "icon": "leaf",
+    "base_price": 7,
+    "model": "res://assets/3d/phase8/cutefish/Koi.glb",
+    "material_category": "Fish"
+  },
+  "fish_sun_perch": {
+    "id": "fish_sun_perch",
+    "name": "Sun perch",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Common fish. Fresh water · any · any. Cooking ingredient. Fishing 1.",
+    "icon": "leaf",
+    "base_price": 7,
+    "model": "res://assets/3d/phase8/cutefish/Sunfish.glb",
+    "material_category": "Fish"
+  },
+  "fish_mud_loach": {
+    "id": "fish_mud_loach",
+    "name": "Mud loach",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Common fish. river · any · any. Cooking ingredient. Fishing 3.",
+    "icon": "leaf",
+    "base_price": 8,
+    "model": "res://assets/3d/phase8/cutefish/ArmoredCatfish.glb",
+    "material_category": "Fish"
+  },
+  "fish_ruby_fin": {
+    "id": "fish_ruby_fin",
+    "name": "Ruby fin",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Uncommon fish. river · day · any. Cooking ingredient. Fishing 5.",
+    "icon": "leaf",
+    "base_price": 12,
+    "model": "res://assets/3d/phase8/cutefish/CardinalFish.glb",
+    "material_category": "Fish"
+  },
+  "fish_reed_betta": {
+    "id": "fish_reed_betta",
+    "name": "Reed betta",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Uncommon fish. lake · any · any. Cooking ingredient. Fishing 5.",
+    "icon": "leaf",
+    "base_price": 13,
+    "model": "res://assets/3d/phase8/cutefish/Betta.glb",
+    "material_category": "Fish"
+  },
+  "fish_blue_carp": {
+    "id": "fish_blue_carp",
+    "name": "Blue carp",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Uncommon fish. lake · dawn · any. Cooking ingredient. Fishing 6.",
+    "icon": "leaf",
+    "base_price": 14,
+    "model": "res://assets/3d/phase8/cutefish/BlueGoldfish.glb",
+    "material_category": "Fish"
+  },
+  "fish_thorn_pike": {
+    "id": "fish_thorn_pike",
+    "name": "Thorn pike",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Uncommon fish. river · any · Rain. Cooking ingredient. Fishing 7.",
+    "icon": "leaf",
+    "base_price": 17,
+    "model": "res://assets/3d/phase8/cutefish/Piranha.glb",
+    "material_category": "Fish"
+  },
+  "fish_amber_bream": {
+    "id": "fish_amber_bream",
+    "name": "Amber bream",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Uncommon fish. Fresh water · day · any. Cooking ingredient. Fishing 8.",
+    "icon": "leaf",
+    "base_price": 16,
+    "model": "res://assets/3d/phase8/cutefish/FlowerHorn.glb",
+    "material_category": "Fish"
+  },
+  "fish_moon_koi": {
+    "id": "fish_moon_koi",
+    "name": "Moon koi",
+    "kind": "material",
+    "rarity": "Rare",
+    "description": "Rare fish. lake · night · any. Cooking ingredient. Fishing 10.",
+    "icon": "leaf",
+    "base_price": 28,
+    "model": "res://assets/3d/phase8/cutefish/Koi.glb",
+    "material_category": "Fish"
+  },
+  "fish_mist_darter": {
+    "id": "fish_mist_darter",
+    "name": "Mist darter",
+    "kind": "material",
+    "rarity": "Rare",
+    "description": "Rare fish. river · any · Fog. Cooking ingredient. Fishing 10.",
+    "icon": "leaf",
+    "base_price": 28,
+    "model": "res://assets/3d/phase8/cutefish/BlueTang.glb",
+    "material_category": "Fish"
+  },
+  "fish_stone_flatfish": {
+    "id": "fish_stone_flatfish",
+    "name": "Stone flatfish",
+    "kind": "material",
+    "rarity": "Rare",
+    "description": "Rare fish. river · any · any. Cooking ingredient. Fishing 12.",
+    "icon": "leaf",
+    "base_price": 25,
+    "model": "res://assets/3d/phase8/cutefish/Flatfish.glb",
+    "material_category": "Fish"
+  },
+  "fish_copper_snapper": {
+    "id": "fish_copper_snapper",
+    "name": "Copper snapper",
+    "kind": "material",
+    "rarity": "Rare",
+    "description": "Rare fish. lake · day · any. Cooking ingredient. Fishing 12.",
+    "icon": "leaf",
+    "base_price": 29,
+    "model": "res://assets/3d/phase8/cutefish/RedSnapper.glb",
+    "material_category": "Fish"
+  },
+  "fish_elder_grouper": {
+    "id": "fish_elder_grouper",
+    "name": "Elder grouper",
+    "kind": "material",
+    "rarity": "Rare",
+    "description": "Rare fish. lake · any · any. Cooking ingredient. Fishing 15.",
+    "icon": "leaf",
+    "base_price": 35,
+    "model": "res://assets/3d/phase8/cutefish/CoralGrouper.glb",
+    "material_category": "Fish"
+  },
+  "fish_river_giant": {
+    "id": "fish_river_giant",
+    "name": "River giant",
+    "kind": "material",
+    "rarity": "Rare",
+    "description": "Rare fish. river · any · Rain. Cooking ingredient. Fishing 15.",
+    "icon": "leaf",
+    "base_price": 40,
+    "model": "res://assets/3d/phase8/cutefish/Tuna.glb",
+    "material_category": "Fish"
+  },
+  "fish_violet_turbot": {
+    "id": "fish_violet_turbot",
+    "name": "Violet turbot",
+    "kind": "material",
+    "rarity": "Epic",
+    "description": "Epic fish. lake · night · any. Cooking ingredient. Fishing 17.",
+    "icon": "leaf",
+    "base_price": 50,
+    "model": "res://assets/3d/phase8/cutefish/Turbot.glb",
+    "material_category": "Fish"
+  },
+  "fish_lantern_fish": {
+    "id": "fish_lantern_fish",
+    "name": "Lantern fish",
+    "kind": "material",
+    "rarity": "Epic",
+    "description": "Epic fish. Fresh water · night · Fog. Cooking ingredient. Fishing 20.",
+    "icon": "leaf",
+    "base_price": 65,
+    "model": "res://assets/3d/phase8/cutefish/Anglerfish.glb",
+    "material_category": "Fish"
+  },
+  "fish_storm_puffer": {
+    "id": "fish_storm_puffer",
+    "name": "Storm puffer",
+    "kind": "material",
+    "rarity": "Epic",
+    "description": "Epic fish. lake · any · Storm. Cooking ingredient. Fishing 20.",
+    "icon": "leaf",
+    "base_price": 70,
+    "model": "res://assets/3d/phase8/cutefish/Puffer.glb",
+    "material_category": "Fish"
+  },
+  "fish_dawn_mandarin": {
+    "id": "fish_dawn_mandarin",
+    "name": "Dawn mandarin",
+    "kind": "material",
+    "rarity": "Legendary",
+    "description": "Legendary fish. river · dawn · Clear. Cooking ingredient. Fishing 23.",
+    "icon": "leaf",
+    "base_price": 95,
+    "model": "res://assets/3d/phase8/cutefish/MandarinFish.glb",
+    "material_category": "Fish"
+  },
+  "bait_basic": {
+    "id": "bait_basic",
+    "name": "Dough bait",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Dough bait. Everyday freshwater bait.",
+    "icon": "leaf",
+    "base_price": 2,
+    "material_category": "Fishing",
+    "model": "res://assets/3d/phase8/cutefish/Lure_1.glb",
+    "bait": {
+      "wait": 1,
+      "rare": 1,
+      "min_level": 1,
+      "target_water": "any"
+    }
+  },
+  "bait_insect": {
+    "id": "bait_insect",
+    "name": "River insect bait",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "River insect bait. Faster bites; favors river species.",
+    "icon": "leaf",
+    "base_price": 3,
+    "material_category": "Fishing",
+    "model": "res://assets/3d/phase8/cutefish/Worm.glb",
+    "bait": {
+      "wait": 0.7,
+      "rare": 1.35,
+      "min_level": 1,
+      "target_water": "river"
+    }
+  },
+  "bait_rare": {
+    "id": "bait_rare",
+    "name": "Moon lure bait",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Moon lure bait. Improved rare odds. Fishing 10 required.",
+    "icon": "leaf",
+    "base_price": 5,
+    "material_category": "Fishing",
+    "model": "res://assets/3d/phase8/cutefish/Lure_3.glb",
+    "bait": {
+      "wait": 0.55,
+      "rare": 2,
+      "min_level": 10,
+      "target_water": "any"
+    }
+  },
+  "fishing_rod_1": {
+    "id": "fishing_rod_1",
+    "name": "Willow fishing rod",
+    "kind": "tool",
+    "rarity": "Common",
+    "description": "Equip in Tool. Face fresh water and press E to cast. Hold Space / left mouse to move the catch zone right; release to move left.",
+    "icon": "staff",
+    "base_price": 15,
+    "slot": "Tool",
+    "tool": "rod",
+    "tier": 1,
+    "stats": {},
+    "model": "res://assets/3d/phase8/cutefish/FishingRod_Lvl1.glb"
+  },
+  "fishing_rod_2": {
+    "id": "fishing_rod_2",
+    "name": "Reinforced fishing rod",
+    "kind": "tool",
+    "rarity": "Common",
+    "description": "Equip in Tool. Face fresh water and press E to cast. Hold Space / left mouse to move the catch zone right; release to move left.",
+    "icon": "staff",
+    "base_price": 80,
+    "slot": "Tool",
+    "tool": "rod",
+    "tier": 2,
+    "stats": {},
+    "model": "res://assets/3d/phase8/cutefish/FishingRod_Lvl2.glb"
+  },
+  "fishing_rod_3": {
+    "id": "fishing_rod_3",
+    "name": "Moonsteel fishing rod",
+    "kind": "tool",
+    "rarity": "Common",
+    "description": "Equip in Tool. Face fresh water and press E to cast. Hold Space / left mouse to move the catch zone right; release to move left.",
+    "icon": "staff",
+    "base_price": 220,
+    "slot": "Tool",
+    "tool": "rod",
+    "tier": 3,
+    "stats": {},
+    "model": "res://assets/3d/phase8/cutefish/FishingRod_Lvl3.glb"
+  },
+  "watering_can": {
+    "id": "watering_can",
+    "name": "Watering can",
+    "kind": "tool",
+    "rarity": "Common",
+    "description": "Equip in Tool and use E at a planted bed. One watering keeps soil moist for 8 game hours.",
+    "icon": "leaf",
+    "base_price": 18,
+    "slot": "Tool",
+    "tool": "watering",
+    "tier": 1,
+    "stats": {},
+    "model": "res://assets/3d/phase8/tools/WateringCan.glb"
+  },
+  "seed_carrot": {
+    "id": "seed_carrot",
+    "name": "Carrot seeds",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Plant in a prepared camp bed. Farming 1; 180 moist game minutes to harvest.",
+    "icon": "leaf",
+    "base_price": 2,
+    "material_category": "Seeds"
+  },
+  "crop_carrot": {
+    "id": "crop_carrot",
+    "name": "Carrot",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Carrot. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 4,
+    "material_category": "Crops",
+    "model": "res://assets/3d/phase8/ultimatecrops/Carrot_Crop.glb"
+  },
+  "seed_beet": {
+    "id": "seed_beet",
+    "name": "Beet seeds",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Plant in a prepared camp bed. Farming 1; 240 moist game minutes to harvest.",
+    "icon": "leaf",
+    "base_price": 3,
+    "material_category": "Seeds"
+  },
+  "crop_beet": {
+    "id": "crop_beet",
+    "name": "Beet",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Beet. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 5,
+    "material_category": "Crops",
+    "model": "res://assets/3d/phase8/ultimatecrops/Beet_Crop.glb"
+  },
+  "seed_corn": {
+    "id": "seed_corn",
+    "name": "Corn seeds",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Plant in a prepared camp bed. Farming 5; 420 moist game minutes to harvest.",
+    "icon": "leaf",
+    "base_price": 3,
+    "material_category": "Seeds"
+  },
+  "crop_corn": {
+    "id": "crop_corn",
+    "name": "Corn",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Corn. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 5,
+    "material_category": "Crops",
+    "model": "res://assets/3d/phase8/ultimatecrops/Corn_Crop.glb"
+  },
+  "seed_berries": {
+    "id": "seed_berries",
+    "name": "Berries seeds",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Plant in a prepared camp bed. Farming 5; 480 moist game minutes to harvest.",
+    "icon": "leaf",
+    "base_price": 4,
+    "material_category": "Seeds"
+  },
+  "crop_berries": {
+    "id": "crop_berries",
+    "name": "Berries",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Berries. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 7,
+    "material_category": "Crops",
+    "model": "res://assets/3d/phase8/ultimatecrops/BushBerries_Crop.glb"
+  },
+  "seed_bamboo": {
+    "id": "seed_bamboo",
+    "name": "Bamboo shoots seeds",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Plant in a prepared camp bed. Farming 10; 540 moist game minutes to harvest.",
+    "icon": "leaf",
+    "base_price": 5,
+    "material_category": "Seeds"
+  },
+  "crop_bamboo": {
+    "id": "crop_bamboo",
+    "name": "Bamboo shoots",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Bamboo shoots. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 9,
+    "material_category": "Crops",
+    "model": "res://assets/3d/phase8/ultimatecrops/Bamboo_Crop.glb"
+  },
+  "seed_apple": {
+    "id": "seed_apple",
+    "name": "Apple seeds",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Plant in a prepared camp bed. Farming 10; 720 moist game minutes to harvest.",
+    "icon": "leaf",
+    "base_price": 4,
+    "material_category": "Seeds"
+  },
+  "crop_apple": {
+    "id": "crop_apple",
+    "name": "Apple",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Apple. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 8,
+    "material_category": "Crops",
+    "model": "res://assets/3d/phase8/ultimatecrops/Apple_Crop.glb"
+  },
+  "seed_cactus": {
+    "id": "seed_cactus",
+    "name": "Prickly pear seeds",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Plant in a prepared camp bed. Farming 12; 600 moist game minutes to harvest.",
+    "icon": "leaf",
+    "base_price": 6,
+    "material_category": "Seeds"
+  },
+  "crop_cactus": {
+    "id": "crop_cactus",
+    "name": "Prickly pear",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Prickly pear. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 10,
+    "material_category": "Crops",
+    "model": "res://assets/3d/phase8/ultimatecrops/Cactus_Crop.glb"
+  },
+  "seed_flower": {
+    "id": "seed_flower",
+    "name": "Sunpetal seeds",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Plant in a prepared camp bed. Farming 15; 660 moist game minutes to harvest.",
+    "icon": "leaf",
+    "base_price": 7,
+    "material_category": "Seeds"
+  },
+  "crop_flower": {
+    "id": "crop_flower",
+    "name": "Sunpetal",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Sunpetal. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 12,
+    "material_category": "Crops",
+    "model": "res://assets/3d/phase8/ultimatecrops/Flowers_Crop.glb"
+  },
+  "meal_grilled_fish": {
+    "id": "meal_grilled_fish",
+    "name": "Grilled fish",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 20 HP. gather speed +5% for 132 game minutes. Replaces your current food buff. Cooking 1 · campfire.",
+    "icon": "leaf",
+    "base_price": 4,
+    "heal": 20,
+    "model": "res://assets/3d/phase8/ultimatefood/Fish.glb",
+    "food": {
+      "stat": "gather_speed",
+      "value": 0.05,
+      "minutes": 132
+    }
+  },
+  "meal_perch_skewer": {
+    "id": "meal_perch_skewer",
+    "name": "Perch skewer",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 25 HP. max hp +8 for 132 game minutes. Replaces your current food buff. Cooking 1 · campfire.",
+    "icon": "leaf",
+    "base_price": 11,
+    "heal": 25,
+    "model": "res://assets/3d/phase8/ultimatefood/Fish.glb",
+    "food": {
+      "stat": "max_hp",
+      "value": 8,
+      "minutes": 132
+    }
+  },
+  "meal_roast_meat": {
+    "id": "meal_roast_meat",
+    "name": "Roast meat",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 30 HP. damage percent +5% for 132 game minutes. Replaces your current food buff. Cooking 1 · campfire.",
+    "icon": "leaf",
+    "base_price": 7,
+    "heal": 30,
+    "model": "res://assets/3d/phase8/ultimatefood/ChickenLeg.glb",
+    "food": {
+      "stat": "damage_percent",
+      "value": 0.05,
+      "minutes": 132
+    }
+  },
+  "meal_roast_carrot": {
+    "id": "meal_roast_carrot",
+    "name": "Roast carrot",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 18 HP. move percent +4% for 132 game minutes. Replaces your current food buff. Cooking 1 · campfire.",
+    "icon": "leaf",
+    "base_price": 7,
+    "heal": 18,
+    "model": "res://assets/3d/phase8/ultimatefood/Carrot.glb",
+    "food": {
+      "stat": "move_percent",
+      "value": 0.04,
+      "minutes": 132
+    }
+  },
+  "meal_forest_bites": {
+    "id": "meal_forest_bites",
+    "name": "Forest bites",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 18 HP. profession xp +5% for 132 game minutes. Replaces your current food buff. Cooking 1 · campfire.",
+    "icon": "leaf",
+    "base_price": 13,
+    "heal": 18,
+    "model": "res://assets/3d/phase8/ultimatefood/Bread.glb",
+    "food": {
+      "stat": "profession_xp",
+      "value": 0.05,
+      "minutes": 132
+    }
+  },
+  "meal_beet_broth": {
+    "id": "meal_beet_broth",
+    "name": "Beet broth",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 22 HP. max hp +10 for 156 game minutes. Replaces your current food buff. Cooking 3 · campfire.",
+    "icon": "leaf",
+    "base_price": 15,
+    "heal": 22,
+    "model": "res://assets/3d/phase8/ultimatefood/CookingPot_Soup.glb",
+    "food": {
+      "stat": "max_hp",
+      "value": 10,
+      "minutes": 156
+    }
+  },
+  "meal_herb_carp": {
+    "id": "meal_herb_carp",
+    "name": "Herb carp",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 32 HP. fishing luck +8% for 180 game minutes. Replaces your current food buff. Cooking 5 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 12,
+    "heal": 32,
+    "model": "res://assets/3d/phase8/ultimatefood/Fish.glb",
+    "food": {
+      "stat": "fishing_luck",
+      "value": 0.08,
+      "minutes": 180
+    }
+  },
+  "meal_river_stew": {
+    "id": "meal_river_stew",
+    "name": "River stew",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 35 HP. gather speed +8% for 180 game minutes. Replaces your current food buff. Cooking 5 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 9,
+    "heal": 35,
+    "model": "res://assets/3d/phase8/ultimatefood/CookingPot_Soup.glb",
+    "food": {
+      "stat": "gather_speed",
+      "value": 0.08,
+      "minutes": 180
+    }
+  },
+  "meal_hunters_soup": {
+    "id": "meal_hunters_soup",
+    "name": "Hunter soup",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 40 HP. max hp +15 for 180 game minutes. Replaces your current food buff. Cooking 5 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 20,
+    "heal": 40,
+    "model": "res://assets/3d/phase8/ultimatefood/CookingPot_Soup.glb",
+    "food": {
+      "stat": "max_hp",
+      "value": 15,
+      "minutes": 180
+    }
+  },
+  "meal_corn_chowder": {
+    "id": "meal_corn_chowder",
+    "name": "Corn chowder",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 30 HP. profession xp +8% for 192 game minutes. Replaces your current food buff. Cooking 6 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 14,
+    "heal": 30,
+    "model": "res://assets/3d/phase8/ultimatefood/CookingPot_Soup.glb",
+    "food": {
+      "stat": "profession_xp",
+      "value": 0.08,
+      "minutes": 192
+    }
+  },
+  "meal_berry_bread": {
+    "id": "meal_berry_bread",
+    "name": "Berry bread",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 25 HP. move percent +6% for 204 game minutes. Replaces your current food buff. Cooking 7 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 18,
+    "heal": 25,
+    "model": "res://assets/3d/phase8/ultimatefood/Bread.glb",
+    "food": {
+      "stat": "move_percent",
+      "value": 0.06,
+      "minutes": 204
+    }
+  },
+  "meal_peppered_loach": {
+    "id": "meal_peppered_loach",
+    "name": "Peppered loach",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 38 HP. damage percent +8% for 216 game minutes. Replaces your current food buff. Cooking 8 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 19,
+    "heal": 38,
+    "model": "res://assets/3d/phase8/ultimatefood/Fish.glb",
+    "food": {
+      "stat": "damage_percent",
+      "value": 0.08,
+      "minutes": 216
+    }
+  },
+  "meal_garden_pot": {
+    "id": "meal_garden_pot",
+    "name": "Garden pot",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 35 HP. max hp +18 for 216 game minutes. Replaces your current food buff. Cooking 8 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 15,
+    "heal": 35,
+    "model": "res://assets/3d/phase8/ultimatefood/CookingPot_Soup.glb",
+    "food": {
+      "stat": "max_hp",
+      "value": 18,
+      "minutes": 216
+    }
+  },
+  "meal_bamboo_broth": {
+    "id": "meal_bamboo_broth",
+    "name": "Bamboo broth",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 35 HP. fishing luck +12% for 240 game minutes. Replaces your current food buff. Cooking 10 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 22,
+    "heal": 35,
+    "model": "res://assets/3d/phase8/ultimatefood/CookingPot_Soup.glb",
+    "food": {
+      "stat": "fishing_luck",
+      "value": 0.12,
+      "minutes": 240
+    }
+  },
+  "meal_apple_glaze": {
+    "id": "meal_apple_glaze",
+    "name": "Apple glazed roast",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 45 HP. gather speed +10% for 240 game minutes. Replaces your current food buff. Cooking 10 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 22,
+    "heal": 45,
+    "model": "res://assets/3d/phase8/ultimatefood/ChickenLeg.glb",
+    "food": {
+      "stat": "gather_speed",
+      "value": 0.1,
+      "minutes": 240
+    }
+  },
+  "meal_ruby_fillet": {
+    "id": "meal_ruby_fillet",
+    "name": "Ruby fillet",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 40 HP. damage percent +10% for 252 game minutes. Replaces your current food buff. Cooking 11 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 20,
+    "heal": 40,
+    "model": "res://assets/3d/phase8/ultimatefood/Fish.glb",
+    "food": {
+      "stat": "damage_percent",
+      "value": 0.1,
+      "minutes": 252
+    }
+  },
+  "meal_cactus_tea": {
+    "id": "meal_cactus_tea",
+    "name": "Prickly pear tea",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 30 HP. move percent +8% for 264 game minutes. Replaces your current food buff. Cooking 12 · cooking pot.",
+    "icon": "leaf",
+    "base_price": 30,
+    "heal": 30,
+    "model": "res://assets/3d/phase8/ultimatefood/Bottle1.glb",
+    "food": {
+      "stat": "move_percent",
+      "value": 0.08,
+      "minutes": 264
+    }
+  },
+  "meal_moon_soup": {
+    "id": "meal_moon_soup",
+    "name": "Moon koi soup",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 55 HP. fishing luck +18% for 300 game minutes. Replaces your current food buff. Cooking 15 · kitchen.",
+    "icon": "leaf",
+    "base_price": 47,
+    "heal": 55,
+    "model": "res://assets/3d/phase8/ultimatefood/CookingPot_Soup.glb",
+    "food": {
+      "stat": "fishing_luck",
+      "value": 0.18,
+      "minutes": 300
+    }
+  },
+  "meal_mist_supper": {
+    "id": "meal_mist_supper",
+    "name": "Mist supper",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 50 HP. profession xp +12% for 300 game minutes. Replaces your current food buff. Cooking 15 · kitchen.",
+    "icon": "leaf",
+    "base_price": 35,
+    "heal": 50,
+    "model": "res://assets/3d/phase8/ultimatefood/Fish.glb",
+    "food": {
+      "stat": "profession_xp",
+      "value": 0.12,
+      "minutes": 300
+    }
+  },
+  "meal_harvest_pie": {
+    "id": "meal_harvest_pie",
+    "name": "Harvest pie",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 50 HP. max hp +25 for 312 game minutes. Replaces your current food buff. Cooking 16 · kitchen.",
+    "icon": "leaf",
+    "base_price": 23,
+    "heal": 50,
+    "model": "res://assets/3d/phase8/ultimatefood/Croissant.glb",
+    "food": {
+      "stat": "max_hp",
+      "value": 25,
+      "minutes": 312
+    }
+  },
+  "meal_giant_feast": {
+    "id": "meal_giant_feast",
+    "name": "River giant feast",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 60 HP. gather speed +14% for 336 game minutes. Replaces your current food buff. Cooking 18 · kitchen.",
+    "icon": "leaf",
+    "base_price": 45,
+    "heal": 60,
+    "model": "res://assets/3d/phase8/ultimatefood/Fish.glb",
+    "food": {
+      "stat": "gather_speed",
+      "value": 0.14,
+      "minutes": 336
+    }
+  },
+  "meal_elder_roast": {
+    "id": "meal_elder_roast",
+    "name": "Elderwood roast",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 65 HP. damage percent +14% for 360 game minutes. Replaces your current food buff. Cooking 20 · kitchen.",
+    "icon": "leaf",
+    "base_price": 46,
+    "heal": 65,
+    "model": "res://assets/3d/phase8/ultimatefood/ChickenLeg.glb",
+    "food": {
+      "stat": "damage_percent",
+      "value": 0.14,
+      "minutes": 360
+    }
+  },
+  "meal_lantern_bisque": {
+    "id": "meal_lantern_bisque",
+    "name": "Lantern bisque",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 70 HP. profession xp +15% for 384 game minutes. Replaces your current food buff. Cooking 22 · kitchen.",
+    "icon": "leaf",
+    "base_price": 73,
+    "heal": 70,
+    "model": "res://assets/3d/phase8/ultimatefood/CookingPot_Soup.glb",
+    "food": {
+      "stat": "profession_xp",
+      "value": 0.15,
+      "minutes": 384
+    }
+  },
+  "meal_dawn_banquet": {
+    "id": "meal_dawn_banquet",
+    "name": "Dawn banquet",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "Restores 80 HP. fishing luck +22% for 420 game minutes. Replaces your current food buff. Cooking 25 · kitchen.",
+    "icon": "leaf",
+    "base_price": 132,
+    "heal": 80,
+    "model": "res://assets/3d/phase8/ultimatefood/Fish.glb",
+    "food": {
+      "stat": "fishing_luck",
+      "value": 0.22,
+      "minutes": 420
+    }
+  },
+  "hardwood": {
+    "id": "hardwood",
+    "name": "Hardwood",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Hardwood. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 9,
+    "material_category": "Wood"
+  },
+  "ancient_wood": {
+    "id": "ancient_wood",
+    "name": "Ancient timber",
+    "kind": "material",
+    "rarity": "Rare",
+    "description": "Ancient timber. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 24,
+    "material_category": "Wood"
+  },
+  "coal": {
+    "id": "coal",
+    "name": "Coal",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Coal. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 5,
+    "material_category": "Ore"
+  },
+  "silver_ore": {
+    "id": "silver_ore",
+    "name": "Silver ore",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Silver ore. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 15,
+    "material_category": "Ore"
+  },
+  "star_ore": {
+    "id": "star_ore",
+    "name": "Star ore",
+    "kind": "material",
+    "rarity": "Rare",
+    "description": "Star ore. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 35,
+    "material_category": "Ore"
+  },
+  "healing_herb": {
+    "id": "healing_herb",
+    "name": "Heartleaf",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Heartleaf. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 10,
+    "material_category": "Plants"
+  },
+  "river_herb": {
+    "id": "river_herb",
+    "name": "River mint",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "River mint. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 12,
+    "material_category": "Plants"
+  },
+  "night_bloom": {
+    "id": "night_bloom",
+    "name": "Night bloom",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Night bloom. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 22,
+    "material_category": "Plants"
+  },
+  "dawn_flower": {
+    "id": "dawn_flower",
+    "name": "Dawn flower",
+    "kind": "material",
+    "rarity": "Rare",
+    "description": "Dawn flower. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 28,
+    "material_category": "Plants"
+  },
+  "resin": {
+    "id": "resin",
+    "name": "Amber resin",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Amber resin. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 16,
+    "material_category": "Rare materials"
+  },
+  "raw_meat": {
+    "id": "raw_meat",
+    "name": "Game meat",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Game meat. A trade good from the living vale.",
+    "icon": "leaf",
+    "base_price": 8,
+    "material_category": "Food"
+  },
+  "old_boot": {
+    "id": "old_boot",
+    "name": "Waterlogged boot",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "A disappointing catch. A merchant might take it.",
+    "icon": "leaf",
+    "base_price": 1
+  },
+  "message_bottle": {
+    "id": "message_bottle",
+    "name": "Message in a bottle",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "A river tale and a fragment of an old route.",
+    "icon": "leaf",
+    "base_price": 7,
+    "model": "res://assets/3d/phase8/ultimatefood/Bottle1.glb"
+  },
+  "map_fragment": {
+    "id": "map_fragment",
+    "name": "Weathered map fragment",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Three fragments can be pieced together in Professions → Exploration.",
+    "icon": "leaf",
+    "base_price": 6,
+    "material_category": "Treasure"
+  },
+  "treasure_map": {
+    "id": "treasure_map",
+    "name": "Weathered treasure chart",
+    "kind": "quest",
+    "rarity": "Common",
+    "description": "An approximate search area is marked on the atlas. Read it in Professions → Exploration.",
+    "icon": "leaf",
+    "base_price": 1
+  }
+}

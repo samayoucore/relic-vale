@@ -1,0 +1,818 @@
+{
+  "trail_tonic": {
+    "name": "Trail tonic",
+    "kind": "consumable",
+    "rarity": "Common",
+    "description": "A little courage in a bottle. Restores 45 health.",
+    "icon": "bottle",
+    "heal": 45,
+    "id": "trail_tonic"
+  },
+  "wild_herb": {
+    "name": "Silverleaf herb",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "A fragrant leaf gathered in quiet clearings.",
+    "icon": "leaf",
+    "id": "wild_herb",
+    "base_price": 6,
+    "material_category": "Plants"
+  },
+  "slime_gel": {
+    "name": "Moss gel",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "A springy forest treasure. Rowan is studying its glow.",
+    "icon": "gem",
+    "id": "slime_gel"
+  },
+  "wolf_pelt": {
+    "name": "Soft wolf pelt",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "Warm fur, useful to a village craftsperson.",
+    "icon": "armor",
+    "id": "wolf_pelt",
+    "base_price": 12
+  },
+  "ancient_bone": {
+    "name": "Runed bone",
+    "kind": "material",
+    "rarity": "Uncommon",
+    "description": "An echo of the Fallen March, etched with forgotten letters.",
+    "icon": "sword",
+    "id": "ancient_bone",
+    "base_price": 14
+  },
+  "rustic_sword": {
+    "name": "Wayfarer's blade",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "rarity": "Common",
+    "description": "A familiar weight in your hand.",
+    "icon": "sword",
+    "stats": {
+      "attack": 5
+    },
+    "weapon_type": "sword",
+    "id": "rustic_sword"
+  },
+  "iron_sword": {
+    "name": "Ironwood blade",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "rarity": "Uncommon",
+    "description": "A balanced blade with a carved forest hilt.",
+    "icon": "sword",
+    "stats": {
+      "attack": 9
+    },
+    "weapon_type": "sword",
+    "id": "iron_sword"
+  },
+  "moon_blade": {
+    "name": "Moonlit edge",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "rarity": "Rare",
+    "description": "Silver light follows every strike.",
+    "icon": "sword",
+    "stats": {
+      "attack": 15,
+      "crit": 0.03
+    },
+    "weapon_type": "sword",
+    "id": "moon_blade"
+  },
+  "linen_hood": {
+    "name": "Traveler's hood",
+    "kind": "armor",
+    "slot": "Head",
+    "rarity": "Common",
+    "description": "Keeps the rain and a little danger away.",
+    "icon": "hood",
+    "stats": {
+      "defense": 1
+    },
+    "id": "linen_hood"
+  },
+  "iron_helm": {
+    "name": "Warden's helm",
+    "kind": "armor",
+    "slot": "Head",
+    "rarity": "Rare",
+    "description": "Dented, dependable, and older than the village.",
+    "icon": "hood",
+    "stats": {
+      "defense": 4,
+      "max_hp": 10
+    },
+    "id": "iron_helm"
+  },
+  "leather_vest": {
+    "name": "Briar leather vest",
+    "kind": "armor",
+    "slot": "Body",
+    "rarity": "Uncommon",
+    "description": "Stitched for long journeys through thorny woods.",
+    "icon": "armor",
+    "stats": {
+      "defense": 3,
+      "max_hp": 10
+    },
+    "id": "leather_vest"
+  },
+  "warden_mail": {
+    "name": "Cryptwarden mail",
+    "kind": "armor",
+    "slot": "Body",
+    "rarity": "Epic",
+    "description": "The final guardian's armor, cleansed of its old oath.",
+    "icon": "armor",
+    "stats": {
+      "defense": 6,
+      "max_hp": 25
+    },
+    "id": "warden_mail"
+  },
+  "amber_band": {
+    "name": "Amber band",
+    "kind": "accessory",
+    "slot": "Accessory",
+    "rarity": "Rare",
+    "description": "A warm spark preserved in amber.",
+    "icon": "ring",
+    "stats": {
+      "attack": 2,
+      "crit": 0.03
+    },
+    "id": "amber_band"
+  },
+  "travelers_coin": {
+    "name": "Traveler's Coin",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Common",
+    "description": "Every road feels a little shorter. +3% movement speed.",
+    "icon": "coin",
+    "stats": {
+      "move_percent": 0.03
+    },
+    "id": "travelers_coin"
+  },
+  "ember_ring": {
+    "name": "Ember Ring",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Rare",
+    "description": "Sword strikes carry an additional 8% fire damage.",
+    "icon": "ring",
+    "stats": {
+      "fire_percent": 0.08
+    },
+    "id": "ember_ring"
+  },
+  "hunters_eye": {
+    "name": "Hunter's Eye",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Rare",
+    "description": "See the opening between heartbeats. +5% critical chance.",
+    "icon": "gem",
+    "stats": {
+      "crit": 0.05
+    },
+    "id": "hunters_eye"
+  },
+  "moonstone_heart": {
+    "name": "Moonstone Heart",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Epic",
+    "description": "A quiet pulse of moonlight. +15 maximum HP, +5% critical chance.",
+    "icon": "heart",
+    "stats": {
+      "max_hp": 15,
+      "crit": 0.05
+    },
+    "id": "moonstone_heart"
+  },
+  "storm_charm": {
+    "name": "Storm Charm",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Epic",
+    "description": "10% chance on each sword swing to deal 8 bonus lightning damage.",
+    "icon": "bolt",
+    "proc": "storm",
+    "id": "storm_charm"
+  },
+  "fallen_king": {
+    "name": "Heart of the Fallen King",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Legendary",
+    "description": "Kills have a 20% chance to reset your primary attack and one ability cooldown.",
+    "icon": "heart",
+    "proc": "king",
+    "id": "fallen_king"
+  },
+  "void_echo": {
+    "name": "Echo of the Void",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Legendary",
+    "description": "Every fifth sword swing releases an echo: 50% attack damage to all enemies within 3.4m.",
+    "icon": "gem",
+    "proc": "void",
+    "id": "void_echo"
+  },
+  "copper_leaf": {
+    "name": "Copperleaf charm",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Common",
+    "description": "A leaf that never falls. +3 attack while equipped.",
+    "icon": "leaf",
+    "stats": {
+      "attack": 3
+    },
+    "id": "copper_leaf"
+  },
+  "moon_glass": {
+    "name": "Moonglass pendant",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Rare",
+    "description": "Cool even in sunlight. +5 attack while equipped.",
+    "icon": "gem",
+    "stats": {
+      "attack": 5
+    },
+    "id": "moon_glass"
+  },
+  "sun_ember": {
+    "name": "Sunember",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Epic",
+    "description": "The last spark of an older dawn. +8 attack while equipped.",
+    "icon": "bolt",
+    "stats": {
+      "attack": 8
+    },
+    "id": "sun_ember"
+  },
+  "moonseed": {
+    "name": "The moonseed",
+    "kind": "quest",
+    "rarity": "Rare",
+    "description": "Bring this silver light back to Rowan in Willowmere.",
+    "icon": "gem",
+    "id": "moonseed"
+  },
+  "iron_greatsword": {
+    "name": "Iron greatsword",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "weapon_type": "greatsword",
+    "rarity": "Common",
+    "description": "A broad, deliberate sweep. Slow recovery, strong recoil and reach.",
+    "icon": "greatsword",
+    "stats": {
+      "attack": 9
+    },
+    "id": "iron_greatsword"
+  },
+  "twin_daggers": {
+    "name": "Twin briar daggers",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "weapon_type": "daggers",
+    "rarity": "Common",
+    "description": "Short reach, quick strikes and an extra 8% critical chance.",
+    "icon": "daggers",
+    "stats": {
+      "attack": 2
+    },
+    "id": "twin_daggers"
+  },
+  "apprentice_staff": {
+    "name": "Apprentice staff",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "weapon_type": "staff",
+    "rarity": "Common",
+    "description": "Fires a small arcane bolt along your facing direction.",
+    "icon": "staff",
+    "stats": {
+      "attack": 4
+    },
+    "id": "apprentice_staff"
+  },
+  "oak_bow": {
+    "name": "Willow bow",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "weapon_type": "bow",
+    "rarity": "Common",
+    "description": "A steady bow with a long-reaching arrow. Face your target before firing.",
+    "icon": "bow",
+    "stats": {
+      "attack": 5
+    },
+    "id": "oak_bow"
+  },
+  "dew_bead": {
+    "name": "Dew Bead",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Common",
+    "description": "Tonics restore 20% more health.",
+    "icon": "bottle",
+    "stats": {
+      "tonic_bonus": 0.2
+    },
+    "id": "dew_bead"
+  },
+  "stone_button": {
+    "name": "Stone Button",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Common",
+    "description": "A tiny shield against the road. +2 defense.",
+    "icon": "coin",
+    "stats": {
+      "defense": 2
+    },
+    "id": "stone_button"
+  },
+  "reed_whistle": {
+    "name": "Reed Whistle",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Common",
+    "description": "Dodge recovers 15% sooner.",
+    "icon": "leaf",
+    "stats": {
+      "dodge_reduction": 0.15
+    },
+    "id": "reed_whistle"
+  },
+  "moss_seed": {
+    "name": "Moss Seed",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Common",
+    "description": "Each defeated enemy restores 2 HP.",
+    "icon": "leaf",
+    "stats": {},
+    "proc": "moss",
+    "id": "moss_seed"
+  },
+  "candle_stub": {
+    "name": "Last Candle",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Common",
+    "description": "Fire damage gains 5% power.",
+    "icon": "bolt",
+    "stats": {
+      "fire_percent": 0.05
+    },
+    "id": "candle_stub"
+  },
+  "acorn_shell": {
+    "name": "Acorn Shell",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Common",
+    "description": "Dodging grants a 5-point shield for three seconds.",
+    "icon": "hood",
+    "stats": {},
+    "proc": "acorn",
+    "id": "acorn_shell"
+  },
+  "silver_thread": {
+    "name": "Silver Thread",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Common",
+    "description": "While standing still outside danger, slowly recover health.",
+    "icon": "ring",
+    "stats": {},
+    "proc": "thread",
+    "id": "silver_thread"
+  },
+  "wind_step": {
+    "name": "Windstep Feather",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Rare",
+    "description": "After dodging, your next hit within three seconds deals 25% more damage.",
+    "icon": "leaf",
+    "stats": {},
+    "proc": "windstep",
+    "id": "wind_step"
+  },
+  "frost_leaf": {
+    "name": "Frostleaf",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Rare",
+    "description": "Hits have a 20% chance to slow enemies.",
+    "icon": "leaf",
+    "stats": {
+      "slow_chance": 0.2
+    },
+    "id": "frost_leaf"
+  },
+  "serpent_tooth": {
+    "name": "Serpent's Tooth",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Rare",
+    "description": "Hits have a 20% chance to poison enemies for five seconds.",
+    "icon": "sword",
+    "stats": {},
+    "proc": "serpent",
+    "id": "serpent_tooth"
+  },
+  "drinking_moon": {
+    "name": "Drinking Moon",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Rare",
+    "description": "Tonics also regenerate 3 HP each second for three seconds.",
+    "icon": "bottle",
+    "stats": {},
+    "proc": "drinking_moon",
+    "id": "drinking_moon"
+  },
+  "quartz_guard": {
+    "name": "Quartz Guard",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Rare",
+    "description": "Critical hits briefly stun ordinary enemies. Bosses resist the stun.",
+    "icon": "gem",
+    "stats": {},
+    "proc": "quartz",
+    "id": "quartz_guard"
+  },
+  "spell_knot": {
+    "name": "Spellknot",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Rare",
+    "description": "Abilities recover 12% sooner.",
+    "icon": "ring",
+    "stats": {
+      "cooldown_reduction": 0.12
+    },
+    "id": "spell_knot"
+  },
+  "arcane_mirror": {
+    "name": "Arcane Mirror",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Epic",
+    "description": "Critical hits release a small secondary arcane bolt.",
+    "icon": "gem",
+    "stats": {},
+    "proc": "mirror",
+    "id": "arcane_mirror"
+  },
+  "overflowing_cup": {
+    "name": "Overflowing Cup",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Epic",
+    "description": "Healing beyond maximum HP becomes a temporary shield, up to 30 points.",
+    "icon": "bottle",
+    "stats": {},
+    "proc": "overflow",
+    "id": "overflowing_cup"
+  },
+  "ember_crown": {
+    "name": "Ember Crown",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Epic",
+    "description": "Fire spells burn their targets, with +15% fire damage.",
+    "icon": "hood",
+    "stats": {
+      "fire_percent": 0.15
+    },
+    "proc": "ember_crown",
+    "id": "ember_crown"
+  },
+  "winter_clock": {
+    "name": "Winter Clock",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Epic",
+    "description": "Frost Nova reaches 30% farther and freezes ordinary foes briefly.",
+    "icon": "ring",
+    "stats": {},
+    "proc": "winter",
+    "id": "winter_clock"
+  },
+  "hollow_heart": {
+    "name": "Heart of the Hollow Knight",
+    "kind": "relic",
+    "slot": "Relic",
+    "rarity": "Legendary",
+    "description": "Defeating an enemy grants +25% damage for six seconds. A memory of the Cryptwarden.",
+    "icon": "heart",
+    "stats": {},
+    "proc": "hollow",
+    "id": "hollow_heart"
+  },
+  "wood": {
+    "id": "wood",
+    "name": "Seasoned wood",
+    "icon": "leaf",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Gathered and worked by the craftspeople of the vale.",
+    "base_price": 5,
+    "material_category": "Wood"
+  },
+  "stone": {
+    "id": "stone",
+    "name": "River stone",
+    "icon": "gem",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Gathered and worked by the craftspeople of the vale.",
+    "base_price": 5,
+    "material_category": "Stone"
+  },
+  "iron_ore": {
+    "id": "iron_ore",
+    "name": "Iron ore",
+    "icon": "gem",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Gathered and worked by the craftspeople of the vale.",
+    "base_price": 9,
+    "material_category": "Ore"
+  },
+  "mushroom": {
+    "id": "mushroom",
+    "name": "Forest mushroom",
+    "icon": "leaf",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Gathered and worked by the craftspeople of the vale.",
+    "base_price": 7,
+    "material_category": "Plants"
+  },
+  "crystal": {
+    "id": "crystal",
+    "name": "Veil crystal",
+    "icon": "gem",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Gathered and worked by the craftspeople of the vale.",
+    "base_price": 24,
+    "material_category": "Rare materials"
+  },
+  "iron_ingot": {
+    "id": "iron_ingot",
+    "name": "Iron ingot",
+    "icon": "sword",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Gathered and worked by the craftspeople of the vale.",
+    "base_price": 19
+  },
+  "plank": {
+    "id": "plank",
+    "name": "Timber plank",
+    "icon": "leaf",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Gathered and worked by the craftspeople of the vale.",
+    "base_price": 10
+  },
+  "charcoal": {
+    "id": "charcoal",
+    "name": "Charcoal",
+    "icon": "gem",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Gathered and worked by the craftspeople of the vale.",
+    "base_price": 8
+  },
+  "leather": {
+    "id": "leather",
+    "name": "Cured leather",
+    "icon": "armor",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Gathered and worked by the craftspeople of the vale.",
+    "base_price": 9
+  },
+  "mushroom_stew": {
+    "id": "mushroom_stew",
+    "name": "Woodland stew",
+    "heal": 25,
+    "status": "regeneration",
+    "kind": "consumable",
+    "rarity": "Uncommon",
+    "icon": "bottle",
+    "description": "Restores 25 health. Also restores 3 HP per second for eight seconds."
+  },
+  "greater_tonic": {
+    "id": "greater_tonic",
+    "name": "Restorative draught",
+    "heal": 80,
+    "status": "",
+    "kind": "consumable",
+    "rarity": "Uncommon",
+    "icon": "bottle",
+    "description": "Restores 80 health."
+  },
+  "ward_tonic": {
+    "id": "ward_tonic",
+    "name": "Stoneward draught",
+    "heal": 20,
+    "status": "shield",
+    "kind": "consumable",
+    "rarity": "Uncommon",
+    "icon": "bottle",
+    "description": "Restores 20 health. Grants a 25-point shield for twelve seconds."
+  },
+  "swift_tonic": {
+    "id": "swift_tonic",
+    "name": "Windleaf infusion",
+    "heal": 20,
+    "status": "swift",
+    "kind": "consumable",
+    "rarity": "Uncommon",
+    "icon": "bottle",
+    "description": "Restores 20 health. Grants 20% movement speed for twelve seconds."
+  },
+  "forged_blade": {
+    "name": "Tempered ironwood blade",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "rarity": "Rare",
+    "description": "A commissioned craft, built to endure the roads beyond Willowmere.",
+    "icon": "sword",
+    "stats": {
+      "attack": 13,
+      "crit": 0.02
+    },
+    "weapon_type": "sword",
+    "id": "forged_blade"
+  },
+  "ranger_bow": {
+    "name": "Elderwood longbow",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "weapon_type": "bow",
+    "rarity": "Rare",
+    "description": "A commissioned craft, built to endure the roads beyond Willowmere.",
+    "icon": "bow",
+    "stats": {
+      "attack": 10,
+      "crit": 0.03
+    },
+    "id": "ranger_bow"
+  },
+  "mining_mail": {
+    "name": "Ironvein brigandine",
+    "kind": "armor",
+    "slot": "Body",
+    "rarity": "Rare",
+    "description": "A commissioned craft, built to endure the roads beyond Willowmere.",
+    "icon": "armor",
+    "stats": {
+      "defense": 5,
+      "max_hp": 18
+    },
+    "id": "mining_mail"
+  },
+  "rune_staff": {
+    "name": "Veilbound staff",
+    "kind": "weapon",
+    "slot": "Weapon",
+    "weapon_type": "staff",
+    "rarity": "Rare",
+    "description": "A commissioned craft, built to endure the roads beyond Willowmere.",
+    "icon": "staff",
+    "stats": {
+      "attack": 11,
+      "cooldown_reduction": 0.08
+    },
+    "id": "rune_staff"
+  },
+  "reinforced_hood": {
+    "name": "Stitched ranger hood",
+    "kind": "armor",
+    "slot": "Head",
+    "rarity": "Rare",
+    "description": "A commissioned craft, built to endure the roads beyond Willowmere.",
+    "icon": "hood",
+    "stats": {
+      "defense": 3,
+      "max_hp": 8
+    },
+    "id": "reinforced_hood"
+  },
+  "crude_axe": {
+    "name": "Crude axe",
+    "kind": "tool",
+    "slot": "Tool",
+    "rarity": "Common",
+    "description": "Crude axe. Equip to chop trees and logs. Gathering power 1.",
+    "stats": {},
+    "tool": "axe",
+    "gather_power": 1,
+    "yield_bonus": 0,
+    "tier": 1,
+    "base_price": 8,
+    "model": "res://assets/3d/phase6/props/Axe_Bronze.gltf"
+  },
+  "crude_pickaxe": {
+    "name": "Crude pickaxe",
+    "kind": "tool",
+    "slot": "Tool",
+    "rarity": "Common",
+    "description": "Crude pickaxe. Equip to mine stone and ore. Gathering power 1.",
+    "stats": {},
+    "tool": "pickaxe",
+    "gather_power": 1,
+    "yield_bonus": 0,
+    "tier": 1,
+    "base_price": 8,
+    "model": "res://assets/3d/phase6/props/Pickaxe_Bronze.gltf"
+  },
+  "iron_axe": {
+    "name": "Iron axe",
+    "kind": "tool",
+    "slot": "Tool",
+    "rarity": "Uncommon",
+    "description": "Iron axe. Equip to chop trees and logs. Gathering power 2.",
+    "stats": {},
+    "tool": "axe",
+    "gather_power": 2,
+    "yield_bonus": 0,
+    "tier": 2,
+    "base_price": 45,
+    "model": "res://assets/3d/phase6/props/Axe_Bronze.gltf"
+  },
+  "iron_pickaxe": {
+    "name": "Iron pickaxe",
+    "kind": "tool",
+    "slot": "Tool",
+    "rarity": "Uncommon",
+    "description": "Iron pickaxe. Equip to mine stone and ore. Gathering power 2.",
+    "stats": {},
+    "tool": "pickaxe",
+    "gather_power": 2,
+    "yield_bonus": 0,
+    "tier": 2,
+    "base_price": 45,
+    "model": "res://assets/3d/phase6/props/Pickaxe_Bronze.gltf"
+  },
+  "steel_axe": {
+    "name": "Steel axe",
+    "kind": "tool",
+    "slot": "Tool",
+    "rarity": "Rare",
+    "description": "Steel axe. Equip to chop trees and logs. Gathering power 3, +1 material per deposit.",
+    "stats": {},
+    "tool": "axe",
+    "gather_power": 3,
+    "yield_bonus": 1,
+    "tier": 3,
+    "base_price": 120,
+    "model": "res://assets/3d/phase6/props/Axe_Bronze.gltf"
+  },
+  "steel_pickaxe": {
+    "name": "Steel pickaxe",
+    "kind": "tool",
+    "slot": "Tool",
+    "rarity": "Rare",
+    "description": "Steel pickaxe. Equip to mine stone and ore. Gathering power 3, +1 material per deposit.",
+    "stats": {},
+    "tool": "pickaxe",
+    "gather_power": 3,
+    "yield_bonus": 1,
+    "tier": 3,
+    "base_price": 120,
+    "model": "res://assets/3d/phase6/props/Pickaxe_Bronze.gltf"
+  },
+  "fiber": {
+    "name": "Plant fiber",
+    "kind": "material",
+    "rarity": "Common",
+    "description": "Tough grass fibres used for cord and woven supplies.",
+    "base_price": 4,
+    "material_category": "Plants"
+  }
+}

@@ -1,0 +1,386 @@
+{
+	"checks": [
+		{
+			"check": "Load isolated event fixture",
+			"pass": true
+		},
+		{
+			"check": "Eight authored event situations are installed",
+			"pass": true
+		},
+		{
+			"check": "Find clear physical encounter ground: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Create encounter: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Cannot resolve an encounter remotely: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Approaching discovers the temporary event: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Encounter combat requirements satisfied: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Required supplies enforced: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Complete encounter with physical conditions: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Required supplies consumed once: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Persistent consequence recorded: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Resolved event cannot duplicate rewards: broken_cart",
+			"pass": true
+		},
+		{
+			"check": "Find clear physical encounter ground: lost_traveler",
+			"pass": true
+		},
+		{
+			"check": "Create encounter: lost_traveler",
+			"pass": true
+		},
+		{
+			"check": "Cannot resolve an encounter remotely: lost_traveler",
+			"pass": true
+		},
+		{
+			"check": "Approaching discovers the temporary event: lost_traveler",
+			"pass": true
+		},
+		{
+			"check": "Encounter combat requirements satisfied: lost_traveler",
+			"pass": true
+		},
+		{
+			"check": "Escort begins through its dialogue action",
+			"pass": true
+		},
+		{
+			"check": "Traveler walks to the road and resolves the escort",
+			"pass": true
+		},
+		{
+			"check": "Persistent consequence recorded: lost_traveler",
+			"pass": true
+		},
+		{
+			"check": "Resolved event cannot duplicate rewards: lost_traveler",
+			"pass": true
+		},
+		{
+			"check": "Find clear physical encounter ground: road_ambush",
+			"pass": true
+		},
+		{
+			"check": "Create encounter: road_ambush",
+			"pass": true
+		},
+		{
+			"check": "Cannot resolve an encounter remotely: road_ambush",
+			"pass": true
+		},
+		{
+			"check": "Approaching discovers the temporary event: road_ambush",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: encounter_3/enemy/0",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: encounter_3/enemy/1",
+			"pass": true
+		},
+		{
+			"check": "Encounter combat requirements satisfied: road_ambush",
+			"pass": true
+		},
+		{
+			"check": "Complete encounter with physical conditions: road_ambush",
+			"pass": true
+		},
+		{
+			"check": "Persistent consequence recorded: road_ambush",
+			"pass": true
+		},
+		{
+			"check": "Resolved event cannot duplicate rewards: road_ambush",
+			"pass": true
+		},
+		{
+			"check": "Find clear physical encounter ground: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Create encounter: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Cannot resolve an encounter remotely: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Approaching discovers the temporary event: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Encounter combat requirements satisfied: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Required supplies enforced: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Complete encounter with physical conditions: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Required supplies consumed once: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Persistent consequence recorded: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Resolved event cannot duplicate rewards: field_medicine",
+			"pass": true
+		},
+		{
+			"check": "Find clear physical encounter ground: warden_patrol",
+			"pass": true
+		},
+		{
+			"check": "Create encounter: warden_patrol",
+			"pass": true
+		},
+		{
+			"check": "Cannot resolve an encounter remotely: warden_patrol",
+			"pass": true
+		},
+		{
+			"check": "Approaching discovers the temporary event: warden_patrol",
+			"pass": true
+		},
+		{
+			"check": "Encounter combat requirements satisfied: warden_patrol",
+			"pass": true
+		},
+		{
+			"check": "Complete encounter with physical conditions: warden_patrol",
+			"pass": true
+		},
+		{
+			"check": "Persistent consequence recorded: warden_patrol",
+			"pass": true
+		},
+		{
+			"check": "Resolved event cannot duplicate rewards: warden_patrol",
+			"pass": true
+		},
+		{
+			"check": "Find clear physical encounter ground: veil_echo",
+			"pass": true
+		},
+		{
+			"check": "Create encounter: veil_echo",
+			"pass": true
+		},
+		{
+			"check": "Cannot resolve an encounter remotely: veil_echo",
+			"pass": true
+		},
+		{
+			"check": "Approaching discovers the temporary event: veil_echo",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: encounter_6/enemy/0",
+			"pass": true
+		},
+		{
+			"check": "Encounter combat requirements satisfied: veil_echo",
+			"pass": true
+		},
+		{
+			"check": "Complete encounter with physical conditions: veil_echo",
+			"pass": true
+		},
+		{
+			"check": "Persistent consequence recorded: veil_echo",
+			"pass": true
+		},
+		{
+			"check": "Resolved event cannot duplicate rewards: veil_echo",
+			"pass": true
+		},
+		{
+			"check": "Find clear physical encounter ground: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Create encounter: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Cannot resolve an encounter remotely: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Approaching discovers the temporary event: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Encounter combat requirements satisfied: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Required supplies enforced: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Complete encounter with physical conditions: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Required supplies consumed once: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Persistent consequence recorded: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Resolved event cannot duplicate rewards: rain_shelter",
+			"pass": true
+		},
+		{
+			"check": "Find clear physical encounter ground: lantern_vigil",
+			"pass": true
+		},
+		{
+			"check": "Create encounter: lantern_vigil",
+			"pass": true
+		},
+		{
+			"check": "Cannot resolve an encounter remotely: lantern_vigil",
+			"pass": true
+		},
+		{
+			"check": "Approaching discovers the temporary event: lantern_vigil",
+			"pass": true
+		},
+		{
+			"check": "Encounter combat requirements satisfied: lantern_vigil",
+			"pass": true
+		},
+		{
+			"check": "Complete encounter with physical conditions: lantern_vigil",
+			"pass": true
+		},
+		{
+			"check": "Persistent consequence recorded: lantern_vigil",
+			"pass": true
+		},
+		{
+			"check": "Resolved event cannot duplicate rewards: lantern_vigil",
+			"pass": true
+		},
+		{
+			"check": "Night encounter excluded during the day",
+			"pass": true
+		},
+		{
+			"check": "Rain encounter excluded in clear weather",
+			"pass": true
+		},
+		{
+			"check": "Hostile Wardens refuse witness parley",
+			"pass": true
+		},
+		{
+			"check": "Production spawning rejects a visible location",
+			"pass": true
+		},
+		{
+			"check": "Production site search finds a valid road outside the view",
+			"pass": true
+		},
+		{
+			"check": "Production candidate satisfies camera and world context",
+			"pass": true
+		},
+		{
+			"check": "Contextual production spawn succeeds",
+			"pass": true
+		},
+		{
+			"check": "Two unresolved encounters is a hard budget",
+			"pass": true
+		},
+		{
+			"check": "Unresolved event expires at its deadline",
+			"pass": true
+		},
+		{
+			"check": "Expired encounter cannot grant a late reward",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: encounter_11/enemy/0",
+			"pass": true
+		},
+		{
+			"check": "Temporary enemies do not grow the global unique-enemy ledger",
+			"pass": true
+		},
+		{
+			"check": "Old event records prune while preserving unresolved encounters",
+			"pass": true
+		},
+		{
+			"check": "Combined event and companion snapshot validates",
+			"pass": true
+		},
+		{
+			"check": "Reject nonexistent active companion",
+			"pass": true
+		},
+		{
+			"check": "Reject nonfinite relationship state",
+			"pass": true
+		},
+		{
+			"check": "Reject malformed event logical address",
+			"pass": true
+		},
+		{
+			"check": "Reject nonexistent defeated event enemy",
+			"pass": true
+		},
+		{
+			"check": "Write isolated partially resolved event fixture",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 95
+}

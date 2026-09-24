@@ -1,0 +1,7 @@
+{
+ "sword":{"display_name":"Sword","archetype":"Warrior","anticipation":0.09,"impact":0.06,"recovery":0.33,"damage_multiplier":1.0,"range":2.4,"arc":125,"knockback":4.0,"crit_chance":0.0,"projectile_scene":"","sfx":"swing","color":"fff0ba"},
+ "greatsword":{"display_name":"Greatsword","archetype":"Warrior","anticipation":0.25,"impact":0.1,"recovery":0.54,"damage_multiplier":1.65,"range":3.2,"arc":165,"knockback":7.0,"crit_chance":0.0,"projectile_scene":"","sfx":"heavy","color":"e7c488"},
+ "daggers":{"display_name":"Daggers","archetype":"Rogue","anticipation":0.04,"impact":0.04,"recovery":0.19,"damage_multiplier":0.65,"range":1.75,"arc":105,"knockback":2.0,"crit_chance":0.08,"projectile_scene":"","sfx":"draw","color":"c5dfd8"},
+ "staff":{"display_name":"Staff","archetype":"Mage","anticipation":0.16,"impact":0.05,"recovery":0.44,"damage_multiplier":1.1,"range":12,"arc":0,"knockback":2.0,"crit_chance":0.0,"projectile_scene":"res://scenes/combat/Projectile.tscn","projectile_speed":11,"element":"arcane","sfx":"spell","color":"b4a6ed"},
+ "bow":{"display_name":"Bow","archetype":"Ranger","anticipation":0.18,"impact":0.04,"recovery":0.39,"damage_multiplier":1.05,"range":16,"arc":0,"knockback":3.0,"crit_chance":0.03,"projectile_scene":"res://scenes/combat/Projectile.tscn","projectile_speed":18,"element":"physical","sfx":"bow","color":"e3d4a5"}
+}

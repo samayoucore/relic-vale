@@ -1,0 +1,4 @@
+.godot/
+*.tmp
+*.log
+docs/screenshots/*.png.import

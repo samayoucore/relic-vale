@@ -1,0 +1,80 @@
+[
+	{
+		"draw_calls": 0.0,
+		"fps": 1.0,
+		"nodes": 7945.0,
+		"scene": "village"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 117.0,
+		"nodes": 8056.0,
+		"scene": "house"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 130.0,
+		"nodes": 8313.0,
+		"scene": "tavern"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 183.0,
+		"nodes": 8380.0,
+		"scene": "blacksmith"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 183.0,
+		"nodes": 8481.0,
+		"scene": "tool-inventory"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 62.0,
+		"nodes": 8042.0,
+		"scene": "alchemist"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 53.0,
+		"nodes": 8068.0,
+		"scene": "shop"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 20.0,
+		"nodes": 7955.0,
+		"scene": "harvest-wood"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 207.0,
+		"nodes": 7967.0,
+		"scene": "harvest-stone"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 197.0,
+		"nodes": 7978.0,
+		"scene": "harvest-iron_ore"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 173.0,
+		"nodes": 7983.0,
+		"scene": "harvest-wild_herb"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 186.0,
+		"nodes": 7987.0,
+		"scene": "harvest-fiber"
+	},
+	{
+		"draw_calls": 0.0,
+		"fps": 53.0,
+		"nodes": 7987.0,
+		"scene": "pasture"
+	}
+]

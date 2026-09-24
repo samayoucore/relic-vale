@@ -1,0 +1,84 @@
+# Phase 3 regression of the established journey
+
+Godot 4.7.2-stable (official); renderer headless.
+
+78 passed; 0 failed.
+
+- PASS: Player spawns safely on solid ground
+- PASS: Original animated LPC character retained
+- PASS: Movement input advances the player with acceleration
+- PASS: Movement decelerates to a stop
+- PASS: Q smoothly orbits the camera
+- PASS: Mouse wheel zoom dispatches to the world camera
+- PASS: RMB drag rotates the camera
+- PASS: Home restores a comfortable camera angle
+- PASS: Ctrl performs a short dodge with cooldown
+- PASS: House collision prevents walking through buildings
+- PASS: I opens the inventory
+- PASS: Inventory blocks world movement
+- PASS: Rowan starts the kill, collect, talk and reach quests
+- PASS: Original supply chest grants its one-time reward
+- PASS: Supply chest cannot duplicate rewards
+- PASS: Tonic consumes one stack and heals 45 HP
+- PASS: Unequipped items do not grant bonuses
+- PASS: Weapon slot changes attack
+- PASS: Relic modifies maximum HP and critical chance
+- PASS: Unequipping recalculates stats
+- PASS: Cannot equip an item that is not owned
+- PASS: Sword hits once; cooldown blocks repeated immediate strikes
+- PASS: Slime death grants XP and data-driven material loot
+- PASS: A dead enemy cannot grant rewards twice
+- PASS: Five actual slime kills complete the starter objective
+- PASS: Rowan pays XP, copper and one shard for Trouble in the Woods
+- PASS: Quest reward cannot be claimed twice
+- PASS: wolf has distinct combat stats and sprite
+- PASS: skeleton has distinct combat stats and sprite
+- PASS: Enemy chase and telegraphed attack damage the player
+- PASS: Pause freezes enemy attacks
+- PASS: Finite world contains 49 chunks and three noise-based biomes
+- PASS: The same seed reproduces identical props, POIs and enemies
+- PASS: Different seed changes the generated world
+- PASS: Reusable POIs and rare crypt entrances are placed
+- PASS: Explore generated Briar Meadow on physical ground
+- PASS: Streaming keeps bounded active chunks in Briar Meadow
+- PASS: Explore generated Elderwood on physical ground
+- PASS: Streaming keeps bounded active chunks in Elderwood
+- PASS: Explore generated Fallen March on physical ground
+- PASS: Streaming keeps bounded active chunks in Fallen March
+- PASS: Procedural road is traversable using movement input
+- PASS: Resource node grants one herb and cannot be harvested twice
+- PASS: Collect-item quest records gathering
+- PASS: NPC interaction advances the talk quest
+- PASS: Shrine interaction heals and opens the wish UI
+- PASS: A wish consumes exactly one shard and grants a relic
+- PASS: Data-driven shrine rates total 100%, including 3% legendary
+- PASS: Shrine rejects wishes without enough shards
+- PASS: Traveler's Coin improves movement speed by 3%
+- PASS: Ember Ring adds fire damage to sword attacks
+- PASS: Hunter's Eye adds 5% critical chance
+- PASS: Storm Charm produces bonus-damage procs
+- PASS: Void Echo triggers every fifth swing
+- PASS: J opens the quest journal
+- PASS: Tab opens the seeded world atlas
+- PASS: F3 displays seed, position, biome and streaming debug information
+- PASS: Generated entrance leads into the authored Forgotten Crypt
+- PASS: Dungeon arrival advances the reach-location quest
+- PASS: All three crypt rooms connect through traversable doorways
+- PASS: Final guardian awards unique armor and remains defeated
+- PASS: Final treasure chest grants an affixed rare blade and shards
+- PASS: Final treasure is one-time only
+- PASS: Original moonseed objective remains playable in the final chamber
+- PASS: Versioned local save writes successfully
+- PASS: Load restores an isolated saved journey
+- PASS: Inventory, equipment and currency survive save/load
+- PASS: Save/load recreates the same seed and world layout
+- PASS: Position and completed quests survive save/load
+- PASS: Opened chests and unique boss death survive reload
+- PASS: Updating a save creates a recoverable backup
+- PASS: A damaged primary save recovers from backup
+- PASS: Unsupported save version is rejected without changing progression
+- PASS: Crypt exit returns to the exact generated doorway
+- PASS: Returning the moonseed preserves the original story completion
+- PASS: Large XP rewards support multiple level-ups
+- PASS: Defeat returns player safely to Willowmere without losing gear
+- PASS: New World resets progression and accepts a manual seed

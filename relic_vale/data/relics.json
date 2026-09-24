@@ -1,0 +1,54 @@
+{
+  "cost": 1,
+  "rates": [
+    {
+      "rarity": "Common",
+      "weight": 55,
+      "items": [
+        "travelers_coin",
+        "dew_bead",
+        "stone_button",
+        "reed_whistle",
+        "moss_seed",
+        "candle_stub",
+        "acorn_shell",
+        "silver_thread"
+      ]
+    },
+    {
+      "rarity": "Rare",
+      "weight": 30,
+      "items": [
+        "ember_ring",
+        "hunters_eye",
+        "wind_step",
+        "frost_leaf",
+        "serpent_tooth",
+        "drinking_moon",
+        "quartz_guard",
+        "spell_knot"
+      ]
+    },
+    {
+      "rarity": "Epic",
+      "weight": 12,
+      "items": [
+        "moonstone_heart",
+        "storm_charm",
+        "arcane_mirror",
+        "overflowing_cup",
+        "ember_crown",
+        "winter_clock"
+      ]
+    },
+    {
+      "rarity": "Legendary",
+      "weight": 3,
+      "items": [
+        "fallen_king",
+        "void_echo",
+        "hollow_heart"
+      ]
+    }
+  ]
+}

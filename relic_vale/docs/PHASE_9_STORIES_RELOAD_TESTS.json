@@ -1,0 +1,166 @@
+{
+	"checks": [
+		{
+			"check": "Load isolated story fixture",
+			"pass": true
+		},
+		{
+			"check": "Four distinct companions are installed",
+			"pass": true
+		},
+		{
+			"check": "All recruited identities survive fresh load",
+			"pass": true
+		},
+		{
+			"check": "Act I ending survives fresh load",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: bren_recruit",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: bren_letters",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: bren_watchfire",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: bren_oath",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: tarin_recruit",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: ilyra_recruit",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: sera_recruit",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: tarin_knots",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: tarin_pass",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: tarin_promise",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: ilyra_margin",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: ilyra_keeper",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: ilyra_copy",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: sera_water",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: sera_names",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: sera_open",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_01",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_02",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_03",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_04",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_05",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_06",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_07",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_08",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_09",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: act1_10",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: hearth_story_1",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: hearth_story_2",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: hearth_story_3",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: bough_story_1",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: bough_story_2",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: bough_story_3",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: veil_story_1",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: veil_story_2",
+			"pass": true
+		},
+		{
+			"check": "Completed quest survives fresh process: veil_story_3",
+			"pass": true
+		},
+		{
+			"check": "Expanded save validates after load",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 40
+}

@@ -1,0 +1,73 @@
+{
+  "rowan": {
+    "name": "Rowan",
+    "role": "Keeper / Quest giver",
+    "quest": true,
+    "shop": false,
+    "dialogue": "The old paths need kind footsteps."
+  },
+  "smith": {
+    "name": "Bram",
+    "role": "Blacksmith",
+    "quest": false,
+    "shop": true,
+    "dialogue": "A good blade should feel like an old friend. My ironwood blades are ready for the road.\n\nChoose Trade to buy a blade or a leather vest.",
+    "category": "blacksmith"
+  },
+  "merchant": {
+    "name": "Mira",
+    "role": "Merchant",
+    "quest": false,
+    "shop": true,
+    "dialogue": "Tonics, dry socks, and stories from the next valley. That's what a traveler needs.\n\nChoose Trade to buy a tonic or sell spare materials.",
+    "category": "general"
+  },
+  "keeper": {
+    "name": "Elowen",
+    "role": "Shrine Keeper",
+    "quest": false,
+    "shop": true,
+    "dialogue": "The wishing stone restores your health. Offer an Astral Shard to receive a relic. You can find shards in caches, from enemies, and through quests.\n\nEach wish costs 1 shard. Wear a relic in your satchel to awaken its gift.",
+    "category": "relic"
+  },
+  "fernwatch_ranger": {
+    "name": "Aster",
+    "role": "Ranger",
+    "category": "general",
+    "faction": "bough",
+    "dialogue": "Our paths follow living roots. Earn the Wardens’ trust and I will teach you the elderwood bow.",
+    "shop": true
+  },
+  "fernwatch_alchemist": {
+    "name": "Nessa",
+    "role": "Herbalist",
+    "category": "alchemist",
+    "faction": "bough",
+    "dialogue": "Silverleaf grows along the banks. Rain brings a little extra harvest.",
+    "shop": true
+  },
+  "ironvein_smith": {
+    "name": "Orrin",
+    "role": "Mining smith",
+    "category": "blacksmith",
+    "faction": "hearth",
+    "dialogue": "The old mine has gone silent. Its work ledger is sealed behind a guardian’s oath.",
+    "shop": true
+  },
+  "crossroads_trader": {
+    "name": "Tamsin",
+    "role": "Road merchant",
+    "category": "general",
+    "faction": "hearth",
+    "dialogue": "Every road meets another. My stall keeps the caravans supplied.",
+    "shop": true
+  },
+  "traveling": {
+    "name": "Peregrin",
+    "role": "Traveling merchant",
+    "category": "traveling",
+    "faction": "bough",
+    "dialogue": "Only here until dusk. A small pack means a few unusual bargains.",
+    "shop": true
+  }
+}

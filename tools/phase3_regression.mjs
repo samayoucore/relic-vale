@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+let s=fs.readFileSync('relic_vale/tests/phase2_test.gd','utf8').replaceAll('\r\n','\n');
+s=s.replaceAll('phase2-test.json','phase3-regression.json').replaceAll('screenshots/phase2-','screenshots/phase3-regression-').replaceAll('PHASE_2_TEST_RESULTS','PHASE_3_REGRESSION_RESULTS').replaceAll('Phase 2 integration verification','Phase 3 regression of the established journey').replaceAll('PHASE2_RESULT','REGRESSION3_RESULT');
+s=s.replace('for i in range(40):\n\t\tif enemy.dead: return','for i in range(120):\n\t\tif enemy.dead:\n\t\t\tgame.player.position=enemy.global_position\n\t\t\tawait frames(55)\n\t\t\treturn').replace('\t\tawait frames(2)\n\tcheck(false,"Enemy defeated','\t\tawait frames(30)\n\tcheck(false,"Enemy defeated');
+s=s.replace('\tvar remaining: int=s.hp','\tawait frames(8)\n\tvar remaining: int=s.hp');
+s=s.replace('State.inventory.has("warden_mail")','owns_base("warden_mail")').replace('State.equip("warden_mail")','equip_base("warden_mail")');
+s=s.replace('\tget_tree().quit(0 if failures.is_empty() else 1)','\tawait Feel.shutdown()\n\tget_tree().quit(0 if failures.is_empty() else 1)');
+s+='\nfunc owns_base(base_id: String) -> bool:\n\tfor id in State.inventory:\n\t\tif State.items[id].get("base_id",id)==base_id: return true\n\treturn false\n\nfunc equip_base(base_id: String) -> void:\n\tfor id in State.inventory:\n\t\tif State.items[id].get("base_id",id)==base_id:\n\t\t\tState.equip(id)\n\t\t\treturn\n';
+fs.writeFileSync('relic_vale/tests/regression_phase3.gd',s);
+let main=fs.readFileSync('relic_vale/scripts/main.gd','utf8');
+main=main.replace('func setup_input() -> void:', '\tif "--regression-check" in args:\n\t\tvar check:=Node.new()\n\t\tcheck.set_script(load("res://tests/regression_phase3.gd"))\n\t\tadd_child(check)\n\nfunc setup_input() -> void:');
+fs.writeFileSync('relic_vale/scripts/main.gd',main);

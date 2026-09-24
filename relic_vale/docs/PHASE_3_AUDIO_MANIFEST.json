@@ -1,0 +1,33 @@
+{
+  "source": "https://kenney.nl/assets/rpg-audio",
+  "archive": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+  "license": "CC0 1.0",
+  "sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
+  "files": [
+    "bookOpen.ogg",
+    "boss_music.wav",
+    "bow.wav",
+    "chop.ogg",
+    "cloth1.ogg",
+    "creak1.ogg",
+    "critical.wav",
+    "crypt_music.wav",
+    "death.wav",
+    "drawKnife1.ogg",
+    "footstep00.ogg",
+    "footstep01.ogg",
+    "handleCoins.ogg",
+    "heal.wav",
+    "hurt.wav",
+    "KENNEY-LICENSE.txt",
+    "knifeSlice.ogg",
+    "knifeSlice2.ogg",
+    "level.wav",
+    "metalClick.ogg",
+    "shrine.wav",
+    "slam.wav",
+    "spell.wav",
+    "vale_music.wav"
+  ],
+  "generated": "Original synthesized WAV cues and three ambient musical loops; source tools/phase3_assets.mjs"
+}

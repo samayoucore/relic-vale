@@ -1,0 +1,201 @@
+{
+  "slime": {
+    "coins": [
+      3,
+      7
+    ],
+    "drops": [
+      {
+        "id": "slime_gel",
+        "chance": 1
+      },
+      {
+        "id": "trail_tonic",
+        "chance": 0.25
+      },
+      {
+        "id": "linen_hood",
+        "chance": 0.08
+      },
+      {
+        "id": "travelers_coin",
+        "chance": 0.015
+      },
+      {
+        "id": "astral_shard",
+        "chance": 0.07
+      },
+      {
+        "id": "twin_daggers",
+        "chance": 0.14
+      }
+    ]
+  },
+  "wolf": {
+    "coins": [
+      5,
+      10
+    ],
+    "drops": [
+      {
+        "id": "wolf_pelt",
+        "chance": 0.7
+      },
+      {
+        "id": "trail_tonic",
+        "chance": 0.2
+      },
+      {
+        "id": "leather_vest",
+        "chance": 0.12
+      },
+      {
+        "id": "iron_sword",
+        "chance": 0.08
+      },
+      {
+        "id": "astral_shard",
+        "chance": 0.12
+      },
+      {
+        "id": "oak_bow",
+        "chance": 0.14
+      }
+    ]
+  },
+  "skeleton": {
+    "coins": [
+      7,
+      14
+    ],
+    "drops": [
+      {
+        "id": "ancient_bone",
+        "chance": 0.8
+      },
+      {
+        "id": "trail_tonic",
+        "chance": 0.25
+      },
+      {
+        "id": "iron_sword",
+        "chance": 0.12
+      },
+      {
+        "id": "iron_helm",
+        "chance": 0.06
+      },
+      {
+        "id": "amber_band",
+        "chance": 0.035
+      },
+      {
+        "id": "astral_shard",
+        "chance": 0.18
+      },
+      {
+        "id": "apprentice_staff",
+        "chance": 0.14
+      }
+    ]
+  },
+  "elite": {
+    "coins": [
+      20,
+      35
+    ],
+    "drops": [
+      {
+        "id": "astral_shard",
+        "chance": 1
+      },
+      {
+        "id": "moon_blade",
+        "chance": 0.35
+      },
+      {
+        "id": "trail_tonic",
+        "chance": 1
+      },
+      {
+        "id": "moonstone_heart",
+        "chance": 0.08
+      },
+      {
+        "id": "iron_greatsword",
+        "chance": 0.65
+      }
+    ]
+  },
+  "guardian": {
+    "coins": [
+      50,
+      65
+    ],
+    "drops": [
+      {
+        "id": "astral_shard",
+        "chance": 1,
+        "count": 2
+      },
+      {
+        "id": "warden_mail",
+        "chance": 1
+      },
+      {
+        "id": "trail_tonic",
+        "chance": 1,
+        "count": 2
+      },
+      {
+        "id": "hollow_heart",
+        "chance": 1
+      }
+    ]
+  },
+  "cache": {
+    "coins": [
+      15,
+      25
+    ],
+    "drops": [
+      {
+        "id": "trail_tonic",
+        "chance": 1
+      },
+      {
+        "id": "astral_shard",
+        "chance": 0.6
+      },
+      {
+        "id": "iron_sword",
+        "chance": 0.2
+      },
+      {
+        "id": "amber_band",
+        "chance": 0.07
+      }
+    ]
+  },
+  "crypt_treasure": {
+    "coins": [
+      40,
+      50
+    ],
+    "drops": [
+      {
+        "id": "astral_shard",
+        "chance": 1,
+        "count": 2
+      },
+      {
+        "id": "moon_blade",
+        "chance": 1
+      },
+      {
+        "id": "moon_glass",
+        "chance": 1
+      }
+    ]
+  }
+}

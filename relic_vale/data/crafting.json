@@ -1,0 +1,246 @@
+[
+  {
+    "id": "planks",
+    "name": "Saw timber",
+    "station": "workbench",
+    "input": {
+      "wood": 2
+    },
+    "output": "plank",
+    "count": 3,
+    "cost": 2
+  },
+  {
+    "id": "charcoal",
+    "name": "Burn charcoal",
+    "station": "campfire",
+    "input": {
+      "wood": 2
+    },
+    "output": "charcoal",
+    "count": 2,
+    "cost": 2
+  },
+  {
+    "id": "iron",
+    "name": "Smelt iron",
+    "station": "forge",
+    "input": {
+      "iron_ore": 2,
+      "charcoal": 1
+    },
+    "output": "iron_ingot",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "leather",
+    "name": "Cure hides",
+    "station": "workbench",
+    "input": {
+      "wolf_pelt": 1,
+      "wild_herb": 1
+    },
+    "output": "leather",
+    "count": 2,
+    "cost": 2
+  },
+  {
+    "id": "tonic",
+    "name": "Brew trail tonic",
+    "station": "alchemy",
+    "input": {
+      "wild_herb": 2,
+      "slime_gel": 1
+    },
+    "output": "trail_tonic",
+    "count": 2,
+    "cost": 2
+  },
+  {
+    "id": "stew",
+    "name": "Simmer woodland stew",
+    "station": "campfire",
+    "input": {
+      "mushroom": 2,
+      "wild_herb": 1
+    },
+    "output": "mushroom_stew",
+    "count": 2,
+    "cost": 2
+  },
+  {
+    "id": "greater",
+    "name": "Restorative draught",
+    "station": "alchemy",
+    "input": {
+      "wild_herb": 3,
+      "mushroom": 2
+    },
+    "output": "greater_tonic",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "ward",
+    "name": "Stoneward draught",
+    "station": "alchemy",
+    "input": {
+      "stone": 2,
+      "slime_gel": 2
+    },
+    "output": "ward_tonic",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "swift",
+    "name": "Windleaf infusion",
+    "station": "alchemy",
+    "input": {
+      "wild_herb": 2,
+      "crystal": 1
+    },
+    "output": "swift_tonic",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "sword",
+    "name": "Forge ironwood blade",
+    "station": "forge",
+    "input": {
+      "iron_ingot": 3,
+      "wood": 1
+    },
+    "output": "iron_sword",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "greatsword",
+    "name": "Forge greatsword",
+    "station": "forge",
+    "input": {
+      "iron_ingot": 4,
+      "leather": 1
+    },
+    "output": "iron_greatsword",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "daggers",
+    "name": "Balance twin daggers",
+    "station": "forge",
+    "input": {
+      "iron_ingot": 2,
+      "leather": 1
+    },
+    "output": "twin_daggers",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "bow",
+    "name": "Carve willow bow",
+    "station": "workbench",
+    "input": {
+      "plank": 3,
+      "leather": 1
+    },
+    "output": "oak_bow",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "vest",
+    "name": "Stitch leather vest",
+    "station": "workbench",
+    "input": {
+      "leather": 3,
+      "wood": 1
+    },
+    "output": "leather_vest",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "hood",
+    "name": "Reinforce traveler hood",
+    "station": "workbench",
+    "input": {
+      "linen_hood": 1,
+      "leather": 2
+    },
+    "output": "reinforced_hood",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "helm",
+    "name": "Forge warden helm",
+    "station": "forge",
+    "input": {
+      "iron_ingot": 3,
+      "crystal": 1
+    },
+    "output": "iron_helm",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "temper",
+    "name": "Temper an ironwood blade",
+    "station": "forge",
+    "input": {
+      "iron_sword": 1,
+      "iron_ingot": 2,
+      "crystal": 1
+    },
+    "output": "forged_blade",
+    "count": 1,
+    "cost": 2,
+    "unlock": "hearth_3"
+  },
+  {
+    "id": "longbow",
+    "name": "Craft elderwood longbow",
+    "station": "workbench",
+    "input": {
+      "oak_bow": 1,
+      "plank": 3,
+      "leather": 2
+    },
+    "output": "ranger_bow",
+    "count": 1,
+    "cost": 2,
+    "unlock": "bough_3"
+  },
+  {
+    "id": "mail",
+    "name": "Rivet ironvein brigandine",
+    "station": "forge",
+    "input": {
+      "leather_vest": 1,
+      "iron_ingot": 4
+    },
+    "output": "mining_mail",
+    "count": 1,
+    "cost": 2
+  },
+  {
+    "id": "runes",
+    "name": "Inscribe veilbound staff",
+    "station": "alchemy",
+    "input": {
+      "apprentice_staff": 1,
+      "crystal": 3,
+      "ancient_bone": 2
+    },
+    "output": "rune_staff",
+    "count": 1,
+    "cost": 2,
+    "unlock": "veil_3"
+  }
+]

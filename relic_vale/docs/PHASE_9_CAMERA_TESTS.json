@@ -1,0 +1,146 @@
+{
+	"checks": [
+		{
+			"check": "Low camera uses perspective",
+			"pass": true
+		},
+		{
+			"check": "The top of the lowest view looks above the horizon",
+			"pass": true
+		},
+		{
+			"check": "The center still looks down toward the traveler",
+			"pass": true
+		},
+		{
+			"check": "Haze closes before the loaded terrain boundary: Minimal",
+			"pass": true
+		},
+		{
+			"check": "Haze radius survives a floating-origin shift: Minimal",
+			"pass": true
+		},
+		{
+			"check": "Haze closes before the loaded terrain boundary: Medium",
+			"pass": true
+		},
+		{
+			"check": "Haze radius survives a floating-origin shift: Medium",
+			"pass": true
+		},
+		{
+			"check": "Haze closes before the loaded terrain boundary: High",
+			"pass": true
+		},
+		{
+			"check": "Haze radius survives a floating-origin shift: High",
+			"pass": true
+		},
+		{
+			"check": "Haze closes before the loaded terrain boundary: Ultra",
+			"pass": true
+		},
+		{
+			"check": "Haze radius survives a floating-origin shift: Ultra",
+			"pass": true
+		},
+		{
+			"check": "Lowering draw distance with retained chunks keeps a finite haze boundary",
+			"pass": true
+		},
+		{
+			"check": "Haze covers a nearby chunk that has not finished rendering",
+			"pass": true
+		},
+		{
+			"check": "A solid object between camera and hero is not hidden",
+			"pass": true
+		},
+		{
+			"check": "Player proximity alone never hides scenery",
+			"pass": true
+		},
+		{
+			"check": "Only camera containment hides a visual, leaving collision intact",
+			"pass": true
+		},
+		{
+			"check": "The visual returns as soon as the camera leaves it",
+			"pass": true
+		},
+		{
+			"check": "Empty corners of a canopy's bounding box do not hide its mesh",
+			"pass": true
+		},
+		{
+			"check": "Entering the actual curved mesh volume hides it",
+			"pass": true
+		},
+		{
+			"check": "A foreground tree remains visible instead of disappearing",
+			"pass": true
+		},
+		{
+			"check": "Rendered near-object detail visibly softens (0.134 to 0.086)",
+			"pass": true
+		},
+		{
+			"check": "Detail at the player's focus distance stays sharp (0.331 / 0.331)",
+			"pass": true
+		},
+		{
+			"check": "Survey finds a valid dry camp location",
+			"pass": true
+		},
+		{
+			"check": "Camp test uses real harvestable tree and rock collisions",
+			"pass": true
+		},
+		{
+			"check": "Natural obstacles permit camp establishment",
+			"pass": true
+		},
+		{
+			"check": "A house in the footprint blocks placement",
+			"pass": true
+		},
+		{
+			"check": "Rejected placement leaves buildings and natural resources intact",
+			"pass": true
+		},
+		{
+			"check": "Village structures and their surroundings stay protected",
+			"pass": true
+		},
+		{
+			"check": "Story landmarks are protected even without a solid collider",
+			"pass": true
+		},
+		{
+			"check": "Camp establishment clears the occupied natural site",
+			"pass": true
+		},
+		{
+			"check": "No harvestable or trunk collision remains in the camp reserve",
+			"pass": true
+		},
+		{
+			"check": "Cleared tree and rock have persistent depletion records",
+			"pass": true
+		},
+		{
+			"check": "Land clearance does not duplicate gathering loot",
+			"pass": true
+		},
+		{
+			"check": "Cleared camp saves to its isolated fixture",
+			"pass": true
+		},
+		{
+			"check": "Leaving and returning does not recreate camp obstacles",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 35
+}

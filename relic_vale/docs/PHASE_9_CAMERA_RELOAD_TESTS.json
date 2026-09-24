@@ -1,0 +1,26 @@
+{
+	"checks": [
+		{
+			"check": "Fresh process loads cleared camp fixture",
+			"pass": true
+		},
+		{
+			"check": "Cleared resources stay absent after process restart",
+			"pass": true
+		},
+		{
+			"check": "Camp clearance has no regrowth timer",
+			"pass": true
+		},
+		{
+			"check": "Resources do not regrow inside camp after sixty days",
+			"pass": true
+		},
+		{
+			"check": "The loaded camp retains its physical presentation",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 5
+}

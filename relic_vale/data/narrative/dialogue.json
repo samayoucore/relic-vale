@@ -1,0 +1,2972 @@
+{
+  "bren_intro": {
+    "speaker": "bren",
+    "text": "Six children crossed the ford with our runner. I found his boot. No runner. There should be a dispatch case by the east road. Bring it back, and I can stop imagining the worst.",
+    "choices": [
+      {
+        "id": "help",
+        "text": "I will look for the satchel.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "bren_recruit"
+          }
+        ],
+        "conditions": [],
+        "next": ""
+      },
+      {
+        "id": "later",
+        "text": "Keep the fire going. I will return.",
+        "effects": [],
+        "conditions": [],
+        "next": ""
+      }
+    ]
+  },
+  "bren_recruit_choice": {
+    "speaker": "bren",
+    "text": "“All six accounted for.” He made it. You have no idea what those four words are worth. Where are you headed?",
+    "choices": [
+      {
+        "id": "welcome",
+        "text": "There is room beside my fire.",
+        "effects": [
+          {
+            "type": "event",
+            "event": "choice",
+            "id": "bren_recruit_choice"
+          }
+        ],
+        "conditions": [],
+        "next": ""
+      },
+      {
+        "id": "work",
+        "text": "I could use someone who knows how to keep people alive.",
+        "effects": [
+          {
+            "type": "event",
+            "event": "choice",
+            "id": "bren_recruit_choice"
+          }
+        ],
+        "conditions": [],
+        "next": ""
+      },
+      {
+        "id": "later",
+        "text": "Let me make arrangements first.",
+        "effects": [],
+        "conditions": [],
+        "next": ""
+      }
+    ]
+  },
+  "bren_camp": {
+    "speaker": "bren",
+    "text": "I used to count bedrolls at night. I still do. Some habits are worth keeping.",
+    "choices": [
+      {
+        "id": "watch_supplies",
+        "text": "Here are supplies for the first camp watch.",
+        "effects": [
+          {
+            "type": "consume",
+            "id": "wood",
+            "amount": 6
+          },
+          {
+            "type": "consume",
+            "id": "wild_herb",
+            "amount": 3
+          },
+          {
+            "type": "event",
+            "id": "watch_supplies",
+            "event": "choice"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_06",
+            "value": 1
+          },
+          {
+            "type": "item",
+            "id": "wood",
+            "value": 6
+          },
+          {
+            "type": "item",
+            "id": "wild_herb",
+            "value": 3
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "letters",
+        "text": "What happened at Cinder Watch?",
+        "effects": [
+          {
+            "type": "start",
+            "id": "bren_letters"
+          },
+          {
+            "type": "event",
+            "event": "talk",
+            "id": "bren_letters_camp"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "bren_letters"
+          }
+        ],
+        "next": "bren_letters"
+      },
+      {
+        "id": "return_letters",
+        "text": "I brought the letters.",
+        "effects": [
+          {
+            "type": "event",
+            "event": "talk",
+            "id": "bren_letters_return"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "bren_letters",
+            "value": 2
+          }
+        ],
+        "next": "bren_letters_end"
+      },
+      {
+        "id": "watchfire",
+        "text": "We could make the old watch safe again.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "bren_watchfire"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "completed",
+            "id": "bren_letters"
+          },
+          {
+            "type": "not_started",
+            "id": "bren_watchfire"
+          },
+          {
+            "type": "approval",
+            "id": "bren",
+            "value": 20
+          }
+        ],
+        "next": ""
+      },
+      {
+        "id": "return_fire",
+        "text": "The brazier is burning.",
+        "effects": [
+          {
+            "type": "event",
+            "event": "talk",
+            "id": "bren_fire_return"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "bren_watchfire",
+            "value": 2
+          }
+        ],
+        "next": "bren_fire_end"
+      },
+      {
+        "id": "oath",
+        "text": "Who should keep the watch now?",
+        "effects": [
+          {
+            "type": "start",
+            "id": "bren_oath"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "completed",
+            "id": "bren_watchfire"
+          },
+          {
+            "type": "not_completed",
+            "id": "bren_oath"
+          },
+          {
+            "type": "approval",
+            "id": "bren",
+            "value": 30
+          }
+        ],
+        "next": "bren_oath_choice"
+      },
+      {
+        "id": "goodbye",
+        "text": "Rest while the fire is warm.",
+        "effects": [],
+        "conditions": [],
+        "next": ""
+      }
+    ],
+    "variants": [
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "cinder_outcome",
+            "value": "shelter"
+          }
+        ],
+        "text": "Three families slept under the new roof last night. I counted the bedrolls. For once, I liked the number."
+      },
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "cinder_outcome",
+            "value": "garrison"
+          }
+        ],
+        "text": "The new watch has an open gate and a pot on the fire. I made them put both in the orders."
+      }
+    ]
+  },
+  "bren_letters": {
+    "speaker": "bren",
+    "text": "The captain ordered us to hold. The road behind us was full of families. I took my people out anyway. He stayed. His letters might explain why.",
+    "choices": [
+      {
+        "id": "listen",
+        "text": "We can read them together.",
+        "effects": [],
+        "conditions": [],
+        "next": ""
+      }
+    ]
+  },
+  "bren_letters_end": {
+    "speaker": "bren",
+    "text": "He knew the wall would fall. He stayed to give us time. I spent a year arguing with a dead man who had already forgiven me.",
+    "choices": [
+      {
+        "id": "kind",
+        "text": "You brought people home. That matters.",
+        "effects": [
+          {
+            "type": "approval",
+            "id": "bren",
+            "amount": 8,
+            "key": "bren_kind_words"
+          }
+        ],
+        "conditions": [],
+        "next": ""
+      },
+      {
+        "id": "honest",
+        "text": "You may never have agreed. You can still remember him.",
+        "effects": [
+          {
+            "type": "approval",
+            "id": "bren",
+            "amount": 5,
+            "key": "bren_honest_words"
+          }
+        ],
+        "conditions": [],
+        "next": ""
+      }
+    ]
+  },
+  "bren_fire_end": {
+    "speaker": "bren",
+    "text": "A light on that road again. The Compact has asked for the keys. The families have asked for a roof. I want to hear what you think before I answer.",
+    "choices": [
+      {
+        "id": "consider",
+        "text": "We should decide together.",
+        "effects": [],
+        "conditions": [],
+        "next": ""
+      }
+    ]
+  },
+  "bren_oath_choice": {
+    "speaker": "bren",
+    "text": "A garrison could keep the road clear. A shelter would give travelers somewhere to stop. We have enough timber for one. Which promise do we make?",
+    "choices": [
+      {
+        "id": "shelter",
+        "text": "Build a shelter. No traveler sleeps outside.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "cinder_outcome",
+            "value": "shelter"
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": 12
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": -6
+          },
+          {
+            "type": "approval",
+            "id": "bren",
+            "amount": 8,
+            "key": "cinder_shelter"
+          },
+          {
+            "type": "event",
+            "event": "choice",
+            "id": "bren_oath_choice"
+          }
+        ],
+        "conditions": [],
+        "next": ""
+      },
+      {
+        "id": "garrison",
+        "text": "Restore the garrison, with an open gate for travelers.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "cinder_outcome",
+            "value": "garrison"
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": 15
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": -5
+          },
+          {
+            "type": "approval",
+            "id": "bren",
+            "amount": 3,
+            "key": "cinder_garrison"
+          },
+          {
+            "type": "event",
+            "event": "choice",
+            "id": "bren_oath_choice"
+          }
+        ],
+        "conditions": [],
+        "next": ""
+      },
+      {
+        "id": "later",
+        "text": "We need more time.",
+        "effects": [],
+        "conditions": [],
+        "next": ""
+      }
+    ]
+  },
+  "tarin_intro": {
+    "speaker": "tarin",
+    "text": "My sister hated snares. Someone has strung them across her old trail, and a wolf has learned to wait beside them. Help me clear it. Then we can talk about where you are going.",
+    "choices": [
+      {
+        "id": "help",
+        "text": "I will help.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "tarin_recruit"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "later",
+        "text": "I need to prepare first.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "tarin_recruit_choice": {
+    "speaker": "tarin",
+    "text": "The doe made it through. You cut every cord, even the ones that would have been worth selling. I would like to see what you do at the next crossroads.",
+    "choices": [
+      {
+        "id": "welcome",
+        "text": "Travel with me. There is room at my fire.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "tarin_recruit_choice",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "later",
+        "text": "I will come back for you.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "ilyra_intro": {
+    "speaker": "ilyra",
+    "text": "Someone scraped a line from the eastern stone. I copied the warning above it, but the missing words matter more. Would you take a rubbing? I would rather meet an answer than another prohibition.",
+    "choices": [
+      {
+        "id": "help",
+        "text": "I will help.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "ilyra_recruit"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "later",
+        "text": "I need to prepare first.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "ilyra_recruit_choice": {
+    "speaker": "ilyra",
+    "text": "Consent. One word changes the whole text. I have questions for my teacher, and you seem to find the roads questions live on.",
+    "choices": [
+      {
+        "id": "welcome",
+        "text": "Travel with me. There is room at my fire.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "ilyra_recruit_choice",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "later",
+        "text": "I will come back for you.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "sera_intro": {
+    "speaker": "sera",
+    "text": "My last clean bandage went to the courier down the road. He needs a trail tonic and a patient hand. I can buy another bandage. I cannot buy another hour for him.",
+    "choices": [
+      {
+        "id": "help",
+        "text": "I will help.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "sera_recruit"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "later",
+        "text": "I need to prepare first.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "sera_recruit_choice": {
+    "speaker": "sera",
+    "text": "He will live. That is a good enough beginning for a friendship. You are likely to need a healer if you keep stopping for strangers.",
+    "choices": [
+      {
+        "id": "welcome",
+        "text": "Travel with me. There is room at my fire.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "sera_recruit_choice",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "later",
+        "text": "I will come back for you.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "tarin_camp": {
+    "speaker": "tarin",
+    "text": "I still look for her trail marks. Habits are stubborn things. Sometimes that is their best quality.",
+    "choices": [
+      {
+        "id": "watch_supplies",
+        "text": "Here are supplies for the first camp watch.",
+        "effects": [
+          {
+            "type": "consume",
+            "id": "wood",
+            "amount": 6
+          },
+          {
+            "type": "consume",
+            "id": "wild_herb",
+            "amount": 3
+          },
+          {
+            "type": "event",
+            "id": "watch_supplies",
+            "event": "choice"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_06",
+            "value": 1
+          },
+          {
+            "type": "item",
+            "id": "wood",
+            "value": 6
+          },
+          {
+            "type": "item",
+            "id": "wild_herb",
+            "value": 3
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "start_tarin_knots",
+        "text": "Tell me about your sister.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "tarin_knots"
+          },
+          {
+            "type": "event",
+            "id": "tarin_knots_start",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "tarin_knots"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "finish_tarin_knots",
+        "text": "I found a blue knot.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "tarin_knots_end",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "tarin_knots",
+            "value": 2
+          }
+        ],
+        "next": "tarin_knots_answer",
+        "tags": []
+      },
+      {
+        "id": "start_tarin_pass",
+        "text": "We can make Reed Pass safe.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "tarin_pass"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "tarin_pass"
+          },
+          {
+            "type": "completed",
+            "id": "tarin_knots"
+          },
+          {
+            "type": "approval",
+            "id": "tarin",
+            "value": 20
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "finish_tarin_pass",
+        "text": "The beacon is lit.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "tarin_pass_end",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "tarin_pass",
+            "value": 2
+          }
+        ],
+        "next": "tarin_pass_answer",
+        "tags": []
+      },
+      {
+        "id": "start_tarin_promise",
+        "text": "Walk Lysa’s crossing with me.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "tarin_promise"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "tarin_promise"
+          },
+          {
+            "type": "completed",
+            "id": "tarin_pass"
+          },
+          {
+            "type": "approval",
+            "id": "tarin",
+            "value": 30
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "promise",
+        "text": "We walked her road. What promise do we keep?",
+        "effects": [],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "tarin_promise",
+            "value": 1
+          }
+        ],
+        "next": "tarin_promise_choice",
+        "tags": []
+      },
+      {
+        "id": "goodbye",
+        "text": "Rest while you can.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ],
+    "variants": [
+      {
+        "conditions": [
+          {
+            "type": "completed",
+            "id": "tarin_knots"
+          }
+        ],
+        "text": "Lysa is alive. I keep saying it, in case the years I thought otherwise are still listening."
+      }
+    ]
+  },
+  "ilyra_camp": {
+    "speaker": "ilyra",
+    "text": "I have left space in the notebook. It is a small rebellion against certainty.",
+    "choices": [
+      {
+        "id": "watch_supplies",
+        "text": "Here are supplies for the first camp watch.",
+        "effects": [
+          {
+            "type": "consume",
+            "id": "wood",
+            "amount": 6
+          },
+          {
+            "type": "consume",
+            "id": "wild_herb",
+            "amount": 3
+          },
+          {
+            "type": "event",
+            "id": "watch_supplies",
+            "event": "choice"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_06",
+            "value": 1
+          },
+          {
+            "type": "item",
+            "id": "wood",
+            "value": 6
+          },
+          {
+            "type": "item",
+            "id": "wild_herb",
+            "value": 3
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "start_ilyra_margin",
+        "text": "What did Orsa change in the notes?",
+        "effects": [
+          {
+            "type": "start",
+            "id": "ilyra_margin"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "ilyra_margin"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "finish_ilyra_margin",
+        "text": "I found the first draft.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "ilyra_margin_end",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "ilyra_margin",
+            "value": 1
+          }
+        ],
+        "next": "ilyra_margin_answer",
+        "tags": []
+      },
+      {
+        "id": "start_ilyra_keeper",
+        "text": "Let us open the guarded register.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "ilyra_keeper"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "ilyra_keeper"
+          },
+          {
+            "type": "completed",
+            "id": "ilyra_margin"
+          },
+          {
+            "type": "approval",
+            "id": "ilyra",
+            "value": 20
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "finish_ilyra_keeper",
+        "text": "These are the original names.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "ilyra_keeper_end",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "ilyra_keeper",
+            "value": 2
+          }
+        ],
+        "next": "ilyra_keeper_answer",
+        "tags": []
+      },
+      {
+        "id": "start_ilyra_copy",
+        "text": "Who should be able to read the register?",
+        "effects": [
+          {
+            "type": "start",
+            "id": "ilyra_copy"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "ilyra_copy"
+          },
+          {
+            "type": "completed",
+            "id": "ilyra_keeper"
+          },
+          {
+            "type": "approval",
+            "id": "ilyra",
+            "value": 30
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "copy",
+        "text": "Let us decide where the copies go.",
+        "effects": [],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "ilyra_copy",
+            "value": 0
+          }
+        ],
+        "next": "ilyra_copy_choice",
+        "tags": []
+      },
+      {
+        "id": "goodbye",
+        "text": "Rest while you can.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "sera_camp": {
+    "speaker": "sera",
+    "text": "Sit down. You can tell a great deal about someone by how long they pretend their feet do not hurt.",
+    "choices": [
+      {
+        "id": "watch_supplies",
+        "text": "Here are supplies for the first camp watch.",
+        "effects": [
+          {
+            "type": "consume",
+            "id": "wood",
+            "amount": 6
+          },
+          {
+            "type": "consume",
+            "id": "wild_herb",
+            "amount": 3
+          },
+          {
+            "type": "event",
+            "id": "watch_supplies",
+            "event": "choice"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_06",
+            "value": 1
+          },
+          {
+            "type": "item",
+            "id": "wood",
+            "value": 6
+          },
+          {
+            "type": "item",
+            "id": "wild_herb",
+            "value": 3
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "start_sera_water",
+        "text": "Do you believe the rumor about the fever?",
+        "effects": [
+          {
+            "type": "start",
+            "id": "sera_water"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "sera_water"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "finish_sera_water",
+        "text": "The water was fouled upstream.",
+        "effects": [
+          {
+            "type": "consume",
+            "id": "wild_herb",
+            "amount": 3
+          },
+          {
+            "type": "event",
+            "id": "sera_water_end",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "sera_water",
+            "value": 2
+          },
+          {
+            "type": "item",
+            "id": "wild_herb",
+            "value": 3
+          }
+        ],
+        "next": "sera_water_answer",
+        "tags": []
+      },
+      {
+        "id": "start_sera_names",
+        "text": "Where is your original field ledger?",
+        "effects": [
+          {
+            "type": "start",
+            "id": "sera_names"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "sera_names"
+          },
+          {
+            "type": "completed",
+            "id": "sera_water"
+          },
+          {
+            "type": "approval",
+            "id": "sera",
+            "value": 20
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "finish_sera_names",
+        "text": "I brought the ledger.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "sera_names_end",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "sera_names",
+            "value": 2
+          }
+        ],
+        "next": "sera_names_answer",
+        "tags": []
+      },
+      {
+        "id": "start_sera_open",
+        "text": "Help me put the well and the story right.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "sera_open"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "sera_open"
+          },
+          {
+            "type": "completed",
+            "id": "sera_names"
+          },
+          {
+            "type": "approval",
+            "id": "sera",
+            "value": 30
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "charter",
+        "text": "The filter is fitted. Let us agree on the clinic.",
+        "effects": [],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "sera_open",
+            "value": 1
+          }
+        ],
+        "next": "sera_open_choice",
+        "tags": []
+      },
+      {
+        "id": "goodbye",
+        "text": "Rest while you can.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "tarin_knots_answer": {
+    "speaker": "tarin",
+    "text": "She wrote it for me. Not a farewell. A direction. All this time I was searching the rolls instead of looking at the trees.",
+    "choices": [
+      {
+        "id": "understood",
+        "text": "I am glad you told me.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "tarin_pass_answer": {
+    "speaker": "tarin",
+    "text": "Then she will see it. The Wardens call that road a breach. Lysa calls it a way home. I know which name sounds like a place people can live.",
+    "choices": [
+      {
+        "id": "understood",
+        "text": "I am glad you told me.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "tarin_promise_choice": {
+    "speaker": "tarin",
+    "text": "Aster will accept a marked seasonal route. Lysa wants it open all year. I can persuade one of them; I cannot pretend both asked for the same thing.",
+    "choices": [
+      {
+        "id": "open",
+        "text": "Keep it open. We will help the travelers care for it.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "reed_outcome",
+            "value": "shelter"
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": -8
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": 8
+          },
+          {
+            "type": "event",
+            "id": "tarin_promise_choice",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "merciful"
+        ]
+      },
+      {
+        "id": "seasonal",
+        "text": "Mark the safe season and keep a refuge at each end.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "reed_outcome",
+            "value": "garrison"
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": 12
+          },
+          {
+            "type": "event",
+            "id": "tarin_promise_choice",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "practical"
+        ]
+      },
+      {
+        "id": "later",
+        "text": "Give me time to think.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "ilyra_margin_answer": {
+    "speaker": "ilyra",
+    "text": "She began with a question: can a promise survive the people who made it? Later copies omit the question mark. That may be the most expensive mark we ever lost.",
+    "choices": [
+      {
+        "id": "understood",
+        "text": "I am glad you told me.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "ilyra_keeper_answer": {
+    "speaker": "ilyra",
+    "text": "The witnesses could leave. Their successors were told they could not. We did not inherit an oath. We inherited someone else’s mistake in reading it.",
+    "choices": [
+      {
+        "id": "understood",
+        "text": "I am glad you told me.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "ilyra_copy_choice": {
+    "speaker": "ilyra",
+    "text": "Orsa asks for one sealed copy. The village school could use a plain account. I can write either. For the first time, I get to choose who the words are for.",
+    "choices": [
+      {
+        "id": "public",
+        "text": "Make a copy anyone can read.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "archive_outcome",
+            "value": "shelter"
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "amount": -8
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": 8
+          },
+          {
+            "type": "event",
+            "id": "ilyra_copy_choice",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "honest",
+          "curious"
+        ]
+      },
+      {
+        "id": "guarded",
+        "text": "Keep the dangerous method sealed; publish the history.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "archive_outcome",
+            "value": "garrison"
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "amount": 12
+          },
+          {
+            "type": "event",
+            "id": "ilyra_copy_choice",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "practical"
+        ]
+      },
+      {
+        "id": "later",
+        "text": "Let us read it once more.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "sera_water_answer": {
+    "speaker": "sera",
+    "text": "A broken drain. All those arguments about who belonged here, when someone only needed to lift a loose stone. We can repair a drain. We should repair the story too.",
+    "choices": [
+      {
+        "id": "understood",
+        "text": "I am glad you told me.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "sera_names_answer": {
+    "speaker": "sera",
+    "text": "The dividing line is not mine. I remember the quartermaster asking which column a child belonged in. I remember telling him to fetch more water.",
+    "choices": [
+      {
+        "id": "understood",
+        "text": "I am glad you told me.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "sera_open_choice": {
+    "speaker": "sera",
+    "text": "The Compact can supply a staffed infirmary. The travelers offer a smaller clinic with an open door. I want supplies. I also want the key to stay on this side of the door.",
+    "choices": [
+      {
+        "id": "open",
+        "text": "An open clinic. We will keep the shelves filled.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "well_outcome",
+            "value": "shelter"
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": -8
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": 10
+          },
+          {
+            "type": "event",
+            "id": "sera_open_choice",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "merciful"
+        ]
+      },
+      {
+        "id": "compact",
+        "text": "Take the supplies, with a written right to treat everyone.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "well_outcome",
+            "value": "garrison"
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": 12
+          },
+          {
+            "type": "event",
+            "id": "sera_open_choice",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "practical"
+        ]
+      },
+      {
+        "id": "later",
+        "text": "We should not rush the charter.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "rowan_stories": {
+    "speaker": "rowan",
+    "text": "The roads have carried enough old orders. I would like to hear what the people walking them need now.",
+    "choices": [
+      {
+        "id": "offer_act1_01",
+        "text": "Tell me about the cold lantern.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_01"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_01"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "offer_act1_03",
+        "text": "I should not take this road alone.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_03"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_03"
+          },
+          {
+            "type": "completed",
+            "id": "act1_02"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "offer_act1_04",
+        "text": "Let us hear the three factions.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_04"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_04"
+          },
+          {
+            "type": "completed",
+            "id": "act1_03"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "offer_act1_05",
+        "text": "We need to decide where the road goes.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_05"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_05"
+          },
+          {
+            "type": "completed",
+            "id": "act1_04"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "offer_act1_06",
+        "text": "We will need a place to make camp.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_06"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_06"
+          },
+          {
+            "type": "completed",
+            "id": "act1_05"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "offer_act1_09",
+        "text": "The crossing must hold tonight.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_09"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_09"
+          },
+          {
+            "type": "completed",
+            "id": "act1_08"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "offer_act1_10",
+        "text": "The beacon is lit. We should settle the charter.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_10"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_10"
+          },
+          {
+            "type": "completed",
+            "id": "act1_09"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "act1_01_rowan_report",
+        "text": "The oil is full. Silver roots closed the lamp.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "rowan",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_01",
+            "value": 1
+          }
+        ],
+        "next": "act1_01_rowan_report",
+        "tags": []
+      },
+      {
+        "id": "act1_03_rowan_report",
+        "text": "I have found someone to travel with.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "rowan",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_03",
+            "value": 1
+          }
+        ],
+        "next": "act1_03_rowan_report",
+        "tags": []
+      },
+      {
+        "id": "act1_04_rowan_report",
+        "text": "I have heard all three accounts.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "rowan",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_04",
+            "value": 3
+          }
+        ],
+        "next": "act1_04_rowan_report",
+        "tags": []
+      },
+      {
+        "id": "road",
+        "text": "Let us choose the road plan.",
+        "effects": [],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_05",
+            "value": 0
+          }
+        ],
+        "next": "road_policy",
+        "tags": []
+      },
+      {
+        "id": "charter",
+        "text": "Let us choose the lantern charter.",
+        "effects": [],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_10",
+            "value": 0
+          }
+        ],
+        "next": "lantern_covenant",
+        "tags": []
+      },
+      {
+        "id": "village",
+        "text": "Let us talk about the village and the old tasks.",
+        "effects": [],
+        "conditions": [],
+        "next": "@legacy",
+        "tags": []
+      },
+      {
+        "id": "goodbye",
+        "text": "Until we meet again.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ],
+    "variants": [
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "act1_complete"
+          },
+          {
+            "type": "flag",
+            "id": "three_witnesses"
+          }
+        ],
+        "text": "Three names on the new charter, and none above the others. The road will test it. That is how promises become useful."
+      },
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "act1_complete"
+          },
+          {
+            "type": "flag",
+            "id": "lantern_covenant",
+            "value": "shelter"
+          }
+        ],
+        "text": "The settlement lamps were lit separately. For the first time, no one counted that as disobedience. There is still work on the road. It belongs to the living now."
+      },
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "act1_complete"
+          }
+        ],
+        "text": "Hester sent the new charter to every settlement. The right to leave is in the first paragraph. I checked. The light will have to earn its welcome."
+      }
+    ]
+  },
+  "keeper_stories": {
+    "speaker": "keeper",
+    "text": "The wishing stone remembers what was offered. We must learn whether anyone was free to refuse.",
+    "choices": [
+      {
+        "id": "offer_act1_02",
+        "text": "Who was the first witness?",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_02"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_02"
+          },
+          {
+            "type": "completed",
+            "id": "act1_01"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "offer_act1_07",
+        "text": "Where is the First Witness Vault?",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_07"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_07"
+          },
+          {
+            "type": "completed",
+            "id": "act1_06"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "offer_act1_08",
+        "text": "The guardian is at rest.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "act1_08"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "act1_08"
+          },
+          {
+            "type": "completed",
+            "id": "act1_07"
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "act1_02_keeper_report",
+        "text": "The stone says the light may be returned.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "keeper",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_02",
+            "value": 1
+          }
+        ],
+        "next": "act1_02_keeper_report",
+        "tags": []
+      },
+      {
+        "id": "act1_08_keeper_report",
+        "text": "The cradle released its light.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "keeper",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_08",
+            "value": 1
+          }
+        ],
+        "next": "act1_08_keeper_report",
+        "tags": []
+      },
+      {
+        "id": "village",
+        "text": "Let us talk about the village and the old tasks.",
+        "effects": [],
+        "conditions": [],
+        "next": "@legacy",
+        "tags": []
+      },
+      {
+        "id": "goodbye",
+        "text": "Until we meet again.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "hester_stories": {
+    "speaker": "hester",
+    "text": "A road is only useful if people can afford to use it.",
+    "choices": [
+      {
+        "id": "act1_04_hester_report",
+        "text": "What does the Compact ask of the light?",
+        "effects": [
+          {
+            "type": "event",
+            "id": "hester",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_04",
+            "value": 0
+          }
+        ],
+        "next": "act1_04_hester_report",
+        "tags": []
+      },
+      {
+        "id": "offer_hearth_story_1",
+        "text": "Dry Boards for Winter.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "hearth_story_1"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "hearth_story_1"
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "value": -49
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "hearth_story_1_hester_report",
+        "text": "Report: Dry Boards for Winter.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "hester",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "hearth_story_1",
+            "value": 1
+          }
+        ],
+        "next": "hearth_story_1_hester_report",
+        "tags": []
+      },
+      {
+        "id": "offer_hearth_story_2",
+        "text": "The Cost of a Straight Road.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "hearth_story_2"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "hearth_story_2"
+          },
+          {
+            "type": "completed",
+            "id": "hearth_story_1"
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "value": -49
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "hearth_story_2_hester_report",
+        "text": "Report: The Cost of a Straight Road.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "hester",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "hearth_story_2",
+            "value": 1
+          }
+        ],
+        "next": "hearth_story_2_hester_report",
+        "tags": []
+      },
+      {
+        "id": "offer_hearth_story_3",
+        "text": "A Ledger with Open Pages.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "hearth_story_3"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "hearth_story_3"
+          },
+          {
+            "type": "completed",
+            "id": "hearth_story_2"
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "value": -49
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "charter_hearth",
+        "text": "Let us settle the stores charter.",
+        "effects": [],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "hearth_story_3",
+            "value": 0
+          }
+        ],
+        "next": "hearth_charter",
+        "tags": []
+      },
+      {
+        "id": "goodbye",
+        "text": "Until we meet again.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ],
+    "variants": [
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "grain_delivered"
+          }
+        ],
+        "text": "The grain cart reached us. Three sacks have gone to your camp stores. I wrote down the driver’s name beside yours."
+      },
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "helped_carters"
+          }
+        ],
+        "text": "The carter told me who braced the wheel. A ledger never shows quite how much work stands behind a delivered sack."
+      }
+    ]
+  },
+  "yew_stories": {
+    "speaker": "yew",
+    "text": "The vale does not end where a fence is built.",
+    "choices": [
+      {
+        "id": "act1_04_yew_report",
+        "text": "What would the Wardens protect?",
+        "effects": [
+          {
+            "type": "event",
+            "id": "yew",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_04",
+            "value": 1
+          }
+        ],
+        "next": "act1_04_yew_report",
+        "tags": []
+      },
+      {
+        "id": "offer_bough_story_1",
+        "text": "Water Before Borders.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "bough_story_1"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "bough_story_1"
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "value": -49
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "bough_story_1_yew_report",
+        "text": "Report: Water Before Borders.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "yew",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "bough_story_1",
+            "value": 1
+          }
+        ],
+        "next": "bough_story_1_yew_report",
+        "tags": []
+      },
+      {
+        "id": "offer_bough_story_2",
+        "text": "An Unhunted Path.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "bough_story_2"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "bough_story_2"
+          },
+          {
+            "type": "completed",
+            "id": "bough_story_1"
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "value": -49
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "bough_story_2_yew_report",
+        "text": "Report: An Unhunted Path.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "yew",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "bough_story_2",
+            "value": 2
+          }
+        ],
+        "next": "bough_story_2_yew_report",
+        "tags": []
+      },
+      {
+        "id": "offer_bough_story_3",
+        "text": "The Gate in the Boundary.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "bough_story_3"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "bough_story_3"
+          },
+          {
+            "type": "completed",
+            "id": "bough_story_2"
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "value": -49
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "charter_bough",
+        "text": "Let us settle the passage charter.",
+        "effects": [],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "bough_story_3",
+            "value": 0
+          }
+        ],
+        "next": "bough_charter",
+        "tags": []
+      },
+      {
+        "id": "goodbye",
+        "text": "Until we meet again.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ],
+    "variants": [
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "guided_travelers"
+          }
+        ],
+        "text": "The traveler you guided found the marked road. We are replacing the old signs before the next fog."
+      },
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "road_shelters"
+          }
+        ],
+        "text": "Two travelers told us where you shared dry timber. There is room for that fire on our road map."
+      }
+    ]
+  },
+  "orsa_stories": {
+    "speaker": "orsa",
+    "text": "I have corrected this account before. I hope I am better at it now.",
+    "choices": [
+      {
+        "id": "act1_04_orsa_report",
+        "text": "What did the first oath actually promise?",
+        "effects": [
+          {
+            "type": "event",
+            "id": "orsa",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "act1_04",
+            "value": 2
+          }
+        ],
+        "next": "act1_04_orsa_report",
+        "tags": []
+      },
+      {
+        "id": "offer_veil_story_1",
+        "text": "A Third Name.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "veil_story_1"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "veil_story_1"
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "value": -49
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "veil_story_1_orsa_report",
+        "text": "Report: A Third Name.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "orsa",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "veil_story_1",
+            "value": 1
+          }
+        ],
+        "next": "veil_story_1_orsa_report",
+        "tags": []
+      },
+      {
+        "id": "offer_veil_story_2",
+        "text": "An Order Without a Voice.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "veil_story_2"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "veil_story_2"
+          },
+          {
+            "type": "completed",
+            "id": "veil_story_1"
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "value": -49
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "veil_story_2_orsa_report",
+        "text": "Report: An Order Without a Voice.",
+        "effects": [
+          {
+            "type": "event",
+            "id": "orsa",
+            "event": "talk"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "veil_story_2",
+            "value": 1
+          }
+        ],
+        "next": "veil_story_2_orsa_report",
+        "tags": []
+      },
+      {
+        "id": "offer_veil_story_3",
+        "text": "The Public Record.",
+        "effects": [
+          {
+            "type": "start",
+            "id": "veil_story_3"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "not_started",
+            "id": "veil_story_3"
+          },
+          {
+            "type": "completed",
+            "id": "veil_story_2"
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "value": -49
+          }
+        ],
+        "next": "",
+        "tags": []
+      },
+      {
+        "id": "charter_veil",
+        "text": "Let us settle the record charter.",
+        "effects": [],
+        "conditions": [
+          {
+            "type": "stage",
+            "id": "veil_story_3",
+            "value": 0
+          }
+        ],
+        "next": "veil_charter",
+        "tags": []
+      },
+      {
+        "id": "goodbye",
+        "text": "Until we meet again.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ],
+    "variants": [
+      {
+        "conditions": [
+          {
+            "type": "flag",
+            "id": "echoes_released"
+          }
+        ],
+        "text": "The echo has fallen quiet. I have recorded the unfinished sentence with a blank at the end. It is more honest than inventing the missing words."
+      }
+    ]
+  },
+  "act1_01_rowan_report": {
+    "speaker": "rowan",
+    "text": "Roots, not thieves. Thank you for looking before reaching for a culprit. Elowen remembers a stone east of here with silver roots around a name.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "act1_02_keeper_report": {
+    "speaker": "keeper",
+    "text": "Ena was a witness, not a queen. The first light was a gift to the road. The later charters treat it as a debt. Find company before you follow that disagreement underground.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "act1_03_rowan_report": {
+    "speaker": "rowan",
+    "text": "Then you already know something the old charter forgot. People stand beside us by choice. The three envoys are waiting where the roads meet east of the village.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "act1_04_hester_report": {
+    "speaker": "hester",
+    "text": "A supply road we can keep open through winter. I have ledgers full of villages that were warm in summer. I need them warm in February.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "act1_04_yew_report": {
+    "speaker": "yew",
+    "text": "The stream under that road feeds six clearings. A straight line on a map can be a crooked bargain on the ground. Keep the old crossing; repair what is already there.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "act1_04_orsa_report": {
+    "speaker": "orsa",
+    "text": "A light freely offered, witnessed by three people. We preserved the witnesses’ titles and lost their right to leave. I helped copy that mistake. I intend to help correct it.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "act1_04_rowan_report": {
+    "speaker": "rowan",
+    "text": "Winter stores, living water, and a promise that can end. None is a foolish thing to ask for. We still have to choose where tomorrow’s workers begin.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "act1_08_keeper_report": {
+    "speaker": "keeper",
+    "text": "It waited for a witness who could leave. You returned anyway. That is the part of the oath we can keep. Take the light to Lantern Crossing; its last sentries will follow it.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "road_policy": {
+    "speaker": "rowan",
+    "text": "Hester can secure the straight supply road. Yew can reopen the winding woodland crossing. Both will carry food; the cost falls in different places.",
+    "choices": [
+      {
+        "id": "compact",
+        "text": "Build the supply road and protect the wells.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "road_policy",
+            "value": "compact"
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": 18
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": -12
+          },
+          {
+            "type": "event",
+            "id": "road_policy",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "practical",
+          "authority"
+        ]
+      },
+      {
+        "id": "wardens",
+        "text": "Repair the woodland crossing. Keep the stream free.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "road_policy",
+            "value": "wardens"
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": 18
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": -12
+          },
+          {
+            "type": "event",
+            "id": "road_policy",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "wild",
+          "merciful"
+        ]
+      }
+    ]
+  },
+  "lantern_covenant": {
+    "speaker": "rowan",
+    "text": "One charter would promise equal stores, kept by the Compact. Separate lights would belong to the settlements, with no one able to demand them back. We can make either promise honestly.",
+    "choices": [
+      {
+        "id": "shared",
+        "text": "Let each settlement hold its own light.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "lantern_covenant",
+            "value": "shelter"
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": 16
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "amount": 8
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": -6
+          },
+          {
+            "type": "event",
+            "id": "lantern_covenant",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "honest",
+          "merciful"
+        ]
+      },
+      {
+        "id": "charter",
+        "text": "Keep one public charter, with the right for any settlement to leave.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "lantern_covenant",
+            "value": "garrison"
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": 16
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "amount": 8
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": -6
+          },
+          {
+            "type": "event",
+            "id": "lantern_covenant",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "practical"
+        ]
+      },
+      {
+        "id": "witnessed",
+        "text": "Have all three factions witness a shared charter.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "lantern_covenant",
+            "value": "shelter"
+          },
+          {
+            "type": "flag",
+            "id": "three_witnesses",
+            "value": true
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": 12
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": 12
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "amount": 12
+          },
+          {
+            "type": "event",
+            "id": "lantern_covenant",
+            "event": "choice"
+          }
+        ],
+        "conditions": [
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "value": 10
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "value": 10
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "value": 10
+          }
+        ],
+        "next": "",
+        "tags": [
+          "honest"
+        ]
+      }
+    ]
+  },
+  "hearth_story_1_hester_report": {
+    "speaker": "hester",
+    "text": "Five boards are a small entry in a ledger. They are a whole bridge to someone crossing in the snow. I will put the workers on the water survey next.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "hearth_story_2_hester_report": {
+    "speaker": "hester",
+    "text": "The water runs farther than our boundary stones. I have moved the stores uphill. There is one more thing a useful road needs: people willing to trust its keeper.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "bough_story_1_yew_report": {
+    "speaker": "yew",
+    "text": "The channel was older than the fence. Thank you for remembering which one should move. There is a snare line farther north that needs the same care.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "bough_story_2_yew_report": {
+    "speaker": "yew",
+    "text": "A safe game trail is also a safe path for a hungry traveler. I would like our rules to remember that.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "veil_story_1_orsa_report": {
+    "speaker": "orsa",
+    "text": "“Shall lay down their arms.” That clause is missing from our oath. I know whose hand copied the page. Mine.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "veil_story_2_orsa_report": {
+    "speaker": "orsa",
+    "text": "The sentry can rest. We should decide what the next apprentice learns before they are handed another incomplete order.",
+    "choices": [
+      {
+        "id": "continue",
+        "text": "I understand.",
+        "effects": [],
+        "conditions": [],
+        "next": "",
+        "tags": []
+      }
+    ]
+  },
+  "hearth_charter": {
+    "speaker": "hester",
+    "text": "Open ledgers will make my work slower. Closed ones will make every shortage look like theft. Which trouble should I take on?",
+    "choices": [
+      {
+        "id": "open",
+        "text": "Let village stewards inspect the stores.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "hearth_open_books",
+            "value": true
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": 8
+          },
+          {
+            "type": "event",
+            "id": "hearth_charter",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "honest"
+        ]
+      },
+      {
+        "id": "audit",
+        "text": "Appoint one sworn auditor from each faction.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "hearth_auditors",
+            "value": true
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "amount": 8
+          },
+          {
+            "type": "event",
+            "id": "hearth_charter",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "practical"
+        ]
+      }
+    ]
+  },
+  "bough_charter": {
+    "speaker": "yew",
+    "text": "A permit lets us count travelers. An open gate asks us to trust them. After the work you have done, I can argue for either.",
+    "choices": [
+      {
+        "id": "open",
+        "text": "Keep the gate open and publish the safe paths.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "bough_open_gate",
+            "value": true
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": 8
+          },
+          {
+            "type": "event",
+            "id": "bough_charter",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "merciful"
+        ]
+      },
+      {
+        "id": "permits",
+        "text": "Issue free permits at every refuge.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "bough_free_permits",
+            "value": true
+          },
+          {
+            "type": "reputation",
+            "id": "veil",
+            "amount": 8
+          },
+          {
+            "type": "event",
+            "id": "bough_charter",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "practical"
+        ]
+      }
+    ]
+  },
+  "veil_charter": {
+    "speaker": "orsa",
+    "text": "We can publish the whole corrected oath or begin by teaching its history. Either way, the correction bears my name.",
+    "choices": [
+      {
+        "id": "whole",
+        "text": "Publish it in full. People can read a promise for themselves.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "veil_public_oath",
+            "value": true
+          },
+          {
+            "type": "reputation",
+            "id": "bough",
+            "amount": 8
+          },
+          {
+            "type": "event",
+            "id": "veil_charter",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "honest",
+          "curious"
+        ]
+      },
+      {
+        "id": "history",
+        "text": "Teach the history first, with the binding kept under witness.",
+        "effects": [
+          {
+            "type": "flag",
+            "id": "veil_witnessed_teaching",
+            "value": true
+          },
+          {
+            "type": "reputation",
+            "id": "hearth",
+            "amount": 8
+          },
+          {
+            "type": "event",
+            "id": "veil_charter",
+            "event": "choice"
+          }
+        ],
+        "conditions": [],
+        "next": "",
+        "tags": [
+          "practical"
+        ]
+      }
+    ]
+  }
+}

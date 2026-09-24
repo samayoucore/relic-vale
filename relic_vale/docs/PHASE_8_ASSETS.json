@@ -1,0 +1,752 @@
+{
+  "phase": 8,
+  "models": 82,
+  "icons": 60,
+  "files": [
+    {
+      "file": "assets/3d/phase8/cutefish/Anglerfish.glb",
+      "bytes": 186508,
+      "sha256": "f2742e2539e48891964a0e96608ce45caaaaae66e4952b5410db4bf0353b358c"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/ArmoredCatfish.glb",
+      "bytes": 151200,
+      "sha256": "c001219fa477083bf2d7a8837b1157018bb2d7c725f8c3044d280aab6e6774ca"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Betta.glb",
+      "bytes": 149704,
+      "sha256": "b2905da0becaec29e40278dfd1373b4e57015102c954468f6bafd7f1e1131679"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/BlueGoldfish.glb",
+      "bytes": 173320,
+      "sha256": "b0e201891cf2752efbb79e54b3fede2ac59941b15bca9584e802c9d0dfdbe4a0"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/BlueTang.glb",
+      "bytes": 146448,
+      "sha256": "76d5eefb48e2a7284edb7f3774b957046624e4592d6f302c96fdd81d0897b8b7"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/CardinalFish.glb",
+      "bytes": 149764,
+      "sha256": "6fdd303ab322db0ba6af0b3609fd8b55ffc29f2ae0bf9cd1a845a4979c758087"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/CoralGrouper.glb",
+      "bytes": 167992,
+      "sha256": "cd9bc188d5fa8b8537711c3cc739dac043cc32c2128ca37fa0d6fe16787221e6"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/FishingRod_Lvl1.glb",
+      "bytes": 17092,
+      "sha256": "1d841be8995ea7a46a3b68d083988ec40bf162aa6fa7cd05ad1680bef10d949a"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/FishingRod_Lvl2.glb",
+      "bytes": 28300,
+      "sha256": "0ca31e0cbf5834b4991feb74636e6e5a9168a19cdbbb43298c187d4bac2d752f"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/FishingRod_Lvl3.glb",
+      "bytes": 49824,
+      "sha256": "9ac8ac3c344c59049f0ac7c1f4fe0b7013de98a51f6b043035921487e00b703a"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Flatfish.glb",
+      "bytes": 159348,
+      "sha256": "e0174da91c6c2d165b80093eec16149c5d98b738b8cff57c2292531bdd9c85c7"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/FlowerHorn.glb",
+      "bytes": 161612,
+      "sha256": "9d35a0b1c647a1383b172431a65a9ea3f4fcef0f51674f27a20a470ead79adfa"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Goldfish.glb",
+      "bytes": 173324,
+      "sha256": "15a6e30d0d1bb1ff023aa4d250a21b503958262650d506d4774716c42eafb2b7"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Koi.glb",
+      "bytes": 165348,
+      "sha256": "1ab7fa92b54eb588bc462475bca35e729336a9638a92274f9a0acd92b3069bbc"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/LICENSE.txt",
+      "bytes": 364,
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Lure_1.glb",
+      "bytes": 47100,
+      "sha256": "c726fc2268fbbdaa1098c57fc4794179de7df4c1ae2b2831293448c08c2b6fbb"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Lure_2.glb",
+      "bytes": 48716,
+      "sha256": "071d5a75dd979f05f15c4d2c12fb5692628e344e1b65522ac794b0706cd2fdd6"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Lure_3.glb",
+      "bytes": 48336,
+      "sha256": "edf32a987409290d5ff710ff35c5608790e6374078ec55728b077262261af0f4"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/MandarinFish.glb",
+      "bytes": 178184,
+      "sha256": "e1b8b38252efee6488bfc1aaf14bfdedeef0999452bf4119cca8968b16f23bf6"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Piranha.glb",
+      "bytes": 179684,
+      "sha256": "882f7b40fd668f597942dea4795f7f19f068e6573d878a0ba9953b8fcc2c7b2b"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Puffer.glb",
+      "bytes": 235652,
+      "sha256": "54bd8b2bee0e237bc7320574d32b630eb172ff02b3765e99acd76ccbb43dfc3a"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/RedSnapper.glb",
+      "bytes": 154660,
+      "sha256": "7dcd06c9e4299469f129ca0d4567365042a08e65a137b03e37c5372874769eba"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/RoyalGramma.glb",
+      "bytes": 146396,
+      "sha256": "41ba3654d0e6820ee37982f84e3877057b56f976157a1ba34936a6f04254ae27"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Sunfish.glb",
+      "bytes": 146528,
+      "sha256": "39c10c71f8240459caa38384068563d1ae7eb6a976e134b4beb982d7b0957686"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Tetra.glb",
+      "bytes": 180600,
+      "sha256": "e84c2fa342e8dcfd34ee472034a06f451229445ae2ea73518378d959a180dfb5"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Tuna.glb",
+      "bytes": 180084,
+      "sha256": "7dcbb908f979f195640b905c5486c8140781809fcceb16f4a3b6ec7d8d43de02"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Turbot.glb",
+      "bytes": 156660,
+      "sha256": "13575b29975557f4f7e9d4454771433f9a77591f833810d2b1187f4db615bd0f"
+    },
+    {
+      "file": "assets/3d/phase8/cutefish/Worm.glb",
+      "bytes": 15820,
+      "sha256": "4b7b467f520ed538602577f650577de8686d0a0c437846d7cd2628abe935923b"
+    },
+    {
+      "file": "assets/3d/phase8/farmbuildings/Fence.glb",
+      "bytes": 9924,
+      "sha256": "bb44172923de95a7a41962fab26770af8ba287d936265f4639386d7d79e857ef"
+    },
+    {
+      "file": "assets/3d/phase8/farmbuildings/LICENSE.txt",
+      "bytes": 85,
+      "sha256": "2029a8dd04358542b526e6f6500cd7903182c2de690b2b71428ea6a6f6c9089d"
+    },
+    {
+      "file": "assets/3d/phase8/farmbuildings/OpenBarn.glb",
+      "bytes": 74600,
+      "sha256": "ff6caada6ef34cb05315c998fcde56478b3ba1cd29222d5f9e687c1972927462"
+    },
+    {
+      "file": "assets/3d/phase8/tools/LICENSE.txt",
+      "bytes": 134,
+      "sha256": "d400418acb5b008fb99474e4c50acd151f547262ab5aa283c8fb3fd848f8701f"
+    },
+    {
+      "file": "assets/3d/phase8/tools/WateringCan.glb",
+      "bytes": 43576,
+      "sha256": "6da7a1248e0dd61f80a4ac5d0102465176caf364caf2282b942ff3fc574a9141"
+    },
+    {
+      "file": "assets/3d/phase8/tools/WateringCan_tiny_treats_texture_1.png",
+      "bytes": 20974,
+      "sha256": "31e5c7c81bfba644a59797b1907519592c7728d4af98a705449975dd929482e5"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Apple_1.glb",
+      "bytes": 5544,
+      "sha256": "b3c30fe20d527476d3d1134fd2e4bb55515255ef669117361ac49c020a59f549"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Apple_2.glb",
+      "bytes": 19412,
+      "sha256": "cec7fdccac7eb275fdf8ed5d46bb69ffc6b837ecc5c07fe260934e951a480f6a"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Apple_3.glb",
+      "bytes": 32992,
+      "sha256": "4f658600e248197b91250827db54cbde5e93ae7b6aab080db07dc80d640a8874"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Apple_4.glb",
+      "bytes": 118044,
+      "sha256": "450e1cc4091e7180cfcb96b1107fe694efbcc9759be3c5ad5f68f455ccbf10a0"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Apple_Crop.glb",
+      "bytes": 33372,
+      "sha256": "765a3d0bede9531ce718039c115067c7f951159048608d47574107f44c795655"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Bamboo_1.glb",
+      "bytes": 5932,
+      "sha256": "6b8f012c0351f845453015f76142f063c4a4ab65fde0a398c8eb6f215460d783"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Bamboo_2.glb",
+      "bytes": 16796,
+      "sha256": "aa933dea4be44c2777601c94cf9915b03632eb663e4872902fa93acc8245dd25"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Bamboo_3.glb",
+      "bytes": 26296,
+      "sha256": "385c177a80874d8496946499744986d8b2d52a31dc9fc51dc007b251216472c4"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Bamboo_4.glb",
+      "bytes": 34076,
+      "sha256": "18c315ba06e1c7b07f71fd47aa062b873109a8de0e0567593bfa9da7f9cc07e5"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Bamboo_Crop.glb",
+      "bytes": 7292,
+      "sha256": "f9645a4d53b90cc8a0a2439121f94d2ebc183f2add9854d562ecfd843af02ab7"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Beet_1.glb",
+      "bytes": 8388,
+      "sha256": "f65a53c117023eceee91f32ef78e2eaad9d489e36f5bc054a80c9c1557544d2b"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Beet_2.glb",
+      "bytes": 13192,
+      "sha256": "cd511c422682c42f48b7db042d9f9fe5abab61f7017ec52b91d64d95ee170bd7"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Beet_3.glb",
+      "bytes": 18344,
+      "sha256": "67bcf0bf270ef51f978d34f8a75b68b1cf4151a600c22b145f6513aac6c8636c"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Beet_4.glb",
+      "bytes": 26700,
+      "sha256": "db2afebd0e93f532eae5a184f1929c5215b67979182c5b17adb848f7abf24b8f"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Beet_Crop.glb",
+      "bytes": 9964,
+      "sha256": "328826644378a58ae60c267d570f72341f588bbb58291c0b511c9c293382662e"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/BushBerries_1.glb",
+      "bytes": 6808,
+      "sha256": "87af00e0cb8c009c525952494353025d9a559af6d4a480409e5ee8be9902fadf"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/BushBerries_2.glb",
+      "bytes": 8644,
+      "sha256": "b26c91e7cdb2e0e7e86ff30e9a91ad16195861c10478a07ba09b3255f446c8a6"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/BushBerries_3.glb",
+      "bytes": 9888,
+      "sha256": "0948ce9c5a5298a8929988fbcb8f6e64ecdf3a68460f015e4ed72fc3361f09f4"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/BushBerries_4.glb",
+      "bytes": 50060,
+      "sha256": "081a865f63f9cd20d9e9619af7d42ed78527dc7e2ef00160da240a5cdabad2dd"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/BushBerries_Crop.glb",
+      "bytes": 3720,
+      "sha256": "f7a6bd20bbf0b2c9554c5bfdf34fd625ffefe3260ae48ac4005d1fde47bd8b3f"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Cactus_1.glb",
+      "bytes": 7180,
+      "sha256": "909de46578859ecc4350614b7492a8211867e16523e07dc9c7c3469240a9bf43"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Cactus_2.glb",
+      "bytes": 15548,
+      "sha256": "4e3b864e9d0f7f7a92f947e28849e1209aa8474894473e02a408064cac192e55"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Cactus_3.glb",
+      "bytes": 21908,
+      "sha256": "e675f570846c378e1c3aaa2e921efb7f286b3a79d06db22720a354a56e6ec87e"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Cactus_4.glb",
+      "bytes": 113868,
+      "sha256": "312b8069ad255394e59510b093e616e809d459911f291bcbf76ce8f7b1b9345b"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Cactus_Crop.glb",
+      "bytes": 15332,
+      "sha256": "4f6148e7ac58c8ac626983471799b8390a2bc6d0ec7e06226d09de0cedc63bb3"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Carrot_1.glb",
+      "bytes": 5920,
+      "sha256": "05064f0b2943415edbf4250ca55914a29d0c8b14624ef3370e14d08afc5bd106"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Carrot_2.glb",
+      "bytes": 16808,
+      "sha256": "a7cab473f59401814527aa28f72a7f26a73d5bbfc763b3e30e8cc5eef4a8b219"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Carrot_3.glb",
+      "bytes": 23348,
+      "sha256": "5d3ea194b7af92103dfa65613cd13d51acbe7c82df495881479b6570dbecaddd"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Carrot_4.glb",
+      "bytes": 30700,
+      "sha256": "9604381a7c776ec17b7bf7ca5daf8d4b7496bfcff098de34791984c2e978792a"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Carrot_Crop.glb",
+      "bytes": 13128,
+      "sha256": "62b1b64e420bef3184dd8f86be0833f21bd6e11ee5714bb05834c55a0ae6df00"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Corn_1.glb",
+      "bytes": 5920,
+      "sha256": "ed07ab77f993d33a72270201f4319ccbb7a57dc6b3aa9542d73733466044e96c"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Corn_2.glb",
+      "bytes": 8728,
+      "sha256": "9057ffc481dadc826ba23d447c976b90a3d2f5830fc1fb8551ce9dd51e785dc3"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Corn_3.glb",
+      "bytes": 19864,
+      "sha256": "bd893cd58fb4355a903f7c72aa8778466d3d68342e57f652fbf373c9eb6d16db"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Corn_4.glb",
+      "bytes": 56392,
+      "sha256": "bdab6cfedd4b1fb91d7a4af74239d9d337c67c02492753ed4dc9f90004ae8ffa"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Corn_Crop.glb",
+      "bytes": 6632,
+      "sha256": "a815a430490c9e20bd93bf15247dfbbe8e7ae364786df74dde228b7ef6e69aec"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Flowers_Crop.glb",
+      "bytes": 9340,
+      "sha256": "fdcaf328f748be3f2251aef365ce6007c812fc50e801c80df6ce679ad5696014"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Flower_1.glb",
+      "bytes": 5500,
+      "sha256": "0b9aba869f372fd609b9810d8efec8e4aa9a725b0d3e9bd90d6c346fac272ec2"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Flower_2.glb",
+      "bytes": 3396,
+      "sha256": "e826fd1c1a3901fb9f4f580c6bdb873bd3f56aae2bbc7f207ade6e19c4e3234b"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Flower_3.glb",
+      "bytes": 10268,
+      "sha256": "97ea1af81e01c119a89cfc0ec47b6bdca0ee5da2ae53e7d2ba3eb68d00b42db0"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/Flower_4.glb",
+      "bytes": 14240,
+      "sha256": "573933aa6e5dbac07678ca1aec2dbba298e8cde6266bd06fdc36ad334e137156"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatecrops/LICENSE.txt",
+      "bytes": 364,
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/Apple.glb",
+      "bytes": 33348,
+      "sha256": "b19f9e9364e1b5f95334748f2d78a73a3ac1a059ee8eb00e64f7e77f41ebee8d"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/Bottle1.glb",
+      "bytes": 14048,
+      "sha256": "d6f71dd89c2cebd85a73f2635c96751d5a15cef1e2705c60efb2a2980d3d3e8f"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/Bread.glb",
+      "bytes": 19660,
+      "sha256": "738d05df1fb4a1792229626747e7c8049d8022faa2d5a02f87133d45c68c883c"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/Carrot.glb",
+      "bytes": 45708,
+      "sha256": "7eaa215d26281b5d35373e09c4371cd94e1a574ce5765caf0e398c5d80d44ff9"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/Cheese_Singles.glb",
+      "bytes": 5300,
+      "sha256": "d2b9a37a65d4f80e1711d5f3d01eaa62c67711fa2fac02a97622a7be879ccde8"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/ChickenLeg.glb",
+      "bytes": 17100,
+      "sha256": "3191ba8b7e2c722adf37293d494c3e7a9e6c9ea5d3edde54bf05b380c0e88a75"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/CookingPot.glb",
+      "bytes": 14008,
+      "sha256": "131ee051d227721bf0c04626f681fd3ea39a9b57aa40d11d5d0c2e540f157e2e"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/CookingPot_Soup.glb",
+      "bytes": 14816,
+      "sha256": "c8b143c08d35551b8b21fe5cf8a400873a7138be5f52a7af64394b8c55d0b694"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/Croissant.glb",
+      "bytes": 7676,
+      "sha256": "de6fdcedf7fd1e1822ad781c385e8acdef38ae2f5713ee69d9ab5658e0152966"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/Egg_Fried.glb",
+      "bytes": 6128,
+      "sha256": "e48200087621d5fb5970a92018db936d205599b22441222378ba536a865ad095"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/Fish.glb",
+      "bytes": 24740,
+      "sha256": "1615e2604538762427566cdfd439270e6014251c340330195c4415f3581bf968"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/FryingPan.glb",
+      "bytes": 13048,
+      "sha256": "10e103caab48fc26c8e6f6d76fd60012efc515b4f02b51c1568e67787e281dbe"
+    },
+    {
+      "file": "assets/3d/phase8/ultimatefood/LICENSE.txt",
+      "bytes": 364,
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c"
+    },
+    {
+      "file": "assets/ui/phase8/icons/bait_basic.png",
+      "bytes": 2064,
+      "sha256": "93d39584041c4246bb827705f4e7faaa73c448746a76280702a48be568539982"
+    },
+    {
+      "file": "assets/ui/phase8/icons/bait_insect.png",
+      "bytes": 3928,
+      "sha256": "22518e8fa7d7065a0c4f9f3b717e753b3b8d6ad57fb60463b1cd132e7c5277e3"
+    },
+    {
+      "file": "assets/ui/phase8/icons/bait_rare.png",
+      "bytes": 2533,
+      "sha256": "3c8db3f129848bb18e38ecd66c7e40db9ba41b239b972feb8b951e0993419575"
+    },
+    {
+      "file": "assets/ui/phase8/icons/crop_apple.png",
+      "bytes": 4096,
+      "sha256": "162cdf9cab267717568cace1faea3603d9c6d3fb5db57d4ced194fd6529c27af"
+    },
+    {
+      "file": "assets/ui/phase8/icons/crop_bamboo.png",
+      "bytes": 1391,
+      "sha256": "d705177fdf98c3341107a5b7ddb521d0b9d9385ddc32b44669df64140bb08abb"
+    },
+    {
+      "file": "assets/ui/phase8/icons/crop_beet.png",
+      "bytes": 2686,
+      "sha256": "9a3c827ed76a316694e3209692d551cbd5a13bd0c680c0b0e3ff995ed7e2bc23"
+    },
+    {
+      "file": "assets/ui/phase8/icons/crop_berries.png",
+      "bytes": 2252,
+      "sha256": "63f6ed91a14006ffa07502249b51ba16bc4ea0b85d8ccf42681da6b284b03762"
+    },
+    {
+      "file": "assets/ui/phase8/icons/crop_cactus.png",
+      "bytes": 3242,
+      "sha256": "dd850b11d7e1bb5af1c07f4668ec5cf07d8eff183671f2687bbdf3bda36c6a84"
+    },
+    {
+      "file": "assets/ui/phase8/icons/crop_carrot.png",
+      "bytes": 1873,
+      "sha256": "387553aa4e6402ce84a8b64414c4a2fe9515d354e3b30f85c6cbd0f6241a16a6"
+    },
+    {
+      "file": "assets/ui/phase8/icons/crop_corn.png",
+      "bytes": 1994,
+      "sha256": "1537b26425c1b3e8e034e8e49a755268b5809ef23f41ddc4e47b898190fd71c0"
+    },
+    {
+      "file": "assets/ui/phase8/icons/crop_flower.png",
+      "bytes": 2562,
+      "sha256": "4de44150dd1c5d3344469c21320542f3f163a97c9405ca7c79d2aca70e6956ef"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fishing_rod_1.png",
+      "bytes": 706,
+      "sha256": "d4ef2d081154035f1e22c6d6b9a12cceecb72057d136f20af0faccb4f737736e"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fishing_rod_2.png",
+      "bytes": 787,
+      "sha256": "1dc16bce811a8a4fc68cf5248f66d0bd38730c30810718aad81a933b6c5f6c03"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fishing_rod_3.png",
+      "bytes": 617,
+      "sha256": "5ac51d912e2d781be20302be2d8c26e8698352596ad795380be7a71b8890e2b8"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_amber_bream.png",
+      "bytes": 3165,
+      "sha256": "0aa9c378eceaa82c1d47ca65bb0666c7f79e6676870bf5345b60e3afcc768e3b"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_blue_carp.png",
+      "bytes": 3465,
+      "sha256": "f7b121b1052a0f4e4a59b1491a194167c4c54ef7dd1d5642914ad167085e6c4a"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_copper_snapper.png",
+      "bytes": 3290,
+      "sha256": "f68f9fce8df311896e427e94cc56c221c7f0575986f58d9a489c700014fdf7f3"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_dawn_mandarin.png",
+      "bytes": 3185,
+      "sha256": "0a212d413bc4ea13482e444538f8adc2d68a8d5c858cd68ac1822c789637f8dc"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_elder_grouper.png",
+      "bytes": 3032,
+      "sha256": "3e81ba5602e28add4fee08c20581a6bcc4c6154447d1642eb85049ac72262b1f"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_golden_dace.png",
+      "bytes": 3707,
+      "sha256": "2f042fed7c691b8cd95ad223a538904203e9f8f254f1e641de03beba4d2d9b31"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_lantern_fish.png",
+      "bytes": 3553,
+      "sha256": "aa3df8524caaf63d0d211e2f93aea83e9468465cc04fcd9fdb694dd79512e541"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_minnow.png",
+      "bytes": 2474,
+      "sha256": "9f6319897a66ee349ee14b751105f2b57794cb43d98ed4109ddecbcd294b9ed3"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_mist_darter.png",
+      "bytes": 3441,
+      "sha256": "2896edaafe7e1a63dcc5978d243103a81e75c04b591739ea27fe74f706ec2185"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_moon_koi.png",
+      "bytes": 3736,
+      "sha256": "6a1fe5c18deeb5578c8fbc27418f1f83fa5b074e89e3455da9e1c723e2298469"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_mud_loach.png",
+      "bytes": 2511,
+      "sha256": "4a914ef04bf3439a484ce25266505fa9093786100d5486d67ce29c5484bbc28d"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_pond_carp.png",
+      "bytes": 3736,
+      "sha256": "6a1fe5c18deeb5578c8fbc27418f1f83fa5b074e89e3455da9e1c723e2298469"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_reed_betta.png",
+      "bytes": 3377,
+      "sha256": "832539e927df822b544ba629d3ce2fbfb6a093ab12cfa353e7dd16565edc6e86"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_river_giant.png",
+      "bytes": 3087,
+      "sha256": "ae8f191cfd79afd8596eb94edeab709ec549e98f07c160222ffaf64f1c2718c0"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_ruby_fin.png",
+      "bytes": 3415,
+      "sha256": "ad4bd1d0b36ec6176dcc94ed0557db08f5c40392068c367474cdfd437d0e7df6"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_stone_flatfish.png",
+      "bytes": 4066,
+      "sha256": "bada071fc760a61d913391f6a18e1501ceabb0eb983d45eaede8bdfcf9547e15"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_storm_puffer.png",
+      "bytes": 5015,
+      "sha256": "569e2e7c9aff4561da89d2402cac3d3cf9cb9ed6dab262842e7cce6265ee6fbb"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_sun_perch.png",
+      "bytes": 3224,
+      "sha256": "b24c64c2b72e78cbfbca67f2f4a2706289295a0c128167f6051304baeb898c8d"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_thorn_pike.png",
+      "bytes": 3513,
+      "sha256": "ff230bc85866e6e0a84315a51c2c2a23dc27218932c68017befca8a23fcc22b0"
+    },
+    {
+      "file": "assets/ui/phase8/icons/fish_violet_turbot.png",
+      "bytes": 3701,
+      "sha256": "61e99b64af512d45810cd00d03fae50a7cc00e7b16a2ef3cc38794ca6a8aae4f"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_apple_glaze.png",
+      "bytes": 2585,
+      "sha256": "3ccf6de31b00f7871b8a6fe6028accf37b25617f951d3b61d636b4dc3b1e2f0f"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_bamboo_broth.png",
+      "bytes": 2298,
+      "sha256": "26f17270a144828cc43ce9f48d0620076b3f1bb0958c8d69338b126541ff2c26"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_beet_broth.png",
+      "bytes": 2298,
+      "sha256": "26f17270a144828cc43ce9f48d0620076b3f1bb0958c8d69338b126541ff2c26"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_berry_bread.png",
+      "bytes": 2823,
+      "sha256": "490a7c29f8f237a82456b1e0228a02ee6db3fc845859a48ab896a2bca1b9ea4a"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_cactus_tea.png",
+      "bytes": 1633,
+      "sha256": "168cc18b64ded763f7241a898ebe5df9f4f3e4055ae6aed55acbd3f876f80fd3"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_corn_chowder.png",
+      "bytes": 2298,
+      "sha256": "26f17270a144828cc43ce9f48d0620076b3f1bb0958c8d69338b126541ff2c26"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_dawn_banquet.png",
+      "bytes": 1050,
+      "sha256": "59e50a00238e39693f60cfd5071d2b6e77be3b04f6c172fa3970b999dbe27085"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_elder_roast.png",
+      "bytes": 2585,
+      "sha256": "3ccf6de31b00f7871b8a6fe6028accf37b25617f951d3b61d636b4dc3b1e2f0f"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_forest_bites.png",
+      "bytes": 2823,
+      "sha256": "490a7c29f8f237a82456b1e0228a02ee6db3fc845859a48ab896a2bca1b9ea4a"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_garden_pot.png",
+      "bytes": 2298,
+      "sha256": "26f17270a144828cc43ce9f48d0620076b3f1bb0958c8d69338b126541ff2c26"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_giant_feast.png",
+      "bytes": 1050,
+      "sha256": "83f6860e2d2580fe06892717f136f5402684d9d37daab51fd492d8418eff6e01"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_grilled_fish.png",
+      "bytes": 1050,
+      "sha256": "83f6860e2d2580fe06892717f136f5402684d9d37daab51fd492d8418eff6e01"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_harvest_pie.png",
+      "bytes": 2464,
+      "sha256": "40beaf29fc682f4e2c893e2cf266d4c040acf81bb37af553e67e5c67006d1048"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_herb_carp.png",
+      "bytes": 1050,
+      "sha256": "59e50a00238e39693f60cfd5071d2b6e77be3b04f6c172fa3970b999dbe27085"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_hunters_soup.png",
+      "bytes": 2298,
+      "sha256": "26f17270a144828cc43ce9f48d0620076b3f1bb0958c8d69338b126541ff2c26"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_lantern_bisque.png",
+      "bytes": 2298,
+      "sha256": "26f17270a144828cc43ce9f48d0620076b3f1bb0958c8d69338b126541ff2c26"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_mist_supper.png",
+      "bytes": 1050,
+      "sha256": "13d528a107f78bd5ce7830e77f3e3f79167b24d2696ba7cbd448e8da3b3aa10a"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_moon_soup.png",
+      "bytes": 2298,
+      "sha256": "26f17270a144828cc43ce9f48d0620076b3f1bb0958c8d69338b126541ff2c26"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_peppered_loach.png",
+      "bytes": 1050,
+      "sha256": "89d4cd5a897d721675c5b5e233e2da15fea93c405a572cdf9293ced2f65ce243"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_perch_skewer.png",
+      "bytes": 1050,
+      "sha256": "83f6860e2d2580fe06892717f136f5402684d9d37daab51fd492d8418eff6e01"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_river_stew.png",
+      "bytes": 2298,
+      "sha256": "26f17270a144828cc43ce9f48d0620076b3f1bb0958c8d69338b126541ff2c26"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_roast_carrot.png",
+      "bytes": 2146,
+      "sha256": "1db88927970ac86f9368e23ec5c62b81351e7ca935ada308f595f851106b040e"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_roast_meat.png",
+      "bytes": 2585,
+      "sha256": "3ccf6de31b00f7871b8a6fe6028accf37b25617f951d3b61d636b4dc3b1e2f0f"
+    },
+    {
+      "file": "assets/ui/phase8/icons/meal_ruby_fillet.png",
+      "bytes": 1049,
+      "sha256": "942c84087deb4b75a5acba1fe3208e82119228168b3a4bc1d7ddb71b9db38a6b"
+    },
+    {
+      "file": "assets/ui/phase8/icons/message_bottle.png",
+      "bytes": 1633,
+      "sha256": "168cc18b64ded763f7241a898ebe5df9f4f3e4055ae6aed55acbd3f876f80fd3"
+    },
+    {
+      "file": "assets/ui/phase8/icons/watering_can.png",
+      "bytes": 5661,
+      "sha256": "dfa246c26ee5010c82d37547fdcd8bdeceb4acf0097ae2e804a19971066852ab"
+    },
+    {
+      "file": "data/profession_motion.json",
+      "bytes": 12944,
+      "sha256": "d15d52af5a103d6fde3df0a36d80a4ee1461eefc8a38baadbb906f3ee0c1786a"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "hearth_1": {
+    "name": "Winter timber",
+    "type": "collect",
+    "target": "wood",
+    "count": 4,
+    "description": "Gather four wood from fallen logs. Rowan needs dry stores for the lantern road.",
+    "chain": "hearth",
+    "npc": "rowan",
+    "prerequisites": [],
+    "next": "hearth_2",
+    "reputation_requirement": 0,
+    "reward": {
+      "xp": 35,
+      "coins": 15,
+      "shards": 0,
+      "reputation": 15,
+      "faction": "hearth",
+      "unlock": ""
+    }
+  },
+  "hearth_2": {
+    "name": "Word from Ironvein",
+    "type": "talk",
+    "target": "ironvein_smith",
+    "count": 1,
+    "description": "Visit the Ironvein smith. Follow the marked road on the atlas.",
+    "chain": "hearth",
+    "npc": "rowan",
+    "prerequisites": [
+      "hearth_1"
+    ],
+    "next": "hearth_3",
+    "reputation_requirement": 10,
+    "reward": {
+      "xp": 60,
+      "coins": 30,
+      "shards": 0,
+      "reputation": 15,
+      "faction": "hearth",
+      "unlock": ""
+    }
+  },
+  "hearth_3": {
+    "name": "The old mine oath",
+    "type": "dungeon",
+    "target": "mine",
+    "count": 1,
+    "description": "Defeat the mine guardian and recover the sealed work ledger. Return to Rowan.",
+    "chain": "hearth",
+    "npc": "rowan",
+    "prerequisites": [
+      "hearth_2"
+    ],
+    "next": "",
+    "reputation_requirement": 20,
+    "reward": {
+      "xp": 85,
+      "coins": 45,
+      "shards": 1,
+      "reputation": 15,
+      "faction": "hearth",
+      "unlock": "hearth_3"
+    }
+  },
+  "bough_1": {
+    "name": "A ranger’s welcome",
+    "type": "collect",
+    "target": "wild_herb",
+    "count": 3,
+    "description": "Bring three silverleaf herbs to the Fernwatch ranger.",
+    "chain": "bough",
+    "npc": "fernwatch_ranger",
+    "prerequisites": [],
+    "next": "bough_2",
+    "reputation_requirement": 0,
+    "reward": {
+      "xp": 35,
+      "coins": 15,
+      "shards": 0,
+      "reputation": 15,
+      "faction": "bough",
+      "unlock": ""
+    }
+  },
+  "bough_2": {
+    "name": "Teeth on the trail",
+    "type": "kill",
+    "target": "wolf",
+    "count": 3,
+    "description": "Thin the hostile wolves along forest trails. Leave the deer in peace.",
+    "chain": "bough",
+    "npc": "fernwatch_ranger",
+    "prerequisites": [
+      "bough_1"
+    ],
+    "next": "bough_3",
+    "reputation_requirement": 10,
+    "reward": {
+      "xp": 60,
+      "coins": 30,
+      "shards": 0,
+      "reputation": 15,
+      "faction": "bough",
+      "unlock": ""
+    }
+  },
+  "bough_3": {
+    "name": "A quiet grove",
+    "type": "discover",
+    "target": "grove",
+    "count": 1,
+    "description": "Find the ancient grove, then report to Fernwatch for the longbow pattern.",
+    "chain": "bough",
+    "npc": "fernwatch_ranger",
+    "prerequisites": [
+      "bough_2"
+    ],
+    "next": "",
+    "reputation_requirement": 20,
+    "reward": {
+      "xp": 85,
+      "coins": 45,
+      "shards": 1,
+      "reputation": 15,
+      "faction": "bough",
+      "unlock": "bough_3"
+    }
+  },
+  "veil_1": {
+    "name": "Letters in bone",
+    "type": "collect",
+    "target": "ancient_bone",
+    "count": 2,
+    "description": "Recover two runed bones from skeletons in the Fallen March.",
+    "chain": "veil",
+    "npc": "keeper",
+    "prerequisites": [],
+    "next": "veil_2",
+    "reputation_requirement": 0,
+    "reward": {
+      "xp": 35,
+      "coins": 15,
+      "shards": 0,
+      "reputation": 15,
+      "faction": "veil",
+      "unlock": ""
+    }
+  },
+  "veil_2": {
+    "name": "Blue light below",
+    "type": "collect",
+    "target": "crystal",
+    "count": 3,
+    "description": "Gather three veil crystals from ruins or underground deposits.",
+    "chain": "veil",
+    "npc": "keeper",
+    "prerequisites": [
+      "veil_1"
+    ],
+    "next": "veil_3",
+    "reputation_requirement": 10,
+    "reward": {
+      "xp": 60,
+      "coins": 30,
+      "shards": 0,
+      "reputation": 15,
+      "faction": "veil",
+      "unlock": ""
+    }
+  },
+  "veil_3": {
+    "name": "An oath remembered",
+    "type": "dungeon",
+    "target": "crypt",
+    "count": 1,
+    "description": "Defeat the guardian in a generated crypt and return to Elowen.",
+    "chain": "veil",
+    "npc": "keeper",
+    "prerequisites": [
+      "veil_2"
+    ],
+    "next": "",
+    "reputation_requirement": 20,
+    "reward": {
+      "xp": 85,
+      "coins": 45,
+      "shards": 1,
+      "reputation": 15,
+      "faction": "veil",
+      "unlock": "veil_3"
+    }
+  }
+}

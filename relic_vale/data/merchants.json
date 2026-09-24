@@ -1,0 +1,184 @@
+{
+  "blacksmith": {
+    "faction": "hearth",
+    "offers": [
+      [
+        "iron_sword",
+        45
+      ],
+      [
+        "leather_vest",
+        50
+      ],
+      [
+        "iron_greatsword",
+        55
+      ],
+      [
+        "twin_daggers",
+        35
+      ],
+      [
+        "iron_ore",
+        5
+      ],
+      [
+        "iron_ingot",
+        13
+      ],
+      [
+        "crude_axe",
+        8
+      ],
+      [
+        "crude_pickaxe",
+        8
+      ],
+      [
+        "iron_axe",
+        45
+      ],
+      [
+        "iron_pickaxe",
+        45
+      ],
+      [
+        "steel_axe",
+        120
+      ],
+      [
+        "steel_pickaxe",
+        120
+      ]
+    ]
+  },
+  "alchemist": {
+    "faction": "bough",
+    "offers": [
+      [
+        "trail_tonic",
+        12
+      ],
+      [
+        "wild_herb",
+        4
+      ],
+      [
+        "mushroom",
+        4
+      ],
+      [
+        "greater_tonic",
+        25
+      ],
+      [
+        "ward_tonic",
+        22
+      ],
+      [
+        "swift_tonic",
+        24
+      ]
+    ]
+  },
+  "general": {
+    "faction": "hearth",
+    "offers": [
+      [
+        "trail_tonic",
+        12
+      ],
+      [
+        "wood",
+        3
+      ],
+      [
+        "stone",
+        3
+      ],
+      [
+        "plank",
+        5
+      ],
+      [
+        "leather",
+        8
+      ],
+      [
+        "oak_bow",
+        35
+      ]
+    ]
+  },
+  "relic": {
+    "faction": "veil",
+    "offers": [
+      [
+        "copper_leaf",
+        75
+      ],
+      [
+        "moon_glass",
+        140
+      ],
+      [
+        "astral_shard",
+        90
+      ],
+      [
+        "recipe:runes",
+        100
+      ],
+      [
+        "recipe:temper",
+        100
+      ],
+      [
+        "recipe:longbow",
+        100
+      ]
+    ]
+  },
+  "traveling": {
+    "faction": "bough",
+    "offers": [
+      [
+        "wolf_pelt",
+        6
+      ],
+      [
+        "ancient_bone",
+        8
+      ],
+      [
+        "greater_tonic",
+        20
+      ],
+      [
+        "astral_shard",
+        80
+      ]
+    ]
+  },
+  "carpenter": {
+    "faction": "hearth",
+    "offers": [
+      [
+        "wood",
+        5
+      ],
+      [
+        "plank",
+        10
+      ],
+      [
+        "crude_axe",
+        8
+      ],
+      [
+        "iron_axe",
+        45
+      ]
+    ]
+  }
+}

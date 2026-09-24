@@ -1,0 +1,47 @@
+; Relic Vale — Godot 4.7.2, standard GDScript project.
+config_version=5
+
+[application]
+config/name="Relic Vale"
+config/version="0.10.0"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Godot/app_userdata/RelicValePrototype"
+config/icon="res://assets/ui/relic_vale_icon.svg"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/description="A small, single-player world of quiet roads and forgotten things."
+
+[autoload]
+State="*res://scripts/game_state.gd"
+Feel="*res://scripts/combat/feedback.gd"
+Preferences="*res://scripts/ui/preferences.gd"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1440
+window/size/window_height_override=810
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.10, 0.17, 0.19, 1)
+lights_and_shadows/directional_shadow/size=4096
+
+[physics]
+common/physics_ticks_per_second=60
+
+[shader_globals]
+vale_origin={"type":"vec3","value":Vector3(0,0,0)}
+vale_player={"type":"vec3","value":Vector3(0,0,0)}
+vale_wetness={"type":"float","value":0.0}
+vale_wind={"type":"float","value":1.0}
+vale_quality={"type":"float","value":1.0}
+
+[debug]
+gdscript/warnings/inference_on_variant=0
+file_logging/enable_file_logging=true
+file_logging/log_path="user://logs/relic-vale.log"
+file_logging/max_log_files=5

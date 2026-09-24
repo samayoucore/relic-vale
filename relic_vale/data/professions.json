@@ -1,0 +1,158 @@
+{
+  "woodcutting": {
+    "name": "Woodcutting",
+    "icon": "wood",
+    "max_level": 25,
+    "xp_base": 40,
+    "xp_linear": 12,
+    "xp_square": 1,
+    "unlocks": [
+      {
+        "level": 5,
+        "name": "Yield +5%"
+      },
+      {
+        "level": 10,
+        "name": "Resin and hardwood"
+      },
+      {
+        "level": 15,
+        "name": "Gather speed +10%"
+      },
+      {
+        "level": 20,
+        "name": "Ancient timber"
+      }
+    ]
+  },
+  "mining": {
+    "name": "Mining",
+    "icon": "iron_ore",
+    "max_level": 25,
+    "xp_base": 40,
+    "xp_linear": 12,
+    "xp_square": 1,
+    "unlocks": [
+      {
+        "level": 5,
+        "name": "Yield +5%"
+      },
+      {
+        "level": 10,
+        "name": "Silver ore"
+      },
+      {
+        "level": 15,
+        "name": "Gather speed +10%"
+      },
+      {
+        "level": 20,
+        "name": "Star ore"
+      }
+    ]
+  },
+  "herbalism": {
+    "name": "Herbalism",
+    "icon": "wild_herb",
+    "max_level": 25,
+    "xp_base": 40,
+    "xp_linear": 12,
+    "xp_square": 1,
+    "unlocks": [
+      {
+        "level": 5,
+        "name": "Healing herbs"
+      },
+      {
+        "level": 10,
+        "name": "River herbs"
+      },
+      {
+        "level": 15,
+        "name": "Gather speed +10%"
+      },
+      {
+        "level": 20,
+        "name": "Dawn flowers"
+      }
+    ]
+  },
+  "fishing": {
+    "name": "Fishing",
+    "icon": "fish_minnow",
+    "max_level": 25,
+    "xp_base": 40,
+    "xp_linear": 12,
+    "xp_square": 1,
+    "unlocks": [
+      {
+        "level": 5,
+        "name": "Skilled river fish"
+      },
+      {
+        "level": 10,
+        "name": "Rare bait"
+      },
+      {
+        "level": 15,
+        "name": "Large lake fish"
+      },
+      {
+        "level": 20,
+        "name": "Legendary catches"
+      }
+    ]
+  },
+  "cooking": {
+    "name": "Cooking",
+    "icon": "meal_grilled_fish",
+    "max_level": 25,
+    "xp_base": 40,
+    "xp_linear": 12,
+    "xp_square": 1,
+    "unlocks": [
+      {
+        "level": 5,
+        "name": "Cooking pot meals"
+      },
+      {
+        "level": 10,
+        "name": "Hearty dishes"
+      },
+      {
+        "level": 15,
+        "name": "Kitchen meals"
+      },
+      {
+        "level": 20,
+        "name": "Signature recipes"
+      }
+    ]
+  },
+  "farming": {
+    "name": "Farming",
+    "icon": "crop_carrot",
+    "max_level": 25,
+    "xp_base": 40,
+    "xp_linear": 12,
+    "xp_square": 1,
+    "unlocks": [
+      {
+        "level": 5,
+        "name": "Berries and corn"
+      },
+      {
+        "level": 10,
+        "name": "Bamboo and fruit"
+      },
+      {
+        "level": 15,
+        "name": "Yield +10%"
+      },
+      {
+        "level": 20,
+        "name": "Seed recovery +15%"
+      }
+    ]
+  }
+}

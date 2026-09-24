@@ -1,0 +1,7 @@
+RELIC VALE — LICENSE NOTICES
+
+This distribution contains the Relic Vale game and third-party components.
+Godot Engine is distributed under its MIT license. Asset and font licenses vary.
+THIRD_PARTY_LICENSES.txt contains the original credits, modifications, source links and license texts.
+The adapted LPC character artwork and the credited cow recording retain their CC BY-SA 3.0 terms.
+These notices do not relicense the project code or other independent assets.

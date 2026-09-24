@@ -1,0 +1,251 @@
+{
+  "archives": [
+    {
+      "path": "downloads/phase5-kenney-ui.zip",
+      "sha256": "c69c30c09d74df542842e4ec811735b6d260cd6c9e2ee261d7b894d259a6adb4",
+      "bytes": 214394
+    },
+    {
+      "path": "downloads/phase5-icons.zip",
+      "sha256": "d7e8e4d41dbf6b5c3d2de0f9eee74674488728e1bf9e551861cddb1d74a0b624",
+      "bytes": 1039243
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/ui/phase5/arrowBeige_right.png",
+      "sha256": "e5480f8593f15f23b49ea19e6084ca907502967c86605b5f5e606f6dee6c4782",
+      "bytes": 542
+    },
+    {
+      "path": "assets/ui/phase5/buttonLong_blue.png",
+      "sha256": "968ba53d15d67ea27a4e4160a78d5786b6a3298952edeaaac836e005a6031bef",
+      "bytes": 645
+    },
+    {
+      "path": "assets/ui/phase5/buttonLong_blue_pressed.png",
+      "sha256": "0c0fa778ae0988885a10bbdca68921ea6b721f8f4bf18a8b9ef02ec57367f5b2",
+      "bytes": 576
+    },
+    {
+      "path": "assets/ui/phase5/buttonSquare_blue.png",
+      "sha256": "5165c1677c189ba1ba106867980bc1c1ffb51369ad982d473c2e3108f085c339",
+      "bytes": 499
+    },
+    {
+      "path": "assets/ui/phase5/buttonSquare_blue_pressed.png",
+      "sha256": "fc74fe5a78be6b413f21e77aadbad185a4ccee94d04f7fec9a117938d3f20af3",
+      "bytes": 439
+    },
+    {
+      "path": "assets/ui/phase5/cursorHand_beige.png",
+      "sha256": "0c2616b71a965d78b78ede479bf58ac43164e76aac41ad36fd8ae51bca9110ca",
+      "bytes": 751
+    },
+    {
+      "path": "assets/ui/phase5/iconCheck_beige.png",
+      "sha256": "5b6245c417cfde9c4f5d23181c2f8c2448e5cb4fbdb462c25ee658389caf28cb",
+      "bytes": 310
+    },
+    {
+      "path": "assets/ui/phase5/iconCross_beige.png",
+      "sha256": "46075f7181abe126f54773552c8a4c672248d1cfb4c96e967abbe2b98e9fca08",
+      "bytes": 273
+    },
+    {
+      "path": "assets/ui/phase5/icons/armor.png",
+      "sha256": "eda49e1a84a7d839f9ee304397e2ff5d443f89b9b436115f2e6cb86109bb8535",
+      "bytes": 31341
+    },
+    {
+      "path": "assets/ui/phase5/icons/armorgold.png",
+      "sha256": "df95cfa1b3a8e485f630605232171262b3813ce95eb6db9392c58f5f44a75171",
+      "bytes": 35417
+    },
+    {
+      "path": "assets/ui/phase5/icons/aurared.png",
+      "sha256": "8327027fc6e68189e9d706acc4037f6fe25c9f1508f145d4a15774469f2051d1",
+      "bytes": 35669
+    },
+    {
+      "path": "assets/ui/phase5/icons/axe.png",
+      "sha256": "a67fe8c163b5b4cb15f2bc523d2a580044987b2c5c163980a39ede77d0da4123",
+      "bytes": 30518
+    },
+    {
+      "path": "assets/ui/phase5/icons/bag.png",
+      "sha256": "e377dfdf3d1020ee270fbd8bb3ae84eee3a3d43a70e0c4e254902ca5a3140b3d",
+      "bytes": 28557
+    },
+    {
+      "path": "assets/ui/phase5/icons/book.png",
+      "sha256": "de961689c4ab182879fafef7005f0613cede5760a2de17fa0719beb7eb8c29fc",
+      "bytes": 35174
+    },
+    {
+      "path": "assets/ui/phase5/icons/bookholy.png",
+      "sha256": "a0c47817dd4642cd63be0be77aae92aa8672866971bfb0f264d1ca6e99bd9a89",
+      "bytes": 33955
+    },
+    {
+      "path": "assets/ui/phase5/icons/boots.png",
+      "sha256": "e82269e970fad2405a2d032a09b162f185035991a3527af987cc39a5547b588c",
+      "bytes": 31929
+    },
+    {
+      "path": "assets/ui/phase5/icons/chest.png",
+      "sha256": "7d1ba406041fec8618d39050669bfe3767d9c8328e6cf67f870d0d5b08591e8a",
+      "bytes": 36997
+    },
+    {
+      "path": "assets/ui/phase5/icons/crossbow.png",
+      "sha256": "9361f85d6851c0b8fba3dbe0440612ba76e4493bb3e8dca5d57507ba43abb6c7",
+      "bytes": 29039
+    },
+    {
+      "path": "assets/ui/phase5/icons/fireball.png",
+      "sha256": "3056081047c35304bfce65181a3b9c93ef471e927db1d46235a28779e09ba45b",
+      "bytes": 26715
+    },
+    {
+      "path": "assets/ui/phase5/icons/frostball.png",
+      "sha256": "b4074ff1c052786efcfac9cd85ccdfdc14fbe43d6052ebf4e1b647db60bf7eaa",
+      "bytes": 27216
+    },
+    {
+      "path": "assets/ui/phase5/icons/glove.png",
+      "sha256": "b217e6aa77579446fcfdf326852cd021be1424f13be95c47c91f60892a2073cb",
+      "bytes": 29681
+    },
+    {
+      "path": "assets/ui/phase5/icons/goldcoins.png",
+      "sha256": "cbfd4c588a7ed3763936af3231487ef9754bb08606528c48d90b768a3d889897",
+      "bytes": 30405
+    },
+    {
+      "path": "assets/ui/phase5/icons/hammerheavy.png",
+      "sha256": "3c908354444e6a6d150f3c30b8fbe5a8bb115342b33f0d7902963fc11aad6282",
+      "bytes": 31987
+    },
+    {
+      "path": "assets/ui/phase5/icons/helmet.png",
+      "sha256": "b73e0701a6709943f69dee5d91acf764e735622009689310bfc824cd9a39bcbe",
+      "bytes": 31337
+    },
+    {
+      "path": "assets/ui/phase5/icons/potionblue.png",
+      "sha256": "6b3f1e064ed526913ba0ec88486140ebcf15202452926c240c56ebca49c7323f",
+      "bytes": 25717
+    },
+    {
+      "path": "assets/ui/phase5/icons/potionred.png",
+      "sha256": "44811308da952437ee9f3e8f1705cad93fcb81b53b6fe219fc049fc0517ffbf5",
+      "bytes": 26437
+    },
+    {
+      "path": "assets/ui/phase5/icons/ringmagic.png",
+      "sha256": "676910da747b79606c7239236e94fca65fd061e3bf3cf208973bc3ac4bc23631",
+      "bytes": 52097
+    },
+    {
+      "path": "assets/ui/phase5/icons/shield.png",
+      "sha256": "66f175839c4bd139443c517ed1e7a6cc392b08f3fdb90f4c525b1220df547b13",
+      "bytes": 29468
+    },
+    {
+      "path": "assets/ui/phase5/icons/sword.png",
+      "sha256": "3d06132eca82f119e3db93472bf0823fc17345387124d6dc631899fd87367660",
+      "bytes": 32051
+    },
+    {
+      "path": "assets/ui/phase5/icons/swordblood.png",
+      "sha256": "683ba4319785b90f4d156a1c968095bc9668ed3b65d04ad105f00d24e0bc8389",
+      "bytes": 33510
+    },
+    {
+      "path": "assets/ui/phase5/Kenney-CC0.txt",
+      "sha256": "c3d0753e9a4a0874a9985993eb4228d57e5b0cbf44159ea6cb1c794008a13544",
+      "bytes": 489
+    },
+    {
+      "path": "assets/ui/phase5/panelInset_blue.png",
+      "sha256": "d85dc109c2fc87e2892e79fe1ce0616ea512e5b226ae33d54506a7002e4e26e1",
+      "bytes": 626
+    },
+    {
+      "path": "assets/ui/phase5/panel_beige.png",
+      "sha256": "4bfe574ccae2e09c32a667f456f714a5c705a594068dd99a4cfa49815a6c1c4f",
+      "bytes": 786
+    },
+    {
+      "path": "assets/ui/phase5/panel_blue.png",
+      "sha256": "c8e9ec2a5c62acce58030a1039461ad6c06ebe005ea2adef32b6da7b89d9fcea",
+      "bytes": 785
+    },
+    {
+      "path": "assets/ui/phase5/panel_brown.png",
+      "sha256": "cee150c027a65cd2933d18c7d86083bd7713d7f792037299a9c6561811c9fba7",
+      "bytes": 799
+    },
+    {
+      "path": "assets/ui/phase5/PressStart2P-OFL.txt",
+      "sha256": "705960c3281a5765ecc0b59bd4ed7ca59eed165748076bc2fc3e8fdbfeb944b0",
+      "bytes": 4413
+    },
+    {
+      "path": "assets/ui/phase5/PressStart2P.ttf",
+      "sha256": "034c77f1f05ec89421e4a63f0e3a4ca1ecf852cc6d2bf611f126f275728e017d",
+      "bytes": 118204
+    },
+    {
+      "path": "assets/ui/phase5/rendered/crystal.png",
+      "sha256": "a548a7dacb6c759683d776cdd3fd4962f009ad7b1928af0cf47f3544b74a8087",
+      "bytes": 8802
+    },
+    {
+      "path": "assets/ui/phase5/rendered/fiber.png",
+      "sha256": "b79b81dcf8dcd28dbe0e32cb4d1db31ac514979d2bbe00a43016d7b6238c9d26",
+      "bytes": 10777
+    },
+    {
+      "path": "assets/ui/phase5/rendered/iron_ore.png",
+      "sha256": "27091855cb3a29dafd5adb327d1a80ef1cec7e8bfd5cf5dc1d0805001f61ad64",
+      "bytes": 8805
+    },
+    {
+      "path": "assets/ui/phase5/rendered/mushroom.png",
+      "sha256": "3ebc9e96e2b5af9398804959b1759083ce001920490071f181e03e6240cb0c30",
+      "bytes": 11273
+    },
+    {
+      "path": "assets/ui/phase5/rendered/stone.png",
+      "sha256": "d8ba46032a99759d008e4073953e94cf49278d7aaf040dcd360361740f75021e",
+      "bytes": 7106
+    },
+    {
+      "path": "assets/ui/phase5/rendered/wild_herb.png",
+      "sha256": "f4b33359ec5b0f3fde2118d09c8badfd2544490f946ad423f24f50ddc3af85be",
+      "bytes": 10824
+    },
+    {
+      "path": "assets/ui/phase5/rendered/wood.png",
+      "sha256": "dd0c4b16c31971fe9c044a751b06c347c2aedbded318a5ff00cd02d87bb0ba10",
+      "bytes": 8900
+    },
+    {
+      "path": "assets/ui/phase5/Rubik-OFL.txt",
+      "sha256": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+      "bytes": 4384
+    },
+    {
+      "path": "assets/ui/phase5/Rubik.ttf",
+      "sha256": "1b3a7437ba2af80e465e773ed60c5036d1ba6ace492d89046dbcf18fb31e4e88",
+      "bytes": 359804
+    },
+    {
+      "path": "assets/ui/phase5/vale_theme.tres",
+      "sha256": "26bafcaa70f6fccd07b65166d14e6d6577440b43b6cb51e3c02bbb8adcad78a3",
+      "bytes": 11513
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "rowan": {
+    "entry": "rowan_stories"
+  },
+  "keeper": {
+    "entry": "keeper_stories"
+  },
+  "hester": {
+    "name": "Hester Vane",
+    "role": "Lantern quartermaster",
+    "faction": "hearth",
+    "dialogue": "A road is only useful if people can afford to use it.",
+    "entry": "hester_stories"
+  },
+  "yew": {
+    "name": "Warden Yew",
+    "role": "Elderbough envoy",
+    "faction": "bough",
+    "dialogue": "The vale does not end where a fence is built.",
+    "entry": "yew_stories"
+  },
+  "orsa": {
+    "name": "Orsa Venn",
+    "role": "Veil archivist",
+    "faction": "veil",
+    "dialogue": "I have corrected this account before. I hope I am better at it now.",
+    "entry": "orsa_stories"
+  }
+}

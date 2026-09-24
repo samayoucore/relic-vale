@@ -1,0 +1,114 @@
+{
+  "bren_watch_token": {
+    "id": "bren_watch_token",
+    "name": "Watchkeeper’s token",
+    "kind": "equipment",
+    "rarity": "Rare",
+    "slot": "Accessory",
+    "stats": {
+      "max_hp": 12,
+      "defense": 2
+    },
+    "base_price": 45,
+    "icon": "shield",
+    "description": "Bren’s old watch token. A promise to count the living."
+  },
+  "tarin_token": {
+    "id": "tarin_token",
+    "name": "Lysa’s blue knot",
+    "description": "A sign for travelers who cannot afford the shorter road.",
+    "kind": "accessory",
+    "slot": "Accessory",
+    "rarity": "Rare",
+    "icon": "ring",
+    "base_price": 55,
+    "stats": {
+      "attack": 4,
+      "crit": 0.04
+    }
+  },
+  "ilyra_token": {
+    "id": "ilyra_token",
+    "name": "The unburned page",
+    "description": "A copy small enough to carry, and clear enough to understand.",
+    "kind": "accessory",
+    "slot": "Accessory",
+    "rarity": "Rare",
+    "icon": "ring",
+    "base_price": 55,
+    "stats": {
+      "attack": 5,
+      "max_hp": 8
+    }
+  },
+  "sera_token": {
+    "id": "sera_token",
+    "name": "Sera’s clean ribbon",
+    "description": "A promise that the next patient will be treated before their name is asked.",
+    "kind": "accessory",
+    "slot": "Accessory",
+    "rarity": "Rare",
+    "icon": "ring",
+    "base_price": 55,
+    "stats": {
+      "max_hp": 18,
+      "defense": 2
+    }
+  },
+  "witness_ring": {
+    "id": "witness_ring",
+    "name": "Ring of the First Witness",
+    "description": "A plain band, given freely and carrying no claim of obedience.",
+    "kind": "accessory",
+    "slot": "Accessory",
+    "rarity": "Rare",
+    "icon": "ring",
+    "base_price": 55,
+    "stats": {
+      "max_hp": 20,
+      "defense": 3
+    }
+  },
+  "hearth_accord_token": {
+    "id": "hearth_accord_token",
+    "name": "Lantern steward’s badge",
+    "description": "Offered by allied merchants after the stores charter. Requires Friendly standing.",
+    "kind": "accessory",
+    "slot": "Accessory",
+    "rarity": "Rare",
+    "icon": "ring",
+    "base_price": 55,
+    "stats": {
+      "max_hp": 15,
+      "defense": 3
+    }
+  },
+  "bough_accord_token": {
+    "id": "bough_accord_token",
+    "name": "Open-path charm",
+    "description": "Offered by allied merchants after the passage charter. Requires Friendly standing.",
+    "kind": "accessory",
+    "slot": "Accessory",
+    "rarity": "Rare",
+    "icon": "ring",
+    "base_price": 55,
+    "stats": {
+      "move_percent": 0.06,
+      "crit": 0.03
+    }
+  },
+  "veil_accord_token": {
+    "id": "veil_accord_token",
+    "name": "Witness seal",
+    "description": "Offered by allied merchants after the record charter. Requires Friendly standing.",
+    "kind": "accessory",
+    "slot": "Accessory",
+    "rarity": "Rare",
+    "icon": "ring",
+    "base_price": 55,
+    "stats": {
+      "cooldown_reduction": 0.06,
+      "attack": 3
+    }
+  }
+}

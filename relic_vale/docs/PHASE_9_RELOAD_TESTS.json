@@ -1,0 +1,34 @@
+{
+	"checks": [
+		{
+			"check": "Fresh process reads version 9 companion save",
+			"pass": true
+		},
+		{
+			"check": "Personal arc and chosen outcome persist",
+			"pass": true
+		},
+		{
+			"check": "Recruited and active identity persist",
+			"pass": true
+		},
+		{
+			"check": "Companion equipment persists without duplicate inventory",
+			"pass": true
+		},
+		{
+			"check": "Active companion reconstructs in fresh process",
+			"pass": true
+		},
+		{
+			"check": "Restored location reconstructs chosen shelter",
+			"pass": true
+		},
+		{
+			"check": "Personal enemy does not respawn after reload",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 7
+}

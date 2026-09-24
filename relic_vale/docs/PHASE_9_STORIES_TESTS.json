@@ -1,0 +1,866 @@
+{
+	"checks": [
+		{
+			"check": "Load isolated story fixture",
+			"pass": true
+		},
+		{
+			"check": "Four distinct companions are installed",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: tarin_recruit",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: snare_wolf",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: cut_snare",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: welcome",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: tarin_recruit",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: tarin_recruit",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: tarin_recruit",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: tarin_knots",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: lysa_knot",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: finish_tarin_knots",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: tarin_knots",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: tarin_knots",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: tarin_knots",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: tarin_pass",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: reed_poacher",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: reed_beacon",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: finish_tarin_pass",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: tarin_pass",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: tarin_pass",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: tarin_pass",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: tarin_promise",
+			"pass": true
+		},
+		{
+			"check": "Select required story companion: tarin",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: promise",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: open",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: tarin_promise",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: tarin_promise",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: tarin_promise",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: ilyra_recruit",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: rubbing",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: welcome",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: ilyra_recruit",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: ilyra_recruit",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: ilyra_recruit",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: ilyra_margin",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: archive_margin",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: finish_ilyra_margin",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: ilyra_margin",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: ilyra_margin",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: ilyra_margin",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: ilyra_keeper",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: archive_keeper",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: archive_record",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: finish_ilyra_keeper",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: ilyra_keeper",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: ilyra_keeper",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: ilyra_keeper",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: ilyra_copy",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: copy",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: public",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: ilyra_copy",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: ilyra_copy",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: ilyra_copy",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: sera_recruit",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: patient",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: welcome",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: sera_recruit",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: sera_recruit",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: sera_recruit",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: sera_water",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: well_sample",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: finish_sera_water",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: sera_water",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: sera_water",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: sera_water",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: sera_names",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: field_raider",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: field_ledger",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: finish_sera_names",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: sera_names",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: sera_names",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: sera_names",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: sera_open",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: well_repaired",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: charter",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: open",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: sera_open",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: sera_open",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: sera_open",
+			"pass": true
+		},
+		{
+			"check": "Switch active role: tarin",
+			"pass": true
+		},
+		{
+			"check": "Only player and one companion are combat allies",
+			"pass": true
+		},
+		{
+			"check": "Real ranged/support primary attack hits: tarin",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: pinning_shot",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: split_fletching",
+			"pass": true
+		},
+		{
+			"check": "Switch active role: ilyra",
+			"pass": true
+		},
+		{
+			"check": "Only player and one companion are combat allies",
+			"pass": true
+		},
+		{
+			"check": "Real ranged/support primary attack hits: ilyra",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: frost_bind",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: ember_mark",
+			"pass": true
+		},
+		{
+			"check": "Switch active role: sera",
+			"pass": true
+		},
+		{
+			"check": "Only player and one companion are combat allies",
+			"pass": true
+		},
+		{
+			"check": "Real ranged/support primary attack hits: sera",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: field_dressing",
+			"pass": true
+		},
+		{
+			"check": "Role ability activates: steady_hands",
+			"pass": true
+		},
+		{
+			"check": "Sera heals and cleanses the player",
+			"pass": true
+		},
+		{
+			"check": "Restore Bren after combat-role checks",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_01",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: cold_lantern",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: act1_01_rowan_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: act1_01",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_01",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_01",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_02",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: root_name",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: act1_02_keeper_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: act1_02",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_02",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_02",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_03",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: act1_03_rowan_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: act1_03",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_03",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_03",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_04",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: act1_04_hester_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: act1_04",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: act1_04_yew_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: act1_04",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: act1_04_orsa_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: act1_04",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: act1_04_rowan_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: act1_04",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_04",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_04",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: hearth_story_1",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: bridge_plank",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: hearth_story_1_hester_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: hearth_story_1",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: hearth_story_1",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: hearth_story_1",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: hearth_story_2",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: sluice",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: hearth_story_2_hester_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: hearth_story_2",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: hearth_story_2",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: hearth_story_2",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: hearth_story_3",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: charter_hearth",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: open",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: hearth_story_3",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: hearth_story_3",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: hearth_story_3",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: bough_story_1",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: bough_story_1_yew_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: bough_story_1",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: bough_story_1",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: bough_story_1",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: bough_story_2",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: bough_story_2_yew_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: bough_story_2",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: bough_story_2",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: bough_story_2",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: bough_story_3",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: charter_bough",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: open",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: bough_story_3",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: bough_story_3",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: bough_story_3",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: veil_story_1",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: third_witness",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: veil_story_1_orsa_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: veil_story_1",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: veil_story_1",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: veil_story_1",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: veil_story_2",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: tablet_guard",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: veil_story_2_orsa_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: veil_story_2",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: veil_story_2",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: veil_story_2",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: veil_story_3",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: charter_veil",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: whole",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: veil_story_3",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: veil_story_3",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: veil_story_3",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_05",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: road",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: compact",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: act1_05",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_05",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_05",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_06",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: watch_supplies",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_06",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_06",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_07",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: vault_door",
+			"pass": true
+		},
+		{
+			"check": "Active companion enters authored dungeon",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: story_oath_vault/guardian",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_07",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_07",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_08",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: oath_cradle",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: act1_08_keeper_report",
+			"pass": true
+		},
+		{
+			"check": "Talk objective is reachable: act1_08",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_08",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_08",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_09",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: crossing_0",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: crossing_1",
+			"pass": true
+		},
+		{
+			"check": "Defeat through timed primary attacks: crossing_2",
+			"pass": true
+		},
+		{
+			"check": "Inspect physical object: crossing_beacon",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_09",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_09",
+			"pass": true
+		},
+		{
+			"check": "Accept authored quest: act1_10",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: charter",
+			"pass": true
+		},
+		{
+			"check": "Follow authored dialogue: shared",
+			"pass": true
+		},
+		{
+			"check": "Consequential choice is reachable: act1_10",
+			"pass": true
+		},
+		{
+			"check": "Finish authored quest: act1_10",
+			"pass": true
+		},
+		{
+			"check": "Save narrative checkpoint: act1_10",
+			"pass": true
+		},
+		{
+			"check": "All ten chapters resolve the first story arc",
+			"pass": true
+		},
+		{
+			"check": "Three faction chains unlock their accords",
+			"pass": true
+		},
+		{
+			"check": "Write complete expanded story fixture",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 215
+}

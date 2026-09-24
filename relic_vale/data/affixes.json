@@ -1,0 +1,9 @@
+{
+ "sharp":{"name":"Sharp","description":"+8% damage","modifiers":{"damage_percent":0.08}},
+ "swift":{"name":"Swift","description":"+10% attack speed","modifiers":{"attack_speed":0.10}},
+ "heavy":{"name":"Heavy","description":"+12% damage, -5% attack speed","modifiers":{"damage_percent":0.12,"attack_speed":-0.05}},
+ "lucky":{"name":"Lucky","description":"+5% critical chance","modifiers":{"crit":0.05}},
+ "vampiric":{"name":"Vampiric","description":"15% chance on a hit to restore 3 HP","modifiers":{"vampiric":0.15}},
+ "burning":{"name":"Burning","description":"20% chance on a hit to burn for three seconds","modifiers":{"burn_chance":0.20}},
+ "frosted":{"name":"Frosted","description":"20% chance on a hit to slow for three seconds","modifiers":{"slow_chance":0.20}}
+}

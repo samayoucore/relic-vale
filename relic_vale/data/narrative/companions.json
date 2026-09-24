@@ -1,0 +1,254 @@
+{
+  "bren": {
+    "id": "bren",
+    "name": "Bren Alder",
+    "model": "res://assets/3d/phase4/adventurers/Knight.glb",
+    "portrait": "res://assets/ui/phase9/portraits/bren.png",
+    "biography": "A Lantern Compact shieldbearer who brought everyone home from Cinder Watch except the captain who ordered them to stay.",
+    "tags": [
+      "merciful",
+      "honorable",
+      "practical"
+    ],
+    "faction": "hearth",
+    "role": "melee",
+    "equipment": {
+      "Weapon": "iron_sword",
+      "Armor": "leather_vest",
+      "Accessory": ""
+    },
+    "abilities": [
+      {
+        "id": "shield_rush",
+        "name": "Shield Rush",
+        "description": "Closes on a threat and briefly stuns it.",
+        "cooldown": 9
+      },
+      {
+        "id": "hold_line",
+        "name": "Hold the Line",
+        "description": "Protects an injured traveler and draws nearby threats.",
+        "cooldown": 16
+      }
+    ],
+    "location": "bren_watch",
+    "camp_anchor": [
+      -8,
+      0,
+      5
+    ],
+    "recruitment": "bren_recruit",
+    "personal": [
+      "bren_letters",
+      "bren_watchfire",
+      "bren_oath"
+    ],
+    "signature": "bren_watch_token",
+    "passive": "Stand Together",
+    "barks": {
+      "forest": "There is room on the path for both of us.",
+      "rain": "Keep your shield over the tinder. The rest can dry.",
+      "night": "I will take the first watch.",
+      "ruin": "Look for a way out before a way in.",
+      "boss": "I have your flank.",
+      "camp": "A roof is a promise someone intends to keep.",
+      "town": "Count the lit windows. That is what a watch is for.",
+      "personal": "I know this road. Give me a moment before we go on.",
+      "story": "A promise should leave people somewhere to stand.",
+      "combat": "Stay behind my shield. I can hold this space."
+    },
+    "opposes": [
+      "cruel",
+      "profit"
+    ]
+  },
+  "tarin": {
+    "id": "tarin",
+    "name": "Tarin Fen",
+    "model": "res://assets/3d/phase4/adventurers/Ranger.glb",
+    "portrait": "res://assets/ui/phase9/portraits/tarin.png",
+    "role": "ranged",
+    "faction": "bough",
+    "biography": "An Elderbough pathfinder whose sister Lysa vanished from the Wardens’ rolls. He still marks the paths she taught him to read.",
+    "tags": [
+      "merciful",
+      "wild",
+      "honest"
+    ],
+    "opposes": [
+      "authority",
+      "profit"
+    ],
+    "location": "tarin_meeting",
+    "camp_anchor": [
+      7,
+      0,
+      7
+    ],
+    "equipment": {
+      "Weapon": "oak_bow",
+      "Armor": "leather_vest",
+      "Accessory": ""
+    },
+    "abilities": [
+      {
+        "id": "pinning_shot",
+        "name": "Pinning Shot",
+        "description": "Pins a rushing enemy with a slowing arrow.",
+        "cooldown": 10
+      },
+      {
+        "id": "split_fletching",
+        "name": "Split Fletching",
+        "description": "Fires at up to three nearby threats.",
+        "cooldown": 15
+      }
+    ],
+    "recruitment": "tarin_recruit",
+    "personal": [
+      "tarin_knots",
+      "tarin_pass",
+      "tarin_promise"
+    ],
+    "signature": "tarin_token",
+    "passive": "Clear Passage · arrows pierce armor for 20% more damage",
+    "barks": {
+      "forest": "Someone bent that fern against the wind. We are not the first here.",
+      "rain": "Rain hides a trail. It does not erase the reason for taking it.",
+      "night": "Lysa taught me the stars. I taught her how to cheat at cards.",
+      "ruin": "Stone keeps footprints longer than people think.",
+      "boss": "Keep it looking at you. I only need a moment.",
+      "camp": "I left the gate wide enough for a tired horse.",
+      "town": "Every town has a path the map leaves out. Usually behind the bakery.",
+      "personal": "Lysa used to stop here. I thought I had forgotten.",
+      "story": "We have opened a road. Now we have to keep it open.",
+      "combat": "Keep them moving. I have a clear shot."
+    }
+  },
+  "ilyra": {
+    "id": "ilyra",
+    "name": "Ilyra Venn",
+    "model": "res://assets/3d/phase4/adventurers/Mage.glb",
+    "portrait": "res://assets/ui/phase9/portraits/ilyra.png",
+    "role": "mage",
+    "faction": "veil",
+    "biography": "A Keeper of the Veil who copied a forbidden annotation before her teacher ordered the page burned. She wants evidence more than absolution.",
+    "tags": [
+      "honest",
+      "curious",
+      "merciful"
+    ],
+    "opposes": [
+      "secrecy",
+      "reckless"
+    ],
+    "location": "ilyra_meeting",
+    "camp_anchor": [
+      6,
+      0,
+      -5
+    ],
+    "equipment": {
+      "Weapon": "apprentice_staff",
+      "Armor": "leather_vest",
+      "Accessory": ""
+    },
+    "abilities": [
+      {
+        "id": "frost_bind",
+        "name": "Frost Bind",
+        "description": "Slows a clustered group before it surrounds the party.",
+        "cooldown": 12
+      },
+      {
+        "id": "ember_mark",
+        "name": "Ember Mark",
+        "description": "Marks a dangerous foe with lingering fire.",
+        "cooldown": 15
+      }
+    ],
+    "recruitment": "ilyra_recruit",
+    "personal": [
+      "ilyra_margin",
+      "ilyra_keeper",
+      "ilyra_copy"
+    ],
+    "signature": "ilyra_token",
+    "passive": "Open Hand · spell cooldowns recover 20% faster",
+    "barks": {
+      "forest": "Roots cross without asking whose ground this is. Sensible of them.",
+      "rain": "Ink first. Hood second. There are priorities.",
+      "night": "That star was missing from the older charts.",
+      "ruin": "A warning and an instruction can share the same words.",
+      "boss": "It remembers an order. We can give it a reason to stop.",
+      "camp": "A shelf, a dry page, and no one burning either. Luxury.",
+      "town": "Someone here knows a story that never reached our shelves.",
+      "personal": "These are the stones I wrote to Orsa about.",
+      "story": "I have written down what we chose. In our own words this time.",
+      "combat": "Leave a little room. The next spell needs it."
+    }
+  },
+  "sera": {
+    "id": "sera",
+    "name": "Sera Reed",
+    "model": "res://assets/3d/phase4/adventurers/Rogue.glb",
+    "portrait": "res://assets/ui/phase9/portraits/sera.png",
+    "role": "support",
+    "faction": "hearth",
+    "biography": "A road healer who treated both sides of the ford dispute. Her old field ledger records who was turned away when medicine ran short.",
+    "tags": [
+      "merciful",
+      "practical",
+      "honest"
+    ],
+    "opposes": [
+      "cruel",
+      "profit"
+    ],
+    "location": "sera_meeting",
+    "camp_anchor": [
+      -7,
+      0,
+      -4
+    ],
+    "equipment": {
+      "Weapon": "apprentice_staff",
+      "Armor": "leather_vest",
+      "Accessory": ""
+    },
+    "abilities": [
+      {
+        "id": "field_dressing",
+        "name": "Field Dressing",
+        "description": "Restores the most injured ally nearby.",
+        "cooldown": 12
+      },
+      {
+        "id": "steady_hands",
+        "name": "Steady Hands",
+        "description": "Clears harmful conditions and grants brief regeneration.",
+        "cooldown": 18
+      }
+    ],
+    "recruitment": "sera_recruit",
+    "personal": [
+      "sera_water",
+      "sera_names",
+      "sera_open"
+    ],
+    "signature": "sera_token",
+    "passive": "No One Turned Away · Field Dressing heals both allies",
+    "barks": {
+      "forest": "That plant helps a fever. The one beside it starts one.",
+      "rain": "Wet boots, then blisters, then complaints. We can prevent two of those.",
+      "night": "Wake me for a fever. Snoring is between you and your conscience.",
+      "ruin": "Leave a clean path back. Carrying someone changes the journey.",
+      "boss": "Still breathing? Good. We can work with that.",
+      "camp": "I put the medicine where sleepy people can find it.",
+      "town": "Clean water first. The rest of a town can wait a moment.",
+      "personal": "I remember the people before I remember the place.",
+      "story": "Tomorrow there will still be patients. Today we made room for them.",
+      "combat": "Stay where I can reach you."
+    }
+  }
+}

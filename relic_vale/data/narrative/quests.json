@@ -1,0 +1,1531 @@
+{
+  "bren_recruit": {
+    "id": "bren_recruit",
+    "name": "The Missing Dispatch",
+    "description": "Bren will not leave the east road until he knows what happened to the runner carrying his dispatch.",
+    "type": "narrative",
+    "target": "bren_recruit",
+    "count": 2,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "bren",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "dispatch",
+        "text": "Search the fallen dispatch case.",
+        "location": "dispatch"
+      },
+      {
+        "type": "choice",
+        "target": "bren_recruit_choice",
+        "text": "Bring the dispatch back to Bren.",
+        "location": "bren_watch"
+      }
+    ],
+    "reward": {
+      "coins": 15,
+      "shards": 0,
+      "xp": 30
+    },
+    "effects": [
+      {
+        "type": "recruit",
+        "id": "bren"
+      },
+      {
+        "type": "approval",
+        "id": "bren",
+        "amount": 12,
+        "key": "bren_recruited"
+      }
+    ]
+  },
+  "bren_letters": {
+    "id": "bren_letters",
+    "name": "Letters Never Sent",
+    "description": "At camp, Bren admits that his captain left a packet of letters at the abandoned watch.",
+    "type": "narrative",
+    "target": "bren_letters",
+    "count": 3,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "bren",
+    "stages": [
+      {
+        "type": "talk",
+        "target": "bren_letters_camp",
+        "text": "Hear Bren out at camp.",
+        "camp": true
+      },
+      {
+        "type": "interact",
+        "target": "watch_letters",
+        "text": "Recover the letters from Cinder Watch.",
+        "location": "cinder_watch"
+      },
+      {
+        "type": "talk",
+        "target": "bren_letters_return",
+        "text": "Read the last letter with Bren.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 15,
+      "shards": 0,
+      "xp": 30
+    },
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "bren"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "bren",
+        "amount": 15,
+        "key": "bren_letters_done"
+      },
+      {
+        "type": "lore",
+        "id": "cinder_watch"
+      }
+    ]
+  },
+  "bren_watchfire": {
+    "id": "bren_watchfire",
+    "name": "A Light for the Living",
+    "description": "Bren wants to make Cinder Watch safe for the families who still use its road.",
+    "type": "narrative",
+    "target": "bren_watchfire",
+    "count": 3,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "bren",
+    "stages": [
+      {
+        "type": "defeat",
+        "target": "cinder_guard",
+        "text": "Defeat the oathbound sentry at Cinder Watch.",
+        "location": "cinder_watch"
+      },
+      {
+        "type": "interact",
+        "target": "watch_brazier",
+        "text": "Light the watch brazier.",
+        "location": "cinder_watch"
+      },
+      {
+        "type": "talk",
+        "target": "bren_fire_return",
+        "text": "Speak with Bren about the watch.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 15,
+      "shards": 0,
+      "xp": 30
+    },
+    "prerequisites": [
+      "bren_letters"
+    ],
+    "conditions": [
+      {
+        "type": "approval",
+        "id": "bren",
+        "value": 20
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "bren",
+        "amount": 12,
+        "key": "bren_fire_done"
+      },
+      {
+        "type": "flag",
+        "id": "cinder_safe",
+        "value": true
+      }
+    ]
+  },
+  "bren_oath": {
+    "id": "bren_oath",
+    "name": "Who Keeps the Watch",
+    "description": "The Compact wants its outpost back. Bren would rather see a shelter where the old barracks stood.",
+    "type": "narrative",
+    "target": "bren_oath",
+    "count": 1,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "bren",
+    "stages": [
+      {
+        "type": "choice",
+        "target": "bren_oath_choice",
+        "text": "Decide the future of Cinder Watch with Bren.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 15,
+      "shards": 0,
+      "xp": 30
+    },
+    "prerequisites": [
+      "bren_watchfire"
+    ],
+    "conditions": [
+      {
+        "type": "approval",
+        "id": "bren",
+        "value": 30
+      }
+    ],
+    "effects": [
+      {
+        "type": "item",
+        "id": "bren_watch_token",
+        "amount": 1
+      },
+      {
+        "type": "approval",
+        "id": "bren",
+        "amount": 15,
+        "key": "bren_oath_done"
+      },
+      {
+        "type": "flag",
+        "id": "bren_personal_complete",
+        "value": true
+      }
+    ]
+  },
+  "tarin_recruit": {
+    "id": "tarin_recruit",
+    "name": "A Cord in the Ferns",
+    "description": "Help Tarin clear a snare line left across a game trail.",
+    "type": "narrative",
+    "target": "tarin_recruit",
+    "count": 3,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "tarin",
+    "stages": [
+      {
+        "type": "defeat",
+        "target": "snare_wolf",
+        "text": "Drive off the wolf at Snare Hollow.",
+        "location": "snare_hollow"
+      },
+      {
+        "type": "interact",
+        "target": "cut_snare",
+        "text": "Cut the abandoned snare.",
+        "location": "snare_hollow"
+      },
+      {
+        "type": "choice",
+        "target": "tarin_recruit_choice",
+        "text": "Tell Tarin the trail is clear.",
+        "location": "tarin_meeting"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "effects": [
+      {
+        "type": "recruit",
+        "id": "tarin"
+      },
+      {
+        "type": "approval",
+        "id": "tarin",
+        "amount": 12,
+        "key": "tarin_joined"
+      }
+    ]
+  },
+  "ilyra_recruit": {
+    "id": "ilyra_recruit",
+    "name": "Words Under Words",
+    "description": "Recover the erased annotation Ilyra could not safely read.",
+    "type": "narrative",
+    "target": "ilyra_recruit",
+    "count": 2,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "ilyra",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "rubbing",
+        "text": "Read the erased inscription.",
+        "location": "broken_annotation"
+      },
+      {
+        "type": "choice",
+        "target": "ilyra_recruit_choice",
+        "text": "Bring the reading to Ilyra.",
+        "location": "ilyra_meeting"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "effects": [
+      {
+        "type": "recruit",
+        "id": "ilyra"
+      },
+      {
+        "type": "approval",
+        "id": "ilyra",
+        "amount": 12,
+        "key": "ilyra_joined"
+      }
+    ]
+  },
+  "sera_recruit": {
+    "id": "sera_recruit",
+    "name": "The Last Clean Bandage",
+    "description": "Bring a trail tonic to the courier near Sera’s rest stop.",
+    "type": "narrative",
+    "target": "sera_recruit",
+    "count": 2,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "sera",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "patient",
+        "text": "Give the injured courier a trail tonic.",
+        "location": "field_patient"
+      },
+      {
+        "type": "choice",
+        "target": "sera_recruit_choice",
+        "text": "Let Sera know the courier is stable.",
+        "location": "sera_meeting"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "effects": [
+      {
+        "type": "recruit",
+        "id": "sera"
+      },
+      {
+        "type": "approval",
+        "id": "sera",
+        "amount": 12,
+        "key": "sera_joined"
+      }
+    ]
+  },
+  "tarin_knots": {
+    "id": "tarin_knots",
+    "name": "The Way She Went",
+    "description": "Tarin recognizes a trail sign his sister once used.",
+    "type": "narrative",
+    "target": "tarin_knots",
+    "count": 3,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "tarin",
+    "stages": [
+      {
+        "type": "talk",
+        "target": "tarin_knots_start",
+        "text": "Ask about Lysa at camp.",
+        "camp": true
+      },
+      {
+        "type": "interact",
+        "target": "lysa_knot",
+        "text": "Find Lysa’s trail knot.",
+        "location": "lysa_trail"
+      },
+      {
+        "type": "talk",
+        "target": "tarin_knots_end",
+        "text": "Bring Tarin the message.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [],
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "tarin"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "tarin",
+        "amount": 14,
+        "key": "tarin_knots_done"
+      }
+    ]
+  },
+  "tarin_pass": {
+    "id": "tarin_pass",
+    "name": "A Road Without a Toll",
+    "description": "The Wardens want Reed Pass closed; Lysa guides displaced families through it.",
+    "type": "narrative",
+    "target": "tarin_pass",
+    "count": 3,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "tarin",
+    "stages": [
+      {
+        "type": "defeat",
+        "target": "reed_poacher",
+        "text": "Clear the ambush at Reed Pass.",
+        "location": "reed_pass"
+      },
+      {
+        "type": "interact",
+        "target": "reed_beacon",
+        "text": "Light Lysa’s beacon.",
+        "location": "reed_pass"
+      },
+      {
+        "type": "talk",
+        "target": "tarin_pass_end",
+        "text": "Tell Tarin the road can be used.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "tarin_knots"
+    ],
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "tarin"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "tarin",
+        "amount": 14,
+        "key": "tarin_pass_done"
+      }
+    ]
+  },
+  "tarin_promise": {
+    "id": "tarin_promise",
+    "name": "The Longer Way Home",
+    "description": "Tarin must decide whether to keep the Wardens’ boundary or his sister’s open trail.",
+    "type": "narrative",
+    "target": "tarin_promise",
+    "count": 2,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "tarin",
+    "stages": [
+      {
+        "type": "reach",
+        "target": "lysa_trail",
+        "text": "Walk Lysa’s crossing with Tarin.",
+        "location": "lysa_trail",
+        "conditions": [
+          {
+            "type": "active",
+            "id": "tarin"
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "target": "tarin_promise_choice",
+        "text": "Choose the promise at camp.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "tarin_pass"
+    ],
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "tarin"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "tarin",
+        "amount": 18,
+        "key": "tarin_promise_done"
+      },
+      {
+        "type": "flag",
+        "id": "tarin_personal_complete",
+        "value": true
+      },
+      {
+        "type": "item",
+        "id": "tarin_token"
+      }
+    ]
+  },
+  "ilyra_margin": {
+    "id": "ilyra_margin",
+    "name": "In Another Hand",
+    "description": "Ilyra wants her teacher’s original notes, before the prohibitions were added.",
+    "type": "narrative",
+    "target": "ilyra_margin",
+    "count": 2,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "ilyra",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "archive_margin",
+        "text": "Recover the margin notes.",
+        "location": "glass_archive"
+      },
+      {
+        "type": "talk",
+        "target": "ilyra_margin_end",
+        "text": "Read Orsa’s first draft at camp.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [],
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "ilyra"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "ilyra",
+        "amount": 14,
+        "key": "ilyra_margin_done"
+      }
+    ]
+  },
+  "ilyra_keeper": {
+    "id": "ilyra_keeper",
+    "name": "The Keeper of an Empty Room",
+    "description": "A bound archivist still guards the testimony no one is permitted to read.",
+    "type": "narrative",
+    "target": "ilyra_keeper",
+    "count": 3,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "ilyra",
+    "stages": [
+      {
+        "type": "defeat",
+        "target": "archive_keeper",
+        "text": "Release the bound archivist.",
+        "location": "glass_archive"
+      },
+      {
+        "type": "interact",
+        "target": "archive_record",
+        "text": "Open the original register.",
+        "location": "glass_archive"
+      },
+      {
+        "type": "talk",
+        "target": "ilyra_keeper_end",
+        "text": "Let Ilyra compare the names.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "ilyra_margin"
+    ],
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "ilyra"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "ilyra",
+        "amount": 14,
+        "key": "ilyra_keeper_done"
+      }
+    ]
+  },
+  "ilyra_copy": {
+    "id": "ilyra_copy",
+    "name": "A Copy for the Road",
+    "description": "The surviving text explains how to end an oath. Ilyra must decide who gets to learn it.",
+    "type": "narrative",
+    "target": "ilyra_copy",
+    "count": 1,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "ilyra",
+    "stages": [
+      {
+        "type": "choice",
+        "target": "ilyra_copy_choice",
+        "text": "Decide who should hold the text.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "ilyra_keeper"
+    ],
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "ilyra"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "ilyra",
+        "amount": 20,
+        "key": "ilyra_copy_done"
+      },
+      {
+        "type": "flag",
+        "id": "ilyra_personal_complete",
+        "value": true
+      },
+      {
+        "type": "item",
+        "id": "ilyra_token"
+      }
+    ]
+  },
+  "sera_water": {
+    "id": "sera_water",
+    "name": "What the Water Carried",
+    "description": "Sera doubts the claim that the travelers brought the fever.",
+    "type": "narrative",
+    "target": "sera_water",
+    "count": 3,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "sera",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "well_sample",
+        "text": "Examine the clouded well.",
+        "location": "reed_well"
+      },
+      {
+        "type": "collect",
+        "target": "wild_herb",
+        "text": "Gather three wild herbs.",
+        "count": 3
+      },
+      {
+        "type": "talk",
+        "target": "sera_water_end",
+        "text": "Show Sera the sample at camp.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [],
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "sera"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "sera",
+        "amount": 14,
+        "key": "sera_water_done"
+      }
+    ]
+  },
+  "sera_names": {
+    "id": "sera_names",
+    "name": "The Line in the Ledger",
+    "description": "Sera’s old ledger may prove treatment was given before allegiances were recorded.",
+    "type": "narrative",
+    "target": "sera_names",
+    "count": 3,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "sera",
+    "stages": [
+      {
+        "type": "defeat",
+        "target": "field_raider",
+        "text": "Clear the abandoned field station.",
+        "location": "field_hospital"
+      },
+      {
+        "type": "interact",
+        "target": "field_ledger",
+        "text": "Find the original field ledger.",
+        "location": "field_hospital"
+      },
+      {
+        "type": "talk",
+        "target": "sera_names_end",
+        "text": "Let Sera read the names.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "sera_water"
+    ],
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "sera"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "sera",
+        "amount": 14,
+        "key": "sera_names_done"
+      }
+    ]
+  },
+  "sera_open": {
+    "id": "sera_open",
+    "name": "An Open Door",
+    "description": "Sera can use the evidence to secure an open clinic or a Compact infirmary.",
+    "type": "narrative",
+    "target": "sera_open",
+    "count": 2,
+    "chain": "companion",
+    "category": "Companion",
+    "npc": "sera",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "well_repaired",
+        "text": "Fit a new filter using three stone.",
+        "location": "reed_well"
+      },
+      {
+        "type": "choice",
+        "target": "sera_open_choice",
+        "text": "Agree on the clinic charter.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "sera_names"
+    ],
+    "conditions": [
+      {
+        "type": "recruited",
+        "id": "sera"
+      }
+    ],
+    "effects": [
+      {
+        "type": "approval",
+        "id": "sera",
+        "amount": 20,
+        "key": "sera_open_done"
+      },
+      {
+        "type": "flag",
+        "id": "sera_personal_complete",
+        "value": true
+      },
+      {
+        "type": "item",
+        "id": "sera_token"
+      }
+    ]
+  },
+  "act1_01": {
+    "id": "act1_01",
+    "name": "The Lantern That Went Cold",
+    "description": "A road lamp has gone cold without using its oil. Rowan asks you to look before the rumor grows.",
+    "type": "narrative",
+    "target": "act1_01",
+    "count": 2,
+    "chain": "main",
+    "category": "Main",
+    "npc": "rowan",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "cold_lantern",
+        "text": "Examine the cold lantern.",
+        "location": "cold_milestone"
+      },
+      {
+        "type": "talk",
+        "target": "rowan",
+        "text": "Tell Rowan what you found.",
+        "location": "willowmere_well"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    }
+  },
+  "act1_02": {
+    "id": "act1_02",
+    "name": "A Name Beneath the Moss",
+    "description": "The silver root points toward the name of the first witness. Elowen may recognize the words.",
+    "type": "narrative",
+    "target": "act1_02",
+    "count": 2,
+    "chain": "main",
+    "category": "Main",
+    "npc": "keeper",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "root_name",
+        "text": "Read the first witness’s stone.",
+        "location": "root_testimony"
+      },
+      {
+        "type": "talk",
+        "target": "keeper",
+        "text": "Ask Elowen about the freely given light.",
+        "location": "shrine_contact"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "act1_01"
+    ]
+  },
+  "act1_03": {
+    "id": "act1_03",
+    "name": "Company for the Road",
+    "description": "The road beyond Willowmere is safer shared. Find someone with a reason to travel beside you.",
+    "type": "narrative",
+    "target": "act1_03",
+    "count": 2,
+    "chain": "main",
+    "category": "Main",
+    "npc": "rowan",
+    "stages": [
+      {
+        "type": "recruit",
+        "target": "*",
+        "text": "Recruit one traveling companion.",
+        "location": "bren_watch"
+      },
+      {
+        "type": "talk",
+        "target": "rowan",
+        "text": "Tell Rowan who is coming with you.",
+        "location": "willowmere_well"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "act1_02"
+    ]
+  },
+  "act1_04": {
+    "id": "act1_04",
+    "name": "Three Promises",
+    "description": "The Compact, Wardens and Keepers remember different parts of the first oath. Hear each account.",
+    "type": "narrative",
+    "target": "act1_04",
+    "count": 4,
+    "chain": "main",
+    "category": "Main",
+    "npc": "rowan",
+    "stages": [
+      {
+        "type": "talk",
+        "target": "hester",
+        "text": "Hear the Compact’s request.",
+        "location": "three_promises"
+      },
+      {
+        "type": "talk",
+        "target": "yew",
+        "text": "Hear the Wardens’ warning.",
+        "location": "three_promises"
+      },
+      {
+        "type": "talk",
+        "target": "orsa",
+        "text": "Hear the Keeper’s correction.",
+        "location": "three_promises"
+      },
+      {
+        "type": "talk",
+        "target": "rowan",
+        "text": "Bring the three accounts to Rowan.",
+        "location": "willowmere_well"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "act1_03"
+    ]
+  },
+  "act1_05": {
+    "id": "act1_05",
+    "name": "Room on the Road",
+    "description": "A new supply road could protect caravans or preserve the older woodland route. Choose where the work begins.",
+    "type": "narrative",
+    "target": "act1_05",
+    "count": 1,
+    "chain": "main",
+    "category": "Main",
+    "npc": "rowan",
+    "stages": [
+      {
+        "type": "choice",
+        "target": "road_policy",
+        "text": "Agree on the road plan with Rowan.",
+        "location": "willowmere_well"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "act1_04"
+    ]
+  },
+  "act1_06": {
+    "id": "act1_06",
+    "name": "A Fire That Stays",
+    "description": "A camp is needed where travelers can stop while the vault is opened. Build it, then supply the first watch.",
+    "type": "narrative",
+    "target": "act1_06",
+    "count": 2,
+    "chain": "main",
+    "category": "Main",
+    "npc": "rowan",
+    "stages": [
+      {
+        "type": "camp",
+        "target": "established",
+        "text": "Establish your camp on safe open ground."
+      },
+      {
+        "type": "choice",
+        "target": "watch_supplies",
+        "text": "Bring six wood and three herbs to the camp watch.",
+        "camp": true
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "act1_05"
+    ]
+  },
+  "act1_07": {
+    "id": "act1_07",
+    "name": "The Oath Beneath Stone",
+    "description": "Elowen has found the entrance to the First Witness Vault. Its guardian still enforces an order no living person gave.",
+    "type": "narrative",
+    "target": "act1_07",
+    "count": 1,
+    "chain": "main",
+    "category": "Main",
+    "npc": "keeper",
+    "stages": [
+      {
+        "type": "defeat",
+        "target": "story_oath_vault/guardian",
+        "text": "Enter the Witness Vault and defeat its guardian.",
+        "location": "oath_vault"
+      }
+    ],
+    "reward": {
+      "coins": 75,
+      "xp": 120,
+      "shards": 2
+    },
+    "prerequisites": [
+      "act1_06"
+    ]
+  },
+  "act1_08": {
+    "id": "act1_08",
+    "name": "The Borrowed Dawn",
+    "description": "The guardian’s seal has fallen. Recover the light from the cradle at the vault entrance.",
+    "type": "narrative",
+    "target": "act1_08",
+    "count": 2,
+    "chain": "main",
+    "category": "Main",
+    "npc": "keeper",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "oath_cradle",
+        "text": "Recover the returned light.",
+        "location": "oath_vault"
+      },
+      {
+        "type": "talk",
+        "target": "keeper",
+        "text": "Let Elowen read the witness’s answer.",
+        "location": "shrine_contact"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "act1_07"
+    ]
+  },
+  "act1_09": {
+    "id": "act1_09",
+    "name": "Night on the Road",
+    "description": "The broken oath has drawn its last sentries to Lantern Crossing. Hold the road while the new beacon is lit.",
+    "type": "narrative",
+    "target": "act1_09",
+    "count": 4,
+    "chain": "main",
+    "category": "Main",
+    "npc": "rowan",
+    "stages": [
+      {
+        "type": "defeat",
+        "target": "crossing_0",
+        "text": "Defeat the first oathbound sentry.",
+        "location": "lantern_crossing"
+      },
+      {
+        "type": "defeat",
+        "target": "crossing_1",
+        "text": "Silence the oathbound archer.",
+        "location": "lantern_crossing"
+      },
+      {
+        "type": "defeat",
+        "target": "crossing_2",
+        "text": "Defeat the last sentry.",
+        "location": "lantern_crossing"
+      },
+      {
+        "type": "interact",
+        "target": "crossing_beacon",
+        "text": "Light the crossing beacon.",
+        "location": "lantern_crossing"
+      }
+    ],
+    "reward": {
+      "coins": 25,
+      "xp": 45,
+      "shards": 0
+    },
+    "prerequisites": [
+      "act1_08"
+    ]
+  },
+  "act1_10": {
+    "id": "act1_10",
+    "name": "Whose Light Is It?",
+    "description": "The road is safe. The light can be placed under one charter or entrusted to each settlement. Make a promise the living can keep.",
+    "type": "narrative",
+    "target": "act1_10",
+    "count": 1,
+    "chain": "main",
+    "category": "Main",
+    "npc": "rowan",
+    "stages": [
+      {
+        "type": "choice",
+        "target": "lantern_covenant",
+        "text": "Settle the lantern charter with Rowan.",
+        "location": "willowmere_well"
+      }
+    ],
+    "reward": {
+      "coins": 120,
+      "xp": 160,
+      "shards": 3
+    },
+    "prerequisites": [
+      "act1_09"
+    ],
+    "effects": [
+      {
+        "type": "flag",
+        "id": "act1_complete",
+        "value": true
+      },
+      {
+        "type": "lore",
+        "id": "first_oath"
+      },
+      {
+        "type": "item",
+        "id": "witness_ring"
+      }
+    ]
+  },
+  "hearth_story_1": {
+    "id": "hearth_story_1",
+    "name": "Dry Boards for Winter",
+    "description": "Carry five wood to the winter bridge stores.",
+    "type": "narrative",
+    "target": "hearth_story_1",
+    "count": 2,
+    "chain": "faction",
+    "category": "Faction",
+    "npc": "hester",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "bridge_plank",
+        "text": "Supply the bridge stores with five wood.",
+        "location": "bridge_stores"
+      },
+      {
+        "type": "talk",
+        "target": "hester",
+        "text": "Report to Hester.",
+        "location": "three_promises"
+      }
+    ],
+    "reward": {
+      "coins": 35,
+      "xp": 50,
+      "shards": 0,
+      "faction": "hearth",
+      "reputation": 15,
+      "unlock": ""
+    },
+    "prerequisites": [],
+    "conditions": [
+      {
+        "type": "reputation",
+        "id": "hearth",
+        "value": -49
+      }
+    ]
+  },
+  "hearth_story_2": {
+    "id": "hearth_story_2",
+    "name": "The Cost of a Straight Road",
+    "description": "Inspect the water channel before Hester’s workers move in.",
+    "type": "narrative",
+    "target": "hearth_story_2",
+    "count": 2,
+    "chain": "faction",
+    "category": "Faction",
+    "npc": "hester",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "sluice",
+        "text": "Clear the sluice with three stone.",
+        "location": "poisoned_sluice"
+      },
+      {
+        "type": "talk",
+        "target": "hester",
+        "text": "Show Hester the water route.",
+        "location": "three_promises"
+      }
+    ],
+    "reward": {
+      "coins": 35,
+      "xp": 50,
+      "shards": 0,
+      "faction": "hearth",
+      "reputation": 15,
+      "unlock": ""
+    },
+    "prerequisites": [
+      "hearth_story_1"
+    ],
+    "conditions": [
+      {
+        "type": "reputation",
+        "id": "hearth",
+        "value": -49
+      }
+    ]
+  },
+  "hearth_story_3": {
+    "id": "hearth_story_3",
+    "name": "A Ledger with Open Pages",
+    "description": "Settle who may inspect the Compact’s winter stores. The accord opens signature equipment at Friendly faction merchants.",
+    "type": "narrative",
+    "target": "hearth_story_3",
+    "count": 1,
+    "chain": "faction",
+    "category": "Faction",
+    "npc": "hester",
+    "stages": [
+      {
+        "type": "choice",
+        "target": "hearth_charter",
+        "text": "Agree on the stores charter.",
+        "location": "three_promises"
+      }
+    ],
+    "reward": {
+      "coins": 35,
+      "xp": 50,
+      "shards": 1,
+      "faction": "hearth",
+      "reputation": 15,
+      "unlock": "hearth_accord"
+    },
+    "prerequisites": [
+      "hearth_story_2"
+    ],
+    "conditions": [
+      {
+        "type": "reputation",
+        "id": "hearth",
+        "value": -49
+      }
+    ]
+  },
+  "bough_story_1": {
+    "id": "bough_story_1",
+    "name": "Water Before Borders",
+    "description": "Clear the blocked sluice that feeds the southern clearings.",
+    "type": "narrative",
+    "target": "bough_story_1",
+    "count": 2,
+    "chain": "faction",
+    "category": "Faction",
+    "npc": "yew",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "sluice",
+        "text": "Reopen the sluice with three stone.",
+        "location": "poisoned_sluice"
+      },
+      {
+        "type": "talk",
+        "target": "yew",
+        "text": "Tell Yew where the water runs.",
+        "location": "three_promises"
+      }
+    ],
+    "reward": {
+      "coins": 35,
+      "xp": 50,
+      "shards": 0,
+      "faction": "bough",
+      "reputation": 15,
+      "unlock": ""
+    },
+    "prerequisites": [],
+    "conditions": [
+      {
+        "type": "reputation",
+        "id": "bough",
+        "value": -49
+      }
+    ]
+  },
+  "bough_story_2": {
+    "id": "bough_story_2",
+    "name": "An Unhunted Path",
+    "description": "Clear the snare line and leave a safe game trail.",
+    "type": "narrative",
+    "target": "bough_story_2",
+    "count": 3,
+    "chain": "faction",
+    "category": "Faction",
+    "npc": "yew",
+    "stages": [
+      {
+        "type": "defeat",
+        "target": "snare_wolf",
+        "text": "Drive off the wolf near the snares.",
+        "location": "snare_hollow"
+      },
+      {
+        "type": "interact",
+        "target": "cut_snare",
+        "text": "Remove the snare.",
+        "location": "snare_hollow"
+      },
+      {
+        "type": "talk",
+        "target": "yew",
+        "text": "Report the safe trail to Yew.",
+        "location": "three_promises"
+      }
+    ],
+    "reward": {
+      "coins": 35,
+      "xp": 50,
+      "shards": 0,
+      "faction": "bough",
+      "reputation": 15,
+      "unlock": ""
+    },
+    "prerequisites": [
+      "bough_story_1"
+    ],
+    "conditions": [
+      {
+        "type": "reputation",
+        "id": "bough",
+        "value": -49
+      }
+    ]
+  },
+  "bough_story_3": {
+    "id": "bough_story_3",
+    "name": "The Gate in the Boundary",
+    "description": "Choose whether winter travelers need a Warden’s permit. The accord opens signature equipment at Friendly faction merchants.",
+    "type": "narrative",
+    "target": "bough_story_3",
+    "count": 1,
+    "chain": "faction",
+    "category": "Faction",
+    "npc": "yew",
+    "stages": [
+      {
+        "type": "choice",
+        "target": "bough_charter",
+        "text": "Agree on passage with Yew.",
+        "location": "three_promises"
+      }
+    ],
+    "reward": {
+      "coins": 35,
+      "xp": 50,
+      "shards": 1,
+      "faction": "bough",
+      "reputation": 15,
+      "unlock": "bough_accord"
+    },
+    "prerequisites": [
+      "bough_story_2"
+    ],
+    "conditions": [
+      {
+        "type": "reputation",
+        "id": "bough",
+        "value": -49
+      }
+    ]
+  },
+  "veil_story_1": {
+    "id": "veil_story_1",
+    "name": "A Third Name",
+    "description": "Read the third witness’s stone before another copy is made.",
+    "type": "narrative",
+    "target": "veil_story_1",
+    "count": 2,
+    "chain": "faction",
+    "category": "Faction",
+    "npc": "orsa",
+    "stages": [
+      {
+        "type": "interact",
+        "target": "third_witness",
+        "text": "Read the third witness’s tablet.",
+        "location": "witness_stone"
+      },
+      {
+        "type": "talk",
+        "target": "orsa",
+        "text": "Bring the wording to Orsa.",
+        "location": "three_promises"
+      }
+    ],
+    "reward": {
+      "coins": 35,
+      "xp": 50,
+      "shards": 0,
+      "faction": "veil",
+      "reputation": 15,
+      "unlock": ""
+    },
+    "prerequisites": [],
+    "conditions": [
+      {
+        "type": "reputation",
+        "id": "veil",
+        "value": -49
+      }
+    ]
+  },
+  "veil_story_2": {
+    "id": "veil_story_2",
+    "name": "An Order Without a Voice",
+    "description": "Free the old sentry from an order that has outlived its purpose.",
+    "type": "narrative",
+    "target": "veil_story_2",
+    "count": 2,
+    "chain": "faction",
+    "category": "Faction",
+    "npc": "orsa",
+    "stages": [
+      {
+        "type": "defeat",
+        "target": "tablet_guard",
+        "text": "Release the tablet’s guardian.",
+        "location": "witness_stone"
+      },
+      {
+        "type": "talk",
+        "target": "orsa",
+        "text": "Report to Orsa.",
+        "location": "three_promises"
+      }
+    ],
+    "reward": {
+      "coins": 35,
+      "xp": 50,
+      "shards": 0,
+      "faction": "veil",
+      "reputation": 15,
+      "unlock": ""
+    },
+    "prerequisites": [
+      "veil_story_1"
+    ],
+    "conditions": [
+      {
+        "type": "reputation",
+        "id": "veil",
+        "value": -49
+      }
+    ]
+  },
+  "veil_story_3": {
+    "id": "veil_story_3",
+    "name": "The Public Record",
+    "description": "Decide how the corrected oath will be taught. The accord opens signature equipment at Friendly faction merchants.",
+    "type": "narrative",
+    "target": "veil_story_3",
+    "count": 1,
+    "chain": "faction",
+    "category": "Faction",
+    "npc": "orsa",
+    "stages": [
+      {
+        "type": "choice",
+        "target": "veil_charter",
+        "text": "Settle the corrected record with Orsa.",
+        "location": "three_promises"
+      }
+    ],
+    "reward": {
+      "coins": 35,
+      "xp": 50,
+      "shards": 1,
+      "faction": "veil",
+      "reputation": 15,
+      "unlock": "veil_accord"
+    },
+    "prerequisites": [
+      "veil_story_2"
+    ],
+    "conditions": [
+      {
+        "type": "reputation",
+        "id": "veil",
+        "value": -49
+      }
+    ]
+  }
+}

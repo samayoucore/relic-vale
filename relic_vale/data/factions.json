@@ -1,0 +1,14 @@
+{
+  "hearth": {
+    "name": "Lantern Compact",
+    "description": "Willowmere and the Ironvein workers keep roads and winter stores safe."
+  },
+  "bough": {
+    "name": "Elderbough Wardens",
+    "description": "Rangers protect groves, waterways and the creatures of the vale."
+  },
+  "veil": {
+    "name": "Keepers of the Veil",
+    "description": "Elowen and the ruin scholars study the lost oaths beneath the earth."
+  }
+}

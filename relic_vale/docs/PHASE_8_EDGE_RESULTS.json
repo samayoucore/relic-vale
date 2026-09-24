@@ -1,0 +1,250 @@
+{
+	"checks": [
+		{
+			"check": "Load completed phase 8 fixture",
+			"pass": true
+		},
+		{
+			"check": "Assign ongoing Cook role",
+			"pass": true
+		},
+		{
+			"check": "Cook produces through world-clock catch-up",
+			"pass": true
+		},
+		{
+			"check": "Cook never grants personal XP",
+			"pass": true
+		},
+		{
+			"check": "Cook completed production cannot duplicate",
+			"pass": true
+		},
+		{
+			"check": "Assign ongoing Forager role",
+			"pass": true
+		},
+		{
+			"check": "Forager produces through world-clock catch-up",
+			"pass": true
+		},
+		{
+			"check": "Forager never grants personal XP",
+			"pass": true
+		},
+		{
+			"check": "Forager completed production cannot duplicate",
+			"pass": true
+		},
+		{
+			"check": "Assign ongoing Woodworker role",
+			"pass": true
+		},
+		{
+			"check": "Woodworker produces through world-clock catch-up",
+			"pass": true
+		},
+		{
+			"check": "Woodworker never grants personal XP",
+			"pass": true
+		},
+		{
+			"check": "Woodworker completed production cannot duplicate",
+			"pass": true
+		},
+		{
+			"check": "Fisher requires a real nearby bank",
+			"pass": true
+		},
+		{
+			"check": "Find an eligible one-resident mission",
+			"pass": true
+		},
+		{
+			"check": "Occupation prevents duplicate expedition assignment",
+			"pass": true
+		},
+		{
+			"check": "Release occupation and send resident on mission",
+			"pass": true
+		},
+		{
+			"check": "Mission prevents duplicate occupation assignment",
+			"pass": true
+		},
+		{
+			"check": "Dry soil pauses growth",
+			"pass": true
+		},
+		{
+			"check": "Rain resumes growth with exact elapsed minutes",
+			"pass": true
+		},
+		{
+			"check": "High-tier tool does not bypass profession requirement",
+			"pass": true
+		},
+		{
+			"check": "High profession level does not bypass tool requirement",
+			"pass": true
+		},
+		{
+			"check": "Correct profession and tool unlock silver",
+			"pass": true
+		},
+		{
+			"check": "Profession XP caps safely at level 25",
+			"pass": true
+		},
+		{
+			"check": "Version 2 remains readable without new fields",
+			"pass": true
+		},
+		{
+			"check": "Version 3 remains readable without new fields",
+			"pass": true
+		},
+		{
+			"check": "Version 4 remains readable without new fields",
+			"pass": true
+		},
+		{
+			"check": "Version 5 remains readable without new fields",
+			"pass": true
+		},
+		{
+			"check": "Version 6 remains readable without new fields",
+			"pass": true
+		},
+		{
+			"check": "Version 7 remains readable without new fields",
+			"pass": true
+		},
+		{
+			"check": "Reject malformed crop growth",
+			"pass": true
+		},
+		{
+			"check": "Reject malformed profession level",
+			"pass": true
+		},
+		{
+			"check": "Reject non-string logical mount coordinate",
+			"pass": true
+		},
+		{
+			"check": "No buy/cook/sell profit loop at best vendor rates",
+			"pass": true
+		},
+		{
+			"check": "All 20 fish journal icons contain visible pixels",
+			"pass": true
+		},
+		{
+			"check": "Authored Quaternius arm motion is present for casting and all farm actions",
+			"pass": true
+		},
+		{
+			"check": "Mount binding responds to Controls setting",
+			"pass": true
+		},
+		{
+			"check": "A dry camp cannot be used as an arbitrary fishing spot",
+			"pass": true
+		},
+		{
+			"check": "Find a genuine riverbank for a waterside camp",
+			"pass": true
+		},
+		{
+			"check": "Assign Fisher beside real water",
+			"pass": true
+		},
+		{
+			"check": "Fisher supplies common fish without granting personal XP",
+			"pass": true
+		},
+		{
+			"check": "Rare bait requires Fishing 10",
+			"pass": true
+		},
+		{
+			"check": "Cast from bank after choosing valid bait",
+			"pass": true
+		},
+		{
+			"check": "Only two nearby animated fish are instantiated",
+			"pass": true
+		},
+		{
+			"check": "HUD attacks and abilities cannot interrupt fishing",
+			"pass": true
+		},
+		{
+			"check": "Escape cancels fishing without granting a catch",
+			"pass": true
+		},
+		{
+			"check": "Far-coordinate streaming keeps logical ownership and unloads camp",
+			"pass": true
+		},
+		{
+			"check": "Horse can be called a billion chunks from camp",
+			"pass": true
+		},
+		{
+			"check": "Nearby teleport repositions waiting horse from its logical address",
+			"pass": true
+		},
+		{
+			"check": "Full hamlet contains farm and stable in reserved positions",
+			"pass": true
+		},
+		{
+			"check": "Horse stays outside player home",
+			"pass": true
+		},
+		{
+			"check": "Player home contains a real kitchen station",
+			"pass": true
+		},
+		{
+			"check": "Mounted rider retains custom seated LPC appearance",
+			"pass": true
+		},
+		{
+			"check": "Mounted HUD actions cannot attack or reveal held weapons",
+			"pass": true
+		},
+		{
+			"check": "Open themed Professions page",
+			"pass": true
+		},
+		{
+			"check": "Open themed Fishing page",
+			"pass": true
+		},
+		{
+			"check": "Open themed Garden page",
+			"pass": true
+		},
+		{
+			"check": "Open themed Mounts page",
+			"pass": true
+		},
+		{
+			"check": "Open themed Exploration page",
+			"pass": true
+		},
+		{
+			"check": "Garden UI stays within viewport at 150% scale",
+			"pass": true
+		},
+		{
+			"check": "Existing personal journey remains readable in its separate world",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"passed": 61
+}

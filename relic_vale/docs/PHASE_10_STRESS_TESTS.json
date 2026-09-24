@@ -1,0 +1,1357 @@
+{
+	"checks": [
+		{
+			"check": "Bounded streaming window at step 0",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 0",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 1",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 1",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 2",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 2",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 3",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 3",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 4",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 4",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 5",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 5",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 6",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 6",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 7",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 7",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 8",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 8",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 9",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 9",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 10",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 10",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 11",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 11",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 12",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 12",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 13",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 13",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 14",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 14",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 15",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 15",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 16",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 16",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 17",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 17",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 18",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 18",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 19",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 19",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 20",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 20",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 21",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 21",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 22",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 22",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 23",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 23",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 24",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 24",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 25",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 25",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 26",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 26",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 27",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 27",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 28",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 28",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 29",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 29",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 30",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 30",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 31",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 31",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 32",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 32",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 33",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 33",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 34",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 34",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 35",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 35",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 36",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 36",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 37",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 37",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 38",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 38",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 39",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 39",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 40",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 40",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 41",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 41",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 42",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 42",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 43",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 43",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 44",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 44",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 45",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 45",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 46",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 46",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 47",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 47",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 48",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 48",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 49",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 49",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 50",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 50",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 51",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 51",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 52",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 52",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 53",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 53",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 54",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 54",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 55",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 55",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 56",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 56",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 57",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 57",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 58",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 58",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 59",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 59",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 60",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 60",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 61",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 61",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 62",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 62",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 63",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 63",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 64",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 64",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 65",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 65",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 66",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 66",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 67",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 67",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 68",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 68",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 69",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 69",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 70",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 70",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 71",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 71",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 72",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 72",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 73",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 73",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 74",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 74",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 75",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 75",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 76",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 76",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 77",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 77",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 78",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 78",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 79",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 79",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 80",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 80",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 81",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 81",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 82",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 82",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 83",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 83",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 84",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 84",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 85",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 85",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 86",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 86",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 87",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 87",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 88",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 88",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 89",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 89",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 90",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 90",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 91",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 91",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 92",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 92",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 93",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 93",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 94",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 94",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 95",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 95",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 96",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 96",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 97",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 97",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 98",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 98",
+			"pass": true
+		},
+		{
+			"check": "Bounded streaming window at step 99",
+			"pass": true
+		},
+		{
+			"check": "Bounded terrain caches at step 99",
+			"pass": true
+		},
+		{
+			"check": "At least 300 distinct chunks materialized",
+			"pass": true
+		},
+		{
+			"check": "At least 15 automatic origin shifts",
+			"pass": true
+		},
+		{
+			"check": "Terrain, props, biome, POI, roads and river remain deterministic",
+			"pass": true
+		},
+		{
+			"check": "Far logical address stays near render origin: (1000, 1000)",
+			"pass": true
+		},
+		{
+			"check": "Terrain edge agrees at (1000, 1000)",
+			"pass": true
+		},
+		{
+			"check": "River agrees at (1000, 1000)",
+			"pass": true
+		},
+		{
+			"check": "Far save succeeds at (1000, 1000)",
+			"pass": true
+		},
+		{
+			"check": "Far logical address stays near render origin: (10000, -10000)",
+			"pass": true
+		},
+		{
+			"check": "Terrain edge agrees at (10000, -10000)",
+			"pass": true
+		},
+		{
+			"check": "River agrees at (10000, -10000)",
+			"pass": true
+		},
+		{
+			"check": "Far save succeeds at (10000, -10000)",
+			"pass": true
+		},
+		{
+			"check": "Far logical address stays near render origin: (100000, 100000)",
+			"pass": true
+		},
+		{
+			"check": "Terrain edge agrees at (100000, 100000)",
+			"pass": true
+		},
+		{
+			"check": "River agrees at (100000, 100000)",
+			"pass": true
+		},
+		{
+			"check": "Far save succeeds at (100000, 100000)",
+			"pass": true
+		},
+		{
+			"check": "Far logical address stays near render origin: (1000000000, -1000000000)",
+			"pass": true
+		},
+		{
+			"check": "Terrain edge agrees at (1000000000, -1000000000)",
+			"pass": true
+		},
+		{
+			"check": "River agrees at (1000000000, -1000000000)",
+			"pass": true
+		},
+		{
+			"check": "Far save succeeds at (1000000000, -1000000000)",
+			"pass": true
+		},
+		{
+			"check": "Far origin persists as exact decimal string",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 0",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 1",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 2",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 3",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 4",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 5",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 6",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 7",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 8",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 9",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 10",
+			"pass": true
+		},
+		{
+			"check": "No duplicated companions after teleport 11",
+			"pass": true
+		},
+		{
+			"check": "An authored building is available",
+			"pass": true
+		},
+		{
+			"check": "One interior created 0",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 0",
+			"pass": true
+		},
+		{
+			"check": "One interior created 1",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 1",
+			"pass": true
+		},
+		{
+			"check": "One interior created 2",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 2",
+			"pass": true
+		},
+		{
+			"check": "One interior created 3",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 3",
+			"pass": true
+		},
+		{
+			"check": "One interior created 4",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 4",
+			"pass": true
+		},
+		{
+			"check": "One interior created 5",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 5",
+			"pass": true
+		},
+		{
+			"check": "One interior created 6",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 6",
+			"pass": true
+		},
+		{
+			"check": "One interior created 7",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 7",
+			"pass": true
+		},
+		{
+			"check": "One interior created 8",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 8",
+			"pass": true
+		},
+		{
+			"check": "One interior created 9",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 9",
+			"pass": true
+		},
+		{
+			"check": "One interior created 10",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 10",
+			"pass": true
+		},
+		{
+			"check": "One interior created 11",
+			"pass": true
+		},
+		{
+			"check": "Interior freed on exit 11",
+			"pass": true
+		},
+		{
+			"check": "Atlas LRU caps at 512 textures and one worker",
+			"pass": true
+		},
+		{
+			"check": "Atlas reset joins and clears workers",
+			"pass": true
+		},
+		{
+			"check": "Returned village does not retain distant scene nodes",
+			"pass": true
+		},
+		{
+			"check": "Long-session save succeeds",
+			"pass": true
+		},
+		{
+			"check": "Long-session save reloads",
+			"pass": true
+		}
+	],
+	"failed": 0.0,
+	"finished": true,
+	"passed": 262.0,
+	"samples": [
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 6.756,
+			"height_cache": 6889.0,
+			"label": "warmup",
+			"map_cache": 1.0,
+			"nodes": 8035.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 21.0,
+			"shifts": 0.0,
+			"static_memory_bytes": 304952553.0
+		},
+		{
+			"active_chunks": 34.0,
+			"blueprints": 34.0,
+			"elapsed_seconds": 7.757,
+			"height_cache": 9289.0,
+			"label": "travel_0",
+			"map_cache": 3.0,
+			"nodes": 10190.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 28.0,
+			"shifts": 0.0,
+			"static_memory_bytes": 335115218.0
+		},
+		{
+			"active_chunks": 32.0,
+			"blueprints": 80.0,
+			"elapsed_seconds": 14.393,
+			"height_cache": 14601.0,
+			"label": "travel_10",
+			"map_cache": 13.0,
+			"nodes": 8796.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 24.0,
+			"shifts": 2.0,
+			"static_memory_bytes": 376320342.0
+		},
+		{
+			"active_chunks": 30.0,
+			"blueprints": 78.0,
+			"elapsed_seconds": 21.158,
+			"height_cache": 11177.0,
+			"label": "travel_20",
+			"map_cache": 23.0,
+			"nodes": 7773.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 5.0,
+			"shifts": 5.0,
+			"static_memory_bytes": 363251325.0
+		},
+		{
+			"active_chunks": 33.0,
+			"blueprints": 81.0,
+			"elapsed_seconds": 28.271,
+			"height_cache": 14601.0,
+			"label": "travel_30",
+			"map_cache": 33.0,
+			"nodes": 10158.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 27.0,
+			"shifts": 7.0,
+			"static_memory_bytes": 383932260.0
+		},
+		{
+			"active_chunks": 30.0,
+			"blueprints": 78.0,
+			"elapsed_seconds": 35.136,
+			"height_cache": 11433.0,
+			"label": "travel_40",
+			"map_cache": 43.0,
+			"nodes": 8897.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 11.0,
+			"shifts": 10.0,
+			"static_memory_bytes": 369116340.0
+		},
+		{
+			"active_chunks": 34.0,
+			"blueprints": 82.0,
+			"elapsed_seconds": 42.25,
+			"height_cache": 14905.0,
+			"label": "travel_50",
+			"map_cache": 53.0,
+			"nodes": 10784.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 25.0,
+			"shifts": 12.0,
+			"static_memory_bytes": 389729820.0
+		},
+		{
+			"active_chunks": 31.0,
+			"blueprints": 79.0,
+			"elapsed_seconds": 49.13,
+			"height_cache": 11689.0,
+			"label": "travel_60",
+			"map_cache": 63.0,
+			"nodes": 9649.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 10.0,
+			"shifts": 15.0,
+			"static_memory_bytes": 378576458.0
+		},
+		{
+			"active_chunks": 34.0,
+			"blueprints": 82.0,
+			"elapsed_seconds": 56.26,
+			"height_cache": 15161.0,
+			"label": "travel_70",
+			"map_cache": 73.0,
+			"nodes": 9261.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 25.0,
+			"shifts": 17.0,
+			"static_memory_bytes": 384403498.0
+		},
+		{
+			"active_chunks": 32.0,
+			"blueprints": 80.0,
+			"elapsed_seconds": 63.241,
+			"height_cache": 11945.0,
+			"label": "travel_80",
+			"map_cache": 83.0,
+			"nodes": 10157.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 13.0,
+			"shifts": 20.0,
+			"static_memory_bytes": 381393185.0
+		},
+		{
+			"active_chunks": 30.0,
+			"blueprints": 78.0,
+			"elapsed_seconds": 70.019,
+			"height_cache": 14345.0,
+			"label": "travel_90",
+			"map_cache": 93.0,
+			"nodes": 8840.0,
+			"orphan_nodes": 1810.0,
+			"samplers": 16.0,
+			"shifts": 22.0,
+			"static_memory_bytes": 371822056.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 96.229,
+			"height_cache": 6889.0,
+			"label": "teleport_return_0",
+			"map_cache": 104.0,
+			"nodes": 8507.0,
+			"orphan_nodes": 0.0,
+			"samplers": 16.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 335088504.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 115.549,
+			"height_cache": 6889.0,
+			"label": "teleport_return_3",
+			"map_cache": 107.0,
+			"nodes": 8562.0,
+			"orphan_nodes": 0.0,
+			"samplers": 17.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 335421272.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 134.883,
+			"height_cache": 6889.0,
+			"label": "teleport_return_6",
+			"map_cache": 110.0,
+			"nodes": 8507.0,
+			"orphan_nodes": 0.0,
+			"samplers": 16.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 335198948.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 153.989,
+			"height_cache": 6889.0,
+			"label": "teleport_return_9",
+			"map_cache": 113.0,
+			"nodes": 8507.0,
+			"orphan_nodes": 0.0,
+			"samplers": 17.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 335266176.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 217.977,
+			"height_cache": 6889.0,
+			"label": "after_interiors",
+			"map_cache": 115.0,
+			"nodes": 8483.0,
+			"orphan_nodes": 0.0,
+			"samplers": 17.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 350550108.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 218.043,
+			"height_cache": 6889.0,
+			"label": "atlas_0",
+			"map_cache": 117.0,
+			"nodes": 8483.0,
+			"orphan_nodes": 0.0,
+			"samplers": 17.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 350551252.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 223.905,
+			"height_cache": 6889.0,
+			"label": "atlas_90",
+			"map_cache": 207.0,
+			"nodes": 8562.0,
+			"orphan_nodes": 0.0,
+			"samplers": 17.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 351327408.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 229.806,
+			"height_cache": 6889.0,
+			"label": "atlas_180",
+			"map_cache": 297.0,
+			"nodes": 8562.0,
+			"orphan_nodes": 0.0,
+			"samplers": 17.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 351740744.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 235.722,
+			"height_cache": 6889.0,
+			"label": "atlas_270",
+			"map_cache": 387.0,
+			"nodes": 8562.0,
+			"orphan_nodes": 0.0,
+			"samplers": 17.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 352128556.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 241.589,
+			"height_cache": 6889.0,
+			"label": "atlas_360",
+			"map_cache": 477.0,
+			"nodes": 8562.0,
+			"orphan_nodes": 0.0,
+			"samplers": 17.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 352529272.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 247.455,
+			"height_cache": 6889.0,
+			"label": "atlas_450",
+			"map_cache": 512.0,
+			"nodes": 8562.0,
+			"orphan_nodes": 0.0,
+			"samplers": 17.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 352696652.0
+		},
+		{
+			"active_chunks": 25.0,
+			"blueprints": 25.0,
+			"elapsed_seconds": 256.735,
+			"height_cache": 6889.0,
+			"label": "final_village",
+			"map_cache": 0.0,
+			"nodes": 8483.0,
+			"orphan_nodes": 0.0,
+			"samplers": 16.0,
+			"shifts": 25.0,
+			"static_memory_bytes": 350068480.0
+		}
+	],
+	"unique_chunks": 1010.0
+}

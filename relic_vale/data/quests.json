@@ -1,0 +1,6 @@
+{
+ "woods":{"name":"Trouble in the Woods","type":"kill","target":"slime","count":5,"description":"Defeat 5 mossling slimes along the east road or in Briar Meadow. Return to Rowan.","giver":"rowan","reward":{"xp":80,"coins":35,"shards":1}},
+ "herbs":{"name":"A little green medicine","type":"collect","target":"wild_herb","count":3,"description":"Gather 3 silverleaf herbs in the wilderness. Bring news to Rowan.","giver":"rowan","reward":{"xp":35,"coins":20,"shards":0}},
+ "keeper":{"name":"A friendly face","type":"talk","target":"keeper","count":1,"description":"Meet Elowen beside the village wishing stone. Return to Rowan.","giver":"rowan","reward":{"xp":15,"coins":10,"shards":0}},
+ "crypt":{"name":"Beneath the old roots","type":"reach","target":"crypt","count":1,"description":"Find a stairway into the Forgotten Crypt. Return to Rowan.","giver":"rowan","reward":{"xp":35,"coins":15,"shards":1}}
+}

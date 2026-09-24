@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-10",
+  "passed": 221,
+  "failed": 0,
+  "acceptance_steps": 29,
+  "streamed_steps": 100,
+  "results": [
+    {
+      "log": "phase6-core-gui-final.log",
+      "checks": 64,
+      "result": "PHASE6_CORE_RESULT 64 passed / 0 failed"
+    },
+    {
+      "log": "phase6-acceptance-final.log",
+      "checks": 29,
+      "result": "PHASE6_ACCEPTANCE_RESULT 29 passed / 0 failed; walked 170.012407134287"
+    },
+    {
+      "log": "phase6-acceptance-reload.log",
+      "checks": 6,
+      "result": "PHASE6_ACCEPTANCE_RELOAD_RESULT 6 passed / 0 failed"
+    },
+    {
+      "log": "phase6-validation.log",
+      "checks": 26,
+      "result": "PHASE6_VALIDATION_RESULT 26 passed / 0 failed"
+    },
+    {
+      "log": "phase6-stream-stress.log",
+      "checks": 15,
+      "result": "STRESS5_RESULT 15 passed 0 failed"
+    },
+    {
+      "log": "phase6-far-reload.log",
+      "checks": 4,
+      "result": "STRESS5_RESULT 4 passed 0 failed"
+    },
+    {
+      "log": "phase6-interior-reload.log",
+      "checks": 6,
+      "result": "PHASE6_RELOAD_RESULT 6 passed / 0 failed"
+    },
+    {
+      "log": "phase6-life-check.log",
+      "checks": 8,
+      "result": "PHASE6_LIFE_RESULT 8 passed / 0 failed"
+    },
+    {
+      "log": "phase6-visual-final.log",
+      "checks": 4,
+      "result": "PHASE6_VISUAL_RESULT 4 passed / 0 failed"
+    },
+    {
+      "log": "phase6-presentation-regression.log",
+      "checks": 38,
+      "result": "PRESENTATION5_RESULT 38 passed 0 failed"
+    },
+    {
+      "log": "phase6-combat-regression.log",
+      "checks": 21,
+      "result": "COMBAT3_RESULT: 21 passed, 0 failed"
+    }
+  ]
+}

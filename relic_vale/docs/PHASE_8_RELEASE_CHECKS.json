@@ -1,0 +1,12 @@
+{
+  "release": "0.8",
+  "static_checks": 718,
+  "assertion_executions": 321,
+  "failed": 0,
+  "models": 82,
+  "icons": 60,
+  "clean_import": true,
+  "clean_startup": true,
+  "clean_copy_separate_userdata": true,
+  "phase7_archive_unchanged": true
+}

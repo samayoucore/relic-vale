@@ -1,0 +1,389 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "tier": 1,
+      "name": "Campfire",
+      "xp": 60,
+      "cost": {
+        "food": 8,
+        "materials": 14,
+        "gold": 5
+      },
+      "population": 2,
+      "slots": 1,
+      "facilities": [],
+      "description": "Fire, two tents, storage and task board"
+    },
+    {
+      "level": 2,
+      "tier": 2,
+      "name": "Wayside Camp",
+      "xp": 130,
+      "cost": {
+        "food": 24,
+        "materials": 40,
+        "gold": 18
+      },
+      "population": 4,
+      "slots": 2,
+      "facilities": [
+        "store"
+      ],
+      "description": "Extra tents, storage yard, work areas and paths"
+    },
+    {
+      "level": 3,
+      "tier": 3,
+      "name": "Outpost",
+      "xp": 240,
+      "cost": {
+        "food": 50,
+        "materials": 85,
+        "gold": 40
+      },
+      "population": 6,
+      "slots": 2,
+      "facilities": [
+        "store",
+        "workshop"
+      ],
+      "description": "Permanent workshop, fences and an outpost hall"
+    },
+    {
+      "level": 4,
+      "tier": 4,
+      "name": "Homestead",
+      "xp": 400,
+      "cost": {
+        "food": 90,
+        "materials": 150,
+        "gold": 75
+      },
+      "population": 8,
+      "slots": 3,
+      "facilities": [
+        "store",
+        "workshop",
+        "house"
+      ],
+      "description": "Enterable player home and veteran cottages"
+    },
+    {
+      "level": 5,
+      "tier": 5,
+      "name": "Hamlet",
+      "xp": 0,
+      "cost": {
+        "food": 0,
+        "materials": 0,
+        "gold": 0
+      },
+      "population": 10,
+      "slots": 4,
+      "facilities": [
+        "store",
+        "workshop",
+        "house",
+        "market"
+      ],
+      "description": "Leader house, veteran homes, newcomer tents and market"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "firewood",
+      "name": "Gather firewood",
+      "category": "Logging",
+      "level": 1,
+      "workers": 1,
+      "worker_level": 1,
+      "skill": "gathering",
+      "skill_level": 0,
+      "minutes": 90,
+      "rewards": {
+        "xp": 12,
+        "food": 1,
+        "materials": 8,
+        "gold": 2,
+        "worker_xp": 45
+      },
+      "facilities": [],
+      "cost": {}
+    },
+    {
+      "id": "forage",
+      "name": "Forage the meadow",
+      "category": "Foraging",
+      "level": 1,
+      "workers": 1,
+      "worker_level": 1,
+      "skill": "gathering",
+      "skill_level": 0,
+      "minutes": 120,
+      "rewards": {
+        "xp": 14,
+        "food": 10,
+        "materials": 2,
+        "gold": 2,
+        "worker_xp": 45
+      },
+      "facilities": [],
+      "cost": {}
+    },
+    {
+      "id": "stone",
+      "name": "Collect loose stone",
+      "category": "Mining",
+      "level": 1,
+      "workers": 1,
+      "worker_level": 1,
+      "skill": "mining",
+      "skill_level": 0,
+      "minutes": 150,
+      "rewards": {
+        "xp": 15,
+        "food": 2,
+        "materials": 10,
+        "gold": 2,
+        "worker_xp": 45
+      },
+      "facilities": [],
+      "cost": {}
+    },
+    {
+      "id": "supply",
+      "name": "Carry local supplies",
+      "category": "Supply",
+      "level": 1,
+      "workers": 1,
+      "worker_level": 1,
+      "skill": "trading",
+      "skill_level": 0,
+      "minutes": 180,
+      "rewards": {
+        "xp": 16,
+        "food": 5,
+        "materials": 4,
+        "gold": 8,
+        "worker_xp": 45
+      },
+      "facilities": [],
+      "cost": {}
+    },
+    {
+      "id": "hunt",
+      "name": "Hunt woodland game",
+      "category": "Hunting",
+      "level": 1,
+      "workers": 2,
+      "worker_level": 1,
+      "skill": "hunting",
+      "skill_level": 1,
+      "minutes": 300,
+      "rewards": {
+        "xp": 25,
+        "food": 20,
+        "materials": 4,
+        "gold": 8,
+        "worker_xp": 45
+      },
+      "facilities": [],
+      "cost": {
+        "food": 2
+      }
+    },
+    {
+      "id": "salvage",
+      "name": "Salvage the old caravan",
+      "category": "Salvage",
+      "level": 2,
+      "workers": 2,
+      "worker_level": 2,
+      "skill": "scouting",
+      "skill_level": 2,
+      "minutes": 420,
+      "rewards": {
+        "xp": 35,
+        "food": 5,
+        "materials": 28,
+        "gold": 12,
+        "worker_xp": 60
+      },
+      "facilities": [
+        "store"
+      ],
+      "cost": {
+        "food": 4
+      }
+    },
+    {
+      "id": "trade",
+      "name": "Trade with a neighboring village",
+      "category": "Trading",
+      "level": 2,
+      "workers": 2,
+      "worker_level": 2,
+      "skill": "trading",
+      "skill_level": 2,
+      "minutes": 600,
+      "rewards": {
+        "xp": 40,
+        "food": 12,
+        "materials": 4,
+        "gold": 32,
+        "worker_xp": 60
+      },
+      "facilities": [
+        "store"
+      ],
+      "cost": {
+        "materials": 5
+      }
+    },
+    {
+      "id": "patrol",
+      "name": "Patrol the western road",
+      "category": "Patrol",
+      "level": 2,
+      "workers": 2,
+      "worker_level": 2,
+      "skill": "hunting",
+      "skill_level": 2,
+      "minutes": 480,
+      "rewards": {
+        "xp": 36,
+        "food": 9,
+        "materials": 10,
+        "gold": 20,
+        "worker_xp": 60
+      },
+      "facilities": [],
+      "cost": {
+        "food": 4
+      }
+    },
+    {
+      "id": "explore",
+      "name": "Survey the distant hills",
+      "category": "Exploration",
+      "level": 3,
+      "workers": 3,
+      "worker_level": 3,
+      "skill": "scouting",
+      "skill_level": 3,
+      "minutes": 1440,
+      "rewards": {
+        "xp": 70,
+        "food": 24,
+        "materials": 35,
+        "gold": 35,
+        "worker_xp": 75
+      },
+      "facilities": [
+        "workshop"
+      ],
+      "cost": {
+        "food": 8
+      }
+    },
+    {
+      "id": "ore",
+      "name": "Work a rich ore seam",
+      "category": "Mining",
+      "level": 3,
+      "workers": 3,
+      "worker_level": 3,
+      "skill": "mining",
+      "skill_level": 3,
+      "minutes": 1080,
+      "rewards": {
+        "xp": 60,
+        "food": 8,
+        "materials": 60,
+        "gold": 20,
+        "worker_xp": 75
+      },
+      "facilities": [
+        "workshop"
+      ],
+      "cost": {
+        "food": 6,
+        "gold": 3
+      }
+    },
+    {
+      "id": "build",
+      "name": "Help rebuild a hamlet bridge",
+      "category": "Construction",
+      "level": 3,
+      "workers": 3,
+      "worker_level": 3,
+      "skill": "gathering",
+      "skill_level": 3,
+      "minutes": 1800,
+      "rewards": {
+        "xp": 90,
+        "food": 35,
+        "materials": 50,
+        "gold": 65,
+        "worker_xp": 75
+      },
+      "facilities": [
+        "workshop"
+      ],
+      "cost": {
+        "materials": 12
+      }
+    },
+    {
+      "id": "expedition",
+      "name": "Escort the northern expedition",
+      "category": "Special",
+      "level": 4,
+      "workers": 4,
+      "worker_level": 4,
+      "skill": "scouting",
+      "skill_level": 4,
+      "minutes": 2880,
+      "rewards": {
+        "xp": 120,
+        "food": 60,
+        "materials": 90,
+        "gold": 90,
+        "worker_xp": 90
+      },
+      "facilities": [
+        "house"
+      ],
+      "cost": {
+        "food": 15,
+        "gold": 10
+      }
+    }
+  ],
+  "refresh_gold": 5,
+  "traveler_minutes": 1440,
+  "first_traveler_minutes": 1,
+  "reserve_radius": 17,
+  "contributions": {
+    "wood": {
+      "materials": 2
+    },
+    "stone": {
+      "materials": 2
+    },
+    "iron_ore": {
+      "materials": 4
+    },
+    "wild_mushroom": {
+      "food": 3
+    },
+    "mushroom": {
+      "food": 3
+    },
+    "wild_herb": {
+      "food": 1
+    }
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "date": "2026-09-10",
+  "receipts": [
+    {
+      "source": "https://quaternius.itch.io/fantasy-props-megakit",
+      "upload": "13887750",
+      "bytes": 150213360,
+      "sha256": "8b6f7e806d222e585478f0e1bdc6b271bbc7bc6f84dd6af8ca703a7c64f0cb1e",
+      "license": "CC0 1.0"
+    },
+    {
+      "source": "https://quaternius.itch.io/universal-animation-library-2",
+      "upload": "17958478",
+      "bytes": 18735003,
+      "sha256": "4008ea208a604773a2b2177d965f0f5d3195498b5bf838c3f5785d68e95f2a68",
+      "license": "CC0 1.0"
+    },
+    {
+      "source": "https://opengameart.org/content/100-cc0-sfx-2",
+      "download": "https://opengameart.org/sites/default/files/sfx_100_v2.zip",
+      "license": "CC0 1.0",
+      "bytes": 2367871,
+      "sha256": "0fc61b4494e2e893c0c015ced4877b3f689c7d84a48cb61daecd7ddb52db797b"
+    },
+    {
+      "source": "https://opengameart.org/content/horse-trotting",
+      "download": "https://opengameart.org/sites/default/files/Trot.ogg",
+      "license": "CC0 1.0",
+      "bytes": 138357,
+      "sha256": "0fd1a787f3ebb2c0213de8a807566a4879b659bdf2643c8720d6e1720bb436b9"
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/3d/phase6/animals/Alpaca.gltf",
+      "bytes": 1435679,
+      "sha256": "5009bfa756c7b7af5e02263d47a6d9088cadaada2240b41b4e87f31327b0e063"
+    },
+    {
+      "path": "assets/3d/phase6/animals/Cow.gltf",
+      "bytes": 3114187,
+      "sha256": "b04af067688d9fadf1395b4456dbf3117c2f760fb49e704ee5c8b6391fc8adb5"
+    },
+    {
+      "path": "assets/3d/phase6/animals/Fox.gltf",
+      "bytes": 3163174,
+      "sha256": "2f36e3c9c75ecddda85c5f9944e98ee1e88e7c679a546534aff1cea8ecde64c7"
+    },
+    {
+      "path": "assets/3d/phase6/animals/Horse.gltf",
+      "bytes": 3610082,
+      "sha256": "3deb61550dff1d2786d04b6e8559d63ad3907d6ab606ba28ce0af074ed96341b"
+    },
+    {
+      "path": "assets/3d/phase6/props/Anvil.bin",
+      "bytes": 24020,
+      "sha256": "d52a9ab436577e8ee8ca00b2929b15595a60b0294c6275a39ecfe1f27408bfcf"
+    },
+    {
+      "path": "assets/3d/phase6/props/Anvil.gltf",
+      "bytes": 3189,
+      "sha256": "29e0a6a19f9a579ffe8d463c2a8d445c531a39271ba4eab9754d3f5d9f9d9ce1"
+    },
+    {
+      "path": "assets/3d/phase6/props/Anvil_Log.bin",
+      "bytes": 130880,
+      "sha256": "7d3d078f1be72c9c56abc0ee2fc5dfa23826b8a03beaaa756d27054a7443919c"
+    },
+    {
+      "path": "assets/3d/phase6/props/Anvil_Log.gltf",
+      "bytes": 5580,
+      "sha256": "878f803a0d8d7a4db5ad31f4839bc87ac03fd409cb69e30aa078c00729a38df2"
+    },
+    {
+      "path": "assets/3d/phase6/props/Axe_Bronze.bin",
+      "bytes": 31156,
+      "sha256": "d608e8dea796ae8a200cd78bb1836d2705944f628abb6ac2e03c76e6637187b2"
+    },
+    {
+      "path": "assets/3d/phase6/props/Axe_Bronze.gltf",
+      "bytes": 2591,
+      "sha256": "338ce6e6947b8849774aac2deb9d2bf3a1cb14dc869effb7be0a91053e67b64f"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bag.bin",
+      "bytes": 27188,
+      "sha256": "6bf8ad99d0048264aa37157a92f394ab32aeeb5270dab2f3f76282b1eda4e012"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bag.gltf",
+      "bytes": 4318,
+      "sha256": "ccbf22a9162a2a2173caa7346e796b8f92a86dbbbe02a196530bf5642293e545"
+    },
+    {
+      "path": "assets/3d/phase6/props/Barrel.bin",
+      "bytes": 57144,
+      "sha256": "d8f963e2975b6bbd4b631b5cd7ade2d5dfc76dfb9f8387e2d398935f5405cf20"
+    },
+    {
+      "path": "assets/3d/phase6/props/Barrel.gltf",
+      "bytes": 4311,
+      "sha256": "cececb2da345addb21567e3ce1b30a9da071b689bcec59d85cd7a4446f531e87"
+    },
+    {
+      "path": "assets/3d/phase6/props/Barrel_Apples.bin",
+      "bytes": 104600,
+      "sha256": "774c97d9b2b2faa04ef40c681540ca3be74a3942ab8bbbd8c8d260b66121f8c8"
+    },
+    {
+      "path": "assets/3d/phase6/props/Barrel_Apples.gltf",
+      "bytes": 6241,
+      "sha256": "07520279b51bd1cc75b6db88b572b5ec445fc7decf0b115fba5c9e20f8caa111"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bed_Twin1.bin",
+      "bytes": 77360,
+      "sha256": "72bdaa973e348dea5429ea2ecf465e25b4a1ae834de068d14ace57ad5def6421"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bed_Twin1.gltf",
+      "bytes": 6217,
+      "sha256": "fcb79a79d71d1b24b74113f83684d4e4f0c69e9dacc8b5c9078ca88d286d253e"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bed_Twin2.bin",
+      "bytes": 76624,
+      "sha256": "57131a881f542545644676b26fc547cc35488f903183898c3a0a6fbae81bfea2"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bed_Twin2.gltf",
+      "bytes": 6217,
+      "sha256": "339511be568ed72a8a1f3af9890675d99ad7bc3a60396cd883c22bba0fd7e4c4"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bench.bin",
+      "bytes": 19304,
+      "sha256": "08d6976112645dc1f6a554019e2fc965d0bceba7a01c4f6013615ac46520b418"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bench.gltf",
+      "bytes": 4298,
+      "sha256": "0184d3b128a8a3bcc828d7bc6aa867038e2a85a339130ed015f2727e739f9ab7"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bookcase_2.bin",
+      "bytes": 92968,
+      "sha256": "2d61ba836ecd93e3c0ac9d590b183c600bcb9e1bd32a84960e83b5f77520f2bb"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bookcase_2.gltf",
+      "bytes": 4329,
+      "sha256": "58bb7dcdc7f0a9e49b4edb6b9d6d142999133104965bd5ab1d0237dd3b5c1b55"
+    },
+    {
+      "path": "assets/3d/phase6/props/Book_5.bin",
+      "bytes": 5856,
+      "sha256": "32060c5c94d297a4409a02f93c73fc86b221311bfa0bee627626e050023836f5"
+    },
+    {
+      "path": "assets/3d/phase6/props/Book_5.gltf",
+      "bytes": 2403,
+      "sha256": "10b082a9984c355bb68e288362bb5e39c62d037ae5a24e3fcec2a5ded4a3b1ec"
+    },
+    {
+      "path": "assets/3d/phase6/props/Book_Stack_1.bin",
+      "bytes": 12768,
+      "sha256": "cdbe0b7f468ac1713989e0c7f67c93dd83a899825d518b4911d56f4613c85fb7"
+    },
+    {
+      "path": "assets/3d/phase6/props/Book_Stack_1.gltf",
+      "bytes": 2418,
+      "sha256": "aac90f5a6859acb1edf12b248e12a914f652e8a0a0af0fa6cee6dda3225a7fd2"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bucket_Wooden_1.bin",
+      "bytes": 32544,
+      "sha256": "be608473cd78557d466be9b9e2f6ff15f1edf1e4f5fcdd27be75d494f52578f2"
+    },
+    {
+      "path": "assets/3d/phase6/props/Bucket_Wooden_1.gltf",
+      "bytes": 3911,
+      "sha256": "b4f93568d96d38dca162098e75fb3eb4ffaf5ff6e41f8f788476abd3be4984cf"
+    },
+    {
+      "path": "assets/3d/phase6/props/Cabinet.bin",
+      "bytes": 114768,
+      "sha256": "dcfed47cc915564061483171ea8b8a4b4563177a4692e37ea91308b8b6f41450"
+    },
+    {
+      "path": "assets/3d/phase6/props/Cabinet.gltf",
+      "bytes": 4324,
+      "sha256": "43df513943cde0590ca1925c3920ace9d08e4694d51282a1f5ab70b42e79fe44"
+    },
+    {
+      "path": "assets/3d/phase6/props/CandleStick_Triple.bin",
+      "bytes": 74368,
+      "sha256": "35bf25557f28b7c6b4824d6f876698485b3131f09d619c994787573166a4309c"
+    },
+    {
+      "path": "assets/3d/phase6/props/CandleStick_Triple.gltf",
+      "bytes": 3900,
+      "sha256": "a65eea34c6af2372ce4490341481d48a17a2611e9815229bac060b6d5e13fa08"
+    },
+    {
+      "path": "assets/3d/phase6/props/Cauldron.bin",
+      "bytes": 62712,
+      "sha256": "63fd1b9d8d44a12fcb421f74a4f3d806f023b4aa1be9391a7c313a996a8f7f4b"
+    },
+    {
+      "path": "assets/3d/phase6/props/Cauldron.gltf",
+      "bytes": 2195,
+      "sha256": "3937dcadb9b920ae88d7674009b73e2da6c6d9f73d0f4fe6e79408a04dbffec1"
+    },
+    {
+      "path": "assets/3d/phase6/props/Chair_1.bin",
+      "bytes": 28096,
+      "sha256": "dc16da2a14704460a4050ef08782bb46b56b911eb161965b3f2676a1b24c201d"
+    },
+    {
+      "path": "assets/3d/phase6/props/Chair_1.gltf",
+      "bytes": 4312,
+      "sha256": "9c3e659f25c850990cbf8a4d850b6222110248cd5c1419a2c0f548a312dd8457"
+    },
+    {
+      "path": "assets/3d/phase6/props/Chandelier.bin",
+      "bytes": 266680,
+      "sha256": "6ee3fc5a8dcd4b5ff5e7fa9a5d057f1744c8f0721d9b878e245fa9136f8c4bbd"
+    },
+    {
+      "path": "assets/3d/phase6/props/Chandelier.gltf",
+      "bytes": 6259,
+      "sha256": "2fa74c8bb413a86430aa0be69ef2d82cc6cdc6d9505567410dc0abf34b37e272"
+    },
+    {
+      "path": "assets/3d/phase6/props/Chest_Wood.bin",
+      "bytes": 184356,
+      "sha256": "e4aea6f99587b8ad9ac08fac82013c55111a748c2e3febedbc4de3e301253901"
+    },
+    {
+      "path": "assets/3d/phase6/props/Chest_Wood.gltf",
+      "bytes": 21402,
+      "sha256": "b2022f69b76526fcbbc7f7a8855848beeefa6e8a6f55337d923bce38ed03b2b6"
+    },
+    {
+      "path": "assets/3d/phase6/props/Crate_Wooden.bin",
+      "bytes": 66496,
+      "sha256": "7ae016386790e5998fbdf1656a5dc53a3f1374c3525b22798d84397a36ae937b"
+    },
+    {
+      "path": "assets/3d/phase6/props/Crate_Wooden.gltf",
+      "bytes": 4412,
+      "sha256": "fb06d4b7b9bbfbb9dc51fa56ecff3fe7ba8e9142d643cabedd17a55d7ea46ee5"
+    },
+    {
+      "path": "assets/3d/phase6/props/FarmCrate_Carrot.bin",
+      "bytes": 204292,
+      "sha256": "18858970c67b1e6fb2d174a4b4a946787cdde12b42d88cce9d846fc4ede50e19"
+    },
+    {
+      "path": "assets/3d/phase6/props/FarmCrate_Carrot.gltf",
+      "bytes": 6273,
+      "sha256": "6aaa750a27ee652c8090fe7415f1bdd1d66b17d6cfecafc0767559afaef3248c"
+    },
+    {
+      "path": "assets/3d/phase6/props/Lantern_Wall.bin",
+      "bytes": 120036,
+      "sha256": "fe9f3816130587308b73bb8b4b28031b71fe9405a111f115463022709fa04b2e"
+    },
+    {
+      "path": "assets/3d/phase6/props/Lantern_Wall.gltf",
+      "bytes": 2203,
+      "sha256": "9e7623e1d3a16f9212ff7cb41c939746435187f0071bd94849ee7bc6a59785a2"
+    },
+    {
+      "path": "assets/3d/phase6/props/Mug.bin",
+      "bytes": 12488,
+      "sha256": "bbf61011611387a248b9107b13f40a9cddb31e605f677b2102b236147bf31691"
+    },
+    {
+      "path": "assets/3d/phase6/props/Mug.gltf",
+      "bytes": 3881,
+      "sha256": "73c4cb7e575685d0220a5d1dd40f1a68de9e64bfd34a54bcba6085b62a119a9d"
+    },
+    {
+      "path": "assets/3d/phase6/props/Pickaxe_Bronze.bin",
+      "bytes": 30736,
+      "sha256": "df51d6075a9d1a8c44ed1b1596796c1b301546c8c2607ddbc88c82d691121bef"
+    },
+    {
+      "path": "assets/3d/phase6/props/Pickaxe_Bronze.gltf",
+      "bytes": 2425,
+      "sha256": "2a934389f82610fc7702e45dcac859b75181633befad409de238932f5f8f2c7f"
+    },
+    {
+      "path": "assets/3d/phase6/props/Potion_1.bin",
+      "bytes": 18200,
+      "sha256": "6838b7e7a740a91f3bbdce0c79482638f095a79f90e2e1a59158c9750171665c"
+    },
+    {
+      "path": "assets/3d/phase6/props/Potion_1.gltf",
+      "bytes": 2418,
+      "sha256": "fc53caca616741a21790b54a742a4fe3b4b3dfc88f4d50716fa8f65eece5c2ef"
+    },
+    {
+      "path": "assets/3d/phase6/props/SmallBottles_1.bin",
+      "bytes": 20556,
+      "sha256": "723e7877365cec968535bc92d5c1c905ae52d8c09b60e7799ba097c2c1173010"
+    },
+    {
+      "path": "assets/3d/phase6/props/SmallBottles_1.gltf",
+      "bytes": 2423,
+      "sha256": "dd4b7672bd0faccd8ca6da0d7a70b7689127ece17c255e49a448dafe3fc6d4fd"
+    },
+    {
+      "path": "assets/3d/phase6/props/Stall_Empty.bin",
+      "bytes": 88176,
+      "sha256": "9ddececa6f5e0922ee32b064c400abea4dd068be2bfc78891017fca334158826"
+    },
+    {
+      "path": "assets/3d/phase6/props/Stall_Empty.gltf",
+      "bytes": 6804,
+      "sha256": "b0e6b4f6cb6b9dc0b35d92eceb89ebc27addac167fe56fe38cfc77e3afd62af9"
+    },
+    {
+      "path": "assets/3d/phase6/props/Stool.bin",
+      "bytes": 11472,
+      "sha256": "6ca3a6bc9b415409d842a338a74c174d0efe4d4972bf8a924fda87c8bda40191"
+    },
+    {
+      "path": "assets/3d/phase6/props/Stool.gltf",
+      "bytes": 2423,
+      "sha256": "55a111d97463adb71a59eddb8bbee777c5743e66a58403b06e869cc35e4da670"
+    },
+    {
+      "path": "assets/3d/phase6/props/Table_Large.bin",
+      "bytes": 56396,
+      "sha256": "af7bfe0cbf0532e01543e4fd5d6d710df70106a7d938c4d74a50c8911ee9bf35"
+    },
+    {
+      "path": "assets/3d/phase6/props/Table_Large.gltf",
+      "bytes": 4316,
+      "sha256": "ffd4e5b803f38f02922c2b0303ae3b5a602f7c239e717b725c0553019be8fcf2"
+    },
+    {
+      "path": "assets/3d/phase6/props/Table_Plate.bin",
+      "bytes": 6792,
+      "sha256": "23c73317b3936f395002c7be5089c4e70ee1cbdcf9f1abdb49af314faf7fe7dc"
+    },
+    {
+      "path": "assets/3d/phase6/props/Table_Plate.gltf",
+      "bytes": 2199,
+      "sha256": "306bf85a1b02df6dda78a13b47ad2c1cf0646aac47818ec937e0be0c5f2997a3"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Page_Noise.png",
+      "bytes": 7486734,
+      "sha256": "4d4069a8d588dab3dcd36f9ea309fc617815b766ce225b78bcd487751585e312"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Cloth_BaseColor.png",
+      "bytes": 1936754,
+      "sha256": "c4d0e14506e05cc56e7ca62ebeeb2d45de055296a55e5a8e9c1330ff8ff1833a"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Cloth_Normal.png",
+      "bytes": 3920858,
+      "sha256": "e91a490f94bc00707fb5be08045e316b4a18962f07a3b6e3d9d7c2058cfc51c0"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Cloth_ORM.png",
+      "bytes": 623426,
+      "sha256": "9bdaa0d1be8c393b07d6185165d73c7cddc058d5c123ad49449945f45a7e0c0d"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Furniture_BaseColor.png",
+      "bytes": 2232961,
+      "sha256": "075fbc9ec2fabc15732bd4025b6f63a0b25762df38440d06bf30437565d39bab"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Furniture_Normal.png",
+      "bytes": 3485710,
+      "sha256": "3340c4cc47ff06d5e94a2dbe2a2a12d914d0ef055fcf66f63d876666bd160e42"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Furniture_ORM.png",
+      "bytes": 2064585,
+      "sha256": "7bf417e82baf313793c5791bf48cdc8e573f1f7136197785bf0eb235cb0f8153"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Metal_BaseColor.png",
+      "bytes": 1361221,
+      "sha256": "50422bbda9661effc259caf8b386224cac4b5ca811d2c5b3b8b25ae8efc714db"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Metal_Normal.png",
+      "bytes": 3625541,
+      "sha256": "ab7315c864c9a9e6d716c940a599928506e1569d3b0c9085f8f1a64ec520d790"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Metal_ORM.png",
+      "bytes": 1871475,
+      "sha256": "7407bccfc39ca74ecd68a61217395959bf56ac2063e6c93b384b11f07f5687c5"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Props_BaseColor.png",
+      "bytes": 2263132,
+      "sha256": "75225a4ccfd8cc358c871de7a7a3cab7118ef197419a88464e807b81716215c8"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Props_Normal.png",
+      "bytes": 4441458,
+      "sha256": "c4b28a8ba8efe3108cd11356ecab67e8bf75a10cebf29c78ee7724552c305a3e"
+    },
+    {
+      "path": "assets/3d/phase6/props/T_Trim_Props_ORM.png",
+      "bytes": 3017151,
+      "sha256": "2d83d8df79aca2c8f630d389b43f09113afee98e746dfd42ddc3ce3302a136a2"
+    },
+    {
+      "path": "assets/3d/phase6/props/Whetstone.bin",
+      "bytes": 59280,
+      "sha256": "c3aae752f1a92cc58d8ca0ca033c8d5d9f90b00238c0e369f835198c0f9cbb6a"
+    },
+    {
+      "path": "assets/3d/phase6/props/Whetstone.gltf",
+      "bytes": 6212,
+      "sha256": "ec0f5173ac53dba3bf112b384b7c88efb6e8814f22b4092cafd1c38345f3001c"
+    },
+    {
+      "path": "assets/3d/phase6/props/Workbench.bin",
+      "bytes": 63408,
+      "sha256": "d26f2a0ba01b4a8db8d6820d1bd0d281297fea30e48c9952484167d18a637b39"
+    },
+    {
+      "path": "assets/3d/phase6/props/Workbench.gltf",
+      "bytes": 4318,
+      "sha256": "518fc5c955def18cfcb781b3b955da0e8edcf4f37830a21561ef32c03ad0397e"
+    },
+    {
+      "path": "assets/audio/phase6/CREDITS.txt",
+      "bytes": 592,
+      "sha256": "18b3bbf6b2a229d76f0bc083e7e4e0bba841cabb3c5fb4a1c17381c829829266"
+    },
+    {
+      "path": "assets/audio/phase6/door_01.ogg",
+      "bytes": 9219,
+      "sha256": "3fffeef28d3c1662814c33411fe5e76cbb1f74fe58c9ed0cab796c57ca9846b7"
+    },
+    {
+      "path": "assets/audio/phase6/footstep_wood_01.ogg",
+      "bytes": 7391,
+      "sha256": "52465eeb853a8fa3cd9f4e218dc0b28bdcb3bb52da72f5bece5d47cae2523a20"
+    },
+    {
+      "path": "assets/audio/phase6/glass_01.ogg",
+      "bytes": 7727,
+      "sha256": "9c664345b242c2ff06e4d00b0383a03afe1b7bf8a685ec9628fb605a1e43c196"
+    },
+    {
+      "path": "assets/audio/phase6/hoof.ogg",
+      "bytes": 138357,
+      "sha256": "0fd1a787f3ebb2c0213de8a807566a4879b659bdf2643c8720d6e1720bb436b9"
+    },
+    {
+      "path": "assets/audio/phase6/info.txt",
+      "bytes": 227,
+      "sha256": "2772eead639632a058b3f01626fd15052dc39f1c1aba0b40adb79dbb0806e5b0"
+    },
+    {
+      "path": "assets/audio/phase6/loop_water_01.ogg",
+      "bytes": 72644,
+      "sha256": "955a367cf87f150f7868e2ecf5745ef13cec2c78a29304eda27e74f1fea06c57"
+    },
+    {
+      "path": "assets/audio/phase6/metal_hit_01.ogg",
+      "bytes": 13340,
+      "sha256": "ad7167446b3d2fe0f5bb9009c4c4c6bca583107d4525549239782a22d84a5db0"
+    },
+    {
+      "path": "assets/audio/phase6/Mudchute_cow_1.ogg",
+      "bytes": 25975,
+      "sha256": "ac0a7dc56e6abc7b17a45d8bea5644350516dd2b995f1da506849892aaf8650b"
+    },
+    {
+      "path": "assets/audio/phase6/stones_01.ogg",
+      "bytes": 12669,
+      "sha256": "20d293a892e1fa6330da2569065aa260a822198bddce2b183f8c11642e7deb4d"
+    },
+    {
+      "path": "assets/audio/phase6/wood_03.ogg",
+      "bytes": 12811,
+      "sha256": "57330fbbd91c7ab5356c65f22813988bcf07d363099b5dda0a958ceab443df2c"
+    },
+    {
+      "path": "assets/audio/phase6/wood_hit_01.ogg",
+      "bytes": 7629,
+      "sha256": "84abc80d93011d86f29bc55c10a023265ece0851d0784d1bf07c5990f08daeab"
+    },
+    {
+      "path": "assets/ui/phase5/rendered/crude_axe.png",
+      "bytes": 5665,
+      "sha256": "fb2f06789601cbc327fc18435ca04aa098d318f5476c33506e49678c97f91c7d"
+    },
+    {
+      "path": "assets/ui/phase5/rendered/crude_pickaxe.png",
+      "bytes": 6724,
+      "sha256": "016afa096a24780383246d188ba338a1cdc5748cf6c138f02b691c263f73c5a9"
+    },
+    {
+      "path": "assets/ui/phase5/rendered/iron_axe.png",
+      "bytes": 5665,
+      "sha256": "fb2f06789601cbc327fc18435ca04aa098d318f5476c33506e49678c97f91c7d"
+    },
+    {
+      "path": "assets/ui/phase5/rendered/iron_pickaxe.png",
+      "bytes": 6724,
+      "sha256": "016afa096a24780383246d188ba338a1cdc5748cf6c138f02b691c263f73c5a9"
+    },
+    {
+      "path": "assets/ui/phase5/rendered/steel_axe.png",
+      "bytes": 5665,
+      "sha256": "fb2f06789601cbc327fc18435ca04aa098d318f5476c33506e49678c97f91c7d"
+    },
+    {
+      "path": "assets/ui/phase5/rendered/steel_pickaxe.png",
+      "bytes": 6724,
+      "sha256": "016afa096a24780383246d188ba338a1cdc5748cf6c138f02b691c263f73c5a9"
+    }
+  ]
+}

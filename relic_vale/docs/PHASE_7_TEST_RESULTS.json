@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-11",
+  "passed": 192,
+  "failed": 0,
+  "acceptance_steps": 35,
+  "results": [
+    {
+      "log": "phase7-acceptance.log",
+      "checks": 34,
+      "result": "PHASE7_RESULT 34 passed / 0 failed"
+    },
+    {
+      "log": "phase7-gui-final.log",
+      "checks": 33,
+      "result": "PHASE7_RESULT 33 passed / 0 failed"
+    },
+    {
+      "log": "phase7-extra.log",
+      "checks": 23,
+      "result": "PHASE7_EXTRA_RESULT 23 passed / 0 failed"
+    },
+    {
+      "log": "phase7-visual-final.log",
+      "checks": 11,
+      "result": "PHASE7_VISUAL_RESULT 11 passed / 0 failed"
+    },
+    {
+      "log": "phase7-reload-final.log",
+      "checks": 6,
+      "result": "PHASE7_RESULT 6 passed / 0 failed"
+    },
+    {
+      "log": "phase7-village-regression.log",
+      "checks": 26,
+      "result": "PHASE6_VALIDATION_RESULT 26 passed / 0 failed"
+    },
+    {
+      "log": "phase7-combat-regression.log",
+      "checks": 21,
+      "result": "COMBAT3_RESULT: 21 passed, 0 failed"
+    },
+    {
+      "log": "phase7-camera-gui-final.log",
+      "checks": 38,
+      "result": "PRESENTATION5_RESULT 38 passed 0 failed"
+    }
+  ],
+  "original_journey_sha256": "f148c10773d7df355c793bdc6c3dd74f369e875fd5e94801933f73e1dc30f125",
+  "assets_manifest": "PHASE_7_ASSETS.json",
+  "limitations": [
+    "Chunk-based fog and schematic icons",
+    "Bounded synchronous terrain loading during travel",
+    "Five fixed camp layouts; abstract offscreen missions",
+    "Tents use abstract shelter occupancy; houses have visible interiors"
+  ]
+}

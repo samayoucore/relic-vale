@@ -1,0 +1,206 @@
+{
+  "cinder_watch": {
+    "id": "cinder_watch",
+    "category": "Places",
+    "title": "Cinder Watch",
+    "text": "The watch burned during the last evacuation of the east road. Its captain stayed behind while Bren Alder led the families through the ford. The surviving letters contain names, not orders."
+  },
+  "bren": {
+    "id": "bren",
+    "category": "People",
+    "title": "Bren Alder",
+    "text": "A Lantern Compact shieldbearer who brought everyone home from Cinder Watch except the captain who ordered them to stay."
+  },
+  "tarin": {
+    "id": "tarin",
+    "category": "People",
+    "title": "Tarin Fen",
+    "text": "An Elderbough pathfinder whose sister Lysa vanished from the Wardens’ rolls. He still marks the paths she taught him to read."
+  },
+  "ilyra": {
+    "id": "ilyra",
+    "category": "People",
+    "title": "Ilyra Venn",
+    "text": "A Keeper of the Veil who copied a forbidden annotation before her teacher ordered the page burned. She wants evidence more than absolution."
+  },
+  "sera": {
+    "id": "sera",
+    "category": "People",
+    "title": "Sera Reed",
+    "text": "A road healer who treated both sides of the ford dispute. Her old field ledger records who was turned away when medicine ran short."
+  },
+  "hearth": {
+    "id": "hearth",
+    "category": "Factions",
+    "title": "The Lantern Compact",
+    "text": "The Compact keeps winter stores and patrols the roads. Its ledgers can be a promise of fair shares or a reason to turn someone away."
+  },
+  "bough": {
+    "id": "bough",
+    "category": "Factions",
+    "title": "The Elderbough Wardens",
+    "text": "The Wardens maintain woodland paths and living water. Their oldest rules protect travelers as well as the forest."
+  },
+  "veil": {
+    "id": "veil",
+    "category": "Factions",
+    "title": "The Keepers of the Veil",
+    "text": "The Keepers preserve relics and old promises. A missing sentence can turn preservation into imprisonment."
+  },
+  "first_oath": {
+    "id": "first_oath",
+    "category": "History",
+    "title": "The First Oath",
+    "text": "Three witnesses accepted a light freely offered to the road. The surviving original gives every witness the right to leave. Later copies preserved the guardians and omitted the release."
+  },
+  "witness_light": {
+    "id": "witness_light",
+    "category": "Relics",
+    "title": "The Borrowed Dawn",
+    "text": "The first road lantern was lit by a gift, not a tribute. Its light dims when its custodians mistake an agreement for ownership."
+  },
+  "oathbound": {
+    "id": "oathbound",
+    "category": "Creatures",
+    "title": "Oathbound Sentries",
+    "text": "These guardians remember instructions more clearly than faces. Breaking a binding releases the memory; it does not awaken the person who once carried it."
+  },
+  "bren_watch": {
+    "id": "bren_watch",
+    "category": "Places",
+    "title": "East Road Watch",
+    "text": "A place remembered along the lantern roads. Travelers bring their own reasons for stopping here."
+  },
+  "dispatch": {
+    "id": "dispatch",
+    "category": "Places",
+    "title": "Fallen dispatch",
+    "text": "A place remembered along the lantern roads. The runner signed the last page: “Reached the ford. All six children accounted for.”"
+  },
+  "tarin_meeting": {
+    "id": "tarin_meeting",
+    "category": "Places",
+    "title": "Split Fern Camp",
+    "text": "A place remembered along the lantern roads. Travelers bring their own reasons for stopping here."
+  },
+  "snare_hollow": {
+    "id": "snare_hollow",
+    "category": "Places",
+    "title": "Snare Hollow",
+    "text": "A place remembered along the lantern roads. The cord is cut. A limping doe slips into the ferns."
+  },
+  "lysa_trail": {
+    "id": "lysa_trail",
+    "category": "Places",
+    "title": "Lysa’s old crossing",
+    "text": "A place remembered along the lantern roads. A recent knot, tied left-handed. “Still taking the long way. L.”"
+  },
+  "reed_pass": {
+    "id": "reed_pass",
+    "category": "Places",
+    "title": "Reed Pass",
+    "text": "A place remembered along the lantern roads. A low lamp now marks the safe passage."
+  },
+  "ilyra_meeting": {
+    "id": "ilyra_meeting",
+    "category": "Places",
+    "title": "Quiet Scriptorium",
+    "text": "A place remembered along the lantern roads. Travelers bring their own reasons for stopping here."
+  },
+  "broken_annotation": {
+    "id": "broken_annotation",
+    "category": "Places",
+    "title": "Broken Inscription",
+    "text": "A place remembered along the lantern roads. Under the warning is a second hand: “The binding answers consent. It cannot create it.”"
+  },
+  "glass_archive": {
+    "id": "glass_archive",
+    "category": "Places",
+    "title": "Glass Archive",
+    "text": "A place remembered along the lantern roads. Orsa’s first draft calls the binding a bargain, never a command."
+  },
+  "sera_meeting": {
+    "id": "sera_meeting",
+    "category": "Places",
+    "title": "Wayfarer’s Rest",
+    "text": "A place remembered along the lantern roads. Travelers bring their own reasons for stopping here."
+  },
+  "field_patient": {
+    "id": "field_patient",
+    "category": "Places",
+    "title": "The fallen courier",
+    "text": "A place remembered along the lantern roads. The courier drinks slowly. His breathing settles; he can make the shelter before dark."
+  },
+  "reed_well": {
+    "id": "reed_well",
+    "category": "Places",
+    "title": "Reedside Well",
+    "text": "A place remembered along the lantern roads. The well is fouled by a broken drain. The sickness began here, not in the travelers’ camp."
+  },
+  "field_hospital": {
+    "id": "field_hospital",
+    "category": "Places",
+    "title": "The old field station",
+    "text": "A place remembered along the lantern roads. Names fill both columns. The dividing line was drawn by the quartermaster, after the treatment."
+  },
+  "cold_milestone": {
+    "id": "cold_milestone",
+    "category": "Places",
+    "title": "The Cold Milestone",
+    "text": "A place remembered along the lantern roads. The oil is full. The wick is dry. A thin silver root has curled around the stone below it."
+  },
+  "root_testimony": {
+    "id": "root_testimony",
+    "category": "Places",
+    "title": "Roots of the First Road",
+    "text": "A place remembered along the lantern roads. “Ena, first witness. A light freely given may be freely returned.”"
+  },
+  "three_promises": {
+    "id": "three_promises",
+    "category": "Places",
+    "title": "The Three Roads Meeting",
+    "text": "A place remembered along the lantern roads. Travelers bring their own reasons for stopping here."
+  },
+  "oath_vault": {
+    "id": "oath_vault",
+    "category": "Places",
+    "title": "The First Witness Vault",
+    "text": "A place remembered along the lantern roads. The stair follows the oldest roots."
+  },
+  "lantern_crossing": {
+    "id": "lantern_crossing",
+    "category": "Places",
+    "title": "Lantern Crossing",
+    "text": "A place remembered along the lantern roads. The road has a steady light again."
+  },
+  "willowmere_well": {
+    "id": "willowmere_well",
+    "category": "Places",
+    "title": "Willowmere Well",
+    "text": "A place remembered along the lantern roads. Travelers bring their own reasons for stopping here."
+  },
+  "shrine_contact": {
+    "id": "shrine_contact",
+    "category": "Places",
+    "title": "Willowmere Shrine",
+    "text": "A place remembered along the lantern roads. Travelers bring their own reasons for stopping here."
+  },
+  "bridge_stores": {
+    "id": "bridge_stores",
+    "category": "Places",
+    "title": "Winter Bridge Stores",
+    "text": "A place remembered along the lantern roads. Dry boards will keep the bridge passable through the first frost."
+  },
+  "poisoned_sluice": {
+    "id": "poisoned_sluice",
+    "category": "Places",
+    "title": "The Blocked Sluice",
+    "text": "A place remembered along the lantern roads. The old channel opens. Clear water slips under the stone."
+  },
+  "witness_stone": {
+    "id": "witness_stone",
+    "category": "Places",
+    "title": "The Third Witness",
+    "text": "A place remembered along the lantern roads. “If the road ceases to shelter strangers, its guardians shall lay down their arms.”"
+  }
+}

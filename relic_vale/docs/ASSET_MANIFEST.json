@@ -1,0 +1,277 @@
+{
+  "retrieved": "2026-09-07",
+  "nature_archive": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "medieval_page": "https://kaylousberg.itch.io/kaykit-medieval-builder-pack",
+  "dungeon_tree_sha": "b0ca9bd96a8072ab36a3a5464f00ed1e06a16d07",
+  "lpc_tree_sha": "d44ea7d6904891aab8627b80ff4de1560d63bdff",
+  "files": [
+    {
+      "path": "assets/2d/lpc/0_idle.png",
+      "sha256": "9c3d17def9bd0574e25ce3162a243f18654479e38c04164bc12607429b013fa2"
+    },
+    {
+      "path": "assets/2d/lpc/0_slash.png",
+      "sha256": "662e208502b0f060041cd3e8c65b6445117f174e9435b68e619b874e36b0069d"
+    },
+    {
+      "path": "assets/2d/lpc/0_walk.png",
+      "sha256": "1e0e8f0c11ba5f4f7b3d4439fc416802b4227da2fe146c13de3de254d9f87f77"
+    },
+    {
+      "path": "assets/2d/lpc/1_idle.png",
+      "sha256": "5b4c7ebda343325425fbb9ceb1350e05d148816d672dafa521b3b2f8880334d1"
+    },
+    {
+      "path": "assets/2d/lpc/1_slash.png",
+      "sha256": "8eadcadce3ab944943caf336e718e225f95ef9660db6ff05e9d48c8284fe2044"
+    },
+    {
+      "path": "assets/2d/lpc/1_walk.png",
+      "sha256": "f544c6f65a3d87f08d8449e87a4f889bd1bc1bf6d714066ef5c30ab2bdafab46"
+    },
+    {
+      "path": "assets/2d/lpc/2_idle.png",
+      "sha256": "717a5133533ccf18ccb3cced5653702be1d21a9ac6002dc9a84f3e1fb80087b3"
+    },
+    {
+      "path": "assets/2d/lpc/2_slash.png",
+      "sha256": "0c324cb85970493872400e1e161ef8a246fda5013967253b6933cea909674c9a"
+    },
+    {
+      "path": "assets/2d/lpc/2_walk.png",
+      "sha256": "2de5a3247743ffa37febdf3464cc0a83e79f64d1028aed410832ee29bea850b6"
+    },
+    {
+      "path": "assets/2d/lpc/3_idle.png",
+      "sha256": "c543a71e589b7a7142b860813fed42a3752e71b8fa074058796afb1f7772d807"
+    },
+    {
+      "path": "assets/2d/lpc/3_slash.png",
+      "sha256": "2a2a872196d4636f00bdda8ef642a2acac0c463f1b29c228f97696d3ffff08e3"
+    },
+    {
+      "path": "assets/2d/lpc/3_walk.png",
+      "sha256": "8b1c79d535d7a233371c9398ca51b196aa8fdf06117bd0eafd7fbcbf438d711b"
+    },
+    {
+      "path": "assets/2d/lpc/4_idle.png",
+      "sha256": "10d58c1dd05592dfb436da42e4d6e582058306e1b6c98c85697ad97d1a5b82f4"
+    },
+    {
+      "path": "assets/2d/lpc/4_slash.png",
+      "sha256": "cf804e711fe210351eccd474297c25dbc99ddbf64cf5384b129d044fb93f6fc4"
+    },
+    {
+      "path": "assets/2d/lpc/4_walk.png",
+      "sha256": "7e863954dc8c3c748d0727415c39888106bdd3779beb2e3b18011a3a9ef3e53c"
+    },
+    {
+      "path": "assets/2d/lpc/5_idle.png",
+      "sha256": "b3eed6441080adcb418a50e323f9fd46aa1b2ba042aea662a82c9f1bc596fd85"
+    },
+    {
+      "path": "assets/2d/lpc/5_slash.png",
+      "sha256": "86fb96c90e3aa280f43629604e03a2c0d998432fad8643c7222c83d8c3782e98"
+    },
+    {
+      "path": "assets/2d/lpc/5_walk.png",
+      "sha256": "4198b372f7381b7d12e516ddc69818dd50132224d1e6d8825f3dd920b0995b28"
+    },
+    {
+      "path": "assets/2d/lpc/sources.json",
+      "sha256": "935461da02f03581b89732e14fff9bba339186a26445204ad2c915f1eea1510c"
+    },
+    {
+      "path": "assets/3d/dungeon/banner_blue.gltf.glb",
+      "sha256": "219995a647a17a506770f998b2194e882e3c078753cebe37e608e2b65ed14d5a"
+    },
+    {
+      "path": "assets/3d/dungeon/banner_blue_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/dungeon/barrel_large.gltf.glb",
+      "sha256": "9fae6a79056241baf253fe9272dc7a7ddb174e1caf153eb5013c58a596722148"
+    },
+    {
+      "path": "assets/3d/dungeon/barrel_large_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/dungeon/box_large.gltf.glb",
+      "sha256": "6dacda267f04769f8ebbb7e991885785054923ea3d5eb19e833768a911d5b661"
+    },
+    {
+      "path": "assets/3d/dungeon/box_large_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/dungeon/chest.glb",
+      "sha256": "f72fd2201cd42ad399928a0b7bcc34d5b0e6d0624aeaf824fef81852109955f8"
+    },
+    {
+      "path": "assets/3d/dungeon/chest_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/dungeon/chest_gold.glb",
+      "sha256": "04708d5f88ed59d361c8a6cec1efe8b7028dbc641dfae0a1467f272e14a94b6e"
+    },
+    {
+      "path": "assets/3d/dungeon/chest_gold_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/dungeon/floor_tile_large.gltf.glb",
+      "sha256": "5b6bbbc683f6729d094732056f157a928435de97ec3cf94c341c7465907fe17b"
+    },
+    {
+      "path": "assets/3d/dungeon/floor_tile_large_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/dungeon/LICENSE.txt",
+      "sha256": "c5f17abf619731f57f6bbff450f6484214605c13aa96bb75bbcfc70930941ff7"
+    },
+    {
+      "path": "assets/3d/dungeon/pillar_decorated.gltf.glb",
+      "sha256": "eecf7d454a1b6767a113e2490cb1536134abea0b57329a50cf2250d3ed8e2f65"
+    },
+    {
+      "path": "assets/3d/dungeon/pillar_decorated_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/dungeon/stairs.gltf.glb",
+      "sha256": "5ba16e5d919aaa8958435c4b73c1f8a94c98febeacf716faa1359f24e6b27d70"
+    },
+    {
+      "path": "assets/3d/dungeon/stairs_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/dungeon/torch_mounted.gltf.glb",
+      "sha256": "a617c159e02932db48ca81ec46f1f100acc8904fb6ece43e919d2f93c13950e9"
+    },
+    {
+      "path": "assets/3d/dungeon/torch_mounted_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/dungeon/wall.gltf.glb",
+      "sha256": "f2f343a7bdf2d45947e3f354494e16095a923485e05637e3804e3b81ce11d921"
+    },
+    {
+      "path": "assets/3d/dungeon/wall_dungeon_texture.png",
+      "sha256": "f9ae182518f908bd09461a56a430b9ca7369812ac10890224cc6f32e7da3e1ee"
+    },
+    {
+      "path": "assets/3d/medieval/farm_plot.gltf.glb",
+      "sha256": "46cd841313f6cf0f1d6ee07bd343053bda0f0dfbf69587ba1e04f865981b7233"
+    },
+    {
+      "path": "assets/3d/medieval/house.gltf.glb",
+      "sha256": "2b067cc2661fb6682ec9a1691e21a927d0b018cacaef645e4bb46e2497b15dfc"
+    },
+    {
+      "path": "assets/3d/medieval/License.txt",
+      "sha256": "2f6f21a2abfaa1aa53ab2633b7d9383d213b42098043ac084137ea77c17ce96c"
+    },
+    {
+      "path": "assets/3d/medieval/lumbermill.gltf.glb",
+      "sha256": "4c299278c5fca40cf3413ff2b11960a1d7d75ef0ab08589dbab0165f7b7fbdda"
+    },
+    {
+      "path": "assets/3d/medieval/market.gltf.glb",
+      "sha256": "c2183e2feb57f3005b341714fbb9a1c38ce892b4f4622234b92e9838e3f59608"
+    },
+    {
+      "path": "assets/3d/medieval/mine.gltf.glb",
+      "sha256": "9aeb5b3832e730d28565b20cb0d068c02d46c8ad17ca240254515f7c4ef01d26"
+    },
+    {
+      "path": "assets/3d/medieval/watchtower.gltf.glb",
+      "sha256": "cb4620b5681801e5769c711a6c6d1e71fcb81a69b22568d67ee1f5943f0c4012"
+    },
+    {
+      "path": "assets/3d/medieval/watermill.gltf.glb",
+      "sha256": "ea851f1fc991704966e4c42993943989ac73066b74976f9294939c4fc8fe8c01"
+    },
+    {
+      "path": "assets/3d/medieval/well.gltf.glb",
+      "sha256": "52660b3471e218e4ac6a478f670562e42859e89b06bbcdcc881cf14ce08e38ad"
+    },
+    {
+      "path": "assets/3d/nature/bridge_wood.glb",
+      "sha256": "3da4c208b0f72b7f2ba42db521b62ec4b0278050c75256a6982c40d21aab5701"
+    },
+    {
+      "path": "assets/3d/nature/cliff_cave_rock.glb",
+      "sha256": "2d83296b0166ad0e980152ad4f45b4e45349e932a6b6c2adbe7eb606a6472d8d"
+    },
+    {
+      "path": "assets/3d/nature/flower_purpleA.glb",
+      "sha256": "f6fc34c96a03420a74fe36d4c2d0ec88f15204fcad99cd1416c3c4ecb22e48c4"
+    },
+    {
+      "path": "assets/3d/nature/flower_yellowA.glb",
+      "sha256": "8a3b08cd2ca411c21f9c581d5bda651d78b13c50cba45ad8fa0389398ead6d1d"
+    },
+    {
+      "path": "assets/3d/nature/grass.glb",
+      "sha256": "260e41d3e5f2472492ed7b475c5b92a30b13ce2bad408535b5ff50574d4575e7"
+    },
+    {
+      "path": "assets/3d/nature/License.txt",
+      "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d"
+    },
+    {
+      "path": "assets/3d/nature/mushroom_redGroup.glb",
+      "sha256": "29f02df0589dd2b09e8d2aff6a4662394dac5cfcf1fec701640dcbd6127e0802"
+    },
+    {
+      "path": "assets/3d/nature/plant_bush.glb",
+      "sha256": "ae7b1beb39e242b13f5f29e3ec23ef21034b814f82297b8aa00a9bf4e1b09590"
+    },
+    {
+      "path": "assets/3d/nature/plant_bushSmall.glb",
+      "sha256": "a9620a7d1fb165ae68d323676f80dbb2a9e3aafb21110d18d18d90b07026b91d"
+    },
+    {
+      "path": "assets/3d/nature/rock_largeA.glb",
+      "sha256": "6dd15390fd96501dcd1454765a17ba61dbbd8d47705dfe5149c8dd92b353ce25"
+    },
+    {
+      "path": "assets/3d/nature/rock_largeB.glb",
+      "sha256": "caa8b025833d4dabf6d98fe2e96cf2fbd886693ac990df0db75f9d827194374b"
+    },
+    {
+      "path": "assets/3d/nature/rock_smallA.glb",
+      "sha256": "df9fff9d711e61370e8df0caa2514c89b8f8a8dc6c6fafaf4eb2ec79c5ae07c1"
+    },
+    {
+      "path": "assets/3d/nature/rock_tallA.glb",
+      "sha256": "88250f236a3b75f8b55c1d8afb6af020f8a91b1e81f9fb51f7ef513420d45a2d"
+    },
+    {
+      "path": "assets/3d/nature/tree_oak.glb",
+      "sha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3"
+    },
+    {
+      "path": "assets/3d/nature/tree_oak_fall.glb",
+      "sha256": "43a258d17b5428d8ef525a19e30e667caeeb330b6f3cb367a07da12093ff97a1"
+    },
+    {
+      "path": "assets/3d/nature/tree_pineRoundA.glb",
+      "sha256": "7dc9711f31585eafdcb965d0649c30af5e19f2def1955f7a915081d30759ef8e"
+    },
+    {
+      "path": "assets/3d/nature/tree_pineTallA.glb",
+      "sha256": "e0a56eb196d8a64ba86c7304d607136e17e6f9ad748dffcf86bd53b18b91b196"
+    },
+    {
+      "path": "assets/3d/nature/tree_small.glb",
+      "sha256": "d26c0eeed65cc681667f50042ef23ec72ce47ae3b39837bfeec170b05ba6ab6a"
+    }
+  ]
+}
